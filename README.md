@@ -7,8 +7,8 @@
 3. Download this repo!
 
 ### Frontend
-4. In the frontend folder, type `yarn` to set up the frontend of the project & dependencies
-5. To start running the frontend type in the terminal `cd my-app` and then `yarn start` - this will start the webpage running on http://localhost:3000/
+4. TBD
+5. To start running the frontend type in the terminal `cd my-app` and then `npm start` - this will start the webpage running on http://localhost:3000/
 
 ### Backend
 6. TBD
