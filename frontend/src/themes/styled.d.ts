@@ -6,6 +6,7 @@ import 'styled-components';
 declare module 'styled-components' {
     export interface DefaultTheme {
         BACKGROUND_COLOUR: string,
+        FONT_FAMILY: string,
 
         colours: {
             MAIN: string,
