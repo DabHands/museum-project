@@ -1,25 +1,22 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
 import './App.css';
+import { Routes, Route } from "react-router-dom"
+import { About } from './components/About/About';
+import { Home } from './components/Home/Home';
+import { defaultTheme } from './themes/theme';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-
-
-        </a>
-      </header>
-    </div>
+    <ThemeProvider theme={defaultTheme}>
+      <div className="App">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+        </Routes>
+      </div>
+    </ThemeProvider>
+    
   );
 }
 
