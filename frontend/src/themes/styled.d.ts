@@ -13,5 +13,14 @@ declare module 'styled-components' {
             SECONDARY: string,
             SHADING: string
         }
+        BUTTON_TEXT: string;
+        BUTTON_HOVER: string;
+
+        BUTTON_SECONDARY_TEXT: string;
+        BUTTON_SECONDARY_HOVER: string;
+
+        BUTTON_BASIC: string;
+        BUTTON_BASIC_TEXT: string;
+        BUTTON_BASIC_HOVER: string;
     }
 }
