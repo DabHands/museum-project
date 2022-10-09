@@ -10,6 +10,7 @@ on:
     branches: [ "develop" ]
 
 jobs:
+  name: Check Frontend CI
   build:
 
     runs-on: ubuntu-latest
