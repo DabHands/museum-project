@@ -7,15 +7,15 @@ export const AppBar = ({ className, children }: any) => {
   <StyledDiv>
 
     <StyledSection>
-      <StyledSpan>Home</StyledSpan>
+      <StyledA href='http://localhost:3000/'>Home</StyledA>
     </StyledSection>
 
     <StyledSection>
       <span>|</span>
     </StyledSection>
 
-    <StyledSection role="toolbar">
-      <span>About</span>
+    <StyledSection>
+      <StyledA href='http://localhost:3000/about'>About</StyledA>
     </StyledSection>
 
   </StyledDiv>
@@ -35,6 +35,8 @@ const StyledDiv = styled.div`
   border-radius: 17px;
 `;
 
-const StyledSpan = styled.span`
+const StyledA = styled.a`
   font-family: ${props => props.theme.FONT_FAMILY};
+  color: white;
+  text-decoration: none;
 `;
