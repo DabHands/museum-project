@@ -11,7 +11,8 @@ declare module 'styled-components' {
         colours: {
             MAIN: string,
             SECONDARY: string,
-            SHADING: string
+            SHADING: string,
+            LIGHT: string
         }
         BUTTON_TEXT: string;
         BUTTON_HOVER: string;

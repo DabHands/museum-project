@@ -2,28 +2,39 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const AppBar = ({ className, children }: any) => {
+export const AppBar = ({ className, children }: any) => {
   return (
   <StyledDiv>
+
     <StyledSection>
-      <button aria-label="Home">Home</button>
+      <StyledSpan>Home</StyledSpan>
     </StyledSection>
+
+    <StyledSection>
+      <span>|</span>
+    </StyledSection>
+
     <StyledSection role="toolbar">
-      <button aria-label="About">About</button>
+      <span>About</span>
     </StyledSection>
+
   </StyledDiv>
   );
 };
 
 const StyledSection = styled.section`
-display: inline;
+  display: inline;
+  margin: 0px 5px 0px 5px;
 `;
 
 const StyledDiv = styled.div`
-background-color: purple;
+  background-color: ${props => props.theme.colours.MAIN};
+  color: ${props => props.theme.colours.LIGHT};
+  margin: 7px 10px 0px 10px;
+  padding: 10px;
+  border-radius: 17px;
 `;
 
-export const StyledAppBar = styled(AppBar)`
-color: palevioletred;
-font-weight: bold;
+const StyledSpan = styled.span`
+  font-family: ${props => props.theme.FONT_FAMILY};
 `;

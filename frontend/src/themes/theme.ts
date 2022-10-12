@@ -8,7 +8,8 @@ export const defaultTheme: DefaultTheme = {
     colours: {
         MAIN: '#660099',
         SECONDARY: '#fbba25',
-        SHADING: '#999999'
+        SHADING: '#999999',
+        LIGHT: '#ecede8',
     },
 
     BUTTON_TEXT: '#FFFFFF',
