@@ -23,5 +23,8 @@ declare module 'styled-components' {
         BUTTON_BASIC: string;
         BUTTON_BASIC_TEXT: string;
         BUTTON_BASIC_HOVER: string;
+
+        APPBAR_TEXT: string;
+        APPBAR_TEXT_HOVER: string;
     }
 }

@@ -21,5 +21,8 @@ export const defaultTheme: DefaultTheme = {
     BUTTON_BASIC: '#d8d7dc',
     BUTTON_BASIC_TEXT: '#171717',
     BUTTON_BASIC_HOVER: '#c2c1c6',
+
+    APPBAR_TEXT: '#FFFFFF',
+    APPBAR_TEXT_HOVER: '#c2c1c6',
     
 };

@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, MainButton, SecondaryButton } from '../toolbox/Buttons'
 import { AppBar } from '../toolbox/AppBar';
 import * as s from './About.theme';
+import { LOCALHOST_ABOUT_PAGE, LOCALHOST_HOME_PAGE } from '../../constants/links';
 
 export const About = () => {
 
@@ -16,7 +17,7 @@ export const About = () => {
    }
 
    return (<>
-      <AppBar />
+      <AppBar homeHref={LOCALHOST_HOME_PAGE} aboutHref={LOCALHOST_ABOUT_PAGE}/>
       <p> Welcome to the about page!</p>
       <MainButton>Main Button</MainButton>
       <SecondaryButton>Secondary Button</SecondaryButton>

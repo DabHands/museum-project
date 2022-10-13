@@ -2,12 +2,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const AppBar = ({ className, children }: any) => {
+export const AppBar = ({homeHref, aboutHref} : any) => {
   return (
   <StyledDiv>
 
     <StyledSection>
-      <StyledA href='http://localhost:3000/'>Home</StyledA>
+      <StyledA href={homeHref}>Home</StyledA>
     </StyledSection>
 
     <StyledSection>
@@ -15,7 +15,7 @@ export const AppBar = ({ className, children }: any) => {
     </StyledSection>
 
     <StyledSection>
-      <StyledA href='http://localhost:3000/about'>About</StyledA>
+      <StyledA href={aboutHref}>About</StyledA>
     </StyledSection>
 
   </StyledDiv>
@@ -37,6 +37,10 @@ const StyledDiv = styled.div`
 
 const StyledA = styled.a`
   font-family: ${props => props.theme.FONT_FAMILY};
-  color: white;
+  color: ${props => props.theme.APPBAR_TEXT};
   text-decoration: none;
+
+  :hover {
+    color: ${props => props.theme.APPBAR_TEXT_HOVER};
+  }
 `;
