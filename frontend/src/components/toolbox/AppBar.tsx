@@ -2,12 +2,12 @@
 import React from 'react';
 import styled from 'styled-components';
 
-export const AppBar = ({homeHref, aboutHref} : any) => {
+export const AppBar = ({homeHref, aboutHref, homeTitle, aboutTitle} : any) => {
   return (
   <StyledDiv>
 
     <StyledSection>
-      <StyledA href={homeHref}>Home</StyledA>
+      <StyledA href={homeHref}>{homeTitle}</StyledA>
     </StyledSection>
 
     <StyledSection>
@@ -15,7 +15,7 @@ export const AppBar = ({homeHref, aboutHref} : any) => {
     </StyledSection>
 
     <StyledSection>
-      <StyledA href={aboutHref}>About</StyledA>
+      <StyledA href={aboutHref}>{aboutTitle}</StyledA>
     </StyledSection>
 
   </StyledDiv>
