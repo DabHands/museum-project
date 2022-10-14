@@ -20,5 +20,8 @@ export const defaultTheme: DefaultTheme = {
     BUTTON_BASIC: '#d8d7dc',
     BUTTON_BASIC_TEXT: '#171717',
     BUTTON_BASIC_HOVER: '#c2c1c6',
+    BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
+
+    ROW_DIVIDER: 'solid 1.5px rgba(0, 0,0,.1)',
     
 };

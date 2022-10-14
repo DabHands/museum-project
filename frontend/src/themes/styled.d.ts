@@ -22,5 +22,8 @@ declare module 'styled-components' {
         BUTTON_BASIC: string;
         BUTTON_BASIC_TEXT: string;
         BUTTON_BASIC_HOVER: string;
+
+        BOX_SHADOW: string;
+        ROW_DIVIDER: string;
     }
 }
