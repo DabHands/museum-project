@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, MainButton, SecondaryButton } from '../toolbox/Buttons'
 import * as s from './About.theme';
 
-export const About = () => {
+export const About: React.FC = () => {
 
    const renderArtistsBio = () => {
       return (
