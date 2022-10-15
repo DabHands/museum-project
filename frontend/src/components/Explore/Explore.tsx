@@ -12,6 +12,7 @@ enum ExploreView {
 
 export const Explore: React.FC = () => {
     const [view, setView] = useState(ExploreView.GRID);
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
 
     const toggleState = () => {
