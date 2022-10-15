@@ -15,7 +15,7 @@ export const GridView: React.FC<Props> = (
     return (
         <s.GridBox>
             {filteredEmbroideries.map(e =>
-                <GridSingle embroidery={e}/>
+                <GridSingle key={e.id} embroidery={e}/>
             )}
         </s.GridBox>
         )

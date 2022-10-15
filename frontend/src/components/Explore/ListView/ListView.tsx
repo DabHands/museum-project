@@ -21,7 +21,7 @@ export const ListView: React.FC<Props> = ({
         </s.EmbroideryTableHeader>
 
         {filteredEmbroideries.map(e =>
-            <s.EmbroideryTableRow>
+            <s.EmbroideryTableRow key={e.id}>
                 <s.EmbroideryTableCell>{e.author_name}</s.EmbroideryTableCell>
                 <s.EmbroideryTableCell>{e.anatomy_name}</s.EmbroideryTableCell>
                 <s.EmbroideryTableCell toCentre>{e.author_origin}</s.EmbroideryTableCell>

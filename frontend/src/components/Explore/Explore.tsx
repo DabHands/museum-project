@@ -12,7 +12,7 @@ enum ExploreView {
 
 export const Explore: React.FC = () => {
     const [view, setView] = useState(ExploreView.GRID);
-    const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);;
+    const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
 
     const toggleState = () => {
         if (view === ExploreView.GRID) {
