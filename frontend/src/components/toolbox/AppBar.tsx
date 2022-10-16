@@ -1,46 +1,23 @@
 /* eslint-disable react/prop-types */
 import React from 'react';
-import styled from 'styled-components';
+import * as s from './AppBar.theme';
 
 export const AppBar = ({homeHref, aboutHref, homeTitle, aboutTitle} : any) => {
   return (
-  <StyledDiv>
+  <s.AppBarBody>
 
-    <StyledSection>
-      <StyledA href={homeHref}>{homeTitle}</StyledA>
-    </StyledSection>
+    <s.AppBarSection>
+      <s.AppBarHrefLink href={homeHref}>{homeTitle}</s.AppBarHrefLink>
+    </s.AppBarSection>
 
-    <StyledSection>
+    <s.AppBarSection>
       <span>|</span>
-    </StyledSection>
+    </s.AppBarSection>
 
-    <StyledSection>
-      <StyledA href={aboutHref}>{aboutTitle}</StyledA>
-    </StyledSection>
+    <s.AppBarSection>
+      <s.AppBarHrefLink href={aboutHref}>{aboutTitle}</s.AppBarHrefLink>
+    </s.AppBarSection>
 
-  </StyledDiv>
+  </s.AppBarBody>
   );
 };
-
-const StyledSection = styled.section`
-  display: inline;
-  margin: 0px 5px 0px 5px;
-`;
-
-const StyledDiv = styled.div`
-  background-color: ${props => props.theme.colours.MAIN};
-  color: ${props => props.theme.colours.LIGHT};
-  margin: 7px 10px 0px 10px;
-  padding: 10px;
-  border-radius: 17px;
-`;
-
-const StyledA = styled.a`
-  font-family: ${props => props.theme.FONT_FAMILY};
-  color: ${props => props.theme.APPBAR_TEXT};
-  text-decoration: none;
-
-  :hover {
-    color: ${props => props.theme.APPBAR_TEXT_HOVER};
-  }
-`;
