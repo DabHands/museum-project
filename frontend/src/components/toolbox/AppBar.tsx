@@ -2,7 +2,14 @@
 import React from 'react';
 import * as s from './AppBar.theme';
 
-export const AppBar = ({homeHref, aboutHref, homeTitle, aboutTitle} : any) => {
+type AppBarProps = {
+  homeHref: string;
+  aboutHref: string;
+  homeTitle: string;
+  aboutTitle: string;
+};
+
+export const AppBar = ({homeHref, aboutHref, homeTitle, aboutTitle} : AppBarProps) => {
   return (
   <s.AppBarBody>
 
