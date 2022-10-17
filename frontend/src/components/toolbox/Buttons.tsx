@@ -10,6 +10,7 @@ export const Button = styled.button`
     border: none;
     border-radius: 10px;
     text-align: center;
+    cursor: pointer;
 
     &:hover{
       background-color: ${props => props.theme.BUTTON_BASIC_HOVER};
@@ -26,6 +27,7 @@ export const MainButton = styled.button`
     border: none;
     border-radius: 10px;
     text-align: center;
+    cursor: pointer;
 
     &:hover{
       background-color: ${props => props.theme.BUTTON_HOVER};
@@ -42,6 +44,7 @@ export const SecondaryButton = styled.button`
     border: none;
     border-radius: 10px;
     text-align: center;
+    cursor: pointer;
 
     &:hover{
       background-color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
