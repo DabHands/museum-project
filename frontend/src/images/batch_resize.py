@@ -3,7 +3,7 @@ import glob
 import sys
 import os
 
-file_filter = "embroideries-hd/*" # all files in input folder
+file_filter = "dab_hands/*" # all files in input folder
 output_folder = "embroideries/"
 
 # Get list of files
