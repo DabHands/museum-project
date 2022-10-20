@@ -4,8 +4,8 @@
     "filePath":"frontend\\src\\images\\embroideries\\chris-wrightman.jpg",
     "authorOrigin": "Guild",
     "authorName": "Chris Wrightman",
-    "anatomyName": "1st dorsal intermetacarpal artery",
-    "anatomyDescription": "",
+    "anatomyName": "1st dorsal intermetacarpal artery", //capitalised
+    "anatomyDescription": "", // get rid of
     "position": ""
   },
 

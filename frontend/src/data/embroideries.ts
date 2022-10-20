@@ -21,3 +21,5 @@ export const AllEmbroideries: Embroidery[] = [
     firstDorsalIntermetacarpalArteryMedAskaGhulam
 
 ]
+
+// build the list by importing the json file
