@@ -4,8 +4,7 @@ import { Routes, Route } from "react-router-dom"
 import { About } from './components/About/About';
 import { Home } from './components/Home/Home';
 import { defaultTheme } from './themes/theme';
-import { AppBar } from './components/toolbox/AppBar';
-import { LOCALHOST_HOME_PAGE, LOCALHOST_ABOUT_PAGE, HOME_TITLE, ABOUT_TITLE } from './constants/links';
+import { Explore } from './components/Explore/Explore';
 
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
@@ -16,6 +15,7 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <AppWrapper>
+<<<<<<< HEAD
         <AppBar
           homeHref={LOCALHOST_HOME_PAGE}
           aboutHref={LOCALHOST_ABOUT_PAGE}
@@ -26,6 +26,13 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
           </Routes>
+=======
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="/explore" element={<Explore />} />
+        </Routes>
+>>>>>>> ecf3e80ae177d5e2ba0386d0fc0c805b5a61b03c
       </AppWrapper>
     </ThemeProvider>
     

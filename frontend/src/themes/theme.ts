@@ -24,5 +24,8 @@ export const defaultTheme: DefaultTheme = {
 
     APPBAR_TEXT: '#FFFFFF',
     APPBAR_TEXT_HOVER: '#c2c1c6',
+    BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
+
+    ROW_DIVIDER: 'solid 1.5px rgba(0, 0,0,.1)',
     
 };

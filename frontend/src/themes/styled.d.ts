@@ -26,5 +26,7 @@ declare module 'styled-components' {
 
         APPBAR_TEXT: string;
         APPBAR_TEXT_HOVER: string;
+        BOX_SHADOW: string;
+        ROW_DIVIDER: string;
     }
 }
