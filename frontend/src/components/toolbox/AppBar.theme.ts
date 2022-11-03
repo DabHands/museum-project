@@ -10,7 +10,7 @@ const AppBarBody = styled.div`
   color: ${props => props.theme.colours.LIGHT};
   margin: 7px 10px 0px 10px;
   padding: 10px;
-  border-radius: 17px;
+  border-radius: 0px;
 `;
 
 const AppBarHrefLink = styled.a`
