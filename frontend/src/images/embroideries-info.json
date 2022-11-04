@@ -1,4 +1,4 @@
-{"embroideries":[
+[
   { 
     "id":"ef5127f0-bae8-4ea7-b2c4-52d47e2089cc", 
     "filePath":"frontend\\src\\images\\embroideries\\chris-wrightman.jpg",
@@ -1816,4 +1816,4 @@
     "anatomyName": "XSec Metac Head",
     "position": ""
   }
-]}
+]
