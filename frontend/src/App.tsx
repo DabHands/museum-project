@@ -5,6 +5,7 @@ import { About } from './components/About/About';
 import { Home } from './components/Home/Home';
 import { defaultTheme } from './themes/theme';
 import { Explore } from './components/Explore/Explore';
+import { AppBar } from './components/toolbox/AppBar';
 
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
@@ -15,24 +16,12 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <AppWrapper>
-<<<<<<< HEAD
-        <AppBar
-          homeHref={LOCALHOST_HOME_PAGE}
-          aboutHref={LOCALHOST_ABOUT_PAGE}
-          homeTitle={HOME_TITLE}
-          aboutTitle={ABOUT_TITLE}
-        />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="about" element={<About />} />
-          </Routes>
-=======
+        <AppBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
+          <Route path="/about" element={<About />} />
           <Route path="/explore" element={<Explore />} />
         </Routes>
->>>>>>> ecf3e80ae177d5e2ba0386d0fc0c805b5a61b03c
       </AppWrapper>
     </ThemeProvider>
     

@@ -25,7 +25,10 @@ declare module 'styled-components' {
         BUTTON_BASIC_HOVER: string;
 
         APPBAR_TEXT: string;
-        APPBAR_TEXT_HOVER: string;
+        APPBAR_BACKGROUND: string;
+        APPBAR_FONT_SIZE: string;
+        APPBAR_BUTTON_HOVER_STATE_COLOR: string;
+
         BOX_SHADOW: string;
         ROW_DIVIDER: string;
     }

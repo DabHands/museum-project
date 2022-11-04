@@ -22,8 +22,11 @@ export const defaultTheme: DefaultTheme = {
     BUTTON_BASIC_TEXT: '#171717',
     BUTTON_BASIC_HOVER: '#c2c1c6',
 
-    APPBAR_TEXT: '#FFFFFF',
-    APPBAR_TEXT_HOVER: '#c2c1c6',
+    APPBAR_TEXT: '#000000',
+    APPBAR_BACKGROUND: '#FFFFFF',
+    APPBAR_FONT_SIZE: '18px',
+    APPBAR_BUTTON_HOVER_STATE_COLOR: '#78756e',
+
     BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
 
     ROW_DIVIDER: 'solid 1.5px rgba(0, 0,0,.1)',
