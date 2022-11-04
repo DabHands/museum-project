@@ -2,7 +2,7 @@
 export type Embroidery = {
 
     id: string,
-    filePath: string,
+    fileName: string,
     authorOrigin: OriginTypes,
     authorName: string,
     anatomyName: string,

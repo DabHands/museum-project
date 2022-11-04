@@ -1,7 +1,7 @@
 [
   { 
     "id":"ef5127f0-bae8-4ea7-b2c4-52d47e2089cc", 
-    "filePath":"frontend\\src\\images\\embroideries\\chris-wrightman.jpg",
+    "fileName":"chris-wrightman.jpg",
     "authorOrigin": "Guild",
     "authorName": "Chris Wrightman",
     "anatomyName": "1st Dorsal Intermetacarpal Artery",
@@ -10,7 +10,7 @@
 
   { 
     "id":"7f870607-f3f2-4609-88a2-5a7b13d6229a", 
-    "filePath":"frontend\\src\\images\\embroideries\\aska-ghulam.jpg",
+    "fileName":"aska-ghulam.jpg",
     "authorOrigin": "Med",
     "authorName": "Aska Ghulam",
     "anatomyName": "1st Dorsal Intermetacarpal Artery",
@@ -19,7 +19,7 @@
 
   { 
     "id":"1fcf12f4-447b-473f-af60-5cb655bfbc41", 
-    "filePath":"frontend\\src\\images\\embroideries\\gill-snaith.jpg",
+    "fileName":"gill-snaith.jpg",
     "authorOrigin": "Guild",
     "authorName": "Gill Snaith",
     "anatomyName": "Flexed Lumbrical",
@@ -28,7 +28,7 @@
 
   { 
     "id":"b8a9c800-9d84-49f3-a3b8-40a8fb78264e", 
-    "filePath":"frontend\\src\\images\\embroideries\\isobel-read.jpg",
+    "fileName":"isobel-read.jpg",
     "authorOrigin": "Med",
     "authorName": "Isobel Read",
     "anatomyName": "Flexed Lumbrical",
@@ -37,7 +37,7 @@
 
   { 
     "id":"dd1240a1-b9be-47f1-8135-b58f2d4c1230", 
-    "filePath":"frontend\\src\\images\\embroideries\\pamela-headon.jpg",
+    "fileName":"pamela-headon.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pamela Headon",
     "anatomyName": "Carpal Tunnel",
@@ -46,7 +46,7 @@
 
   { 
     "id":"bbb944ae-7358-4697-9fdf-3538c1a7a8b6", 
-    "filePath":"frontend\\src\\images\\embroideries\\pat-mcbride.jpg",
+    "fileName":"pat-mcbride.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pat McBride",
     "anatomyName": "Carpal Tunnel",
@@ -55,7 +55,7 @@
 
   { 
     "id":"74d3a30c-2f3f-45d5-8a94-05958808efcc", 
-    "filePath":"frontend\\src\\images\\embroideries\\sue-tomlinson.jpg",
+    "fileName":"sue-tomlinson.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sue Tomlinson",
     "anatomyName": "Carpal Tunnel",
@@ -64,7 +64,7 @@
 
   { 
     "id":"9b3b6fed-f520-40f4-a051-c6f17a2732f8", 
-    "filePath":"frontend\\src\\images\\embroideries\\tracey-garvey.jpg",
+    "fileName":"tracey-garvey.jpg",
     "authorOrigin": "Guild",
     "authorName": "Tracey Garvey",
     "anatomyName": "Carpus and Dorsum Bones",
@@ -73,7 +73,7 @@
 
   { 
     "id":"5f2dd7e7-5e1d-4328-bc46-8b68931ca4e6", 
-    "filePath":"frontend\\src\\images\\embroideries\\aoife-gaffney.jpg",
+    "fileName":"aoife-gaffney.jpg",
     "authorOrigin": "Med",
     "authorName": "Aoife Gaffney",
     "anatomyName": "Carpus Dorsal Ligaments",
@@ -82,7 +82,7 @@
 
   { 
     "id":"6bf05de1-c40b-4b62-b497-7865fcdb8316", 
-    "filePath":"frontend\\src\\images\\embroideries\\becky-prettyman.jpg",
+    "fileName":"becky-prettyman.jpg",
     "authorOrigin": "Med",
     "authorName": "Becky Prettyman",
     "anatomyName": "Carpus Dorsal Ligaments",
@@ -91,7 +91,7 @@
 
   { 
     "id":"7bb144cd-e07d-453a-a355-752fee0e60b0", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-3.jpg",
+    "fileName":"pinc-3.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_3",
     "anatomyName": "Carpus Dorsal Ligaments",
@@ -100,7 +100,7 @@
 
   { 
     "id":"61925f62-ed21-49da-a9a9-ca6c3c2c2b73", 
-    "filePath":"frontend\\src\\images\\embroideries\\catherine-heap.jpg",
+    "fileName":"catherine-heap.jpg",
     "authorOrigin": "Guild",
     "authorName": "Catherine Heap",
     "anatomyName": "Carpus Dorsal Ligaments",
@@ -109,7 +109,7 @@
 
   { 
     "id":"2c631bde-30ca-4d6f-8f96-beccab77900f", 
-    "filePath":"frontend\\src\\images\\embroideries\\catherine-leighton.jpg",
+    "fileName":"catherine-leighton.jpg",
     "authorOrigin": "Guild",
     "authorName": "Catherine Leighton",
     "anatomyName": "Carpus Palmar Ligaments",
@@ -118,7 +118,7 @@
 
   { 
     "id":"23cbf190-8ddb-45f8-9a1d-bb0e5acd8b76", 
-    "filePath":"frontend\\src\\images\\embroideries\\olivia-mcclelland.jpg",
+    "fileName":"olivia-mcclelland.jpg",
     "authorOrigin": "Lime",
     "authorName": "Olivia McClelland",
     "anatomyName": "Carpus Palmar Ligaments",
@@ -127,7 +127,7 @@
 
   { 
     "id":"d46ec81e-cab1-4fd2-86a5-fef99fdbe7e2", 
-    "filePath":"frontend\\src\\images\\embroideries\\jennifer-ashton.jpg",
+    "fileName":"jennifer-ashton.jpg",
     "authorOrigin": "Med",
     "authorName": "Jennifer Ashton",
     "anatomyName": "Carpus Palmar Ligaments",
@@ -136,7 +136,7 @@
 
   { 
     "id":"642ed1f4-15a1-41e6-bad7-5f26c3ef81ed", 
-    "filePath":"frontend\\src\\images\\embroideries\\kate-hare.jpg",
+    "fileName":"kate-hare.jpg",
     "authorOrigin": "Med",
     "authorName": "Kate Hare",
     "anatomyName": "Carpus Palmar Ligaments",
@@ -145,7 +145,7 @@
 
   { 
     "id":"ae981030-e2cc-4276-b89d-25000d5aa81f", 
-    "filePath":"frontend\\src\\images\\embroideries\\chee-soon.jpg",
+    "fileName":"chee-soon.jpg",
     "authorOrigin": "Med",
     "authorName": "Chee Soon",
     "anatomyName": "Carpus Radial Deviation",
@@ -154,7 +154,7 @@
 
   { 
     "id":"29618efd-2145-414e-aa5d-eb07e8016e0c", 
-    "filePath":"frontend\\src\\images\\embroideries\\farzana-rahman.jpg",
+    "fileName":"farzana-rahman.jpg",
     "authorOrigin": "Med",
     "authorName": "Farzana Rahman",
     "anatomyName": "Carpus Radial Deviation",
@@ -163,7 +163,7 @@
 
   { 
     "id":"6310641b-99e3-4a0f-95b6-e00264f2bc7d", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-10.jpg",
+    "fileName":"pinc-10.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_10",
     "anatomyName": "Carpus Radial Deviation",
@@ -172,7 +172,7 @@
 
   { 
     "id":"903776da-bb93-4954-813d-a0fc15022c84", 
-    "filePath":"frontend\\src\\images\\embroideries\\gemma-batten.jpg",
+    "fileName":"gemma-batten.jpg",
     "authorOrigin": "Med",
     "authorName": "Gemma Batten",
     "anatomyName": "Carpus Ulnar Deviation",
@@ -181,7 +181,7 @@
 
   { 
     "id":"2dd24728-e6da-41e2-91a0-ef3bd8783113", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-6.jpg",
+    "fileName":"pinc-6.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_6",
     "anatomyName": "Carpus Ulnar Deviation",
@@ -190,7 +190,7 @@
 
   { 
     "id":"32fc8c7c-4ec4-4f3e-a32a-9fbe57911131", 
-    "filePath":"frontend\\src\\images\\embroideries\\rachel-quine-2.jpg",
+    "fileName":"rachel-quine-2.jpg",
     "authorOrigin": "Misc",
     "authorName": "Rachel Quine",
     "anatomyName": "Dab Hands Logo",
@@ -199,7 +199,7 @@
 
   { 
     "id":"d843828e-1ee2-440d-beac-179b25027d0e", 
-    "filePath":"frontend\\src\\images\\embroideries\\pauline-bowling.jpg",
+    "fileName":"pauline-bowling.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pauline Bowling",
     "anatomyName": "Deep Transverse Intermetacarpal Ligaments",
@@ -208,7 +208,7 @@
 
   { 
     "id":"67fe8a91-e56e-46d4-8637-c0f77679699d", 
-    "filePath":"frontend\\src\\images\\embroideries\\ruth-turner.jpg",
+    "fileName":"ruth-turner.jpg",
     "authorOrigin": "Guild",
     "authorName": "Ruth Turner",
     "anatomyName": "Digital Flexors Forearm 1",
@@ -217,7 +217,7 @@
 
   { 
     "id":"f620380b-dca5-4730-88a2-fb30c3732924", 
-    "filePath":"frontend\\src\\images\\embroideries\\yolanda-etherington.jpg",
+    "fileName":"yolanda-etherington.jpg",
     "authorOrigin": "Med",
     "authorName": "Yolanda Etherington",
     "anatomyName": "Digital Flexors Forearm 1",
@@ -226,7 +226,7 @@
 
   { 
     "id":"fae59093-1ca8-41f4-bd7f-b6e5be39b0d8", 
-    "filePath":"frontend\\src\\images\\embroideries\\hilary-mccormac.jpg",
+    "fileName":"hilary-mccormac.jpg",
     "authorOrigin": "Guild",
     "authorName": "Hilary McCormac",
     "anatomyName": "Digital Flexors Forearm 2",
@@ -235,7 +235,7 @@
 
   { 
     "id":"7370b851-8784-4bd9-beba-7544d55f2c14", 
-    "filePath":"frontend\\src\\images\\embroideries\\sandra-evans.jpg",
+    "fileName":"sandra-evans.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sandra Evans",
     "anatomyName": "Digital Skeleton",
@@ -244,7 +244,7 @@
 
   { 
     "id":"fbf30663-16aa-4d3d-867f-ffd57ae3b148", 
-    "filePath":"frontend\\src\\images\\embroideries\\anna-schurer.jpg",
+    "fileName":"anna-schurer.jpg",
     "authorOrigin": "Misc",
     "authorName": "Anna Schurer",
     "anatomyName": "Dupuytens",
@@ -253,7 +253,7 @@
 
   { 
     "id":"9927ed14-3f9f-4f9f-837f-0cb8b003aeed", 
-    "filePath":"frontend\\src\\images\\embroideries\\jan-clifton.jpg",
+    "fileName":"jan-clifton.jpg",
     "authorOrigin": "Misc",
     "authorName": "Jan Clifton",
     "anatomyName": "Dupuytens",
@@ -262,7 +262,7 @@
 
   { 
     "id":"4db35547-47bd-4b0b-935c-79e85376effe", 
-    "filePath":"frontend\\src\\images\\embroideries\\sue-dewsbury.jpg",
+    "fileName":"sue-dewsbury.jpg",
     "authorOrigin": "Misc",
     "authorName": "Sue Dewsbury",
     "anatomyName": "Dupuytens",
@@ -271,7 +271,7 @@
 
   { 
     "id":"0abb3bfa-ecfd-4427-83dd-542e40dbad26", 
-    "filePath":"frontend\\src\\images\\embroideries\\sheila-dodd.jpg",
+    "fileName":"sheila-dodd.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sheila Dodd",
     "anatomyName": "EPL",
@@ -280,7 +280,7 @@
 
   { 
     "id":"e2a6d180-0dbf-4494-9fb2-f1fd4d25646e", 
-    "filePath":"frontend\\src\\images\\embroideries\\denise-obrien.jpg",
+    "fileName":"denise-obrien.jpg",
     "authorOrigin": "Med",
     "authorName": "Denise O'Brien",
     "anatomyName": "EPL",
@@ -289,7 +289,7 @@
 
   { 
     "id":"8321d147-3ea8-46b4-882b-f95ddae06f7c", 
-    "filePath":"frontend\\src\\images\\embroideries\\rebecca-vitarana.jpg",
+    "fileName":"rebecca-vitarana.jpg",
     "authorOrigin": "Med",
     "authorName": "Rebecca Vitarana",
     "anatomyName": "EPL",
@@ -298,7 +298,7 @@
 
   { 
     "id":"ee1acf9f-5bca-4443-a4d5-f35931b004e4", 
-    "filePath":"frontend\\src\\images\\embroideries\\catherine-hanna.jpg",
+    "fileName":"catherine-hanna.jpg",
     "authorOrigin": "Med",
     "authorName": "Catherine Hanna",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
@@ -307,7 +307,7 @@
 
   { 
     "id":"98ef96da-e1d3-49b0-8029-6bc405997dd7", 
-    "filePath":"frontend\\src\\images\\embroideries\\manavi-purohit.jpg",
+    "fileName":"manavi-purohit.jpg",
     "authorOrigin": "Med",
     "authorName": "Manavi Purohit",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
@@ -316,7 +316,7 @@
 
   { 
     "id":"86e7d54e-2c77-420a-8789-515868360758", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-1.jpg",
+    "fileName":"pinc-1.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_1",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
@@ -325,7 +325,7 @@
 
   { 
     "id":"fafefd93-b1d0-40a1-bf8e-dddd84e85b40", 
-    "filePath":"frontend\\src\\images\\embroideries\\kathryn-thompson.jpg",
+    "fileName":"kathryn-thompson.jpg",
     "authorOrigin": "Guild",
     "authorName": "Kathryn Thompson",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
@@ -334,7 +334,7 @@
 
   { 
     "id":"bf894419-cb6f-4816-9210-b5733e506250", 
-    "filePath":"frontend\\src\\images\\embroideries\\lauren-snyder.jpg",
+    "fileName":"lauren-snyder.jpg",
     "authorOrigin": "Med",
     "authorName": "Lauren Snyder",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
@@ -343,7 +343,7 @@
 
   { 
     "id":"1ef5f40c-3294-4a83-87bd-ca7a4d08cc5a", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-9.jpg",
+    "fileName":"pinc-9.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_9",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
@@ -352,7 +352,7 @@
 
   { 
     "id":"5633472b-f2b6-40df-a6fe-4eaf1fff0797", 
-    "filePath":"frontend\\src\\images\\embroideries\\katie-odonnell.jpg",
+    "fileName":"katie-odonnell.jpg",
     "authorOrigin": "Med",
     "authorName": "Katie O'Donnell",
     "anatomyName": "Extensor Mechanism Dorsum",
@@ -361,7 +361,7 @@
 
   { 
     "id":"18c93331-4d6b-454c-aa6f-74c58dd0f41b", 
-    "filePath":"frontend\\src\\images\\embroideries\\clarke-danek.jpg",
+    "fileName":"clarke-danek.jpg",
     "authorOrigin": "Misc",
     "authorName": "Clarke Daněk",
     "anatomyName": "Extensor Mechanism Dorsum",
@@ -370,7 +370,7 @@
 
   { 
     "id":"48952512-3b94-48dc-b22c-8129a98d97e8", 
-    "filePath":"frontend\\src\\images\\embroideries\\elaine-taylor.jpg",
+    "fileName":"elaine-taylor.jpg",
     "authorOrigin": "Guild",
     "authorName": "Elaine Taylor",
     "anatomyName": "Extensor Mechanism Profile",
@@ -379,7 +379,7 @@
 
   { 
     "id":"9d50061b-683b-4f8b-9859-b7c1df6f64cf", 
-    "filePath":"frontend\\src\\images\\embroideries\\suzie-smith.jpg",
+    "fileName":"suzie-smith.jpg",
     "authorOrigin": "Med",
     "authorName": "Suzie Smith",
     "anatomyName": "Extensor Mechanism Profile",
@@ -388,7 +388,7 @@
 
   { 
     "id":"0dcff1d6-a90b-4882-abc7-9da89482defa", 
-    "filePath":"frontend\\src\\images\\embroideries\\bev-hemming.jpg",
+    "fileName":"bev-hemming.jpg",
     "authorOrigin": "Guild",
     "authorName": "Bev Hemming",
     "anatomyName": "Fascia Bands of Finger",
@@ -397,7 +397,7 @@
 
   { 
     "id":"7fbf6b86-4dd5-47e5-a8c2-d8605428ea4f", 
-    "filePath":"frontend\\src\\images\\embroideries\\sheila-conchi.jpg",
+    "fileName":"sheila-conchi.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sheila Conchi",
     "anatomyName": "Fascia Bands of Finger",
@@ -406,7 +406,7 @@
 
   { 
     "id":"d10e7838-29ba-48b6-b430-98c1bee48d64", 
-    "filePath":"frontend\\src\\images\\embroideries\\judith-lakin.jpg",
+    "fileName":"judith-lakin.jpg",
     "authorOrigin": "Guild",
     "authorName": "Judith Lakin",
     "anatomyName": "FCR on Scaphoid 1",
@@ -415,7 +415,7 @@
 
   { 
     "id":"f654c80b-94a3-4dee-a187-4b7e0203487b", 
-    "filePath":"frontend\\src\\images\\embroideries\\susan-towers.jpg",
+    "fileName":"susan-towers.jpg",
     "authorOrigin": "Guild",
     "authorName": "Susan Towers",
     "anatomyName": "FCR on Scaphoid 1",
@@ -424,7 +424,7 @@
 
   { 
     "id":"d61625f9-bb77-4799-ace8-493b69cdb33a", 
-    "filePath":"frontend\\src\\images\\embroideries\\sasha-silberman-hanks.jpg",
+    "fileName":"sasha-silberman-hanks.jpg",
     "authorOrigin": "Lime",
     "authorName": "Sasha Silberman-Hanks",
     "anatomyName": "FCR on Scaphoid 1",
@@ -433,7 +433,7 @@
 
   { 
     "id":"b209d908-be4f-48a8-bf7e-22e44eab57c4", 
-    "filePath":"frontend\\src\\images\\embroideries\\angela-oswald.jpg",
+    "fileName":"angela-oswald.jpg",
     "authorOrigin": "Guild",
     "authorName": "Angela Oswald",
     "anatomyName": "FCR on Scaphoid 2",
@@ -442,7 +442,7 @@
 
   { 
     "id":"85aea589-fab3-4c4c-9a42-f57df4c093f1", 
-    "filePath":"frontend\\src\\images\\embroideries\\ellie-mercala.jpg",
+    "fileName":"ellie-mercala.jpg",
     "authorOrigin": "Med",
     "authorName": "Ellie Mercala",
     "anatomyName": "FCR on Scaphoid 2",
@@ -451,7 +451,7 @@
 
   { 
     "id":"b1213df6-2d5c-490c-899f-006cd85539bb", 
-    "filePath":"frontend\\src\\images\\embroideries\\jenny-thorpe.jpg",
+    "fileName":"jenny-thorpe.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jenny Thorpe",
     "anatomyName": "FDS Chiasm",
@@ -460,7 +460,7 @@
 
   { 
     "id":"9fa90971-533c-4ff3-a1b5-0295ab6a638d", 
-    "filePath":"frontend\\src\\images\\embroideries\\ruth-moyes.jpg",
+    "fileName":"ruth-moyes.jpg",
     "authorOrigin": "Guild",
     "authorName": "Ruth Moyes",
     "anatomyName": "FDS Chiasm",
@@ -469,7 +469,7 @@
 
   { 
     "id":"31e0a995-8195-4e3a-8032-a1a2293ed26a", 
-    "filePath":"frontend\\src\\images\\embroideries\\sue-chisnall-sumner.jpg",
+    "fileName":"sue-chisnall-sumner.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sue Chisnall Sumner",
     "anatomyName": "Finger Bones",
@@ -478,7 +478,7 @@
 
   { 
     "id":"71577008-d15a-4f47-ba33-cb3a547b39ae", 
-    "filePath":"frontend\\src\\images\\embroideries\\caitlin-oneill.jpg",
+    "fileName":"caitlin-oneill.jpg",
     "authorOrigin": "Guild",
     "authorName": "Caitlin O'Neill",
     "anatomyName": "Finger Bones",
@@ -487,7 +487,7 @@
 
   { 
     "id":"401dfd55-5e6e-4da2-a692-5f8187ec5fbf", 
-    "filePath":"frontend\\src\\images\\embroideries\\rachel-quine.jpg",
+    "fileName":"rachel-quine.jpg",
     "authorOrigin": "Misc",
     "authorName": "Rachel Quine",
     "anatomyName": "Fingernail Complex",
@@ -496,7 +496,7 @@
 
   { 
     "id":"3763f94c-d8e5-46fc-940a-358b26afb4e7", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-12.jpg",
+    "fileName":"pinc-12.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_12",
     "anatomyName": "Fingernail Complex",
@@ -505,7 +505,7 @@
 
   { 
     "id":"496eaeb3-b251-4d6b-b56b-b13122b3fbcf", 
-    "filePath":"frontend\\src\\images\\embroideries\\helen-sargent.jpg",
+    "fileName":"helen-sargent.jpg",
     "authorOrigin": "Guild",
     "authorName": "Helen Sargent",
     "anatomyName": "First Dorsal Interosseous Muscle",
@@ -514,7 +514,7 @@
 
   { 
     "id":"a5832eef-a370-4645-ac44-b8a1ef025da3", 
-    "filePath":"frontend\\src\\images\\embroideries\\peggy-dagget.jpg",
+    "fileName":"peggy-dagget.jpg",
     "authorOrigin": "Guild",
     "authorName": "Peggy Dagget",
     "anatomyName": "First Dorsal Interosseous Muscle key",
@@ -523,7 +523,7 @@
 
   { 
     "id":"35879da6-5ce2-4383-8f72-a65fb506a1a6", 
-    "filePath":"frontend\\src\\images\\embroideries\\kath-hamlin.jpg",
+    "fileName":"kath-hamlin.jpg",
     "authorOrigin": "Med",
     "authorName": "Kath Hamlin",
     "anatomyName": "First Dorsal Interosseous Muscle key",
@@ -532,7 +532,7 @@
 
   { 
     "id":"10078d56-9ace-436c-8221-d2060c20e055", 
-    "filePath":"frontend\\src\\images\\embroideries\\margaret-crichton.jpg",
+    "fileName":"margaret-crichton.jpg",
     "authorOrigin": "Guild",
     "authorName": "Margaret Crichton",
     "anatomyName": "Flexor Canal",
@@ -541,7 +541,7 @@
 
   { 
     "id":"80fda55b-03af-4e80-8473-134c35cd61b9", 
-    "filePath":"frontend\\src\\images\\embroideries\\suzanne-chaisty.jpg",
+    "fileName":"suzanne-chaisty.jpg",
     "authorOrigin": "Lime",
     "authorName": "Suzanne Chaisty",
     "anatomyName": "Flexor Canal",
@@ -550,7 +550,7 @@
 
   { 
     "id":"b6e44892-46da-42ad-80a7-32096facf920", 
-    "filePath":"frontend\\src\\images\\embroideries\\diane-moore.jpg",
+    "fileName":"diane-moore.jpg",
     "authorOrigin": "Guild",
     "authorName": "Diane Moore",
     "anatomyName": "Flexor Tendons Index and Thumb",
@@ -559,7 +559,7 @@
 
   { 
     "id":"dd0d1aa9-d23b-4c48-9caa-7d8c10d5cb50", 
-    "filePath":"frontend\\src\\images\\embroideries\\linda-field.jpg",
+    "fileName":"linda-field.jpg",
     "authorOrigin": "Misc",
     "authorName": "Linda Field",
     "anatomyName": "Flexor Tendons Index and Thumb",
@@ -568,7 +568,7 @@
 
   { 
     "id":"6af3a09e-2e9a-466b-b3e2-691d93998ed6", 
-    "filePath":"frontend\\src\\images\\embroideries\\kath-roberts.jpg",
+    "fileName":"kath-roberts.jpg",
     "authorOrigin": "Guild",
     "authorName": "Kath Roberts",
     "anatomyName": "Forearm X Section",
@@ -577,7 +577,7 @@
 
   { 
     "id":"a3fd5e35-a4f2-403e-b693-38131ac784cc", 
-    "filePath":"frontend\\src\\images\\embroideries\\clare-boothby.jpg",
+    "fileName":"clare-boothby.jpg",
     "authorOrigin": "Med",
     "authorName": "Clare Boothby",
     "anatomyName": "Forearm X Section",
@@ -586,7 +586,7 @@
 
   { 
     "id":"c7734c10-f20f-43d9-a030-b21086a2529c", 
-    "filePath":"frontend\\src\\images\\embroideries\\jennifer-luu.jpg",
+    "fileName":"jennifer-luu.jpg",
     "authorOrigin": "Med",
     "authorName": "Jennifer Luu",
     "anatomyName": "Forearm X Section",
@@ -595,7 +595,7 @@
 
   { 
     "id":"b841c439-e9ab-4cea-89ab-b1ee01632c10", 
-    "filePath":"frontend\\src\\images\\embroideries\\brenda-muller.jpg",
+    "fileName":"brenda-muller.jpg",
     "authorOrigin": "Guild",
     "authorName": "Brenda Muller",
     "anatomyName": "Guyon's Canal Empty",
@@ -604,7 +604,7 @@
 
   { 
     "id":"eeb3fdf2-d919-4fca-81b9-8222ef893a1d", 
-    "filePath":"frontend\\src\\images\\embroideries\\elaine-brett.jpg",
+    "fileName":"elaine-brett.jpg",
     "authorOrigin": "Misc",
     "authorName": "Elaine Brett",
     "anatomyName": "Guyon's Canal Empty",
@@ -613,7 +613,7 @@
 
   { 
     "id":"c08ed0d5-358e-4240-afd4-4644137dd791", 
-    "filePath":"frontend\\src\\images\\embroideries\\lorraine-rawlinson.jpg",
+    "fileName":"lorraine-rawlinson.jpg",
     "authorOrigin": "Guild",
     "authorName": "Lorraine Rawlinson",
     "anatomyName": "Guyon's Canal Floor",
@@ -622,7 +622,7 @@
 
   { 
     "id":"30dcd97f-c98b-4844-8a79-f4f6caea7b71", 
-    "filePath":"frontend\\src\\images\\embroideries\\alison-stott.jpg",
+    "fileName":"alison-stott.jpg",
     "authorOrigin": "Misc",
     "authorName": "Alison Stott",
     "anatomyName": "Guyon's Canal Floor",
@@ -631,7 +631,7 @@
 
   { 
     "id":"9ae228af-abb0-49c0-9fde-df7f350d2bb9", 
-    "filePath":"frontend\\src\\images\\embroideries\\wendy-haydock.jpg",
+    "fileName":"wendy-haydock.jpg",
     "authorOrigin": "Guild",
     "authorName": "Wendy Haydock",
     "anatomyName": "Guyon's Canal Roof",
@@ -640,7 +640,7 @@
 
   { 
     "id":"6d2da94d-6d3b-4f17-81d3-a464b16caaa2", 
-    "filePath":"frontend\\src\\images\\embroideries\\elodie-morrough.jpg",
+    "fileName":"elodie-morrough.jpg",
     "authorOrigin": "Med",
     "authorName": "Elodie Morrough",
     "anatomyName": "Guyon's Canal Roof",
@@ -649,7 +649,7 @@
 
   { 
     "id":"00db77bf-65f9-47e9-bb12-176864c7ee07", 
-    "filePath":"frontend\\src\\images\\embroideries\\pat-richardson.jpg",
+    "fileName":"pat-richardson.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pat Richardson",
     "anatomyName": "Hamate and Meta 4 and 5",
@@ -658,7 +658,7 @@
 
   { 
     "id":"919691d4-16f4-4352-bf45-fc181979dcc0", 
-    "filePath":"frontend\\src\\images\\embroideries\\janaki-gnanalingham.jpg",
+    "fileName":"janaki-gnanalingham.jpg",
     "authorOrigin": "Lime",
     "authorName": "Janaki Gnanalingham",
     "anatomyName": "Hamate and Meta 4 and 5",
@@ -667,7 +667,7 @@
 
   { 
     "id":"2c3001ea-84e9-479d-b9e4-3d9e56a465cf", 
-    "filePath":"frontend\\src\\images\\embroideries\\trudi-proctor.jpg",
+    "fileName":"trudi-proctor.jpg",
     "authorOrigin": "Misc",
     "authorName": "Trudi Proctor",
     "anatomyName": "Hamate Pisiform and Meta 4 and 5",
@@ -676,7 +676,7 @@
 
   { 
     "id":"4ba2fa85-418e-40dc-ae41-202eed57d84f", 
-    "filePath":"frontend\\src\\images\\embroideries\\patricia-blackburn.jpg",
+    "fileName":"patricia-blackburn.jpg",
     "authorOrigin": "Guild",
     "authorName": "Patricia Blackburn",
     "anatomyName": "Hand",
@@ -685,7 +685,7 @@
 
   { 
     "id":"f8215449-b0c5-412c-8ea1-5c958e8ddf65", 
-    "filePath":"frontend\\src\\images\\embroideries\\ann-reading.jpg",
+    "fileName":"ann-reading.jpg",
     "authorOrigin": "Guild",
     "authorName": "Ann Reading",
     "anatomyName": "Hand Centred on Pisiform",
@@ -694,7 +694,7 @@
 
   { 
     "id":"fa9bf616-3671-4549-b5cd-a354306d224f", 
-    "filePath":"frontend\\src\\images\\embroideries\\jan-mellor.jpg",
+    "fileName":"jan-mellor.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jan Mellor",
     "anatomyName": "Hand Centred on Pisiform",
@@ -703,7 +703,7 @@
 
   { 
     "id":"5e22fa51-082b-4e00-bcfd-b1a414084f37", 
-    "filePath":"frontend\\src\\images\\embroideries\\kay-witherford.jpg",
+    "fileName":"kay-witherford.jpg",
     "authorOrigin": "Guild",
     "authorName": "Kay Witherford",
     "anatomyName": "Hand Centred on Pisiform",
@@ -712,7 +712,7 @@
 
   { 
     "id":"e6248bdb-b718-446a-a6ad-562cd536fb94", 
-    "filePath":"frontend\\src\\images\\embroideries\\susan-lloyd.jpg",
+    "fileName":"susan-lloyd.jpg",
     "authorOrigin": "Guild",
     "authorName": "Susan Lloyd",
     "anatomyName": "Hand Dorsum",
@@ -721,7 +721,7 @@
 
   { 
     "id":"c36aed48-4842-4a8d-8400-8aed56cea5e4", 
-    "filePath":"frontend\\src\\images\\embroideries\\aden-tanner.jpg",
+    "fileName":"aden-tanner.jpg",
     "authorOrigin": "Med",
     "authorName": "Aden Tanner",
     "anatomyName": "Hand Dorsum",
@@ -730,7 +730,7 @@
 
   { 
     "id":"5647ce6f-534c-4769-ad1e-ca5fa3920912", 
-    "filePath":"frontend\\src\\images\\embroideries\\jennifer-bailie.jpg",
+    "fileName":"jennifer-bailie.jpg",
     "authorOrigin": "Med",
     "authorName": "Jennifer Bailie",
     "anatomyName": "Hand Dorsum",
@@ -739,7 +739,7 @@
 
   { 
     "id":"2611a579-fa7f-4bf9-b18c-d6968514c1f0", 
-    "filePath":"frontend\\src\\images\\embroideries\\jillian-holden.jpg",
+    "fileName":"jillian-holden.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jillian Holden",
     "anatomyName": "Hand Naked",
@@ -748,7 +748,7 @@
 
   { 
     "id":"f3c7f9db-c739-4c47-a406-18662784c3ed", 
-    "filePath":"frontend\\src\\images\\embroideries\\nerissa-cargill-thompson.jpg",
+    "fileName":"nerissa-cargill-thompson.jpg",
     "authorOrigin": "Misc",
     "authorName": "Nerissa Cargill Thompson",
     "anatomyName": "Hand Naked",
@@ -757,7 +757,7 @@
 
   { 
     "id":"5a912e58-c23e-4552-bb33-0adcfe8fb033", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-2.jpg",
+    "fileName":"pinc-2.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_2",
     "anatomyName": "Hand Open",
@@ -766,7 +766,7 @@
 
   { 
     "id":"0b909684-69fa-437c-94d7-ecc8d0b83705", 
-    "filePath":"frontend\\src\\images\\embroideries\\patti-owen.jpg",
+    "fileName":"patti-owen.jpg",
     "authorOrigin": "Guild",
     "authorName": "Patti Owen",
     "anatomyName": "Hand Palmar",
@@ -775,7 +775,7 @@
 
   { 
     "id":"7fb504fb-e335-4722-97ec-114d14e153ba", 
-    "filePath":"frontend\\src\\images\\embroideries\\kate-gibbons.jpg",
+    "fileName":"kate-gibbons.jpg",
     "authorOrigin": "Med",
     "authorName": "Kate Gibbons",
     "anatomyName": "Hand Palmar",
@@ -784,7 +784,7 @@
 
   { 
     "id":"7cf189d2-d911-461a-9723-b24503bfa975", 
-    "filePath":"frontend\\src\\images\\embroideries\\scilla-capon.jpg",
+    "fileName":"scilla-capon.jpg",
     "authorOrigin": "Guild",
     "authorName": "Scilla Capon",
     "anatomyName": "Hand Skeleton Dorsum",
@@ -793,7 +793,7 @@
 
   { 
     "id":"c9cb4830-0650-474b-ac58-f481642f695f", 
-    "filePath":"frontend\\src\\images\\embroideries\\kayleigh-porter.jpg",
+    "fileName":"kayleigh-porter.jpg",
     "authorOrigin": "Lime",
     "authorName": "Kayleigh Porter",
     "anatomyName": "Hand Skeleton Dorsum",
@@ -802,7 +802,7 @@
 
   { 
     "id":"daca284e-7122-4419-863e-4c21a24427f3", 
-    "filePath":"frontend\\src\\images\\embroideries\\jackie-davies.jpg",
+    "fileName":"jackie-davies.jpg",
     "authorOrigin": "Misc",
     "authorName": "Jackie Davies",
     "anatomyName": "Hand Skeleton Dorsum",
@@ -811,7 +811,7 @@
 
   { 
     "id":"655d9ab3-6565-4e20-8bdd-db99cc8ddc5d", 
-    "filePath":"frontend\\src\\images\\embroideries\\carol-clark.jpg",
+    "fileName":"carol-clark.jpg",
     "authorOrigin": "Guild",
     "authorName": "Carol Clark",
     "anatomyName": "Hand Skeleton Palmar",
@@ -820,7 +820,7 @@
 
   { 
     "id":"dcfe075b-083c-44ac-8f5e-98f9a1e23452", 
-    "filePath":"frontend\\src\\images\\embroideries\\jean-knowles.jpg",
+    "fileName":"jean-knowles.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jean Knowles",
     "anatomyName": "Hand Skeleton Palmar",
@@ -829,7 +829,7 @@
 
   { 
     "id":"0636422b-fd6f-4878-8864-41cdd67f0e0e", 
-    "filePath":"frontend\\src\\images\\embroideries\\ellen-lucius.jpg",
+    "fileName":"ellen-lucius.jpg",
     "authorOrigin": "Med",
     "authorName": "Ellen Lucius",
     "anatomyName": "Hand Skeleton Palmar",
@@ -838,7 +838,7 @@
 
   { 
     "id":"445c0e77-0f0b-46e9-ab85-b224eab29864", 
-    "filePath":"frontend\\src\\images\\embroideries\\karen-wingate.jpg",
+    "fileName":"karen-wingate.jpg",
     "authorOrigin": "Guild",
     "authorName": "Karen Wingate",
     "anatomyName": "Index and Mid Fingers",
@@ -847,7 +847,7 @@
 
   { 
     "id":"247a90b6-746d-4917-9a32-22855452df95", 
-    "filePath":"frontend\\src\\images\\embroideries\\pat-barry.jpg",
+    "fileName":"pat-barry.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pat Barry",
     "anatomyName": "Intrinsic Muscles",
@@ -856,7 +856,7 @@
 
   { 
     "id":"9ab1a90c-eb8c-4c71-8f6f-c7b790a20768", 
-    "filePath":"frontend\\src\\images\\embroideries\\sue-johnson.jpg",
+    "fileName":"sue-johnson.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sue Johnson",
     "anatomyName": "Intrinsic Muscles",
@@ -865,7 +865,7 @@
 
   { 
     "id":"1c61657a-df16-4135-acbd-47ce6602e845", 
-    "filePath":"frontend\\src\\images\\embroideries\\caroline-stealy.jpg",
+    "fileName":"caroline-stealy.jpg",
     "authorOrigin": "Misc",
     "authorName": "Caroline Stealy",
     "anatomyName": "Intrinsic Muscles",
@@ -874,7 +874,7 @@
 
   { 
     "id":"d7339cdd-e09f-422d-af89-df19a4be69c0", 
-    "filePath":"frontend\\src\\images\\embroideries\\pauline-foster.jpg",
+    "fileName":"pauline-foster.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pauline Foster",
     "anatomyName": "Lateral Digit",
@@ -883,7 +883,7 @@
 
   { 
     "id":"0ca611e6-69cd-4067-8ec0-bdd5d0184909", 
-    "filePath":"frontend\\src\\images\\embroideries\\ammarah-master.jpg",
+    "fileName":"ammarah-master.jpg",
     "authorOrigin": "Med",
     "authorName": "Ammarah Master",
     "anatomyName": "Lateral Digit",
@@ -892,7 +892,7 @@
 
   { 
     "id":"c1b7c33a-3167-45c6-9777-ec7cf2f26706", 
-    "filePath":"frontend\\src\\images\\embroideries\\sue-shepherd.jpg",
+    "fileName":"sue-shepherd.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sue Shepherd",
     "anatomyName": "Leading Areas",
@@ -901,7 +901,7 @@
 
   { 
     "id":"4a650847-c5e8-4fd2-a3ca-22a9c9e173fe", 
-    "filePath":"frontend\\src\\images\\embroideries\\nicola-kerrison.jpg",
+    "fileName":"nicola-kerrison.jpg",
     "authorOrigin": "Med",
     "authorName": "Nicola Kerrison",
     "anatomyName": "Leading Areas",
@@ -910,7 +910,7 @@
 
   { 
     "id":"725a6ee5-9d5d-44d8-8f10-2494a9acf321", 
-    "filePath":"frontend\\src\\images\\embroideries\\vicky-tyrrell.jpg",
+    "fileName":"vicky-tyrrell.jpg",
     "authorOrigin": "Med",
     "authorName": "Vicky Tyrrell",
     "anatomyName": "Leading Areas",
@@ -919,7 +919,7 @@
 
   { 
     "id":"4c214c1a-6710-449b-b7ee-3b0866ea6f17", 
-    "filePath":"frontend\\src\\images\\embroideries\\val-coleshaw.jpg",
+    "fileName":"val-coleshaw.jpg",
     "authorOrigin": "Guild",
     "authorName": "Val Coleshaw",
     "anatomyName": "Ligaments Base Meta",
@@ -928,7 +928,7 @@
 
   { 
     "id":"df53f7f3-3b9e-4166-80af-9db9641d5fe3", 
-    "filePath":"frontend\\src\\images\\embroideries\\maria-roberts.jpg",
+    "fileName":"maria-roberts.jpg",
     "authorOrigin": "Lime",
     "authorName": "Maria Roberts",
     "anatomyName": "Ligaments Base Meta",
@@ -937,7 +937,7 @@
 
   { 
     "id":"6ce94f3e-3a62-4755-9d56-3ee07625b598", 
-    "filePath":"frontend\\src\\images\\embroideries\\grace-ong.jpg",
+    "fileName":"grace-ong.jpg",
     "authorOrigin": "Med",
     "authorName": "Grace Ong",
     "anatomyName": "Ligaments Base Meta",
@@ -946,7 +946,7 @@
 
   { 
     "id":"e71ad940-bd11-44c1-95c4-87c271c930b8", 
-    "filePath":"frontend\\src\\images\\embroideries\\james-malloy.jpg",
+    "fileName":"james-malloy.jpg",
     "authorOrigin": "Med",
     "authorName": "James Malloy",
     "anatomyName": "Ligaments Base Meta",
@@ -955,7 +955,7 @@
 
   { 
     "id":"c13c88ca-6ca8-41cd-a41b-5d7ffa588fd8", 
-    "filePath":"frontend\\src\\images\\embroideries\\amanda-whewell.jpg",
+    "fileName":"amanda-whewell.jpg",
     "authorOrigin": "Guild",
     "authorName": "Amanda Whewell",
     "anatomyName": "Lumbrical Palmar",
@@ -964,7 +964,7 @@
 
   { 
     "id":"a018b9dc-6d1e-4b70-9da5-8e0d6ee41ac9", 
-    "filePath":"frontend\\src\\images\\embroideries\\penny-williams.jpg",
+    "fileName":"penny-williams.jpg",
     "authorOrigin": "Med",
     "authorName": "Penny Williams",
     "anatomyName": "Lumbrical Palmar",
@@ -973,7 +973,7 @@
 
   { 
     "id":"1030b3a3-299d-45d1-8911-4f7e8d9e3f16", 
-    "filePath":"frontend\\src\\images\\embroideries\\rebekah-goulston.jpg",
+    "fileName":"rebekah-goulston.jpg",
     "authorOrigin": "Med",
     "authorName": "Rebekah Goulston",
     "anatomyName": "Lumbrical Palmar",
@@ -982,7 +982,7 @@
 
   { 
     "id":"b6137a02-308c-4dbe-9b0e-7074906e00ca", 
-    "filePath":"frontend\\src\\images\\embroideries\\roosindu-peris.jpg",
+    "fileName":"roosindu-peris.jpg",
     "authorOrigin": "Med",
     "authorName": "Roosindu Peris",
     "anatomyName": "Lumbrical Palmar",
@@ -991,7 +991,7 @@
 
   { 
     "id":"01c3cbd5-405d-4573-a040-75693be34bce", 
-    "filePath":"frontend\\src\\images\\embroideries\\jane-williams.jpg",
+    "fileName":"jane-williams.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jane Williams",
     "anatomyName": "Making a Fist",
@@ -1000,7 +1000,7 @@
 
   { 
     "id":"9ac96a8b-7801-4583-8b22-7da6cf2ba64f", 
-    "filePath":"frontend\\src\\images\\embroideries\\catherine-james.jpg",
+    "fileName":"catherine-james.jpg",
     "authorOrigin": "Med",
     "authorName": "Catherine James",
     "anatomyName": "Making a Fist",
@@ -1009,7 +1009,7 @@
 
   { 
     "id":"0f456a56-8cc3-42c1-9336-9dfc1937a6a7", 
-    "filePath":"frontend\\src\\images\\embroideries\\heather-harrison.jpg",
+    "fileName":"heather-harrison.jpg",
     "authorOrigin": "Med",
     "authorName": "Heather Harrison",
     "anatomyName": "Making a Fist",
@@ -1018,7 +1018,7 @@
 
   { 
     "id":"67e18f34-6de8-4c5a-b215-fcdab933c682", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-4.jpg",
+    "fileName":"pinc-4.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_4",
     "anatomyName": "Making a Fist",
@@ -1027,7 +1027,7 @@
 
   { 
     "id":"d48c9af0-d84d-4eaf-919d-e42d3d31fa10", 
-    "filePath":"frontend\\src\\images\\embroideries\\anon-2.jpg",
+    "fileName":"anon-2.jpg",
     "authorOrigin": "missing",
     "authorName": "Anon_2",
     "anatomyName": "MCPJ Ligaments",
@@ -1036,7 +1036,7 @@
 
   { 
     "id":"ec513840-9369-48e6-b0dd-001c19edb12a", 
-    "filePath":"frontend\\src\\images\\embroideries\\enid-mcintosh.jpg",
+    "fileName":"enid-mcintosh.jpg",
     "authorOrigin": "Guild",
     "authorName": "Enid McIntosh",
     "anatomyName": "MCPJ Ligaments",
@@ -1045,7 +1045,7 @@
 
   { 
     "id":"86484da4-449a-46a0-aeff-3ef9ea8981f3", 
-    "filePath":"frontend\\src\\images\\embroideries\\germaine-fairclough.jpg",
+    "fileName":"germaine-fairclough.jpg",
     "authorOrigin": "Med",
     "authorName": "Germaine Fairclough",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
@@ -1054,7 +1054,7 @@
 
   { 
     "id":"ed1de676-7031-47f9-90ac-9849db46b4d6", 
-    "filePath":"frontend\\src\\images\\embroideries\\iona-mckechnie.jpg",
+    "fileName":"iona-mckechnie.jpg",
     "authorOrigin": "Med",
     "authorName": "Iona McKechnie",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
@@ -1063,7 +1063,7 @@
 
   { 
     "id":"65e788ec-1729-4e1c-971c-5e20639035f4", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-5.jpg",
+    "fileName":"pinc-5.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_5",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
@@ -1072,7 +1072,7 @@
 
   { 
     "id":"b4f7d847-ba05-4ba2-99c6-da2b254a9428", 
-    "filePath":"frontend\\src\\images\\embroideries\\sandra-mcfarlane.jpg",
+    "fileName":"sandra-mcfarlane.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sandra McFarlane",
     "anatomyName": "Midpalm XSection",
@@ -1081,7 +1081,7 @@
 
   { 
     "id":"4419a18c-7d11-446b-aa83-024142702a06", 
-    "filePath":"frontend\\src\\images\\embroideries\\sandra-mcallister.jpg",
+    "fileName":"sandra-mcallister.jpg",
     "authorOrigin": "Med",
     "authorName": "Sandra McAllister",
     "anatomyName": "Midpalm XSection",
@@ -1090,7 +1090,7 @@
 
   { 
     "id":"a4900a53-6ad5-4f4a-9f0d-83bc04b30312", 
-    "filePath":"frontend\\src\\images\\embroideries\\lou-godley.jpg",
+    "fileName":"lou-godley.jpg",
     "authorOrigin": "Guild",
     "authorName": "Lou Godley",
     "anatomyName": "Oblique Carpals Meta",
@@ -1099,7 +1099,7 @@
 
   { 
     "id":"fc2a57be-c219-4c7c-b8a9-953c8dfe0518", 
-    "filePath":"frontend\\src\\images\\embroideries\\nicola-mann.jpg",
+    "fileName":"nicola-mann.jpg",
     "authorOrigin": "Med",
     "authorName": "Nicola Mann",
     "anatomyName": "Oblique Carpals Meta",
@@ -1108,7 +1108,7 @@
 
   { 
     "id":"4326ae72-a8c2-4b33-8091-c26cde0ea9b8", 
-    "filePath":"frontend\\src\\images\\embroideries\\joy-newington.jpg",
+    "fileName":"joy-newington.jpg",
     "authorOrigin": "Guild",
     "authorName": "Joy Newington",
     "anatomyName": "Oblique Thumb Skel",
@@ -1117,7 +1117,7 @@
 
   { 
     "id":"8f7a23f8-cde9-41d6-a214-d1e5cdc3a4de", 
-    "filePath":"frontend\\src\\images\\embroideries\\zahra-alhumaidi.jpg",
+    "fileName":"zahra-alhumaidi.jpg",
     "authorOrigin": "Med",
     "authorName": "ZAhra Alhumaidi",
     "anatomyName": "Oblique Thumb Skel",
@@ -1126,7 +1126,7 @@
 
   { 
     "id":"d6c240f0-8b8b-43be-9eb1-87dd1c4b197f", 
-    "filePath":"frontend\\src\\images\\embroideries\\bernadette-burgon.jpg",
+    "fileName":"bernadette-burgon.jpg",
     "authorOrigin": "Guild",
     "authorName": "Bernadette Burgon",
     "anatomyName": "Palmar Carpal Ligs",
@@ -1135,7 +1135,7 @@
 
   { 
     "id":"bcd55974-0bb4-4161-b00f-2294397da81d", 
-    "filePath":"frontend\\src\\images\\embroideries\\shellene-divall.jpg",
+    "fileName":"shellene-divall.jpg",
     "authorOrigin": "Guild",
     "authorName": "Shellene Divall",
     "anatomyName": "Palmar Carpal Ligs",
@@ -1144,7 +1144,7 @@
 
   { 
     "id":"20ec5a78-1be0-4a4c-b1e2-6841aca05ab0", 
-    "filePath":"frontend\\src\\images\\embroideries\\jan-arnold.jpg",
+    "fileName":"jan-arnold.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jan Arnold",
     "anatomyName": "Palmar Carpal Tunnel",
@@ -1153,7 +1153,7 @@
 
   { 
     "id":"e9d153ac-5b5f-4f0e-996d-9afa6d27b2ba", 
-    "filePath":"frontend\\src\\images\\embroideries\\anne-judge.jpg",
+    "fileName":"anne-judge.jpg",
     "authorOrigin": "Med",
     "authorName": "Anne Judge",
     "anatomyName": "Palmar Carpal Tunnel",
@@ -1162,7 +1162,7 @@
 
   { 
     "id":"1f7a930c-b060-49ef-b21e-2fe505d2b0f1", 
-    "filePath":"frontend\\src\\images\\embroideries\\lee-san-tang.jpg",
+    "fileName":"lee-san-tang.jpg",
     "authorOrigin": "Med",
     "authorName": "Lee San Tang",
     "anatomyName": "Palmar Carpal Tunnel",
@@ -1171,7 +1171,7 @@
 
   { 
     "id":"3fa0ec48-e664-4d71-98e6-f6a306c6ed6b", 
-    "filePath":"frontend\\src\\images\\embroideries\\maureen-mcguiness.jpg",
+    "fileName":"maureen-mcguiness.jpg",
     "authorOrigin": "Guild",
     "authorName": "Maureen McGuiness",
     "anatomyName": "Passage into Palm Space",
@@ -1180,7 +1180,7 @@
   
   { 
     "id":"0e3a176a-41e3-449e-9b2a-49356350866c", 
-    "filePath":"frontend\\src\\images\\embroideries\\darcy-emery.jpg",
+    "fileName":"darcy-emery.jpg",
     "authorOrigin": "Med",
     "authorName": "Darcy Emery",
     "anatomyName": "Passage into Palm Space",
@@ -1189,7 +1189,7 @@
 
   { 
     "id":"e758d316-ce9d-4a59-b8d8-5945b90b8672", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-13.jpg",
+    "fileName":"pinc-13.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_13",
     "anatomyName": "Phal Prox and Int Skel",
@@ -1198,7 +1198,7 @@
 
   { 
     "id":"a3add11d-d4ae-47d3-8910-0892190f2849", 
-    "filePath":"frontend\\src\\images\\embroideries\\elspeth-brelsford.jpg",
+    "fileName":"elspeth-brelsford.jpg",
     "authorOrigin": "Guild",
     "authorName": "Elspeth Brelsford",
     "anatomyName": "PIPJ Lateral",
@@ -1207,7 +1207,7 @@
 
   { 
     "id":"ad08e91f-98a9-40c4-828e-29ef6384d09f", 
-    "filePath":"frontend\\src\\images\\embroideries\\mel-charters.jpg",
+    "fileName":"mel-charters.jpg",
     "authorOrigin": "Guild",
     "authorName": "Mel Charters",
     "anatomyName": "PIPJ Ligaments",
@@ -1216,7 +1216,7 @@
 
   { 
     "id":"a4a875dd-4632-481e-92ab-41e09725ff1a", 
-    "filePath":"frontend\\src\\images\\embroideries\\jack-collard.jpg",
+    "fileName":"jack-collard.jpg",
     "authorOrigin": "Med",
     "authorName": "Jack Collard",
     "anatomyName": "PIPJ Ligaments",
@@ -1225,7 +1225,7 @@
 
   { 
     "id":"0e9c7bca-046a-4152-9ca0-c582509d798e", 
-    "filePath":"frontend\\src\\images\\embroideries\\emma-lee.jpg",
+    "fileName":"emma-lee.jpg",
     "authorOrigin": "Med",
     "authorName": "Emma Lee",
     "anatomyName": "PIPJ Ligaments Bend",
@@ -1234,7 +1234,7 @@
 
   { 
     "id":"ba18a34a-b19d-48b2-b32c-e3d28897c352", 
-    "filePath":"frontend\\src\\images\\embroideries\\jo-lorain.jpg",
+    "fileName":"jo-lorain.jpg",
     "authorOrigin": "Med",
     "authorName": "Jo Lorain",
     "anatomyName": "PIPJ Ligaments Bend",
@@ -1243,7 +1243,7 @@
 
   { 
     "id":"e2c726d6-77a6-4e61-9418-7bda735c515b", 
-    "filePath":"frontend\\src\\images\\embroideries\\sonja-pawelczyk.jpg",
+    "fileName":"sonja-pawelczyk.jpg",
     "authorOrigin": "Med",
     "authorName": "Sonja Pawelczyk",
     "anatomyName": "PIPJ Ligaments Bend",
@@ -1252,7 +1252,7 @@
 
   { 
     "id":"e5e05991-c5c3-443f-8e52-e5304720efe4", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-7.jpg",
+    "fileName":"pinc-7.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_7",
     "anatomyName": "PIPJ Ligaments Bend",
@@ -1261,7 +1261,7 @@
 
   { 
     "id":"7c2c03ae-109f-4fec-a4d6-65539fde8c40", 
-    "filePath":"frontend\\src\\images\\embroideries\\faith-mitchell.jpg",
+    "fileName":"faith-mitchell.jpg",
     "authorOrigin": "Guild",
     "authorName": "Faith Mitchell",
     "anatomyName": "PIPJ Skel",
@@ -1270,7 +1270,7 @@
 
   { 
     "id":"a8fdeb7f-4ded-4945-b0d5-5f423da67976", 
-    "filePath":"frontend\\src\\images\\embroideries\\sarah-gillet.jpg",
+    "fileName":"sarah-gillet.jpg",
     "authorOrigin": "Misc",
     "authorName": "Sarah Gillet",
     "anatomyName": "PIPJ Skel",
@@ -1279,7 +1279,7 @@
 
   { 
     "id":"733fab38-f847-4691-9eec-6d267c421a66", 
-    "filePath":"frontend\\src\\images\\embroideries\\jenni-welsh.jpg",
+    "fileName":"jenni-welsh.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jenni Welsh",
     "anatomyName": "PIPJ Stabilising Ligs",
@@ -1288,7 +1288,7 @@
 
   { 
     "id":"2d3b979c-2f4f-4216-abb8-8e7e08b1691d", 
-    "filePath":"frontend\\src\\images\\embroideries\\linda-eckersley.jpg",
+    "fileName":"linda-eckersley.jpg",
     "authorOrigin": "Guild",
     "authorName": "Linda Eckersley",
     "anatomyName": "PIPJ Stabilising Ligs",
@@ -1297,7 +1297,7 @@
 
   { 
     "id":"a4fa3089-e521-4c36-8dec-17983a6bd779", 
-    "filePath":"frontend\\src\\images\\embroideries\\jane-kirkham.jpg",
+    "fileName":"jane-kirkham.jpg",
     "authorOrigin": "Guild",
     "authorName": "Jane Kirkham",
     "anatomyName": "Profile Digit Skel",
@@ -1306,7 +1306,7 @@
 
   { 
     "id":"89470d7a-999b-477a-b3d2-5c74ac93b740", 
-    "filePath":"frontend\\src\\images\\embroideries\\sheila-paterson.jpg",
+    "fileName":"sheila-paterson.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sheila Paterson",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
@@ -1315,7 +1315,7 @@
 
   { 
     "id":"a30807c0-e371-42a4-ac69-b65d4dc4f154", 
-    "filePath":"frontend\\src\\images\\embroideries\\bethany-butcher.jpg",
+    "fileName":"bethany-butcher.jpg",
     "authorOrigin": "Med",
     "authorName": "Bethany Butcher",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
@@ -1324,7 +1324,7 @@
 
   { 
     "id":"75625e05-8d22-4b34-94ce-9871fac59a8d", 
-    "filePath":"frontend\\src\\images\\embroideries\\nicola-barnes.jpg",
+    "fileName":"nicola-barnes.jpg",
     "authorOrigin": "Med",
     "authorName": "Nicola Barnes",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
@@ -1333,7 +1333,7 @@
 
   { 
     "id":"fa991cfe-1634-4598-9bd1-d93de7196ed8", 
-    "filePath":"frontend\\src\\images\\embroideries\\judith-mcnab.jpg",
+    "fileName":"judith-mcnab.jpg",
     "authorOrigin": "Guild",
     "authorName": "Judith McNab",
     "anatomyName": "Profile Pulleys Flexed",
@@ -1342,7 +1342,7 @@
 
   { 
     "id":"1dca6d15-863c-415f-95c2-6920704732e1", 
-    "filePath":"frontend\\src\\images\\embroideries\\esme-milton.jpg",
+    "fileName":"esme-milton.jpg",
     "authorOrigin": "Med",
     "authorName": "Esme Milton",
     "anatomyName": "Profile Pulleys Flexed",
@@ -1351,7 +1351,7 @@
 
   { 
     "id":"0ceea0d9-befa-4d89-8418-e570f8b124db", 
-    "filePath":"frontend\\src\\images\\embroideries\\joseph-dodds.jpg",
+    "fileName":"joseph-dodds.jpg",
     "authorOrigin": "Med",
     "authorName": "Joseph Dodds",
     "anatomyName": "Profile Pulleys Flexed",
@@ -1360,7 +1360,7 @@
 
   { 
     "id":"a3fcf27a-a479-44d0-8f9c-e71b947ce8bf", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-12.jpg",
+    "fileName":"bw-12.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_12",
     "anatomyName": "Radial Artery in First Space",
@@ -1369,7 +1369,7 @@
 
   { 
     "id":"07650a4e-0be2-418c-8f5f-0a2eb034eace", 
-    "filePath":"frontend\\src\\images\\embroideries\\hilary-yates.jpg",
+    "fileName":"hilary-yates.jpg",
     "authorOrigin": "Guild",
     "authorName": "Hilary Yates",
     "anatomyName": "Radial Artery in First Space",
@@ -1378,7 +1378,7 @@
 
   { 
     "id":"fc13e8e4-ebbf-4423-aec3-5eaef6af3a98", 
-    "filePath":"frontend\\src\\images\\embroideries\\yvonne-blackman.jpg",
+    "fileName":"yvonne-blackman.jpg",
     "authorOrigin": "Misc",
     "authorName": "Yvonne Blackman",
     "anatomyName": "Radial Artery in First Space",
@@ -1387,7 +1387,7 @@
 
   { 
     "id":"b1d77b5e-5d49-48db-aa6a-4fd836570187", 
-    "filePath":"frontend\\src\\images\\embroideries\\ann-heather.jpg",
+    "fileName":"ann-heather.jpg",
     "authorOrigin": "Guild",
     "authorName": "Ann Heather",
     "anatomyName": "Retropulsion with Resting Thumb",
@@ -1396,7 +1396,7 @@
 
   { 
     "id":"e1c920f7-77a4-45ad-964e-8df144aaaa00", 
-    "filePath":"frontend\\src\\images\\embroideries\\sue-boardman.jpg",
+    "fileName":"sue-boardman.jpg",
     "authorOrigin": "Guild",
     "authorName": "Sue Boardman",
     "anatomyName": "Retropulsion with Resting Thumb",
@@ -1405,7 +1405,7 @@
 
   { 
     "id":"4518237a-4e13-4800-8a88-eef1e6934195", 
-    "filePath":"frontend\\src\\images\\embroideries\\pat-knifton.jpg",
+    "fileName":"pat-knifton.jpg",
     "authorOrigin": "Guild",
     "authorName": "Pat Knifton",
     "anatomyName": "Safe Position",
@@ -1414,7 +1414,7 @@
 
   { 
     "id":"34bc7613-a890-4d4f-8b88-e7a2b7196c48", 
-    "filePath":"frontend\\src\\images\\embroideries\\jay-derry-green.jpg",
+    "fileName":"jay-derry-green.jpg",
     "authorOrigin": "Med",
     "authorName": "Jay Derry Green",
     "anatomyName": "Safe Position",
@@ -1423,7 +1423,7 @@
 
   { 
     "id":"c0e22cca-1d16-48ba-9e57-df675269ed0b", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-11.jpg",
+    "fileName":"bw-11.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_11",
     "anatomyName": "Sagittal Bands",
@@ -1432,7 +1432,7 @@
 
   { 
     "id":"3d5c3054-ef08-45d7-9e6b-ec649e1fe6a1", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-4.jpg",
+    "fileName":"bw-4.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_4",
     "anatomyName": "Sagittal Bands",
@@ -1441,7 +1441,7 @@
 
   { 
     "id":"03199cbb-1919-4cb2-a15e-b7b22197f4a7", 
-    "filePath":"frontend\\src\\images\\embroideries\\katherine-conroy.jpg",
+    "fileName":"katherine-conroy.jpg",
     "authorOrigin": "Med",
     "authorName": "Katherine Conroy",
     "anatomyName": "Sagittal Bands",
@@ -1450,7 +1450,7 @@
 
   { 
     "id":"fa6f3f2e-42d5-4173-af7c-ba973235937f", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-2.jpg",
+    "fileName":"bw-2.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_2",
     "anatomyName": "Scaphoid",
@@ -1459,7 +1459,7 @@
 
   { 
     "id":"52895bb4-41a3-4fc7-95be-690e98bb1372", 
-    "filePath":"frontend\\src\\images\\embroideries\\anna-novitzky.jpg",
+    "fileName":"anna-novitzky.jpg",
     "authorOrigin": "Misc",
     "authorName": "Anna Novitzky",
     "anatomyName": "Scaphoid",
@@ -1468,7 +1468,7 @@
 
   { 
     "id":"a1a5476c-941a-4cf7-a0ac-cc6990b60a72", 
-    "filePath":"frontend\\src\\images\\embroideries\\jaele-rollins.jpg",
+    "fileName":"jaele-rollins.jpg",
     "authorOrigin": "Med",
     "authorName": "Jaele Rollins",
     "anatomyName": "Secret Compartment",
@@ -1477,7 +1477,7 @@
 
   { 
     "id":"45f396b2-8d96-4b34-b80e-c62d253f2763", 
-    "filePath":"frontend\\src\\images\\embroideries\\zakia-alwi.jpg",
+    "fileName":"zakia-alwi.jpg",
     "authorOrigin": "Med",
     "authorName": "Zakia Alwi",
     "anatomyName": "Secret Compartment",
@@ -1486,7 +1486,7 @@
 
   { 
     "id":"a09016e2-c633-4523-86df-b31fbcb85d64", 
-    "filePath":"frontend\\src\\images\\embroideries\\prof-alice-roberts.jpg",
+    "fileName":"prof-alice-roberts.jpg",
     "authorOrigin": "Med",
     "authorName": "Prof Alice Roberts",
     "anatomyName": "Secret Compartment",
@@ -1495,7 +1495,7 @@
 
   { 
     "id":"93c5f770-43eb-439d-a29f-2e869eefc2a5", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-10.jpg",
+    "fileName":"bw-10.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_10",
     "anatomyName": "Skeleton Rays",
@@ -1504,7 +1504,7 @@
 
   { 
     "id":"c8390f91-0f87-4e55-ac9b-9a465fdafa79", 
-    "filePath":"frontend\\src\\images\\embroideries\\charlotte-rycroft.jpg",
+    "fileName":"charlotte-rycroft.jpg",
     "authorOrigin": "Med",
     "authorName": "Charlotte Rycroft",
     "anatomyName": "Tendon Synovial Sheaths",
@@ -1513,7 +1513,7 @@
 
   { 
     "id":"b48d72bc-0b8c-43d6-9bee-1f162a7ec3e8", 
-    "filePath":"frontend\\src\\images\\embroideries\\pheobe-drew.jpg",
+    "fileName":"pheobe-drew.jpg",
     "authorOrigin": "Med",
     "authorName": "Pheobe Drew",
     "anatomyName": "TFC Axial",
@@ -1522,7 +1522,7 @@
 
   { 
     "id":"e10de6f7-786d-45b3-91f8-3b2643546ee1", 
-    "filePath":"frontend\\src\\images\\embroideries\\kath-walls.jpg",
+    "fileName":"kath-walls.jpg",
     "authorOrigin": "Misc",
     "authorName": "Kath Walls",
     "anatomyName": "TFC Axial",
@@ -1531,7 +1531,7 @@
 
   { 
     "id":"ab6cb6a9-338f-44d3-bb33-44ba1ac40e5c", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-8.jpg",
+    "fileName":"bw-8.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_8",
     "anatomyName": "TFC Dorsal",
@@ -1540,7 +1540,7 @@
 
   { 
     "id":"e11ad483-ecf6-49e1-9e6d-a2702b2f3ce4", 
-    "filePath":"frontend\\src\\images\\embroideries\\freya-webb.jpg",
+    "fileName":"freya-webb.jpg",
     "authorOrigin": "Med",
     "authorName": "Freya Webb",
     "anatomyName": "TFC Dorsal",
@@ -1549,7 +1549,7 @@
 
   { 
     "id":"77721619-a55d-4e0e-86aa-832d6cf50f74", 
-    "filePath":"frontend\\src\\images\\embroideries\\hyesung-jang.jpg",
+    "fileName":"hyesung-jang.jpg",
     "authorOrigin": "Med",
     "authorName": "Hyesung Jang",
     "anatomyName": "TFC Palmar",
@@ -1558,7 +1558,7 @@
 
   { 
     "id":"f9d12675-ab65-47c6-bd33-c6dfb2a6a6d1", 
-    "filePath":"frontend\\src\\images\\embroideries\\cliona-kirwan.jpg",
+    "fileName":"cliona-kirwan.jpg",
     "authorOrigin": "Med",
     "authorName": "Cliona Kirwan",
     "anatomyName": "Three Long Flexors",
@@ -1567,7 +1567,7 @@
 
   { 
     "id":"e90b9f5e-1e78-43f4-9be5-cb0b8d396afa", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-7.jpg",
+    "fileName":"bw-7.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_7",
     "anatomyName": "Thumb CMC",
@@ -1576,7 +1576,7 @@
 
   { 
     "id":"c9c2ca17-e3ca-4526-aba4-84e4cd9c06a9", 
-    "filePath":"frontend\\src\\images\\embroideries\\luciana-conti-kirkwood.jpg",
+    "fileName":"luciana-conti-kirkwood.jpg",
     "authorOrigin": "Med",
     "authorName": "Luciana Conti Kirkwood",
     "anatomyName": "Thumb CMC",
@@ -1585,7 +1585,7 @@
 
   { 
     "id":"1c5a3e16-5200-43e0-979f-74d1c7d6c83c", 
-    "filePath":"frontend\\src\\images\\embroideries\\ann-taverner.jpg",
+    "fileName":"ann-taverner.jpg",
     "authorOrigin": "Guild",
     "authorName": "Ann Taverner",
     "anatomyName": "Thumb Opposition",
@@ -1594,7 +1594,7 @@
 
   { 
     "id":"12d38c9e-0711-4a3e-b2b2-bc26157e12f3", 
-    "filePath":"frontend\\src\\images\\embroideries\\gillian-reid.jpg",
+    "fileName":"gillian-reid.jpg",
     "authorOrigin": "Guild",
     "authorName": "Gillian Reid",
     "anatomyName": "Thumb Opposition Meta",
@@ -1603,7 +1603,7 @@
 
   { 
     "id":"71d5b653-c868-4cc0-95f0-ca27914f6a4d", 
-    "filePath":"frontend\\src\\images\\embroideries\\helena-law.jpg",
+    "fileName":"helena-law.jpg",
     "authorOrigin": "Med",
     "authorName": "Helena Law",
     "anatomyName": "Thumb Opposition Meta",
@@ -1612,7 +1612,7 @@
 
   { 
     "id":"719a753e-2d99-4e99-aac4-f0905cd320f8", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-11.jpg",
+    "fileName":"pinc-11.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_11",
     "anatomyName": "Thumb Opposition Meta",
@@ -1621,7 +1621,7 @@
 
   { 
     "id":"c75bcdb0-e0ad-40e6-b083-d1eaf16286ea", 
-    "filePath":"frontend\\src\\images\\embroideries\\kathy-hoolahan.jpg",
+    "fileName":"kathy-hoolahan.jpg",
     "authorOrigin": "Guild",
     "authorName": "Kathy Hoolahan",
     "anatomyName": "Thumb Opposition Pinch",
@@ -1630,7 +1630,7 @@
 
   { 
     "id":"47f3e69e-9437-4068-82bb-32c172490e6f", 
-    "filePath":"frontend\\src\\images\\embroideries\\esha-matharu.jpg",
+    "fileName":"esha-matharu.jpg",
     "authorOrigin": "Med",
     "authorName": "Esha Matharu",
     "anatomyName": "Thumb Opposition Pinch",
@@ -1639,7 +1639,7 @@
 
   { 
     "id":"01ca97c0-28c8-48a8-a92a-5774d6592f41", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-5.jpg",
+    "fileName":"bw-5.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_5",
     "anatomyName": "Thumb Opposition Pinch 2",
@@ -1648,7 +1648,7 @@
 
   { 
     "id":"6c8dc715-83c6-4c9c-81b0-fcfa9214b8ab", 
-    "filePath":"frontend\\src\\images\\embroideries\\hilary-creswell.jpg",
+    "fileName":"hilary-creswell.jpg",
     "authorOrigin": "Guild",
     "authorName": "Hilary Creswell",
     "anatomyName": "Thumb Opposition Pinch 2",
@@ -1657,7 +1657,7 @@
 
   { 
     "id":"0ae00d73-e266-4ee5-af1a-5797e75c2d50", 
-    "filePath":"frontend\\src\\images\\embroideries\\griselde-goldsbrough.jpg",
+    "fileName":"griselde-goldsbrough.jpg",
     "authorOrigin": "Misc",
     "authorName": "Griselde Goldsbrough",
     "anatomyName": "Thumb Opposition Pinch 2",
@@ -1666,7 +1666,7 @@
 
   { 
     "id":"e507ae4f-73b9-4f3e-b8e5-9ea0c2491020", 
-    "filePath":"frontend\\src\\images\\embroideries\\chloe-ablett.jpg",
+    "fileName":"chloe-ablett.jpg",
     "authorOrigin": "Med",
     "authorName": "Chloe Ablett",
     "anatomyName": "Thumb Pulleys",
@@ -1675,7 +1675,7 @@
 
   { 
     "id":"9f97ba1d-fdf4-4262-9bea-a8af7eeddbab", 
-    "filePath":"frontend\\src\\images\\embroideries\\donna-griffith.jpg",
+    "fileName":"donna-griffith.jpg",
     "authorOrigin": "Misc",
     "authorName": "Donna Griffith",
     "anatomyName": "Thumb Pulleys",
@@ -1684,7 +1684,7 @@
 
   { 
     "id":"2529615b-158c-4b53-8b85-f7c0a62518fb", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-9.jpg",
+    "fileName":"bw-9.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_9",
     "anatomyName": "Thumb Skel FPB",
@@ -1693,7 +1693,7 @@
 
   { 
     "id":"35c80ff4-6d71-4926-8f11-7bd10cc148a4", 
-    "filePath":"frontend\\src\\images\\embroideries\\gareth-evans.jpg",
+    "fileName":"gareth-evans.jpg",
     "authorOrigin": "Misc",
     "authorName": "Gareth Evans",
     "anatomyName": "Thumb Skel FPB",
@@ -1702,7 +1702,7 @@
 
   { 
     "id":"abefe7af-cd95-4827-82c2-743ee1d655d0", 
-    "filePath":"frontend\\src\\images\\embroideries\\tricia-tay.jpg",
+    "fileName":"tricia-tay.jpg",
     "authorOrigin": "Med",
     "authorName": "Tricia Tay",
     "anatomyName": "Thumb with Skel",
@@ -1711,7 +1711,7 @@
 
   { 
     "id":"fd635f2b-6d2a-44b9-9795-5282640d3343", 
-    "filePath":"frontend\\src\\images\\embroideries\\beriz-abdullah.jpg",
+    "fileName":"beriz-abdullah.jpg",
     "authorOrigin": "Med",
     "authorName": "beriz Abdullah",
     "anatomyName": "Trapizium",
@@ -1720,7 +1720,7 @@
 
   { 
     "id":"2beee4a6-a5d7-4b58-ad94-963ff6187ca1", 
-    "filePath":"frontend\\src\\images\\embroideries\\pinc-8.jpg",
+    "fileName":"pinc-8.jpg",
     "authorOrigin": "missing",
     "authorName": "Pinc_8",
     "anatomyName": "Trapizium",
@@ -1729,7 +1729,7 @@
 
   { 
     "id":"471548c0-8140-4cd8-989f-8afe8be71683", 
-    "filePath":"frontend\\src\\images\\embroideries\\beth-macallister.jpg",
+    "fileName":"beth-macallister.jpg",
     "authorOrigin": "Med",
     "authorName": "Beth MacAllister",
     "anatomyName": "Vascular Supply",
@@ -1738,7 +1738,7 @@
 
   { 
     "id":"13c8e369-72d1-4743-a712-9e027c53a521", 
-    "filePath":"frontend\\src\\images\\embroideries\\sidra-hasan.jpg",
+    "fileName":"sidra-hasan.jpg",
     "authorOrigin": "Med",
     "authorName": "Sidra Hasan",
     "anatomyName": "Vascular Supply",
@@ -1747,7 +1747,7 @@
 
   { 
     "id":"f54240cb-bd5e-42af-a79d-49aa0583c878", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-1.jpg",
+    "fileName":"bw-1.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_1",
     "anatomyName": "Vinculi Long and Short",
@@ -1756,7 +1756,7 @@
 
   { 
     "id":"92c3d34c-7c36-44e3-a804-159d90c64ddd", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-13.jpg",
+    "fileName":"bw-13.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_13",
     "anatomyName": "Volar Plate Flex",
@@ -1765,7 +1765,7 @@
 
   { 
     "id":"e058c36a-37b8-413f-ab60-5f112f393247", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-3.jpg",
+    "fileName":"bw-3.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_3",
     "anatomyName": "X Sec of Thumb",
@@ -1774,7 +1774,7 @@
 
   { 
     "id":"021b84b7-f492-46ec-bed4-1e882a28d9bd", 
-    "filePath":"frontend\\src\\images\\embroideries\\katherine-mcmenzie.jpg",
+    "fileName":"katherine-mcmenzie.jpg",
     "authorOrigin": "Med",
     "authorName": "Katherine McMenzie",
     "anatomyName": "X Sec of Thumb",
@@ -1783,7 +1783,7 @@
 
   { 
     "id":"bc4e080c-efc4-4529-b8d9-6c6ebd6aeb45", 
-    "filePath":"frontend\\src\\images\\embroideries\\bw-6.jpg",
+    "fileName":"bw-6.jpg",
     "authorOrigin": "missing",
     "authorName": "BW_6",
     "anatomyName": "X Sect Digit",
@@ -1792,7 +1792,7 @@
 
   { 
     "id":"d75654e1-5829-4775-8edc-e7aa7cf750bb", 
-    "filePath":"frontend\\src\\images\\embroideries\\miriam-beattie.jpg",
+    "fileName":"miriam-beattie.jpg",
     "authorOrigin": "Med",
     "authorName": "Miriam Beattie",
     "anatomyName": "X Sect Digit",
@@ -1801,7 +1801,7 @@
 
   { 
     "id":"7b43356c-0fe9-4d8f-90e7-e207a517e31d", 
-    "filePath":"frontend\\src\\images\\embroideries\\eleanor-fletcher.jpg",
+    "fileName":"eleanor-fletcher.jpg",
     "authorOrigin": "Med",
     "authorName": "Eleanor Fletcher",
     "anatomyName": "XSec Metac Head",
@@ -1810,7 +1810,7 @@
 
   { 
     "id":"d0ab00d5-0c26-4637-b153-bbf7677f7ce4", 
-    "filePath":"frontend\\src\\images\\embroideries\\joy-bradshaw.jpg",
+    "fileName":"joy-bradshaw.jpg",
     "authorOrigin": "Misc",
     "authorName": "Joy Bradshaw",
     "anatomyName": "XSec Metac Head",
