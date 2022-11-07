@@ -6,16 +6,33 @@ const AppBarSection = styled.section`
 `;
 
 const AppBarBody = styled.div`
-  background-color: ${props => props.theme.BACKGROUND_COLOUR};
+  background-color: ${props => props.theme.APPBAR_BACKGROUND};
   color: ${props => props.theme.APPBAR_TEXT};
-  height: 30px;
-  padding: 10px;
+  height: 45px;
   border-radius: 0px;
   display: flex;
+  flex-direction: row;
   grid-auto-flow: column;
-  box-shadow: ${props => props.theme.BOX_SHADOW};
+  justify-content: space-between;
   align-items: center;
+  box-shadow: ${props => props.theme.BOX_SHADOW};
+`;
+
+const AppBarHomePageWrapper = styled.div`
+  display: inline;
+  height: 100%;
+`;
+
+const AppBarPagesWrapper = styled.div`
+  display: flex;
+  padding: 10px;
   justify-content: flex-end;
+`;
+
+const AppBarLogo = styled.img`
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
 `;
 
 const AppBarButton = styled.button`
@@ -38,5 +55,8 @@ const AppBarButton = styled.button`
 export {
     AppBarSection,
     AppBarBody,
+    AppBarHomePageWrapper,
+    AppBarPagesWrapper,
+    AppBarLogo,
     AppBarButton
-};
+  };

@@ -1,67 +1,68 @@
 /* eslint-disable react/prop-types */
-import React from 'react';
+import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useState } from 'react';
+import MediaQuery from 'react-responsive';
 import * as s from './AppBar.theme';
+import logo from '../../util/logo/logo.jpg';
 
+enum AppBarPages {
+    HOME,
+    ABOUT,
+    EXPLORE
+}
 
 export const AppBar: React.FC = () => {
   const navigate = useNavigate();
 
-  const [isOnHomePage, setIsOnHomePage] = useState(false);
-  const [isOnAboutPage, setIsOnAboutPage] = useState(false);
-  const [isOnExplorePage, setIsOnExplorePage] = useState(false);
+  const [page, setPage] = useState(AppBarPages.HOME);
 
 
   const navigateToHomePage = () => {
-    if (isOnHomePage == false) {
-      setIsOnHomePage(true);
+    if (page !== AppBarPages.HOME) {
+      setPage(AppBarPages.HOME);
       navigate('/');
     }
-    setIsOnAboutPage(false);
-    setIsOnHomePage(false);
   };
 
   const navigateToAboutPage = () => {
-    if (isOnAboutPage == false) {
-      setIsOnAboutPage(true);
+    if (page !== AppBarPages.ABOUT) {
+      setPage(AppBarPages.ABOUT);
       navigate('/about');
     }
-    setIsOnHomePage(false);
-    setIsOnExplorePage(false);
   }
 
   const navigateToExplorePage = () => {
-    if (isOnExplorePage == false) {
-      setIsOnExplorePage(true);
+    if (page !== AppBarPages.EXPLORE) {
+      setPage(AppBarPages.EXPLORE);
       navigate('/explore');
     }
-    setIsOnHomePage(false);
-    setIsOnAboutPage(false);
   };
 
   return (
   <s.AppBarBody>
+    <s.AppBarHomePageWrapper>
+      <s.AppBarLogo src={logo} alt="Home" onClick={navigateToHomePage}/>
+    </s.AppBarHomePageWrapper>
 
-    <s.AppBarSection>
-      <s.AppBarButton onClick={navigateToHomePage}>Home</s.AppBarButton>
-    </s.AppBarSection>
+    <MediaQuery minWidth={800}>
+      <s.AppBarPagesWrapper>
+        <s.AppBarSection>
+          <s.AppBarButton onClick={navigateToAboutPage}>About</s.AppBarButton>
+        </s.AppBarSection>
 
-    <s.AppBarSection>
-      <span>|</span>
-    </s.AppBarSection>
+        <s.AppBarSection>
+          <span>|</span>
+        </s.AppBarSection>
 
-    <s.AppBarSection>
-      <s.AppBarButton onClick={navigateToAboutPage}>About</s.AppBarButton>
-    </s.AppBarSection>
+        <s.AppBarSection>
+          <s.AppBarButton onClick={navigateToExplorePage}>Explore</s.AppBarButton>
+        </s.AppBarSection>
+      </s.AppBarPagesWrapper>
+    </MediaQuery>
 
-    <s.AppBarSection>
-      <span>|</span>
-    </s.AppBarSection>
-
-    <s.AppBarSection>
-      <s.AppBarButton onClick={navigateToExplorePage}>Explore</s.AppBarButton>
-    </s.AppBarSection>
+    <MediaQuery maxWidth={800}>
+      <i className="fa-solid fa-bars"></i>
+    </MediaQuery>
 
   </s.AppBarBody>
 
