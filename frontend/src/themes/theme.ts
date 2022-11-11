@@ -26,6 +26,7 @@ export const defaultTheme: DefaultTheme = {
     APPBAR_BACKGROUND: '#070600',
     APPBAR_FONT_SIZE: '18px',
     APPBAR_BUTTON_HOVER_STATE_COLOR: '#78756e',
+    APPBAR_BARS_BUTTON_COLOR: '#E0914F',
 
     BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
 

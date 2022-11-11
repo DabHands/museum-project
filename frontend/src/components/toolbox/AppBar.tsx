@@ -61,7 +61,9 @@ export const AppBar: React.FC = () => {
     </MediaQuery>
 
     <MediaQuery maxWidth={800}>
-      <i className="fa-solid fa-bars"></i>
+      <s.AppBarBarsButton>
+        <i className="fa-solid fa-bars fa-2xl"></i>
+      </s.AppBarBarsButton>
     </MediaQuery>
 
   </s.AppBarBody>

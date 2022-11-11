@@ -28,6 +28,7 @@ declare module 'styled-components' {
         APPBAR_BACKGROUND: string;
         APPBAR_FONT_SIZE: string;
         APPBAR_BUTTON_HOVER_STATE_COLOR: string;
+        APPBAR_BARS_BUTTON_COLOR: string;
 
         BOX_SHADOW: string;
         ROW_DIVIDER: string;

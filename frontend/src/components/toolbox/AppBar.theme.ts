@@ -52,11 +52,21 @@ const AppBarButton = styled.button`
   }
 `;
 
+const AppBarBarsButton = styled.button`
+  background-color : ${props => props.theme.APPBAR_BACKGROUND};
+  color: ${props => props.theme.APPBAR_BARS_BUTTON_COLOR};
+  border: none;
+  max-width: 100%;
+  height: 100%;
+  object-fit: contain;
+`;
+
 export {
     AppBarSection,
     AppBarBody,
     AppBarHomePageWrapper,
     AppBarPagesWrapper,
     AppBarLogo,
-    AppBarButton
+    AppBarButton,
+    AppBarBarsButton
   };
