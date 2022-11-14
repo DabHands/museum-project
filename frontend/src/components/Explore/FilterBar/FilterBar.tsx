@@ -5,27 +5,36 @@ import { Embroidery, OriginTypes } from '../../../types/types';
 import { OriginFilter } from './OriginFilter/OriginFilter';
 
 interface Props {
-    filteredEmbroideries: Embroidery[],
     setFilteredEmbroideries: React.Dispatch<React.SetStateAction<Embroidery[]>>
 }
 
 export const FilterBar: React.FC<Props> = (
-    { filteredEmbroideries, setFilteredEmbroideries }
+    { setFilteredEmbroideries }
 ) => {
 
     const [origins, setOrigins] = useState<OriginTypes[]>();
 
+    const [currentFilter, setCurrentFilter] = useState<Embroidery[]>(AllEmbroideries);
+
     //Use Effect to filter Filtered Embroideries
     useEffect(() => {
-        setFilteredEmbroideries(AllEmbroideries)
+        //Reset the filter
+        setCurrentFilter(AllEmbroideries)
+
+        //Only filter if we have origins
         if (origins && origins.length > 0) {
+
+            //Set the current filtered values with
             setFilteredEmbroideries(
-                filteredEmbroideries.filter(e => 
+                //BUG TO FIX - If i use setCurrentFilter here it doesn't work when I delete/add new origins. State issue?
+                currentFilter.filter(e => 
                     origins?.includes(e.authorOrigin)
                 )
             )
         }
-        
+
+        //Finally set the actual filtered embroideries
+        //setFilteredEmbroideries(currentFilter)
     }, [origins]);
     
     return (

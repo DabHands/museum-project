@@ -41,7 +41,6 @@ export const Explore: React.FC = () => {
 
     const renderFilterBar = () => {
         return <FilterBar
-            filteredEmbroideries={filteredEmbroideries}
             setFilteredEmbroideries={setFilteredEmbroideries}
         />
     };

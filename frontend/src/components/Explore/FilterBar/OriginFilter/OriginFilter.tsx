@@ -25,6 +25,7 @@ export const OriginFilter: React.FC<Props> = (
             label: string;
         }>
     ) => {
+        //console.log(newValue.map(val => val.label as OriginTypes))
         setOrigins(newValue.map(val => val.label as OriginTypes))
     }
     
