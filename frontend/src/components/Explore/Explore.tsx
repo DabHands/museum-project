@@ -4,6 +4,7 @@ import { MainButton } from '../toolbox/Buttons';
 import * as s from './Explore.theme';
 import { GridView } from './GridView/GridView';
 import { ListView } from './ListView/ListView';
+import { FilterBar } from './FilterBar/FilterBar';
 
 enum ExploreView {
     LIST,
@@ -12,7 +13,7 @@ enum ExploreView {
 
 export const Explore: React.FC = () => {
     const [view, setView] = useState(ExploreView.GRID);
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    
     const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
 
     const toggleState = () => {
@@ -35,13 +36,21 @@ export const Explore: React.FC = () => {
         )
     };
 
+    
+
+    const renderFilterBar = () => {
+        return <FilterBar
+            setFilteredEmbroideries={setFilteredEmbroideries}
+        />
+    };
+
     const renderListView = () => {
         return (
             <ListView
                 filteredEmbroideries={filteredEmbroideries}
-            />  
+            />
         )
-    }
+    };
 
     const renderGridView = () => {
         return (
@@ -58,8 +67,12 @@ export const Explore: React.FC = () => {
                 <s.Title>Explore</s.Title>
                 {renderToggleButton()}
             </s.TopBar>
+            {
+                renderFilterBar()
+            }
             {view === ExploreView.GRID ?
                 renderGridView() : renderListView()}
+            
         </s.PageWrapper>
     )
 };
