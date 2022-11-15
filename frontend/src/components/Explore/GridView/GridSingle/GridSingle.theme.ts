@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Box = styled.div`
@@ -45,4 +46,9 @@ const Origin = styled.div`
     color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
 `;
 
-export { Box, Details, Name, Anatomy, Origin, Thumbnail };
+const PageLink = styled(Link)`
+    text-decoration: none;
+    color: ${props => props.theme.BUTTON_BASIC_TEXT};;
+`;
+
+export { Box, Details, Name, Anatomy, Origin, Thumbnail, PageLink };
