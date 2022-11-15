@@ -47,7 +47,7 @@ const EmbroideryTableCell = styled.div<{ toCentre?: boolean }>`
 
 const PageLink = styled(Link)`
     text-decoration: none;
-    color: ${props => props.theme.BUTTON_BASIC_TEXT};;
+    color: ${props => props.theme.BUTTON_BASIC_TEXT};
 `;
 
 export {

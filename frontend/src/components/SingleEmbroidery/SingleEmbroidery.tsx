@@ -10,18 +10,18 @@ export const SingleEmbroidery: React.FC = () => {
     //Now to get the emboidery itself
     const em = AllEmbroideries.find(e => e.id === id)
     //And get the anatomy that uses it
-    const an = em ? AllAnatomies.find(a => a.name === em.anatomy_name) : null;
+    const an = em ? AllAnatomies.find(a => a.name === em.anatomyName) : null;
 
     const renderLeftPanel = () => {
         return (
             <>
                 {em
-                    ? <s.Thumbnail src={process.env.PUBLIC_URL + em.file_path} />
+                    ? <s.Thumbnail src={require(`../../images/embroideries/${em.fileName}`)} />
                     : <p>No Image Found</p>
                 }
                 <s.BelowImageBox>
-                    <s.AuthorName>{em ? em.author_name : 'No author found'}</s.AuthorName>
-                    <s.AuthorOrigin>{em ? em.author_origin : ' '}</s.AuthorOrigin>
+                    <s.AuthorName>{em ? em.authorName : 'No author found'}</s.AuthorName>
+                    <s.AuthorOrigin>{em ? em.authorOrigin : ' '}</s.AuthorOrigin>
                 </s.BelowImageBox>
                 
                 
