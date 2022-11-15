@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-//import * as s from './FilterBar.theme';
-import Select, { ActionMeta, MultiValue} from 'react-select'
+import React from 'react';
+import * as s from './OriginFilter.theme';
+import Select, { MultiValue } from 'react-select'
 import { OriginTypes } from '../../../../types/types';
 
 interface Props {
@@ -25,13 +25,14 @@ export const OriginFilter: React.FC<Props> = (
             label: string;
         }>
     ) => {
-        //console.log(newValue.map(val => val.label as OriginTypes))
         setOrigins(newValue.map(val => val.label as OriginTypes))
     }
     
 
-    return (<><p>Origins</p>
-        <Select
+    return (<>
+        <p>Origins</p>
+        <s.Select>
+            <Select
             className="basic-single"
             classNamePrefix="select"
             placeholder='Select Origins'
@@ -39,6 +40,8 @@ export const OriginFilter: React.FC<Props> = (
             options={options}
             isMulti
         />
+        </s.Select>
+        
     </>
     )
     

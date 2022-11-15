@@ -32,10 +32,14 @@ export const FilterBar: React.FC<Props> = (
     }, [origins]);
     
     return (
-        <>
-            <p>Filter Bar</p>
-            <OriginFilter setOrigins={setOrigins}/>
-        </>
+        <s.FilterWrapper>
+            <s.Title>Filters</s.Title>
+
+            <s.Filter>
+                <OriginFilter setOrigins={setOrigins}/>
+            </s.Filter>
+            
+        </s.FilterWrapper>
     )
     
 }
