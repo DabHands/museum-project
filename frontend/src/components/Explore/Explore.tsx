@@ -4,7 +4,6 @@ import { MainButton } from '../toolbox/Buttons';
 import * as s from './Explore.theme';
 import { GridView } from './GridView/GridView';
 import { ListView } from './ListView/ListView';
-import Select, { InputActionMeta } from 'react-select'
 import { FilterBar } from './FilterBar/FilterBar';
 
 enum ExploreView {
