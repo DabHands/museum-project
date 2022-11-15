@@ -9,7 +9,7 @@ export type Embroidery = {
     position?: Coordinates
 }
 
-export type OriginTypes = 'BW' | 'Guild' | 'Med' |'Misc';
+export type OriginTypes = 'BW' | 'Guild' | 'Med' | 'Misc';
 
 export type Coordinates = { //This is for Adelina to mess with later
     x: number,
