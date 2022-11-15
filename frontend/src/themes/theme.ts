@@ -8,7 +8,8 @@ export const defaultTheme: DefaultTheme = {
     colours: {
         MAIN: '#660099',
         SECONDARY: '#fbba25',
-        SHADING: '#999999'
+        SHADING: '#999999',
+        LIGHT: '#ecede8',
     },
 
     BUTTON_TEXT: '#FFFFFF',
@@ -20,6 +21,13 @@ export const defaultTheme: DefaultTheme = {
     BUTTON_BASIC: '#d8d7dc',
     BUTTON_BASIC_TEXT: '#171717',
     BUTTON_BASIC_HOVER: '#c2c1c6',
+
+    APPBAR_TEXT: '#F7D69E',
+    APPBAR_BACKGROUND: '#070600',
+    APPBAR_FONT_SIZE: '18px',
+    APPBAR_BUTTON_HOVER_STATE_COLOR: '#78756e',
+    APPBAR_BARS_BUTTON_COLOR: '#E0914F',
+
     BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
 
     ROW_DIVIDER: 'solid 1.5px rgba(0, 0,0,.1)',
