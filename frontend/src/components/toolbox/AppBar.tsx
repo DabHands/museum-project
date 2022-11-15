@@ -60,11 +60,11 @@ export const AppBar: React.FC = () => {
       </s.AppBarPagesWrapper>
     </MediaQuery>
 
-    <MediaQuery maxWidth={800}>
+    {/* <MediaQuery maxWidth={800}>
       <s.AppBarBarsButton>
         <i className="fa-solid fa-bars fa-2xl"></i>
       </s.AppBarBarsButton>
-    </MediaQuery>
+    </MediaQuery> */}
 
   </s.AppBarBody>
 
