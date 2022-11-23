@@ -31,6 +31,15 @@ declare module 'styled-components' {
       MENU_BORDER: string
     }
 
+    homepage_colours: {
+      HEADING: string,
+      BUTTON: string,
+      TEXT: string,
+      BUTTON_HOVER: string,
+      TEXT_BUTTON: string,
+      TEXT_BUTTON_HOVER: string,
+    },
+
     BOX_SHADOW: string;
     ROW_DIVIDER: string;
   }

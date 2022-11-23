@@ -8,6 +8,7 @@ import { Explore } from './components/Explore/Explore';
 import { AppBar } from './components/toolbox/AppBar';
 import { Model } from './components/Model/Model';
 import { ImageScan } from './components/ImageScan/ImageScan';
+import NavigationProvider from './providers/NavigationProvider';
 
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
@@ -17,18 +18,20 @@ const AppWrapper = styled.div`
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <AppWrapper>
-        <AppBar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/explore" element={<Explore />} />
-          <Route path="/model" element={<Model />} />
-          <Route path="/image-scanning" element={<ImageScan />} />
-        </Routes>
-      </AppWrapper>
+      <NavigationProvider>
+        <AppWrapper>
+          <AppBar />
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/explore" element={<Explore />} />
+            <Route path="/model" element={<Model />} />
+            <Route path="/image-scanning" element={<ImageScan />} />
+          </Routes>
+        </AppWrapper>
+      </NavigationProvider>
     </ThemeProvider>
-    
+
   );
 }
 
