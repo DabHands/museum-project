@@ -8,6 +8,7 @@ export const About: React.FC = () => {
 
    const renderArtistsBio = () => {
       return (
+         <>
          <s.ArtistsBio>
             <s.Headshot src={pic}/>
 
@@ -25,7 +26,7 @@ export const About: React.FC = () => {
             <s.BlogLink href='https://www.lucysart.co.uk/'> <SecondaryButton> Visit Lucy&apos;s Website 
             </SecondaryButton></s.BlogLink>
          </s.ArtistsBio>
-         
+         </>
       )
    }
 

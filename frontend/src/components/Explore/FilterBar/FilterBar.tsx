@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { AllEmbroideries } from '../../../data/embroideries';
 import { Embroidery, OriginTypes } from '../../../types/types';
+import { AuthorFilter } from './AuthorFilter/AuthorFilter';
 import * as s from './FilterBar.theme';
 import { OriginFilter } from './OriginFilter/OriginFilter';
 
@@ -13,6 +14,7 @@ export const FilterBar: React.FC<Props> = (
 ) => {
 
     const [origins, setOrigins] = useState<OriginTypes[]>();
+    const [authors, setAuthors] = useState<string[]>();
     
     //Use Effect to filter Filtered Embroideries
     useEffect(() => {
@@ -27,9 +29,17 @@ export const FilterBar: React.FC<Props> = (
             ) 
         }
 
+        //Only filter if we have authors
+        if (authors && authors.length > 0) {
+            //Set the current filtered values with
+            currentFilter = currentFilter.filter(e => 
+                    authors?.includes(e.authorName)
+            ) 
+        }
+
         //Finally set the actual filtered embroideries
         setFilteredEmbroideries(currentFilter)
-    }, [origins]);
+    }, [origins, authors]);
     
     return (
         <s.FilterWrapper>
@@ -37,6 +47,10 @@ export const FilterBar: React.FC<Props> = (
 
             <s.Filter>
                 <OriginFilter setOrigins={setOrigins}/>
+            </s.Filter>
+
+            <s.Filter>
+                <AuthorFilter setAuthors={setAuthors}/>
             </s.Filter>
             
         </s.FilterWrapper>

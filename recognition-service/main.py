@@ -1,5 +1,3 @@
-from typing import Union
-
 from fastapi import FastAPI, status
 
 app = FastAPI()
@@ -9,4 +7,4 @@ async def identify():
     '''
     Simple identification function
     '''
-    return {"name": "Recognition Service", "Author":"Lucy Jefford"}
+    return {"name": "Recognition Service", "author":"Lucy Jefford"}
