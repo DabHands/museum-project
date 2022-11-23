@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import * as s from './Home.theme';
+import needle from '../../util/homepage/needle.jpg';
+import embr from '../../util/homepage/embr.jpg';
+import NavigationContext from '../../contexts/NavigationContext';
 
 export const Home: React.FC = () => {
+  const navigationContext = useContext(NavigationContext);
+
   return (
     <s.PageLayout>
       <s.ImagesContainer>
         <s.Image
-          src="../homepage/needle.jpg"
+          src={needle}
           alt="Needle"
         />
       </s.ImagesContainer>
@@ -18,7 +23,7 @@ export const Home: React.FC = () => {
             itaque minus quae iste hic modi corrupti aut recusandae harum, ipsam
             quibusdam maiores ex non corporis quos.
           </s.Text>
-          <s.TextButton>View 3D Model</s.TextButton>
+          <s.TextButton onClick={navigationContext.navigateToModelPage}>View 3D Model</s.TextButton>
         </s.TextWrapper>
       </s.ModelTextContainer>
 
@@ -31,19 +36,19 @@ export const Home: React.FC = () => {
             magnam accusamus unde dolores blanditiis sunt expedita corrupti,
             repellat minus amet ad?
           </s.Text>
-          <s.TextButton>Scan An Image</s.TextButton>
+          <s.TextButton onClick={navigationContext.navigateToScanImagePage}>Scan An Image</s.TextButton>
         </s.TextWrapper>
       </s.ScanImageTextContainer>
       <s.ImagesContainer>
         <s.Image
-          src="../homepage/embr.jpg"
+          src={embr}
           alt="Embroidery"
         />
       </s.ImagesContainer>
 
       <s.ImagesContainer>
         <s.Image
-          src="../homepage/needle.jpg"
+          src={needle}
           alt="Needle"
         />
       </s.ImagesContainer>
@@ -56,7 +61,7 @@ export const Home: React.FC = () => {
             quibusdam maiores ex non corporis quos facilis consequatur eligendi.
             Veritatis!
           </s.Text>
-          <s.TextButton>Check Out All Embroideries</s.TextButton>
+          <s.TextButton onClick={navigationContext.navigateToExplorePage}>Check Out All Embroideries</s.TextButton>
         </s.TextWrapper>
       </s.ExploreTextContainer>
 
@@ -69,12 +74,12 @@ export const Home: React.FC = () => {
             magnam accusamus unde dolores blanditiis sunt expedita corrupti,
             repellat minus amet ad?
           </s.Text>
-          <s.TextButton>See More About The Artist</s.TextButton>
+          <s.TextButton onClick={navigationContext.navigateToAboutPage}>See More About The Artist</s.TextButton>
         </s.TextWrapper>
       </s.AboutTextContainer>
       <s.ImagesContainer>
         <s.Image
-          src="../homepage/embr.jpg"
+          src={embr}
           alt="Embroidery"
         />
       </s.ImagesContainer>

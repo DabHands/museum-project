@@ -6,7 +6,7 @@ const PageLayout = styled.div`
 
   display: grid;
   grid-template-columns: 1fr 15rem 1fr;
-  grid-template-rows: 20rem 20rem 20rem 20rem;
+  grid-template-rows: 18rem 18rem 18rem 18rem;
 
   row-gap: 8rem;
 `;
@@ -33,35 +33,41 @@ const ModelTextContainer = styled.div`
 const TextWrapper = styled.div``;
 
 const TextHeading = styled.h3`
+  margin: 0;
+  padding: 0;
+
   font-size: 1.8rem;
   font-weight: 600;
-  color: #343a40;
+  color: ${props => props.theme.homepage_colours.HEADING};
   margin-bottom: 1.5rem;
   letter-spacing: 1;
 `;
 
 const Text = styled.p`
-  font-size: 1.4rem;
-  line-height: 1.6;
+  margin: 0;
+  padding: 0;
 
-  color: #495057;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 1.4rem;
+
+  color: ${props => props.theme.homepage_colours.TEXT};
 `;
 
 const TextButton = styled.button`
   border: none;
   background: none;
-  background-color: #343a40;
-  color: #FBC794;
+  background-color: ${props => props.theme.homepage_colours.BUTTON};
+  color: ${props => props.theme.homepage_colours.TEXT_BUTTON};
   cursor: pointer;
   font-size: 1.5rem;
   font-weight: 500;
-  margin-top: 1.4rem;
   padding: 0.7rem 1.4rem;
   border-radius: 0.3rem;
 
   &:hover {
-    background-color: #495057;
-    color: #fad4ad;
+    background-color: ${props => props.theme.homepage_colours.BUTTON_HOVER};
+    color: ${props => props.theme.homepage_colours.TEXT_BUTTON_HOVER};
   }
 `;
 
