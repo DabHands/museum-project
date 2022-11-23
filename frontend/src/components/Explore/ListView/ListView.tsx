@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom';
 import { Embroidery } from '../../../types/types';
 import * as s from './ListView.theme';
 
