@@ -19,7 +19,7 @@ export const FilterBar: React.FC<FilterBarProps> = (
     //Use Effect to filter Filtered Embroideries
     useEffect(() => {
         //Reset the filter
-        let currentFilter = AllEmbroideries
+        let currentFilter = AllEmbroideries;
 
         //Only filter if we have origins
         if (origins && origins.length > 0) {
