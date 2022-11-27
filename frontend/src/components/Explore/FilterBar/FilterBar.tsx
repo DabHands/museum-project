@@ -5,11 +5,11 @@ import { AuthorFilter } from './AuthorFilter/AuthorFilter';
 import * as s from './FilterBar.theme';
 import { OriginFilter } from './OriginFilter/OriginFilter';
 
-interface Props {
+interface FilterBarProps {
     setFilteredEmbroideries: React.Dispatch<React.SetStateAction<Embroidery[]>>
 }
 
-export const FilterBar: React.FC<Props> = (
+export const FilterBar: React.FC<FilterBarProps> = (
     { setFilteredEmbroideries }
 ) => {
 

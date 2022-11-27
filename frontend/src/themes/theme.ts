@@ -4,7 +4,7 @@
 import { DefaultTheme } from 'styled-components'
 export const defaultTheme: DefaultTheme = {
   BACKGROUND_COLOUR: '#FFFFFF',
-  FONT_FAMILY: "Verdana, Geneva, sans-serif",
+  FONT_FAMILY: "Inter, Verdana, Geneva, sans-serif",
   colours: {
     MAIN: '#660099',
     SECONDARY: '#fbba25',
@@ -33,7 +33,7 @@ export const defaultTheme: DefaultTheme = {
   homepage_colours: {
     HEADING: '#343a40',
     BUTTON: '#343a40',
-    TEXT: '#495057',
+    TEXT: '#212529',
     BUTTON_HOVER: '#495057',
     TEXT_BUTTON: '#FBC794',
     TEXT_BUTTON_HOVER: '#fad4ad',
