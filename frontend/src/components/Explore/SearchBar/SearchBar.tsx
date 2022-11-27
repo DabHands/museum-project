@@ -5,11 +5,11 @@ import { Embroidery } from '../../../types/types';
 import * as s from './SearchBar.theme';
 
 interface SearchBarProps {
-  setSearchedEmbroideries: React.Dispatch<React.SetStateAction<Embroidery[]>>
+  setResultEmbroideries: React.Dispatch<React.SetStateAction<Embroidery[]>>
 }
 
 export const SearchBar: React.FC<SearchBarProps> = (
-  { setSearchedEmbroideries }
+  { setResultEmbroideries }
 ) => {
   const [searchInput, setSearchInput] = useState<string>();
 
@@ -27,13 +27,14 @@ export const SearchBar: React.FC<SearchBarProps> = (
     if (searchInput && searchInput.length > 0) {
       //Set the current filtered values with
       currentFilter = currentFilter.filter(e =>
-        e.authorName.includes(searchInput)
-      )
+        (e.authorOrigin.toLowerCase().includes(searchInput.toLowerCase()) || e.authorName.toLowerCase().includes(searchInput.toLowerCase()) || 
+        e.anatomyName.toLowerCase().includes(searchInput.toLowerCase()))
+      );
+
     }
 
     //Finally set the actual filtered embroideries
-    setSearchedEmbroideries(currentFilter);
-    setSearchInput("");
+    setResultEmbroideries(currentFilter);
   };
 
   return (

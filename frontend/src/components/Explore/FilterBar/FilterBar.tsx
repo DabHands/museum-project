@@ -6,11 +6,11 @@ import * as s from './FilterBar.theme';
 import { OriginFilter } from './OriginFilter/OriginFilter';
 
 interface FilterBarProps {
-    setFilteredEmbroideries: React.Dispatch<React.SetStateAction<Embroidery[]>>
+    setResultEmbroideries: React.Dispatch<React.SetStateAction<Embroidery[]>>
 }
 
 export const FilterBar: React.FC<FilterBarProps> = (
-    { setFilteredEmbroideries }
+    { setResultEmbroideries }
 ) => {
 
     const [origins, setOrigins] = useState<OriginTypes[]>();
@@ -38,7 +38,7 @@ export const FilterBar: React.FC<FilterBarProps> = (
         }
 
         //Finally set the actual filtered embroideries
-        setFilteredEmbroideries(currentFilter)
+        setResultEmbroideries(currentFilter)
     }, [origins, authors]);
     
     return (

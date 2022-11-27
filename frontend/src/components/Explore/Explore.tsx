@@ -15,8 +15,7 @@ enum ExploreView {
 export const Explore: React.FC = () => {
   const [view, setView] = useState(ExploreView.GRID);
 
-  const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
-  const [searchedEmbroideries, setSearchedEmbroideries] = useState(AllEmbroideries);
+  const [resultEmbroideries, setResultEmbroideries] = useState(AllEmbroideries);
 
   const toggleState = () => {
     if (view === ExploreView.GRID) {
@@ -38,20 +37,20 @@ export const Explore: React.FC = () => {
 
   const renderFilterBar = () => {
     return <FilterBar
-      setFilteredEmbroideries={setFilteredEmbroideries}
+      setResultEmbroideries={setResultEmbroideries}
     />
   };
 
   const renderSearchBar = () => {
     return <SearchBar 
-      setSearchedEmbroideries={setSearchedEmbroideries}
+      setResultEmbroideries={setResultEmbroideries}
     />
   }
 
   const renderListView = () => {
     return (
       <ListView
-        filteredEmbroideries={filteredEmbroideries}
+        resultEmbroideries={resultEmbroideries}
       />
     )
   };
@@ -59,13 +58,10 @@ export const Explore: React.FC = () => {
   const renderGridView = () => {
     return (
       <GridView
-        filteredEmbroideries={filteredEmbroideries}
+        resultEmbroideries={resultEmbroideries}
       />
-
     )
   };
-
-  console.log(searchedEmbroideries);
 
   return (
     <s.PageWrapper>
@@ -82,7 +78,6 @@ export const Explore: React.FC = () => {
       </s.SearchToggleViewContainer>
       {view === ExploreView.GRID ?
         renderGridView() : renderListView()}
-
     </s.PageWrapper>
   )
 };

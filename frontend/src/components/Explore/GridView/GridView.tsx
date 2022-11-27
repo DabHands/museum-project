@@ -5,16 +5,16 @@ import * as s from './GridView.theme';
 
 
 interface Props {
-    filteredEmbroideries: Embroidery[]
+    resultEmbroideries: Embroidery[]
 }
 
 export const GridView: React.FC<Props> = (
-    { filteredEmbroideries }
+    { resultEmbroideries }
 ) => {
 
     return (
         <s.GridBox>
-            {filteredEmbroideries.map(e =>
+            {resultEmbroideries.map(e =>
                 <GridSingle key={e.id} embroidery={e}/>
             )}
         </s.GridBox>
