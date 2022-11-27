@@ -5,74 +5,79 @@ import * as s from './Explore.theme';
 import { GridView } from './GridView/GridView';
 import { ListView } from './ListView/ListView';
 import { FilterBar } from './FilterBar/FilterBar';
+import { SearchBar } from './SearchBar/SearchBar';
 
 enum ExploreView {
-    LIST,
-    GRID
+  LIST,
+  GRID
 }
 
 export const Explore: React.FC = () => {
-    const [view, setView] = useState(ExploreView.GRID);
-    
-    const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
+  const [view, setView] = useState(ExploreView.GRID);
 
-    const toggleState = () => {
-        if (view === ExploreView.GRID) {
-            setView(ExploreView.LIST)
-        } else {
-            setView(ExploreView.GRID)
-        }
+  const [resultEmbroideries, setResultEmbroideries] = useState(AllEmbroideries);
+
+  const toggleState = () => {
+    if (view === ExploreView.GRID) {
+      setView(ExploreView.LIST)
+    } else {
+      setView(ExploreView.GRID)
     }
+  }
 
-
-    const renderToggleButton = () => {
-        return (
-            <s.ButtonWrapper>
-                <MainButton onClick={toggleState}>
-                    {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
-                </MainButton>
-            </s.ButtonWrapper>
-            
-        )
-    };
-
-    
-
-    const renderFilterBar = () => {
-        return <FilterBar
-            setFilteredEmbroideries={setFilteredEmbroideries}
-        />
-    };
-
-    const renderListView = () => {
-        return (
-            <ListView
-                filteredEmbroideries={filteredEmbroideries}
-            />
-        )
-    };
-
-    const renderGridView = () => {
-        return (
-            <GridView
-                filteredEmbroideries={filteredEmbroideries}
-            /> 
-            
-        )
-    }
-
+  const renderToggleButton = () => {
     return (
-        <s.PageWrapper>
-            <s.TopBar>
-                <s.Title>Explore</s.Title>
-                {renderToggleButton()}
-            </s.TopBar>
-            {
-                renderFilterBar()
-            }
-            {view === ExploreView.GRID ?
-                renderGridView() : renderListView()}
-            
-        </s.PageWrapper>
+      <s.ButtonWrapper>
+        <MainButton onClick={toggleState}>
+          {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
+        </MainButton>
+      </s.ButtonWrapper>
     )
+  };
+
+  const renderFilterBar = () => {
+    return <FilterBar
+      setResultEmbroideries={setResultEmbroideries}
+    />
+  };
+
+  const renderSearchBar = () => {
+    return <SearchBar 
+      setResultEmbroideries={setResultEmbroideries}
+    />
+  }
+
+  const renderListView = () => {
+    return (
+      <ListView
+        resultEmbroideries={resultEmbroideries}
+      />
+    )
+  };
+
+  const renderGridView = () => {
+    return (
+      <GridView
+        resultEmbroideries={resultEmbroideries}
+      />
+    )
+  };
+
+  return (
+    <s.PageWrapper>
+      {
+        renderFilterBar()
+      }
+      <s.SearchToggleViewContainer>
+        {
+          renderSearchBar()
+        }
+        {
+          renderToggleButton()
+        }
+      </s.SearchToggleViewContainer>
+      {view === ExploreView.GRID ?
+        renderGridView() : renderListView()}
+    </s.PageWrapper>
+  )
 };

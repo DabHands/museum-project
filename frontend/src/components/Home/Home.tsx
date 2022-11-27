@@ -9,12 +9,12 @@ export const Home: React.FC = () => {
 
   return (
     <s.PageLayout>
-      <s.ImagesContainer>
+      <s.LeftImagesContainer>
         <s.Image
           src={needle}
           alt="Needle"
         />
-      </s.ImagesContainer>
+      </s.LeftImagesContainer>
       <s.ModelTextContainer>
         <s.TextWrapper>
           <s.TextHeading>3D Model</s.TextHeading>
@@ -39,19 +39,19 @@ export const Home: React.FC = () => {
           <s.TextButton onClick={navigationContext.navigateToScanImagePage}>Scan An Image</s.TextButton>
         </s.TextWrapper>
       </s.ScanImageTextContainer>
-      <s.ImagesContainer>
+      <s.RightImagesContainer>
         <s.Image
           src={embr}
           alt="Embroidery"
         />
-      </s.ImagesContainer>
+      </s.RightImagesContainer>
 
-      <s.ImagesContainer>
+      <s.LeftImagesContainer>
         <s.Image
           src={needle}
           alt="Needle"
         />
-      </s.ImagesContainer>
+      </s.LeftImagesContainer>
       <s.ExploreTextContainer>
         <s.TextWrapper>
           <s.TextHeading>Explore</s.TextHeading>
@@ -77,12 +77,12 @@ export const Home: React.FC = () => {
           <s.TextButton onClick={navigationContext.navigateToAboutPage}>See More About The Artist</s.TextButton>
         </s.TextWrapper>
       </s.AboutTextContainer>
-      <s.ImagesContainer>
+      <s.RightImagesContainer>
         <s.Image
           src={embr}
           alt="Embroidery"
         />
-      </s.ImagesContainer>
+      </s.RightImagesContainer>
     </s.PageLayout>
   )
 }

@@ -1,30 +1,23 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
-const PageWrapper = styled.div`
+const PageWrapper = styled.div``;
+
+const SearchToggleViewContainer = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 0;
+  gap: 5rem;
 `;
 
 const ButtonWrapper = styled.div`
-margin-right: 2rem;
+  margin-right: 2rem;
+
+  display: inline-block;
 `;
-
-const Title = styled.h1`
-    padding-left: 1em;
-    font-size: 20pt;
-`;
-
-const TopBar = styled.div`
-   display: flex;
-    grid-auto-flow: column;
-    box-shadow: ${props => props.theme.BOX_SHADOW};
-    align-items: center;
-    justify-content: space-between;
-`;
-
-
 
 export {
-    PageWrapper,
-    ButtonWrapper,
-    Title,
-    TopBar,
+  PageWrapper,
+  SearchToggleViewContainer,
+  ButtonWrapper,
 };

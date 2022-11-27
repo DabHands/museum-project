@@ -1,20 +1,29 @@
 import styled from 'styled-components';
 
 const PageLayout = styled.div`
-  max-width: 60rem;
+  font-family: Inter, sans-serif;
+  max-width: 45rem;
   margin: 6rem auto;
 
   display: grid;
-  grid-template-columns: 1fr 15rem 1fr;
-  grid-template-rows: 18rem 18rem 18rem 18rem;
+  grid-template-columns: 1fr 10rem 1fr;
+  grid-template-rows: 16rem 16rem 16rem 16rem;
 
   row-gap: 8rem;
 `;
 
-const ImagesContainer = styled.div`
+const LeftImagesContainer = styled.div`
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  
+`;
+
+const RightImagesContainer = styled.div`
+display: flex;
+justify-content: flex-end;
+align-items: center;
+
 `;
 
 const Image = styled.img`
@@ -32,22 +41,26 @@ const ModelTextContainer = styled.div`
 
 const TextWrapper = styled.div``;
 
-const TextHeading = styled.h3`
+const TextHeading = styled.div`
   margin: 0;
   padding: 0;
 
-  font-size: 1.8rem;
+  font-size: 18pt;
   font-weight: 600;
-  color: ${props => props.theme.homepage_colours.HEADING};
+  letter-spacing: -0.5px;
+  color: ${props => props.theme.colours.MAIN};
+  border-bottom: solid 2.5px ${props => props.theme.colours.SECONDARY};
   margin-bottom: 1.5rem;
   letter-spacing: 1;
+  display: inline-block;
+  width: fit-content;
 `;
 
 const Text = styled.p`
   margin: 0;
   padding: 0;
 
-  font-size: 1.2rem;
+  font-size: 13pt;
   line-height: 1.6;
   margin-bottom: 1.4rem;
 
@@ -57,17 +70,18 @@ const Text = styled.p`
 const TextButton = styled.button`
   border: none;
   background: none;
-  background-color: ${props => props.theme.homepage_colours.BUTTON};
-  color: ${props => props.theme.homepage_colours.TEXT_BUTTON};
+  background-color: ${props => props.theme.homepage_colours.TEXT_BUTTON};
+  color: ${props => props.theme.homepage_colours.BUTTON};
+  background-color : ${props => props.theme.colours.SECONDARY};
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 15pt;
   font-weight: 500;
+  letter-spacing: -0.5px;
   padding: 0.7rem 1.4rem;
   border-radius: 0.3rem;
 
   &:hover {
-    background-color: ${props => props.theme.homepage_colours.BUTTON_HOVER};
-    color: ${props => props.theme.homepage_colours.TEXT_BUTTON_HOVER};
+    background-color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
   }
 `;
 
@@ -97,7 +111,8 @@ const AboutTextContainer = styled.div`
 
 export {
   PageLayout,
-  ImagesContainer,
+  LeftImagesContainer,
+  RightImagesContainer,
   Image,
   ModelTextContainer,
   TextWrapper,
