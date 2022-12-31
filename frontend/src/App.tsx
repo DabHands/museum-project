@@ -23,12 +23,13 @@ function App() {
         <AppWrapper>
           <AppBar />
           <Routes>
-            <Route path="/" element={<Home />} />
+            
             <Route path="/about" element={<About />} />
             <Route path="/explore" element={<Explore />} />
             <Route path="/explore/:id" element={<SingleEmbroidery />} />
             <Route path="/model" element={<Model />} />
             <Route path="/image-scanning" element={<ImageScan />} />
+            <Route path="/*" element={<Home />} />
           </Routes>
         </AppWrapper>
       </NavigationProvider>
