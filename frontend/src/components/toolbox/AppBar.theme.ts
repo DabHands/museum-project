@@ -99,6 +99,7 @@ const Menu = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  z-index: 1;
 `;
 
 const MenuPageButton = styled.button`
