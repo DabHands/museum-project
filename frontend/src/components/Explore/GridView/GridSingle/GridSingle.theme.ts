@@ -2,24 +2,24 @@ import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const Box = styled.div`
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-auto-flow: rows;
+    grid-template-columns: 1fr 1fr;
     padding: 2em;
-    margin: 3em 1em 1em 1em;
+    margin: 1em;
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER} ;
     box-shadow: ${props => props.theme.BOX_SHADOW};
-    width: 20rem;
-    min-width: 10rem;
-    height: auto;
+    height: max-content;
 `;
 
 const Thumbnail = styled.img`
-    max-width: 30%;
+    max-width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
     object-fit: cover;
+    
 `;
 
 const Details = styled.div`
