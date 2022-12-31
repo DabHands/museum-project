@@ -1,60 +1,15 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
-import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import React, { useContext, useState } from 'react';
 import MediaQuery from 'react-responsive';
 import * as s from './AppBar.theme';
 import logo from '../../util/logo/logo.jpg';
-
-enum AppBarPages {
-  HOME,
-  EXPLORE,
-  ABOUT,
-  MODEL,
-  SCAN_IMAGE
-}
+import NavigationContext from '../../contexts/NavigationContext';
 
 export const AppBar: React.FC = () => {
-  const navigate = useNavigate();
+  const navigationContext = useContext(NavigationContext);
 
-  const [page, setPage] = useState<AppBarPages>(AppBarPages.HOME);
   const [showMenu, setShowMenu] = useState<boolean>(false);
-
-
-  const navigateToHomePage = () => {
-    if (page !== AppBarPages.HOME) {
-      setPage(AppBarPages.HOME);
-      navigate('/');
-    }
-  };
-
-  const navigateToModelPage = () => {
-    if (page !== AppBarPages.MODEL) {
-      setPage(AppBarPages.MODEL);
-      navigate('/model');
-    }
-  };
-
-  const navigateToScanImagePage = () => {
-    if (page !== AppBarPages.SCAN_IMAGE) {
-      setPage(AppBarPages.SCAN_IMAGE);
-      navigate('/image-scanning');
-    }
-  };
-
-  const navigateToExplorePage = () => {
-    if (page !== AppBarPages.EXPLORE) {
-      setPage(AppBarPages.EXPLORE);
-      navigate('/explore');
-    }
-  };
-
-  const navigateToAboutPage = () => {
-    if (page !== AppBarPages.ABOUT) {
-      setPage(AppBarPages.ABOUT);
-      navigate('/about');
-    }
-  };
 
   const toggleShowMenu = () => {
     setShowMenu(showMenu => !showMenu);
@@ -62,17 +17,17 @@ export const AppBar: React.FC = () => {
 
   return (
     <s.AppBarContainer>
-      <s.HomeButton onClick={navigateToHomePage}>
+      <s.HomeButton onClick={navigationContext.navigateToHomePage}>
         <s.HomeButtonImage src={logo} alt="Dab Hands Logo" />
         <s.HomeButtonText>Dab Hands</s.HomeButtonText>
       </s.HomeButton>
 
       <MediaQuery minWidth={800}>
         <s.PageButtons>
-          <s.PageButton onClick={navigateToModelPage}>3D Model</s.PageButton>
-          <s.PageButton onClick={navigateToScanImagePage}>Scan Image</s.PageButton>
-          <s.PageButton onClick={navigateToExplorePage}>Explore</s.PageButton>
-          <s.PageButton onClick={navigateToAboutPage}>About</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToAboutPage}>About</s.PageButton>
         </s.PageButtons>
       </MediaQuery>
 
@@ -94,10 +49,10 @@ export const AppBar: React.FC = () => {
         </s.MenuButton>
 
         <s.Menu style={{display: showMenu ? '' : 'none'}}>
-          <s.MenuPageButton onClick={navigateToModelPage}>3D Model</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigateToScanImagePage}>Scan Image</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigateToExplorePage}>Explore</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigateToAboutPage}>About</s.MenuPageButton>
+          <s.MenuPageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.MenuPageButton>
+          <s.MenuPageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.MenuPageButton>
+          <s.MenuPageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.MenuPageButton>
+          <s.MenuPageButton onClick={navigationContext.navigateToAboutPage}>About</s.MenuPageButton>
         </s.Menu>
       </MediaQuery>
     </s.AppBarContainer>

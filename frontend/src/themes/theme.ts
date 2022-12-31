@@ -30,6 +30,15 @@ export const defaultTheme: DefaultTheme = {
     MENU_BORDER: '#f2a668',
   },
 
+  homepage_colours: {
+    HEADING: '#343a40',
+    BUTTON: '#343a40',
+    TEXT: '#495057',
+    BUTTON_HOVER: '#495057',
+    TEXT_BUTTON: '#FBC794',
+    TEXT_BUTTON_HOVER: '#fad4ad',
+  },
+
   BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
 
   ROW_DIVIDER: 'solid 1.5px rgba(0, 0,0,.1)',
