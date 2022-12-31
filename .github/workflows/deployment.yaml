@@ -32,6 +32,6 @@ jobs:
         cache-dependency-path: 'frontend/package-lock.json'
     - run: npm ci
     - run: npm run build --if-present
-    - run: git config --global user.email "dhmuseumproject@gmail.com"
-    - run: git config --global user.name "Dab Hands"
+    - run: git config --global user.email "lucyj@hotmail.co.uk"
+    - run: git config --global user.name "LucyJefford"
     - run: npm run deploy
