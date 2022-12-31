@@ -5,7 +5,7 @@ const FilterWrapper = styled.div`
     background-color: ${props => props.theme.colours.MAIN};
     box-shadow: ${props => props.theme.BOX_SHADOW};
     color: ${props => props.theme.BUTTON_TEXT};
-    padding-left: 1rem;
+    padding: 1% 0rem 1% 1rem;
 `;
 
 const Filter = styled.div`
