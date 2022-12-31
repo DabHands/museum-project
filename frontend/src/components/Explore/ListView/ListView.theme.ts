@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 const EmbroideryTable = styled.div`
@@ -44,6 +45,10 @@ const EmbroideryTableCell = styled.div<{ toCentre?: boolean }>`
     justify-content: ${props => props.toCentre ? 'center' : 'initial'} ;
 `;
 
+const PageLink = styled(Link)`
+    text-decoration: none;
+    color: ${props => props.theme.BUTTON_BASIC_TEXT};
+`;
 
 export {
     EmbroideryTable,
@@ -51,4 +56,5 @@ export {
     EmbroideryColumnHeader,
     EmbroideryTableRow,
     EmbroideryTableCell,
+    PageLink,
 };

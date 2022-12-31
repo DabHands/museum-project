@@ -5,6 +5,7 @@ import { About } from './components/About/About';
 import { Home } from './components/Home/Home';
 import { defaultTheme } from './themes/theme';
 import { Explore } from './components/Explore/Explore';
+import { SingleEmbroidery } from './components/SingleEmbroidery/SingleEmbroidery';
 import { AppBar } from './components/toolbox/AppBar';
 import { Model } from './components/Model/Model';
 import { ImageScan } from './components/ImageScan/ImageScan';
@@ -25,6 +26,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/explore" element={<Explore />} />
+            <Route path="/explore/:id" element={<SingleEmbroidery />} />
             <Route path="/model" element={<Model />} />
             <Route path="/image-scanning" element={<ImageScan />} />
           </Routes>
