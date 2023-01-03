@@ -11,4 +11,5 @@ client = TestClient(app)
 def test_read_main():
     response = client.get("/identify")
     assert response.status_code == 200
-    assert response.json() == {"name": "Recognition Service", "Author":"Lucy Jefford"}
+    assert response.json() == {"name": "Recognition Service", "author":"Lucy Jefford"}
+

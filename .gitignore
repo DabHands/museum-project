@@ -26,3 +26,8 @@ __pycache__/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#Images 
+/recognition-service/images/*
+/recognition-service/images.zip
+
