@@ -30,3 +30,4 @@ yarn-error.log*
 #Images 
 /recognition-service/images/*
 /recognition-service/images.zip
+
