@@ -1,19 +1,19 @@
 import React from 'react';
-import * as s from './AuthorFilter.theme';
+import * as s from './AnatomyFilter.theme';
 import Select, { MultiValue } from 'react-select'
 import { AllEmbroideries } from '../../../../data/embroideries';
 
 interface Props {
-    setAuthors: React.Dispatch<React.SetStateAction<string[] | undefined>>
+    setAnatomies: React.Dispatch<React.SetStateAction<string[] | undefined>>
 }
 
-export const AuthorFilter: React.FC<Props> = (
-    { setAuthors }
+export const AnatomyFilter: React.FC<Props> = (
+    { setAnatomies }
 ) => {
 
     
     const options = AllEmbroideries.map(e => { return {
-            value: e.authorName, label: e.authorName }
+            value: e.anatomyName, label: e.anatomyName }
     })
         
     const handleSelectChange = (
@@ -22,23 +22,22 @@ export const AuthorFilter: React.FC<Props> = (
             label: string;
         }>
     ) => {
-        setAuthors(newValue.map(val => val.label))
+        setAnatomies(newValue.map(val => val.label))
     }
     
 
     return (<>
-        <p>Authors</p>
+        <p>Anatomies</p>
         <s.Select>
             <Select
             className="basic-single"
             classNamePrefix="select"
-            placeholder='Select Authors'
+            placeholder='Select Anatomy'
             onChange={handleSelectChange}
             options={options}
             isMulti
         />
         </s.Select>
-        
     </>
     )
     
