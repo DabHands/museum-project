@@ -17,6 +17,7 @@ const AppWrapper = styled.div`
 `;
 
 function App() {
+  console.log(process.env.PUBLIC_URL)
   return (
     <ThemeProvider theme={defaultTheme}>
       <NavigationProvider>
@@ -24,12 +25,12 @@ function App() {
           <AppBar />
           <Routes>
             
-            <Route path="/about" element={<About />} />
-            <Route path="/explore" element={<Explore />} />
-            <Route path="/explore/:id" element={<SingleEmbroidery />} />
-            <Route path="/model" element={<Model />} />
-            <Route path="/image-scanning" element={<ImageScan />} />
-            <Route path="/*" element={<Home />} />
+            <Route path={process.env.PUBLIC_URL + "/about"} element={<About />} />
+            <Route path={process.env.PUBLIC_URL + "/explore"} element={<Explore />} />
+            <Route path={process.env.PUBLIC_URL + "/explore/:id"} element={<SingleEmbroidery />} />
+            <Route path={process.env.PUBLIC_URL + "/model"} element={<Model />} />
+            <Route path={process.env.PUBLIC_URL + "/image-scanning"} element={<ImageScan />} />
+            <Route path={process.env.PUBLIC_URL + "/*"} element={<Home />} />
           </Routes>
         </AppWrapper>
       </NavigationProvider>
