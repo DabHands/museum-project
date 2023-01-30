@@ -16,7 +16,7 @@ export const SingleEmbroidery: React.FC = () => {
         return (
             <>
                 {em
-                    ? <s.Thumbnail src={require(`../../images/embroideries/${em.fileName}`)} />
+                    ? <s.Thumbnail src={require(`../../images/standard/${em.fileName}`)} />
                     : <p>No Image Found</p>
                 }
                 <s.BelowImageBox>
