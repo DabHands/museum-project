@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const AppBarContainer = styled.nav`
   background-color: ${props => props.theme.appbar_colours.BACKGROUND};
-  height: 3.5rem;
+  height: 6rem;
   width: 100vw;
   position: relative;
 
