@@ -3,11 +3,11 @@
 // theme.ts
 import { DefaultTheme } from 'styled-components'
 export const defaultTheme: DefaultTheme = {
-  BACKGROUND_COLOUR: '#FFFFFF',
-  FONT_FAMILY: "Verdana, Geneva, sans-serif",
+  BACKGROUND_COLOUR: 'rgb(255, 232, 212)',
+  FONT_FAMILY: "Montserrat, sans-serif",
   colours: {
-    MAIN: '#660099',
-    SECONDARY: '#fbba25',
+    MAIN: '#463422',
+    SECONDARY: '#af5d0b',
     SHADING: '#999999',
     LIGHT: '#ecede8',
   },
@@ -15,7 +15,7 @@ export const defaultTheme: DefaultTheme = {
   BUTTON_TEXT: '#FFFFFF',
   BUTTON_HOVER: '#52007a',
 
-  BUTTON_SECONDARY_TEXT: '#171717',
+  BUTTON_SECONDARY_TEXT: '#FFFFFF',
   BUTTON_SECONDARY_HOVER: '#e2a721',
 
   BUTTON_BASIC: '#d8d7dc',
