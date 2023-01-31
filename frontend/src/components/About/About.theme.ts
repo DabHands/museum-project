@@ -61,7 +61,7 @@ const Headshot = styled.img`
     max-width: 30%;
     height: auto;
     object-fit: cover;
-    border-radius: 100%;
+    //border-radius: 100%;
     border: solid 3px ${props => props.theme.colours.SECONDARY};
 `;
 
