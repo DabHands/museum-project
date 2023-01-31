@@ -42,4 +42,13 @@ export const defaultTheme: DefaultTheme = {
   BOX_SHADOW: '0 5px 10px rgba(0,0,0,.1)',
 
   ROW_DIVIDER: 'solid 1.5px rgba(0, 0,0,.1)',
+
+  fonts: {
+    size: {
+      SMALL: '16pt',
+      MEDIUM: '20pt',
+      LARGE: '24pt',
+      TINY: '12pt',
+    },
+  }
 };

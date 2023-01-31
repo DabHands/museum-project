@@ -65,11 +65,15 @@ export const Explore: React.FC = () => {
         <s.PageWrapper>
             <s.TopBar>
                 <s.Title>Explore</s.Title>
+                <s.Reminder> Click on the embroideries below to see more information about the anatomy!</s.Reminder>
+
                 {renderToggleButton()}
             </s.TopBar>
+            
             {
                 renderFilterBar()
             }
+            
             {view === ExploreView.GRID ?
                 renderGridView() : renderListView()}
             

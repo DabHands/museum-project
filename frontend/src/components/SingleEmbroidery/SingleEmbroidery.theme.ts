@@ -3,14 +3,14 @@ import styled from 'styled-components'
 
 const EmbroideryName = styled.h1`
     padding-left: 1em;
-    font-size: 20pt;
+    font-size: ${props => props.theme.fonts.size.LARGE};
     padding-bottom: 0.25rem;
     border-bottom: ${props => props.theme.ROW_DIVIDER};
 `;
 
 const AuthorName = styled.h2`
     padding-left: 1em;
-    font-size: 20pt;
+    font-size: LARGE;
     padding-top: 0.25rem;
 `;
 

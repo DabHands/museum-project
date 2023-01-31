@@ -14,6 +14,7 @@ import NavigationProvider from './providers/NavigationProvider';
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
   background-color : ${props => props.theme.BACKGROUND_COLOUR};
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
 `;
 
 function App() {

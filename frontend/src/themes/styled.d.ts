@@ -42,5 +42,14 @@ declare module 'styled-components' {
 
     BOX_SHADOW: string;
     ROW_DIVIDER: string;
+
+    fonts: {
+      size: {
+        SMALL: string,
+        MEDIUM: string,
+        LARGE: string,
+        TINY: string,
+      },
+    },
   }
 }

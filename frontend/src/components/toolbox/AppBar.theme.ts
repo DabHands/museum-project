@@ -15,7 +15,7 @@ const HomeButton = styled.button`
   border: none;
   background: none;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: ${props => props.theme.fonts.size.LARGE};
   font-weight: 500;
   font-family: 'Inter', sans-serif;
   color: ${props => props.theme.appbar_colours.TEXT};
@@ -51,7 +51,7 @@ const PageButtons = styled.div`
 const PageButton = styled.button`
   border: none;
   background: none;
-  font-size: 1.4rem;
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
   color: ${props => props.theme.appbar_colours.TEXT};
   cursor: pointer;
@@ -64,7 +64,7 @@ const PageButton = styled.button`
 const MenuButton = styled.button`
   border: none;
   background: none;
-  font-size: 1.4rem;
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
   font-family: 'Inter', sans-serif;
   cursor: pointer;
@@ -80,7 +80,7 @@ const MenuButton = styled.button`
 const MenuButtonIcon = styled.svg`
   height: 2.5rem;
   width: 2.5rem;
-  font-size: 0.1rem;
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
   color: ${props => props.theme.appbar_colours.BARS_BUTTON_ICON};
 
   &:hover {
@@ -105,7 +105,7 @@ const Menu = styled.div`
 const MenuPageButton = styled.button`
   border: none;
   background: none;
-  font-size: 1.4rem;
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
   font-family: 'Inter', sans-serif;
   color: ${props => props.theme.appbar_colours.TEXT};

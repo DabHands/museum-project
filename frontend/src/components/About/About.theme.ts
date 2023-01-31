@@ -8,7 +8,7 @@ const ArtistsBio = styled.div`
 `;
 
 const ArtistName = styled.div`
-    font-size: 16pt;
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
     color: ${props => props.theme.colours.MAIN};
     border-bottom: solid 1.5px ${props => props.theme.colours.SECONDARY};
     margin-bottom: 1rem;
@@ -16,14 +16,14 @@ const ArtistName = styled.div`
 `;
 
 const ArtistDescription = styled.div`
-    font-size: 11pt;
+    font-size: ${props => props.theme.fonts.size.SMALL};
     padding-bottom: 1rem;
 `;
 
 
 const Title = styled.h1`
     padding-left: 1em;
-    font-size: 20pt;
+    font-size: ${props => props.theme.fonts.size.LARGE};
 `;
 
 const BlogLink = styled.a``;
@@ -51,14 +51,14 @@ const MainPanel = styled.div`
 
 const AuthorPanel = styled.div`
     min-width: 10rem;
-    max-width: 20rem;
+    max-width: 30rem;
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER};
     padding: 2rem;
 `;
 
 const Headshot = styled.img`
-    max-width: 30%;
+    max-width: 20%;
     height: auto;
     object-fit: cover;
     //border-radius: 100%;
@@ -78,7 +78,7 @@ const Funders = styled.img`
 `;
 
 const SponsorTitle = styled.div`
-    font-size: 16pt;
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
     border-bottom: solid 1.5px ${props => props.theme.colours.SECONDARY};
     margin-bottom: 1rem;
     padding-top: 0.5rem;

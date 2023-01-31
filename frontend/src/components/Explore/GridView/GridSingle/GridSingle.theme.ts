@@ -33,16 +33,16 @@ const Details = styled.div`
 `;
 
 const Name = styled.div`
-    font-size: 16pt;
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
     color: ${props => props.theme.colours.MAIN};
 `;
 
 const Anatomy = styled.div`
-    font-size: 12pt;
+    font-size: ${props => props.theme.fonts.size.SMALL};
 `;
 
 const Origin = styled.div`
-    font-size: 12pt;
+    font-size: ${props => props.theme.fonts.size.SMALL};
     color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
 `;
 
