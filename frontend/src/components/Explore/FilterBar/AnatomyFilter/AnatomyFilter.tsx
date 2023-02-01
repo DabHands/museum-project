@@ -27,7 +27,7 @@ export const AnatomyFilter: React.FC<Props> = (
     
 
     return (<>
-        <p>Anatomies</p>
+        <s.Name>Anatomies</s.Name>
         <s.Select>
             <Select
             className="basic-single"

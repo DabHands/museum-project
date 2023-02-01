@@ -5,6 +5,11 @@ const Select = styled.div`
     font-size: ${props => props.theme.fonts.size.TINY};
 `;
 
+const Name = styled.p`
+    font-size: ${props => props.theme.fonts.size.SMALL};
+`;
+
 export {
-    Select
+    Select,
+    Name
 };
