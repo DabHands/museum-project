@@ -129,7 +129,7 @@ const MenuPageButton = styled.button`
 
 const Dates = styled.p<{ mobile?: boolean }>`
   font-size: ${props => props.mobile ? props.theme.fonts.size.TINY : props.theme.fonts.size.SMALL};
-  color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+  color: ${props => props.theme.colours.LIGHT};
   padding-top: 10px;
   justify-content: baseline;
   padding-right: ${props => props.mobile ? 'none' : '5%'};
