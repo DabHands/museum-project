@@ -14,24 +14,25 @@ const Title = styled.h1`
 `;
 
 const TopBar = styled.div`
-   display: flex;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: row;
     box-shadow: ${props => props.theme.BOX_SHADOW};
     align-items: center;
     justify-content: space-between;
 `;
 
 const Reminder = styled.div`
-    border: solid 2px ${props => props.theme.colours.SECONDARY} 0.8;
+    border: solid 2px ${props => props.theme.colours.MAIN};
     border-radius: 5px;
     //box-shadow: ${props => props.theme.BOX_SHADOW};
     font-style: italic;
     padding: 5px 5px 3px 5px;
+    //margin: 5px 0px;
 
     max-width: fit-content;
     display: flex;
     justify-self: center;
-    
+    font-size: ${props => props.theme.fonts.size.TINY};
 `;
 
 

@@ -10,6 +10,7 @@ const Box = styled.div`
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER} ;
     box-shadow: ${props => props.theme.BOX_SHADOW};
+    background-color: rgb(250, 239, 229);  
     height: max-content;
 `;
 

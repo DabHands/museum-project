@@ -30,10 +30,20 @@ const Funders = styled.img<{ mobile?: boolean }>`
     padding: 10px 5px;
 `;
 
+const FooterLink = styled.a`
+    text-decoration: none;
+    color: ${props => props.theme.appbar_colours.TEXT};
+    &:hover {
+        color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+    }
+`;
+
+
 
 
 export {
     Wrapper,
     MobileView,
     Funders,
+    FooterLink
 };
