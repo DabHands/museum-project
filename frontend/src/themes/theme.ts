@@ -19,11 +19,7 @@ export const defaultTheme: DefaultTheme = {
   BUTTON_SECONDARY_HOVER: '#e2a721',
 
   BUTTON_BASIC: '#d8d7dc',
-  BUTTON_BASIC_TEXT: '#171717',
   BUTTON_BASIC_HOVER: '#c2c1c6',
-
-  appbar_colours: {
-    BACKGROUND: '#000000',
     TEXT: '#FBC794',
     TEXT_HOVER: '#af5d0b',
     BARS_BUTTON_ICON: '#f2a668',
