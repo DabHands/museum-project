@@ -22,7 +22,9 @@ export const AppBar: React.FC = () => {
         <s.HomeButtonText>Dab Hands</s.HomeButtonText>
       </s.HomeButton>
 
+
       <MediaQuery minWidth={800}>
+        <s.Dates> 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton>
@@ -31,7 +33,8 @@ export const AppBar: React.FC = () => {
         </s.PageButtons>
       </MediaQuery>
 
-      <MediaQuery maxWidth={800}>
+      <MediaQuery maxWidth={799}>
+        <s.Dates mobile={true}> 8th March - 31st July </s.Dates>
         <s.MenuButton onClick={toggleShowMenu}>
           <s.MenuButtonIcon
             xmlns="http://www.w3.org/2000/svg"
@@ -41,8 +44,8 @@ export const AppBar: React.FC = () => {
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </s.MenuButtonIcon>

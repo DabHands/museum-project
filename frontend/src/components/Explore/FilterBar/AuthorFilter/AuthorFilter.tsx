@@ -27,7 +27,7 @@ export const AuthorFilter: React.FC<Props> = (
     
 
     return (<>
-        <p>Authors</p>
+        <s.Name>Authors</s.Name>
         <s.Select>
             <Select
             className="basic-single"
