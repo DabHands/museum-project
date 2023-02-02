@@ -5,10 +5,10 @@ const AppBarContainer = styled.nav`
   height: 6rem;
   width: 100vw;
   position: relative;
-
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: ${props => props.theme.appbar_colours.TEXT};
 `;
 
 const HomeButton = styled.button`
@@ -127,6 +127,16 @@ const MenuPageButton = styled.button`
     }
 `;
 
+const Dates = styled.p<{ mobile?: boolean }>`
+  font-size: ${props => props.mobile ? props.theme.fonts.size.TINY : props.theme.fonts.size.SMALL};
+  color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+  padding-top: 10px;
+  justify-content: baseline;
+  padding-right: ${props => props.mobile ? 'none' : '5%'};
+  padding-left: ${props => props.mobile ? '10px' : 'unset'};
+
+`;
+
 export {
     AppBarContainer,
     HomeButton,
@@ -138,4 +148,5 @@ export {
     MenuButtonIcon,
     Menu,
     MenuPageButton,
+    Dates
   };
