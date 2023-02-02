@@ -15,6 +15,7 @@ export const AppBar: React.FC = () => {
     setShowMenu(showMenu => !showMenu);
   }
 
+
   return (
     <s.AppBarContainer>
       <s.HomeButton onClick={navigationContext.navigateToHomePage}>
@@ -52,10 +53,10 @@ export const AppBar: React.FC = () => {
         </s.MenuButton>
 
         <s.Menu style={{display: showMenu ? '' : 'none'}}>
-          <s.MenuPageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigationContext.navigateToAboutPage}>About</s.MenuPageButton>
+          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToModelPage(); } }>3D Model</s.MenuPageButton>
+          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToScanImagePage(); } }>Scan Image</s.MenuPageButton>
+          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToExplorePage(); } }>Explore</s.MenuPageButton>
+          <s.MenuPageButton  onClick={() => { toggleShowMenu(); navigationContext.navigateToAboutPage(); }}>About</s.MenuPageButton>
         </s.Menu>
       </MediaQuery>
     </s.AppBarContainer>
