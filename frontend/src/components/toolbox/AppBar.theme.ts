@@ -110,7 +110,7 @@ const MenuPageButton = styled.button`
   font-family: 'Inter', sans-serif;
   color: ${props => props.theme.appbar_colours.TEXT};
   text-align: center;
-  cursor: pointer;
+  //cursor: pointer;
   border-bottom: 0.05rem solid ${props => props.theme.appbar_colours.MENU_BORDER};
   padding: 1.5rem 2rem;
   flex: 1;
