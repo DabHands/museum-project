@@ -10,18 +10,23 @@ import { AppBar } from './components/toolbox/AppBar';
 import { Model } from './components/Model/Model';
 import { ImageScan } from './components/ImageScan/ImageScan';
 import NavigationProvider from './providers/NavigationProvider';
+import { Footer } from './components/toolbox/Footer/Footer';
 
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
-  background-color : ${props => props.theme.BACKGROUND_COLOUR};
+  //background-color : ${props => props.theme.BACKGROUND_COLOUR}; // Please change in index.css instead of here!
   font-size: ${props => props.theme.fonts.size.MEDIUM};
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 `;
 
 function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
-      <NavigationProvider>
-        <AppWrapper>
+      <AppWrapper>
+        <NavigationProvider>
+        
           <AppBar />
           <Routes>
             
@@ -32,8 +37,9 @@ function App() {
             <Route path="/image-scanning" element={<ImageScan />} />
             <Route path="/*" element={<Home />} />
           </Routes>
-        </AppWrapper>
-      </NavigationProvider>
+          <Footer/>
+        </NavigationProvider>
+      </AppWrapper>
     </ThemeProvider>
 
   );
