@@ -14,10 +14,10 @@ export const GridSingle: React.FC<Props> = ({
         <s.PageLink to={`/explore/${embroidery.id}`} >
             <s.Box>
                 <s.Thumbnail
-                    src={require(`../../../../images/embroideries/${embroidery.fileName}`)}
+                    src={require(`../../../../images/thumbnail/${embroidery.fileName}`)}
                     draggable={false}
-                    loading="lazy" />
-
+                    loading="lazy" 
+                />
                 <s.Details>
                     <s.Name> {embroidery.authorName} </s.Name>
                     <s.Anatomy> {embroidery.anatomyName} </s.Anatomy>
