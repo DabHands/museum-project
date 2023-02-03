@@ -20,12 +20,12 @@ export const AppBar: React.FC = () => {
     <s.AppBarContainer>
       <s.HomeButton onClick={navigationContext.navigateToHomePage}>
         <s.HomeButtonImage src={logo} alt="Dab Hands Logo" />
-        <s.HomeButtonText>Dab Hands</s.HomeButtonText>
+        <s.HomeButtonText>Dab Hands: That&apos;ll Need Stitching</s.HomeButtonText>
       </s.HomeButton>
 
 
       <MediaQuery minWidth={800}>
-        <s.Dates> 8th March - 31st July </s.Dates>
+        <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton>

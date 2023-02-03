@@ -4,13 +4,14 @@ const Wrapper = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: ${props => props.theme.appbar_colours.BACKGROUND};
+    background-color: ${props => props.theme.colours.TERTIARY};
     margin-top: auto;
-    color: ${props => props.theme.appbar_colours.TEXT};
+    color: ${props => props.theme.colours.LIGHT};
     font-size: ${props => props.theme.fonts.size.SMALL};
     align-items: center;
     justify-content: space-evenly;
     text-align: center;
+    box-shadow: ${props => props.theme.BOX_SHADOW};
 `;
 
 const MobileView = styled.div`
@@ -32,9 +33,10 @@ const Funders = styled.img<{ mobile?: boolean }>`
 
 const FooterLink = styled.a`
     text-decoration: none;
-    color: ${props => props.theme.appbar_colours.TEXT};
+    color: ${props => props.theme.colours.LIGHT};
     &:hover {
-        color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+        color: ${props => props.theme.colours.SECONDARY};
+        text-decoration: underline;
     }
 `;
 

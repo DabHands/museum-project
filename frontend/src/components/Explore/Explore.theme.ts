@@ -8,17 +8,15 @@ const ButtonWrapper = styled.div`
 margin-right: 2rem;
 `;
 
-const Title = styled.h1`
-    padding-left: 1em;
-    font-size: ${props => props.theme.fonts.size.LARGE};
-`;
+
 
 const TopBar = styled.div`
     display: flex;
     flex-direction: row;
-    box-shadow: ${props => props.theme.BOX_SHADOW};
+    //box-shadow: ${props => props.theme.BOX_SHADOW};
     align-items: center;
     justify-content: space-between;
+    padding-left: 1rem;
 `;
 
 const Reminder = styled.div`
@@ -27,7 +25,7 @@ const Reminder = styled.div`
     //box-shadow: ${props => props.theme.BOX_SHADOW};
     font-style: italic;
     padding: 5px 5px 3px 5px;
-    //margin: 5px 0px;
+    margin: 0.5rem 2rem;
 
     max-width: fit-content;
     display: flex;
@@ -40,7 +38,6 @@ const Reminder = styled.div`
 export {
     PageWrapper,
     ButtonWrapper,
-    Title,
     TopBar,
     Reminder
 };

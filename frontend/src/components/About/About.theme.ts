@@ -21,19 +21,16 @@ const ArtistDescription = styled.div`
 `;
 
 
-const Title = styled.h1`
-    padding-left: 1em;
-    font-size: ${props => props.theme.fonts.size.LARGE};
-`;
 
 const BlogLink = styled.a``;
 
 const TopBar = styled.div`
-   display: flex;
+    display: flex;
     grid-auto-flow: column;
-    box-shadow: ${props => props.theme.BOX_SHADOW};
+    //box-shadow: ${props => props.theme.BOX_SHADOW};
     align-items: center;
     justify-content: space-between;
+    padding-left: 2rem;
 `;
 
          
@@ -41,7 +38,7 @@ const MainContent = styled.div`
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    padding: 2rem;
+    padding: 0px 2rem 2rem 2rem;
 `;
 
 const MainPanel = styled.div`
@@ -87,7 +84,6 @@ const SponsorTitle = styled.div`
 
 export {
     ArtistsBio,
-    Title,
     TopBar,
     AuthorPanel,
     MainContent,

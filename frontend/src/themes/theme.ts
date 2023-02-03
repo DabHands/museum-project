@@ -3,12 +3,13 @@
 // theme.ts
 import { DefaultTheme } from 'styled-components'
 export const defaultTheme: DefaultTheme = {
-  BACKGROUND_COLOUR: 'rgb(255, 232, 212)',
-  FONT_FAMILY: "Montserrat, sans-serif",
+  BACKGROUND_COLOUR: '#ffffff',
+  FONT_FAMILY: "Radio Canada",
   colours: {
-    MAIN: '#463422',
-    SECONDARY: '#af5d0b',
-    SHADING: '#999999',
+    MAIN: '#e9757f',
+    SECONDARY: '#95ceca',
+    TERTIARY: '#5a5f9f',
+    SHADING: '#040720',
     LIGHT: '#ecede8',
   },
 
@@ -16,19 +17,11 @@ export const defaultTheme: DefaultTheme = {
   BUTTON_HOVER: '#52007a',
 
   BUTTON_SECONDARY_TEXT: '#FFFFFF',
-  BUTTON_SECONDARY_HOVER: '#e2a721',
+  BUTTON_SECONDARY_HOVER: '#6c989c',
 
   BUTTON_BASIC: '#d8d7dc',
   BUTTON_BASIC_TEXT: '#171717',
   BUTTON_BASIC_HOVER: '#c2c1c6',
-
-  appbar_colours: {
-    BACKGROUND: '#000000',
-    TEXT: '#FBC794',
-    TEXT_HOVER: '#af5d0b',
-    BARS_BUTTON_ICON: '#f2a668',
-    MENU_BORDER: '#f2a668',
-  },
 
   homepage_colours: {
     HEADING: '#343a40',

@@ -5,6 +5,7 @@ import * as s from './Explore.theme';
 import { GridView } from './GridView/GridView';
 import { ListView } from './ListView/ListView';
 import { FilterBar } from './FilterBar/FilterBar';
+import { SecondaryH1 } from '../toolbox/Labels';
 
 enum ExploreView {
     LIST,
@@ -13,6 +14,8 @@ enum ExploreView {
 
 export const Explore: React.FC = () => {
     const [view, setView] = useState(ExploreView.GRID);
+
+    const [viewFilters, setViewFilters] = useState(false);
     
     const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
 
@@ -30,6 +33,17 @@ export const Explore: React.FC = () => {
             <s.ButtonWrapper>
                 <MainButton onClick={toggleState}>
                     {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
+                </MainButton>
+            </s.ButtonWrapper>
+            
+        )
+    };
+
+    const renderShowFilterButton = () => {
+        return (
+            <s.ButtonWrapper>
+                <MainButton onClick={()=> setViewFilters(!viewFilters)}>
+                    {viewFilters === true ? "Hide Filters" : "Show Filters"}
                 </MainButton>
             </s.ButtonWrapper>
             
@@ -64,15 +78,17 @@ export const Explore: React.FC = () => {
     return (
         <s.PageWrapper>
             <s.TopBar>
-                <s.Title>Explore</s.Title>
-                <s.Reminder> Click on the embroideries below to see more information about it!</s.Reminder>
-
-                {renderToggleButton()}
+                <SecondaryH1>Explore</SecondaryH1>
+                {renderShowFilterButton()}
+                {/* {renderToggleButton()} */}
             </s.TopBar>
             
             {
-                renderFilterBar()
+               viewFilters && renderFilterBar()
             }
+
+            <s.Reminder> Click on the embroideries below to see more information about it!</s.Reminder>
+
             
             {view === ExploreView.GRID ?
                 renderGridView() : renderListView()}

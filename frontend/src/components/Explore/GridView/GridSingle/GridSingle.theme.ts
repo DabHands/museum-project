@@ -10,7 +10,7 @@ const Box = styled.div`
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER} ;
     box-shadow: ${props => props.theme.BOX_SHADOW};
-    background-color: rgb(250, 239, 229);  
+    background-color: ${props => props.theme.colours.LIGHT};  
     height: max-content;
 `;
 
@@ -31,6 +31,7 @@ const Details = styled.div`
     justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: nowrap;
+    color: ${props => props.theme.colours.SHADING};
 `;
 
 const Name = styled.div`

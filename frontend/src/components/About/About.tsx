@@ -3,6 +3,7 @@ import * as s from './About.theme';
 import pic from '../../util/artist/headshot.jpg'
 import funders from '../../util/artist/funders.jpg'
 import { SecondaryButton } from '../toolbox/Buttons';
+import { MainH1 } from '../toolbox/Labels';
 
 export const About: React.FC = () => {
 
@@ -33,7 +34,6 @@ export const About: React.FC = () => {
    const renderProjectInfo = () => {
       return (
          <>
-            <s.ArtistName> Dab Hands: That&apos;ll Need Stitching</s.ArtistName>
             <s.ArtistDescription>
                Human hands are remarkably sophisticated and adaptable tools, unparalleled in the natural world for the breadth of their capability. From the eloquent finesse of a sign language user in full flow, to the nimble picking of a Spanish guitar, the speedy reactions of a teenage texter, or the life-saving precision of microsurgery, our hands are truly phenomenal instruments. Whatever use we put them to, they act as our primary interface with the physical world and with each other.  
             </s.ArtistDescription>
@@ -58,17 +58,15 @@ export const About: React.FC = () => {
 
    return (<>
       <s.TopBar>
-         <s.Title>
-            About
-         </s.Title>
+         <MainH1> About </MainH1>
       </s.TopBar>
       <s.MainContent>
          <s.MainPanel>
             {renderProjectInfo()}
          </s.MainPanel>
-         <s.AuthorPanel>
+         {/* <s.AuthorPanel>
             {renderArtistsBio()}
-         </s.AuthorPanel>
+         </s.AuthorPanel> */}
       </s.MainContent>
       
       
