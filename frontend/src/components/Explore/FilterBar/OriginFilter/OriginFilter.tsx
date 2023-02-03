@@ -30,7 +30,7 @@ export const OriginFilter: React.FC<Props> = (
     
 
     return (<>
-        <p>Origins</p>
+        <s.Name>Origins</s.Name>
         <s.Select>
             <Select
             className="basic-single"

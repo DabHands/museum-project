@@ -36,7 +36,7 @@ const TextHeading = styled.h3`
   margin: 0;
   padding: 0;
 
-  font-size: 1.8rem;
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 600;
   color: ${props => props.theme.homepage_colours.HEADING};
   margin-bottom: 1.5rem;
@@ -47,7 +47,7 @@ const Text = styled.p`
   margin: 0;
   padding: 0;
 
-  font-size: 1.2rem;
+  font-size: ${props => props.theme.fonts.size.SMALL};
   line-height: 1.6;
   margin-bottom: 1.4rem;
 
@@ -60,7 +60,7 @@ const TextButton = styled.button`
   background-color: ${props => props.theme.homepage_colours.BUTTON};
   color: ${props => props.theme.homepage_colours.TEXT_BUTTON};
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
   padding: 0.7rem 1.4rem;
   border-radius: 0.3rem;

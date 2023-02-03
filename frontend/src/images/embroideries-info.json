@@ -93,7 +93,7 @@
     "id":"7bb144cd-e07d-453a-a355-752fee0e60b0", 
     "fileName":"pinc-3.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_3",
+    "authorName": "Pinc College Student",
     "anatomyName": "Carpus Dorsal Ligaments",
     "position": ""
   },
@@ -164,8 +164,8 @@
   { 
     "id":"6310641b-99e3-4a0f-95b6-e00264f2bc7d", 
     "fileName":"pinc-10.jpg",
-    "authorOrigin": "missing",
-    "authorName": "Pinc_10",
+    "authorOrigin": "Misc",
+    "authorName": "Pinc College Student",
     "anatomyName": "Carpus Radial Deviation",
     "position": ""
   },
@@ -183,7 +183,7 @@
     "id":"2dd24728-e6da-41e2-91a0-ef3bd8783113", 
     "fileName":"pinc-6.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_6",
+    "authorName": "Pinc College Student",
     "anatomyName": "Carpus Ulnar Deviation",
     "position": ""
   },
@@ -318,7 +318,7 @@
     "id":"86e7d54e-2c77-420a-8789-515868360758", 
     "fileName":"pinc-1.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_1",
+    "authorName": "Pinc College Student",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
     "position": ""
   },
@@ -345,7 +345,7 @@
     "id":"1ef5f40c-3294-4a83-87bd-ca7a4d08cc5a", 
     "fileName":"pinc-9.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_9",
+    "authorName": "Pinc College Student",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
     "position": ""
   },
@@ -498,7 +498,7 @@
     "id":"3763f94c-d8e5-46fc-940a-358b26afb4e7", 
     "fileName":"pinc-12.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_12",
+    "authorName": "Pinc College Student",
     "anatomyName": "Fingernail Complex",
     "position": ""
   },
@@ -759,7 +759,7 @@
     "id":"5a912e58-c23e-4552-bb33-0adcfe8fb033", 
     "fileName":"pinc-2.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_2",
+    "authorName": "Pinc College Student",
     "anatomyName": "Hand Open",
     "position": ""
   },
@@ -1020,7 +1020,7 @@
     "id":"67e18f34-6de8-4c5a-b215-fcdab933c682", 
     "fileName":"pinc-4.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_4",
+    "authorName": "Pinc College Student",
     "anatomyName": "Making a Fist",
     "position": ""
   },
@@ -1065,7 +1065,7 @@
     "id":"65e788ec-1729-4e1c-971c-5e20639035f4", 
     "fileName":"pinc-5.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_5",
+    "authorName": "Pinc College Student",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
     "position": ""
   },
@@ -1191,7 +1191,7 @@
     "id":"e758d316-ce9d-4a59-b8d8-5945b90b8672", 
     "fileName":"pinc-13.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_13",
+    "authorName": "Pinc College Student",
     "anatomyName": "Phal Prox and Int Skel",
     "position": ""
   },
@@ -1254,7 +1254,7 @@
     "id":"e5e05991-c5c3-443f-8e52-e5304720efe4", 
     "fileName":"pinc-7.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_7",
+    "authorName": "Pinc College Student",
     "anatomyName": "PIPJ Ligaments Bend",
     "position": ""
   },
@@ -1614,7 +1614,7 @@
     "id":"719a753e-2d99-4e99-aac4-f0905cd320f8", 
     "fileName":"pinc-11.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_11",
+    "authorName": "Pinc College Student",
     "anatomyName": "Thumb Opposition Meta",
     "position": ""
   },
@@ -1722,7 +1722,7 @@
     "id":"2beee4a6-a5d7-4b58-ad94-963ff6187ca1", 
     "fileName":"pinc-8.jpg",
     "authorOrigin": "missing",
-    "authorName": "Pinc_8",
+    "authorName": "Pinc College Student",
     "anatomyName": "Trapizium",
     "position": ""
   },

@@ -15,6 +15,7 @@ export const AppBar: React.FC = () => {
     setShowMenu(showMenu => !showMenu);
   }
 
+
   return (
     <s.AppBarContainer>
       <s.HomeButton onClick={navigationContext.navigateToHomePage}>
@@ -22,7 +23,9 @@ export const AppBar: React.FC = () => {
         <s.HomeButtonText>Dab Hands</s.HomeButtonText>
       </s.HomeButton>
 
+
       <MediaQuery minWidth={800}>
+        <s.Dates> 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton>
@@ -31,7 +34,8 @@ export const AppBar: React.FC = () => {
         </s.PageButtons>
       </MediaQuery>
 
-      <MediaQuery maxWidth={800}>
+      <MediaQuery maxWidth={799}>
+        <s.Dates mobile={true}> 8th March - 31st July </s.Dates>
         <s.MenuButton onClick={toggleShowMenu}>
           <s.MenuButtonIcon
             xmlns="http://www.w3.org/2000/svg"
@@ -41,18 +45,18 @@ export const AppBar: React.FC = () => {
             stroke="currentColor"
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
             />
           </s.MenuButtonIcon>
         </s.MenuButton>
 
         <s.Menu style={{display: showMenu ? '' : 'none'}}>
-          <s.MenuPageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.MenuPageButton>
-          <s.MenuPageButton onClick={navigationContext.navigateToAboutPage}>About</s.MenuPageButton>
+          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToModelPage(); } }>3D Model</s.MenuPageButton>
+          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToScanImagePage(); } }>Scan Image</s.MenuPageButton>
+          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToExplorePage(); } }>Explore</s.MenuPageButton>
+          <s.MenuPageButton  onClick={() => { toggleShowMenu(); navigationContext.navigateToAboutPage(); }}>About</s.MenuPageButton>
         </s.Menu>
       </MediaQuery>
     </s.AppBarContainer>

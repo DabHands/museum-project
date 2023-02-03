@@ -24,7 +24,7 @@ const EmbroideryColumnHeader = styled.div`
     margin: 1em;
     align-items: center;
     justify-content: center;
-    font-size: 14pt;
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
     font-weight: bold;
 `;
 
