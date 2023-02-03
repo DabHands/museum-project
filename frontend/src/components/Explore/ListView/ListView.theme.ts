@@ -14,7 +14,7 @@ const EmbroideryTable = styled.div`
 const EmbroideryTableHeader = styled.div`
     display: grid;
     grid-auto-flow: rows;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border-bottom: solid 1.5px rgba(0, 0,0,.50);
 
 `;
@@ -31,7 +31,7 @@ const EmbroideryColumnHeader = styled.div`
 const EmbroideryTableRow = styled.div`
     display: grid;
     grid-auto-flow: rows;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     border-bottom: ${props => props.theme.ROW_DIVIDER};
 
     &:hover {
