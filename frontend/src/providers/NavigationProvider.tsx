@@ -22,35 +22,35 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
   const navigateToHomePage = () => {
     if (page !== Pages.HOME) {
       setPage(Pages.HOME);
-      navigate('/');
+      navigate(process.env.PUBLIC_URL + '/');
     }
   };
 
   const navigateToModelPage = () => {
     if (page !== Pages.MODEL) {
       setPage(Pages.MODEL);
-      navigate('/model');
+      navigate(process.env.PUBLIC_URL + '/model');
     }
   };
 
   const navigateToScanImagePage = () => {
     if (page !== Pages.SCAN_IMAGE) {
       setPage(Pages.SCAN_IMAGE);
-      navigate('/image-scanning');
+      navigate(process.env.PUBLIC_URL + '/image-scanning');
     }
   };
 
   const navigateToExplorePage = () => {
     if (page !== Pages.EXPLORE) {
       setPage(Pages.EXPLORE);
-      navigate('/explore');
+      navigate(process.env.PUBLIC_URL + '/explore');
     }
   };
 
   const navigateToAboutPage = () => {
     if (page !== Pages.ABOUT) {
       setPage(Pages.ABOUT);
-      navigate('/about');
+      navigate(process.env.PUBLIC_URL + '/about');
     }
   };
 
