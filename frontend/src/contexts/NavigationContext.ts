@@ -8,6 +8,7 @@ const NavigationContext = createContext({
   navigateToScanImagePage: () => { },
   navigateToExplorePage: () => { },
   navigateToAboutPage: () => { },
+  navigateToDonaldPage: () => { },
 });
 
 export default NavigationContext;

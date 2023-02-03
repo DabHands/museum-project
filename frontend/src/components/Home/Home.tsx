@@ -9,7 +9,7 @@ export const Home: React.FC = () => {
   const navigationContext = useContext(NavigationContext);
 
   return (
-    <MainH1> Dab Hands: That&apos;ll Need Stitching</MainH1>
+    <MainH1 toPad> Dab Hands: That&apos;ll Need Stitching</MainH1>
     // <s.PageLayout>
     //   <s.ImagesContainer>
     //     <s.Image

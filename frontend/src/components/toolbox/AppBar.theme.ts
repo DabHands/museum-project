@@ -100,6 +100,7 @@ const Menu = styled.div`
   flex-direction: column;
   align-items: flex-start;
   z-index: 1;
+  width: min-content;
 `;
 
 const MenuPageButton = styled.button`

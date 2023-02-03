@@ -28,9 +28,10 @@ export const AppBar: React.FC = () => {
         <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
-          <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton>
+          {/* <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton> */}
           <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToAboutPage}>About</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToDonaldPage}>Donald Sammut</s.PageButton>
         </s.PageButtons>
       </MediaQuery>
 
@@ -53,10 +54,40 @@ export const AppBar: React.FC = () => {
         </s.MenuButton>
 
         <s.Menu style={{display: showMenu ? '' : 'none'}}>
-          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToModelPage(); } }>3D Model</s.MenuPageButton>
-          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToScanImagePage(); } }>Scan Image</s.MenuPageButton>
-          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToExplorePage(); } }>Explore</s.MenuPageButton>
-          <s.MenuPageButton  onClick={() => { toggleShowMenu(); navigationContext.navigateToAboutPage(); }}>About</s.MenuPageButton>
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToModelPage();
+            }
+            }>
+            3D Model
+          </s.MenuPageButton>
+          {/* <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToScanImagePage();
+            }}>
+            Scan Image
+          </s.MenuPageButton> */}
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToExplorePage();
+            }}>
+            Explore
+          </s.MenuPageButton>
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToAboutPage();
+            }}>About</s.MenuPageButton>
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToDonaldPage();
+            }}>
+            Donald Sammut
+          </s.MenuPageButton>
         </s.Menu>
       </MediaQuery>
     </s.AppBarContainer>

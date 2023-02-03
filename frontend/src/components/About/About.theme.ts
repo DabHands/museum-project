@@ -15,9 +15,25 @@ const ArtistName = styled.div`
     padding-top: 0.5rem;
 `;
 
-const ArtistDescription = styled.div`
+const ArtistDescription = styled.div<{ pad?: boolean }>`
     font-size: ${props => props.theme.fonts.size.SMALL};
     padding-bottom: 1rem;
+    padding-left: ${props => props.pad ? "1rem" : "0rem"};
+`;
+
+const Spanel = styled.span<{ flip?: boolean }>`
+    display: grid;
+    grid-template-columns: ${props => props.flip ? "1fr 3fr" : "3fr 1fr"};
+`;
+
+
+const AccompanyImage = styled.img`
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 10px;
+    //border-radius: 100%;
+    //border: solid 3px ${props => props.theme.colours.SECONDARY};
 `;
 
 
@@ -41,14 +57,14 @@ const MainContent = styled.div`
     padding: 0px 2rem 2rem 2rem;
 `;
 
-const MainPanel = styled.div`
-    min-width: 10rem;
+const MainPanel = styled.div<{ mobile?: boolean }>`
+    width: ${props => props.mobile ? "100%" : "70%"};
     padding: 1rem;
 `;
 
 const AuthorPanel = styled.div`
-    min-width: 10rem;
-    max-width: 30rem;
+    margin-top: 20px;
+    width: 30%;
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER};
     padding: 2rem;
@@ -63,7 +79,6 @@ const Headshot = styled.img`
 `;
 
 const SponsorPanel = styled.div`
-
     display: flex;
     flex-direction: column;
 `;
@@ -82,6 +97,10 @@ const SponsorTitle = styled.div`
     width: fit-content;
 `;
 
+const MobileArtist = styled.div`
+
+`;
+
 export {
     ArtistsBio,
     TopBar,
@@ -94,5 +113,8 @@ export {
     BlogLink,
     SponsorPanel,
     SponsorTitle,
-    Funders
+    Funders,
+    Spanel,
+    AccompanyImage,
+    MobileArtist
 };
