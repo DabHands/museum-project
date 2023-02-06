@@ -79,12 +79,6 @@ export const Story: React.FC = () => {
                   draggable={false}
                   loading="lazy"
                   src={maquette} />
-
-                {/* <iframe width="451" height="801" src="https://www.youtube.com/embed/TGuo1u1Aowc"
-                    title="That'll Need Stitching Maquette" frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowFullScreen
-                ></iframe> */}
                 
                 <s.PageText>
                     These drawings by Caroline Johnson show Lucy at work making the sculpture. 
