@@ -9,6 +9,7 @@ const NavigationContext = createContext({
   navigateToExplorePage: () => { },
   navigateToAboutPage: () => { },
   navigateToDonaldPage: () => { },
+  navigateToStoryPage: () => { },
 });
 
 export default NavigationContext;

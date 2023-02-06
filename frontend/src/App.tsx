@@ -12,6 +12,7 @@ import { ImageScan } from './components/ImageScan/ImageScan';
 import NavigationProvider from './providers/NavigationProvider';
 import { Footer } from './components/toolbox/Footer/Footer';
 import { DonaldSammut } from './components/DonaldSammut/DonaldSammut';
+import { Story } from './components/Story/Story';
 
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
@@ -38,6 +39,7 @@ function App() {
             <Route path={process.env.PUBLIC_URL + "/model"} element={<Model />} />
             <Route path={process.env.PUBLIC_URL + "/image-scanning"} element={<ImageScan />} />
             <Route path={process.env.PUBLIC_URL + "/donald-sammut"} element={<DonaldSammut />} />
+            <Route path={process.env.PUBLIC_URL + "/the-story"} element={<Story />} />
             <Route path={process.env.PUBLIC_URL + "/*"} element={<Home />} />
           </Routes>
           <Footer/>
