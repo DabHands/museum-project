@@ -1,6 +1,7 @@
 import React from 'react'
 import * as s from './Story.theme';
-import { MainH2, SecondaryH1} from '../toolbox/Labels';
+import { MainH2, SecondaryH1 } from '../toolbox/Labels';
+import maquette from '../../util/story/Maquette.gif'
 
 
 export const Story: React.FC = () => {
@@ -74,11 +75,16 @@ export const Story: React.FC = () => {
                     This was 1/10 the scale of the final sculpture so that measurements could easily be taken and scaled up. 
                 </s.PageText>
 
-                <iframe width="451" height="801" src="https://www.youtube.com/embed/TGuo1u1Aowc"
+                <s.AccompanyImage
+                  draggable={false}
+                  loading="lazy"
+                  src={maquette} />
+
+                {/* <iframe width="451" height="801" src="https://www.youtube.com/embed/TGuo1u1Aowc"
                     title="That'll Need Stitching Maquette" frameBorder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowFullScreen
-                ></iframe>
+                ></iframe> */}
                 
                 <s.PageText>
                     These drawings by Caroline Johnson show Lucy at work making the sculpture. 
