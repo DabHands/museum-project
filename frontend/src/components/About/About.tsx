@@ -16,7 +16,10 @@ export const About: React.FC = () => {
          <>
             <s.ArtistsBio>
                   <SecondaryH2>Meet The Artist</SecondaryH2>
-               <s.Headshot src={pic}/>
+               <s.Headshot
+                  draggable={false}
+                  loading="lazy"
+                  src={pic} />
 
                <s.ArtistName> Lucy Burscough </s.ArtistName>
 
@@ -31,7 +34,10 @@ export const About: React.FC = () => {
                      <br></br><br></br>
                      Previous projects have been given an award for ‘Outstanding Contribution to the Promotion of Arts for Health’ from The Royal Society of Public Health, have featured in national newspapers, and won a Manchester Culture Award. Lucy has spoken internationally about her work with museums and galleries at the invitation of The British Council. Her paintings are held by corporate collections and have been exhibited at the National Portrait Gallery and on London Underground.
                   </s.ArtistDescription>
-                  <s.AccompanyImage src={lucy3}/>
+                  <s.AccompanyImage
+                     draggable={false}
+                     loading="lazy"
+                     src={lucy3} />
                </s.Spanel>
 
                <s.BlogLink href='https://www.lucysart.co.uk/'>
@@ -51,11 +57,17 @@ export const About: React.FC = () => {
                <s.ArtistDescription>
                   Human hands are remarkably sophisticated and adaptable tools, unparalleled in the natural world for the breadth of their capability. From the eloquent finesse of a sign language user in full flow, to the nimble picking of a Spanish guitar, the speedy reactions of a teenage texter, or the life-saving precision of microsurgery, our hands are truly phenomenal instruments. Whatever use we put them to, they act as our primary interface with the physical world and with each other.  
                </s.ArtistDescription>
-               <s.AccompanyImage src={lucy1}/>
+               <s.AccompanyImage
+                  draggable={false}
+                  loading="lazy"
+                  src={lucy1} />
             </s.Spanel>
             
             <s.Spanel flip>
-               <s.AccompanyImage src={lucy2} />
+               <s.AccompanyImage
+                  draggable={false}
+                  loading="lazy"
+                  src={lucy2} />
                <>
                   <s.ArtistDescription pad>
                      We use our hands to nurture, to love, to pray, to dance, to calm, to fight, to restrain, to cling, to connect.
