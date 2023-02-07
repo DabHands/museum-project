@@ -11,7 +11,7 @@ const PageText = styled.p`
 const Quote = styled.p`
 `;
 
-const AccompanyImage = styled.img<{ centre?: boolean }>`
+const AccompanyImage = styled.img<{ centre?: boolean, individual?: boolean }>`
     max-width: 100%;
     height: auto;
     object-fit: cover;
@@ -21,6 +21,10 @@ const AccompanyImage = styled.img<{ centre?: boolean }>`
         margin-left: auto; 
         margin-right: auto; 
         width: 50%;
+    `};
+
+    ${props => props.individual && css`
+        width: 50vw;
     `};
     
     //border-radius: 100%;

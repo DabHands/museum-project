@@ -247,6 +247,8 @@ export const Story: React.FC = () => {
                 </s.PageText>
 
                 <s.AccompanyImage
+                    individual
+                    centre
                     draggable={false}
                     loading="lazy"
                     src={require(`../../util/story/whole_model.jpg`)}
