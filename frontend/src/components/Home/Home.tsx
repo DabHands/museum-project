@@ -1,15 +1,15 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import * as s from './Home.theme';
-import needle from '../../util/homepage/needle.jpg';
-import embr from '../../util/homepage/embr.jpg';
-import NavigationContext from '../../contexts/NavigationContext';
 import { MainH1 } from '../toolbox/Labels';
 
 export const Home: React.FC = () => {
-  const navigationContext = useContext(NavigationContext);
+  // const navigationContext = useContext(NavigationContext);
 
   return (
-    <MainH1 toPad> Dab Hands: That&apos;ll Need Stitching</MainH1>
+    <s.PageWrapper>
+      <MainH1 toPad> Dab Hands: That&apos;ll Need Stitching</MainH1>
+    </s.PageWrapper>
+    
     // <s.PageLayout>
     //   <s.ImagesContainer>
     //     <s.Image

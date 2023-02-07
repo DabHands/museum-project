@@ -13,31 +13,31 @@ enum ExploreView {
 }
 
 export const Explore: React.FC = () => {
-    const [view, setView] = useState(ExploreView.GRID);
+    // const [view, setView] = useState(ExploreView.GRID);
 
     const [viewFilters, setViewFilters] = useState(false);
     
     const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
 
-    const toggleState = () => {
-        if (view === ExploreView.GRID) {
-            setView(ExploreView.LIST)
-        } else {
-            setView(ExploreView.GRID)
-        }
-    }
+    // const toggleState = () => {
+    //     if (view === ExploreView.GRID) {
+    //         setView(ExploreView.LIST)
+    //     } else {
+    //         setView(ExploreView.GRID)
+    //     }
+    // }
 
 
-    const renderToggleButton = () => {
-        return (
-            <s.ButtonWrapper>
-                <MainButton onClick={toggleState}>
-                    {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
-                </MainButton>
-            </s.ButtonWrapper>
+    // const renderToggleButton = () => {
+    //     return (
+    //         <s.ButtonWrapper>
+    //             <MainButton onClick={toggleState}>
+    //                 {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
+    //             </MainButton>
+    //         </s.ButtonWrapper>
             
-        )
-    };
+    //     )
+    // };
 
     const renderShowFilterButton = () => {
         return (
@@ -89,9 +89,10 @@ export const Explore: React.FC = () => {
 
             <s.Reminder> Click on the embroideries below to see more information about it!</s.Reminder>
 
+            {renderGridView()}
             
-            {view === ExploreView.GRID ?
-                renderGridView() : renderListView()}
+            {/* {view === ExploreView.GRID ?
+                renderGridView() : renderListView()} */}
             
         </s.PageWrapper>
     )
