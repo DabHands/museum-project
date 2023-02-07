@@ -2,13 +2,29 @@ import styled, { css } from 'styled-components'
 
 const PageWrapper = styled.div`
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
     
 `;
 
 const PageText = styled.p`
 `;
 
-const Quote = styled.p`
+const Quote = styled.div`
+    align-self: center;
+    
+    text-align: center;
+    font-style: italic;
+    /* @media (min-width: 768px){
+        max-width: 60%;
+    } */
+
+    color: ${props => props.theme.colours.TERTIARY};
+    /* border: solid 3px ${props => props.theme.colours.MAIN};
+    border-radius: 10px; */
+    padding: 30px 20px;
 `;
 
 const AccompanyImage = styled.img<{ centre?: boolean, individual?: boolean }>`
@@ -27,8 +43,6 @@ const AccompanyImage = styled.img<{ centre?: boolean, individual?: boolean }>`
         width: 50vw;
     `};
     
-    //border-radius: 100%;
-    //border: solid 3px ${props => props.theme.colours.SECONDARY};
 `;
 
 const Spanel = styled.span<{ flip?: boolean, even?:boolean }>`

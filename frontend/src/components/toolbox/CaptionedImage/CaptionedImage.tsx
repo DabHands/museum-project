@@ -4,23 +4,23 @@ import * as s from './CaptionedImage.theme';
 interface Props {
     image: string,
     caption: string
+    size?: "small" | "wide" | "auto"
 }
 
 export const CaptionedImage: React.FC<Props> = (
-  { image, caption }
+  { image, caption, size }
 ) => {
 
 
     
     return (
-        <s.Wrapper>
-            
+        <s.Wrapper size={size}>
             <s.Image
                 src={image}
                 draggable={false}
                 loading="lazy"
             />
-            <p>{caption}</p>
+            <s.Caption>{caption}</s.Caption>
         </s.Wrapper> 
     )
 };

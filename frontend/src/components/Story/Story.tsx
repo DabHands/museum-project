@@ -117,6 +117,7 @@ export const Story: React.FC = () => {
                     <CaptionedImage
                         image={require(`../../util/story/anatomy_drawing.jpg`)}
                         caption='One of Donald Sammut’s beautifully drawn anotomical drawings. This depicts the first dorsal interosseous muscle of the hand'
+                        size='small'
                     />
                       <s.PageText>
                         This part of the Dab Hands project was inspired by the anatomical hand drawings of
@@ -132,25 +133,57 @@ export const Story: React.FC = () => {
                     
                 </s.Spanel>    
             )}
+
             
+            {mobile ? (
+                <>
+                     <CaptionedImage
+                        image={require(`../../util/story/kit_example.jpg`)}
+                        caption='An example of the embroidery kits that were sent to participants during the covid lockdowns.'
+                        size={!mobile? 'small': undefined}
+                    />
 
-            <CaptionedImage
-                image={require(`../../util/story/kit_example.jpg`)}
-                caption='An example of the embroidery kits that were sent to participants during the covid lockdowns.'
-            />
+                    <s.PageText>
+                        Every one of the embroideries that came back was beautiful and skilful and told a story 
+                        about the human hand and its ability to manipulate the finest of tools, in this case for 
+                        creative, community and educational endeavour. 
+                    </s.PageText>
 
-            <s.PageText>
-                Every one of the embroideries that came back was beautiful and skilful and told a story 
-                about the human hand and its ability to manipulate the finest of tools, in this case for 
-                creative, community and educational endeavour. 
-            </s.PageText>
+                    <s.Quote>
+                        “I could not work in my NHS job for several months. I felt really bad about leaving the
+                        team I work with &apos;in the lurch&apos; but the project helped me feel that I was still
+                        able to represent them and their experiences of Covid in a positive way.”
+                    </s.Quote>
 
-            <s.Quote>
-                “I could not work in my NHS job for several months. I felt really bad about leaving the
-                team I work with &apos;in the lurch&apos; but the project helped me feel that I was still
-                able to represent them and their experiences of Covid in a positive way.”
-            </s.Quote>
+                </>) : (<>
+                    <s.Spanel>
+                        <div>
+                            <s.PageText>
+                                Every one of the embroideries that came back was beautiful and skilful and told a story 
+                                about the human hand and its ability to manipulate the finest of tools, in this case for 
+                                creative, community and educational endeavour. 
+                            </s.PageText>
 
+                            <s.Quote>
+                                “I could not work in my NHS job for several months. I felt really bad about leaving the
+                                team I work with &apos;in the lurch&apos; but the project helped me feel that I was still
+                                able to represent them and their experiences of Covid in a positive way.”
+                            </s.Quote>
+                            
+                        </div>
+
+                         <CaptionedImage
+                            image={require(`../../util/story/kit_example.jpg`)}
+                            caption='An example of the embroidery kits that were sent to participants during the covid lockdowns.'
+                            size={'wide'}
+                        />
+
+
+                    
+                </s.Spanel>
+                </>)} 
+
+           
             {mobile ? (
                 <>
                 <CaptionedImage
