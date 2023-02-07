@@ -20,10 +20,17 @@ const AccompanyImage = styled.img`
     //border: solid 3px ${props => props.theme.colours.SECONDARY};
 `;
 
+const Spanel = styled.span<{ flip?: boolean }>`
+    display: grid;
+    grid-template-columns: ${props => props.flip ? "1fr 3fr" : "3fr 1fr"};
+    align-items: center;
+`;
+
 
 export {
     PageWrapper,
     PageText,
     Quote,
-    AccompanyImage
+    AccompanyImage,
+    Spanel,
 };

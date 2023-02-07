@@ -66,24 +66,33 @@ export const Story: React.FC = () => {
         return (
             <>
                 <s.PageText>
-                    Lucy has sculpted a 1.5m high model of a hand which she hopes
-                    describes the grace and accuracy that can be achieved by a skilled hand at work sewing.
+                            Lucy has sculpted a 1.5m high model of a hand which she hopes
+                            describes the grace and accuracy that can be achieved by a skilled hand at work sewing.
                 </s.PageText>
 
-                <s.PageText>
-                    The first stage was making a small maquette in plasticene modelled on her own hand. 
-                    This was 1/10 the scale of the final sculpture so that measurements could easily be taken and scaled up. 
-                </s.PageText>
+                <s.Spanel>
+                    <s.PageText>
+                        
+                        <s.PageText>
+                            The first stage was making a small maquette in plasticene modelled on her own hand. 
+                            This was 1/10 the scale of the final sculpture so that measurements could easily be taken and scaled up. 
+                        </s.PageText>
+                        <s.PageText>
+                        These drawings by Caroline Johnson show Lucy at work making the sculpture. 
+                        She used heat-activated felt as the main construction material,
+                        </s.PageText>
+                    </s.PageText>
+                    
 
-                <s.AccompanyImage
-                  draggable={false}
-                  loading="lazy"
-                  src={maquette} />
+                    <s.AccompanyImage
+                    draggable={false}
+                    loading="lazy"
+                    src={maquette} />
+                </s.Spanel>
+
+
                 
-                <s.PageText>
-                    These drawings by Caroline Johnson show Lucy at work making the sculpture. 
-                    She used heat-activated felt as the main construction material,
-                </s.PageText>
+                
 
                 {/* Add Slideshow Of Images in. Tutorial: https://www.youtube.com/watch?v=l1MYfu5YWHc */}
 
