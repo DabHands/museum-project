@@ -18,6 +18,7 @@ export const SecondaryH1 = styled.h1<{ toPad?: boolean }>`
     width: max-content;
     font-family: 'Secular One';
     margin-left: ${props => props.toPad ? "1rem" : "0rem"};
+    word-wrap: break-word;
 `;
 
 export const TertiaryH1 = styled.h1<{ toPad?: boolean }>`
