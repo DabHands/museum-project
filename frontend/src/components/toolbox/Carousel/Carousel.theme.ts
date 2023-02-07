@@ -12,16 +12,19 @@ const Wrapper = styled.section<{ width?: string }>`
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
-
+    max-width: 90vw;
+    max-height: 100vh;
+    
 
 `;
 
 const SlideImage = styled.img<{ current?: boolean; width?: string }>`
-    opacity: ${props => props.current ? "1" : "0"};
     height: ${props => props.width ? props.width : IMAGE_SIZE};
     width: 100%;
     object-fit: scale-down;
-    transition-duration: 300s ease;
+    transition: all 2s ease;
+    border-radius: 10px;
+    max-height: 100vh;
     
 `;
 
@@ -35,7 +38,7 @@ const IconButton = styled.button<{ side?: string }>`
     outline: none;
     border: none;
     background-color: unset;
-    font-size: larger;
+    font-size: 3rem;
     
     //float: ${props => props.side? props.side : 'none'};;
 `;

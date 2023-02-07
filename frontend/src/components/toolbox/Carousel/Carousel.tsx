@@ -17,7 +17,8 @@ interface Props {
 export const Carousel: React.FC<Props> = (
   { slides, imageWidth, carouselWidth}
 ) => {
-
+    {/* Inspired by this Tutorial: https://www.youtube.com/watch?v=l1MYfu5YWHc */}
+    
     const [current, setCurrent] = useState(0);
 
     const nextSlide = () => {
@@ -46,11 +47,10 @@ export const Carousel: React.FC<Props> = (
                 (slide, index) => {
                     return (
                     <s.SlideWrapper key={index}>
-                            {index=== current && <s.SlideImage
+                            {index=== current && <s.SlideImage 
                                 current={index === current}
                                 width={imageWidth}
                                 src={slide.image}
-                                
                             />}
                     </s.SlideWrapper>
 
