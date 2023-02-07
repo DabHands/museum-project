@@ -10,6 +10,7 @@ declare module 'styled-components' {
     colours: {
       MAIN: string,
       SECONDARY: string,
+      TERTIARY: string,
       SHADING: string,
       LIGHT: string
     }
@@ -19,18 +20,13 @@ declare module 'styled-components' {
     BUTTON_SECONDARY_TEXT: string;
     BUTTON_SECONDARY_HOVER: string;
 
+    BUTTON_TERTIARY_TEXT: string,
+    BUTTON_TERTIARY_HOVER: string,
+
     BUTTON_BASIC: string;
     BUTTON_BASIC_TEXT: string;
     BUTTON_BASIC_HOVER: string;
-
-    appbar_colours: {
-      BACKGROUND: string,
-      TEXT: string,
-      TEXT_HOVER: string,
-      BARS_BUTTON_ICON: string,
-      MENU_BORDER: string
-    }
-
+    
     homepage_colours: {
       HEADING: string,
       BUTTON: string,

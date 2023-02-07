@@ -21,7 +21,6 @@ export const SingleEmbroidery: React.FC = () => {
                 }
                 <s.BelowImageBox>
                     <s.AuthorName>{em ? em.authorName : 'No author found'}</s.AuthorName>
-                    <s.AuthorOrigin>{em ? em.authorOrigin : ' '}</s.AuthorOrigin>
                 </s.BelowImageBox>
                 
                 

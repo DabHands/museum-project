@@ -3,33 +3,46 @@ import { AllEmbroideries } from '../../data/embroideries';
 import { MainButton } from '../toolbox/Buttons';
 import * as s from './Explore.theme';
 import { GridView } from './GridView/GridView';
-import { ListView } from './ListView/ListView';
 import { FilterBar } from './FilterBar/FilterBar';
+import { SecondaryH1 } from '../toolbox/Labels';
 
-enum ExploreView {
-    LIST,
-    GRID
-}
+// enum ExploreView {
+//     LIST,
+//     GRID
+// }
 
 export const Explore: React.FC = () => {
-    const [view, setView] = useState(ExploreView.GRID);
+    // const [view, setView] = useState(ExploreView.GRID);
+
+    const [viewFilters, setViewFilters] = useState(false);
     
     const [filteredEmbroideries, setFilteredEmbroideries] = useState(AllEmbroideries);
 
-    const toggleState = () => {
-        if (view === ExploreView.GRID) {
-            setView(ExploreView.LIST)
-        } else {
-            setView(ExploreView.GRID)
-        }
-    }
+    // const toggleState = () => {
+    //     if (view === ExploreView.GRID) {
+    //         setView(ExploreView.LIST)
+    //     } else {
+    //         setView(ExploreView.GRID)
+    //     }
+    // }
 
 
-    const renderToggleButton = () => {
+    // const renderToggleButton = () => {
+    //     return (
+    //         <s.ButtonWrapper>
+    //             <MainButton onClick={toggleState}>
+    //                 {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
+    //             </MainButton>
+    //         </s.ButtonWrapper>
+            
+    //     )
+    // };
+
+    const renderShowFilterButton = () => {
         return (
             <s.ButtonWrapper>
-                <MainButton onClick={toggleState}>
-                    {view === ExploreView.GRID ? "Swap to List View" : "Swap to Grid View"}
+                <MainButton onClick={()=> setViewFilters(!viewFilters)}>
+                    {viewFilters === true ? "Hide Filters" : "Show Filters"}
                 </MainButton>
             </s.ButtonWrapper>
             
@@ -44,13 +57,13 @@ export const Explore: React.FC = () => {
         />
     };
 
-    const renderListView = () => {
-        return (
-            <ListView
-                filteredEmbroideries={filteredEmbroideries}
-            />
-        )
-    };
+    // const renderListView = () => {
+    //     return (
+    //         <ListView
+    //             filteredEmbroideries={filteredEmbroideries}
+    //         />
+    //     )
+    // };
 
     const renderGridView = () => {
         return (
@@ -64,18 +77,21 @@ export const Explore: React.FC = () => {
     return (
         <s.PageWrapper>
             <s.TopBar>
-                <s.Title>Explore</s.Title>
-                <s.Reminder> Click on the embroideries below to see more information about it!</s.Reminder>
-
-                {renderToggleButton()}
+                <SecondaryH1>Explore</SecondaryH1>
+                {renderShowFilterButton()}
+                {/* {renderToggleButton()} */}
             </s.TopBar>
             
             {
-                renderFilterBar()
+               viewFilters && renderFilterBar()
             }
+
+            <s.Reminder> Click on the embroideries below to see more information about it!</s.Reminder>
+
+            {renderGridView()}
             
-            {view === ExploreView.GRID ?
-                renderGridView() : renderListView()}
+            {/* {view === ExploreView.GRID ?
+                renderGridView() : renderListView()} */}
             
         </s.PageWrapper>
     )
