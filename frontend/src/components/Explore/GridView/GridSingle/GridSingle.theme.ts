@@ -41,15 +41,22 @@ const Details = styled.div`
     justify-content: space-evenly;
     align-items: flex-start;
     color: ${props => props.theme.colours.SHADING};
+
 `;
 
 const Name = styled.div`
     font-size: ${props => props.theme.fonts.size.MEDIUM};
     color: ${props => props.theme.colours.MAIN};
+    @media (min-width: 769px){
+        max-width: 150px;
+    } 
+    
 `;
 
 const Anatomy = styled.div`
-    
+    @media (min-width: 769px){
+        max-width: 150px;
+    } 
     word-wrap: break-word;
 
 `;
