@@ -20,6 +20,9 @@ declare module 'styled-components' {
     BUTTON_SECONDARY_TEXT: string;
     BUTTON_SECONDARY_HOVER: string;
 
+    BUTTON_TERTIARY_TEXT: string,
+    BUTTON_TERTIARY_HOVER: string,
+
     BUTTON_BASIC: string;
     BUTTON_BASIC_TEXT: string;
     BUTTON_BASIC_HOVER: string;

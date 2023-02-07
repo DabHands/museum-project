@@ -68,6 +68,6 @@ export const TertiaryButton = styled.button`
     font-size: inherit;
 
     &:hover{
-      background-color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
+      background-color: ${props => props.theme.BUTTON_TERTIARY_HOVER};
     }
 `;
