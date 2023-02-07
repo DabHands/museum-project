@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 const AppBarContainer = styled.nav`
-  background-color: ${props => props.theme.appbar_colours.BACKGROUND};
-  height: 6rem;
+  height: 8rem;
   width: 100vw;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: ${props => props.theme.appbar_colours.TEXT};
+  color: ${props => props.theme.colours.LIGHT};
+  box-shadow: ${props => props.theme.BOX_SHADOW};
+  
 `;
 
 const HomeButton = styled.button`
@@ -17,8 +18,8 @@ const HomeButton = styled.button`
   text-align: center;
   font-size: ${props => props.theme.fonts.size.LARGE};
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  color: ${props => props.theme.appbar_colours.TEXT};
+  font-family: 'Secular One';
+  text-align: left;
   cursor: pointer;
   height: 100%;
   line-height: 100%;
@@ -28,17 +29,24 @@ const HomeButton = styled.button`
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-
-  &:hover{
-  color: ${props => props.theme.appbar_colours.TEXT_HOVER};
-  }
+  @media (max-width: 425px){   
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
+  } 
 `;
 
 const HomeButtonImage = styled.img`
-  height: 100%;
+  @media (max-width: 768px){   
+    width: 25%;
+    object-fit: scale-down;
+  } 
+  @media (min-width: 769px){
+    height: 100%;
+  } 
+  
 `;
 
-const HomeButtonText = styled.span``;
+const HomeButtonText = styled.span`
+`;
 
 const PageButtons = styled.div`
   margin-right: 1.5rem;
@@ -53,11 +61,11 @@ const PageButton = styled.button`
   background: none;
   font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
-  color: ${props => props.theme.appbar_colours.TEXT};
+  
   cursor: pointer;
 
   &:hover{
-  color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+  color: ${props => props.theme.colours.TERTIARY};
   }
 `;
 
@@ -66,14 +74,13 @@ const MenuButton = styled.button`
   background: none;
   font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
   cursor: pointer;
   display: inline-block;
   height: 100%;
   margin-right: 0.5rem;
 
   &:hover {
-  color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+  color: ${props => props.theme.colours.TERTIARY};
   }
 `;
 
@@ -81,37 +88,37 @@ const MenuButtonIcon = styled.svg`
   height: 2.5rem;
   width: 2.5rem;
   font-size: ${props => props.theme.fonts.size.MEDIUM};
-  color: ${props => props.theme.appbar_colours.BARS_BUTTON_ICON};
+  color: ${props => props.theme.colours.SECONDARY};
 
   &:hover {
-  color: ${props => props.theme.appbar_colours.TEXT_HOVER};
+  color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
   }
 `;
 
 const Menu = styled.div`
-  background-color: ${props => props.theme.appbar_colours.BACKGROUND};
+  background-color: ${props => props.theme.colours.SECONDARY};
   position: absolute;
   bottom: 0;
   right: 0;
   transform: translate(0, 100%);
-  border-top: 0.05rem solid ${props => props.theme.appbar_colours.MENU_BORDER};
+  border-top: 0.05rem solid ${props => props.theme.BUTTON_SECONDARY_HOVER};
 
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   z-index: 1;
+  width: min-content;
 `;
 
 const MenuPageButton = styled.button`
   border: none;
   background: none;
+  
   font-size: ${props => props.theme.fonts.size.MEDIUM};
   font-weight: 500;
-  font-family: 'Inter', sans-serif;
-  color: ${props => props.theme.appbar_colours.TEXT};
+  color: ${props => props.theme.BUTTON_SECONDARY_TEXT};
   text-align: center;
-  //cursor: pointer;
-  border-bottom: 0.05rem solid ${props => props.theme.appbar_colours.MENU_BORDER};
+  border-bottom: 0.05rem solid ${props => props.theme.BUTTON_SECONDARY_HOVER};
   padding: 1.5rem 2rem;
   flex: 1;
 
@@ -119,8 +126,9 @@ const MenuPageButton = styled.button`
   width: 100%;
 
   &:hover {
-    color: ${props => props.theme.appbar_colours.TEXT_HOVER};
-    }
+  background-color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
+  text-decoration: underline;
+  }
 
   &:last-child {
     border-bottom: none;
@@ -128,12 +136,10 @@ const MenuPageButton = styled.button`
 `;
 
 const Dates = styled.p<{ mobile?: boolean }>`
-  font-size: ${props => props.mobile ? props.theme.fonts.size.TINY : props.theme.fonts.size.SMALL};
-  color: ${props => props.theme.colours.LIGHT};
+  font-size: ${props => props.theme.fonts.size.TINY};
+  color: ${props => props.theme.colours.MAIN};
   padding-top: 10px;
   justify-content: baseline;
-  padding-right: ${props => props.mobile ? 'none' : '5%'};
-  padding-left: ${props => props.mobile ? '10px' : 'unset'};
 
 `;
 

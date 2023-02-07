@@ -20,21 +20,23 @@ export const AppBar: React.FC = () => {
     <s.AppBarContainer>
       <s.HomeButton onClick={navigationContext.navigateToHomePage}>
         <s.HomeButtonImage src={logo} alt="Dab Hands Logo" />
-        <s.HomeButtonText>Dab Hands</s.HomeButtonText>
+        <s.HomeButtonText>Dab Hands: That&apos;ll Need Stitching</s.HomeButtonText>
       </s.HomeButton>
 
 
-      <MediaQuery minWidth={800}>
-        <s.Dates> 8th March - 31st July </s.Dates>
+      <MediaQuery minWidth={1090}>
+        <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
-          <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton>
+          {/* <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton> */}
           <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToAboutPage}>About</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToDonaldPage}>Donald Sammut</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToStoryPage}>The Story</s.PageButton>
         </s.PageButtons>
       </MediaQuery>
 
-      <MediaQuery maxWidth={799}>
+      <MediaQuery maxWidth={1089}>
         <s.Dates mobile={true}> 8th March - 31st July </s.Dates>
         <s.MenuButton onClick={toggleShowMenu}>
           <s.MenuButtonIcon
@@ -53,10 +55,54 @@ export const AppBar: React.FC = () => {
         </s.MenuButton>
 
         <s.Menu style={{display: showMenu ? '' : 'none'}}>
-          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToModelPage(); } }>3D Model</s.MenuPageButton>
-          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToScanImagePage(); } }>Scan Image</s.MenuPageButton>
-          <s.MenuPageButton onClick={() => { toggleShowMenu(); navigationContext.navigateToExplorePage(); } }>Explore</s.MenuPageButton>
-          <s.MenuPageButton  onClick={() => { toggleShowMenu(); navigationContext.navigateToAboutPage(); }}>About</s.MenuPageButton>
+          
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToModelPage();
+            }
+            }>
+            3D Model
+          </s.MenuPageButton>
+          
+          {/* <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToScanImagePage();
+            }}>
+            Scan Image
+          </s.MenuPageButton> */}
+          
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToExplorePage();
+            }}>
+            Explore
+          </s.MenuPageButton>
+          
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToAboutPage();
+            }}>About</s.MenuPageButton>
+          
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToDonaldPage();
+            }}>
+            Donald Sammut
+          </s.MenuPageButton>
+
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToStoryPage();
+            }}>
+            The Story
+          </s.MenuPageButton>
+
         </s.Menu>
       </MediaQuery>
     </s.AppBarContainer>

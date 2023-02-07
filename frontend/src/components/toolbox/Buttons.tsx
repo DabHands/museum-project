@@ -11,6 +11,7 @@ export const Button = styled.button`
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+    font-size: inherit;
 
     &:hover{
       background-color: ${props => props.theme.BUTTON_BASIC_HOVER};
@@ -28,6 +29,7 @@ export const MainButton = styled.button`
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+    font-size: inherit;
 
     &:hover{
       background-color: ${props => props.theme.BUTTON_HOVER};
@@ -45,8 +47,27 @@ export const SecondaryButton = styled.button`
     border-radius: 10px;
     text-align: center;
     cursor: pointer;
+    font-size: inherit;
 
     &:hover{
       background-color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
+    }
+`;
+
+export const TertiaryButton = styled.button`
+    font-family: ${props => props.theme.FONT_FAMILY};
+    
+    background-color : ${props => props.theme.colours.TERTIARY};
+    color: ${props => props.theme.BUTTON_SECONDARY_TEXT};
+    width: fit-content;
+    padding: 1.5%;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: inherit;
+
+    &:hover{
+      background-color: ${props => props.theme.BUTTON_TERTIARY_HOVER};
     }
 `;
