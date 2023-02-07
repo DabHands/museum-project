@@ -29,17 +29,24 @@ const HomeButton = styled.button`
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
-
-  /* &:hover{
-    font-weight: bolder;
-  } */
+  @media (max-width: 425px){   
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
+  } 
 `;
 
 const HomeButtonImage = styled.img`
-  height: 100%;
+  @media (max-width: 768px){   
+    width: 25%;
+    object-fit: scale-down;
+  } 
+  @media (min-width: 769px){
+    height: 100%;
+  } 
+  
 `;
 
-const HomeButtonText = styled.span``;
+const HomeButtonText = styled.span`
+`;
 
 const PageButtons = styled.div`
   margin-right: 1.5rem;

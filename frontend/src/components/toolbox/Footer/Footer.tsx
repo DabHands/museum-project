@@ -10,19 +10,19 @@ export const Footer: React.FC = () => {
 
         
         <s.Wrapper>
-            <MediaQuery minWidth={700}>
+            <MediaQuery minWidth={768}>
                 
                
                 <s.FooterLink href=''> Resident Artist</s.FooterLink>
                 <p> | </p>
                 <s.FooterLink href='https://www.lucysart.co.uk/'> Lucy&apos;s Blog </s.FooterLink>
                 <p> | </p>
-                <s.FooterLink href='https://pinccollege.co.uk/'> Pinc College </s.FooterLink>
+                <s.FooterLink href='https://www.donaldsammut.com/'> Donald Sammut </s.FooterLink>
                 <p> | </p>
                 <s.Funders src={funders} loading='lazy' draggable='false' />
             </MediaQuery>
 
-            <MediaQuery maxWidth={699}>
+            <MediaQuery maxWidth={767}>
                 <s.MobileView>
                     <s.FooterLink href='https://www.lucysart.co.uk/'> Lucy&apos;s Blog </s.FooterLink>
                     <p> | </p>

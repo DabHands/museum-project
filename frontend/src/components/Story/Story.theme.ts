@@ -17,9 +17,7 @@ const Quote = styled.div`
     
     text-align: center;
     font-style: italic;
-    /* @media (min-width: 768px){
-        max-width: 60%;
-    } */
+    
 
     color: ${props => props.theme.colours.TERTIARY};
     /* border: solid 3px ${props => props.theme.colours.MAIN};

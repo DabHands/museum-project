@@ -3,15 +3,25 @@ import styled from "styled-components";
 
 const Box = styled.div`
     display: grid;
-    grid-auto-flow: rows;
-    grid-template-columns: 1fr 1fr;
+    
     padding: 2em;
     margin: 1em;
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER} ;
     box-shadow: ${props => props.theme.BOX_SHADOW};
     background-color: ${props => props.theme.colours.LIGHT};  
-    height: max-content;
+    
+    @media (max-width: 768px){
+        grid-auto-flow: row;
+        grid-template-rows: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+
+    } 
+    @media (min-width: 769px){
+        grid-auto-flow: column;
+        grid-template-columns: 1fr 1fr;
+    } 
 `;
 
 const Thumbnail = styled.img`
@@ -19,7 +29,7 @@ const Thumbnail = styled.img`
     height: auto;
     margin: 0;
     padding: 0;
-    object-fit: cover;
+    object-fit: scale-down;
     
 `;
 
@@ -30,7 +40,6 @@ const Details = styled.div`
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    flex-wrap: nowrap;
     color: ${props => props.theme.colours.SHADING};
 `;
 
@@ -40,7 +49,9 @@ const Name = styled.div`
 `;
 
 const Anatomy = styled.div`
-    font-size: ${props => props.theme.fonts.size.SMALL};
+    
+    word-wrap: break-word;
+
 `;
 
 const Origin = styled.div`
