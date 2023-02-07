@@ -3,14 +3,13 @@ import { AllEmbroideries } from '../../data/embroideries';
 import { MainButton } from '../toolbox/Buttons';
 import * as s from './Explore.theme';
 import { GridView } from './GridView/GridView';
-import { ListView } from './ListView/ListView';
 import { FilterBar } from './FilterBar/FilterBar';
 import { SecondaryH1 } from '../toolbox/Labels';
 
-enum ExploreView {
-    LIST,
-    GRID
-}
+// enum ExploreView {
+//     LIST,
+//     GRID
+// }
 
 export const Explore: React.FC = () => {
     // const [view, setView] = useState(ExploreView.GRID);
@@ -58,13 +57,13 @@ export const Explore: React.FC = () => {
         />
     };
 
-    const renderListView = () => {
-        return (
-            <ListView
-                filteredEmbroideries={filteredEmbroideries}
-            />
-        )
-    };
+    // const renderListView = () => {
+    //     return (
+    //         <ListView
+    //             filteredEmbroideries={filteredEmbroideries}
+    //         />
+    //     )
+    // };
 
     const renderGridView = () => {
         return (
