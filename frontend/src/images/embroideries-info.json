@@ -4,7 +4,7 @@
     "fileName":"chris-wrightman.jpg",
     "authorOrigin": "Guild",
     "authorName": "Chris Wrightman",
-    "anatomyName": "1st Dorsal Intermetacarpal Artery",
+    "anatomyName": "First Dorsal Intermetacarpal Artery",
     "position": ""
   },
 
@@ -13,7 +13,7 @@
     "fileName":"aska-ghulam.jpg",
     "authorOrigin": "Med",
     "authorName": "Aska Ghulam",
-    "anatomyName": "1st Dorsal Intermetacarpal Artery",
+    "anatomyName": "First Dorsal Intermetacarpal Artery",
     "position": ""
   },
 
@@ -517,7 +517,7 @@
     "fileName":"peggy-dagget.jpg",
     "authorOrigin": "Guild",
     "authorName": "Peggy Dagget",
-    "anatomyName": "First Dorsal Interosseous Muscle key",
+    "anatomyName": "First Dorsal Interosseous Muscle With Key",
     "position": ""
   },
 
@@ -526,7 +526,7 @@
     "fileName":"kath-hamlin.jpg",
     "authorOrigin": "Med",
     "authorName": "Kath Hamlin",
-    "anatomyName": "First Dorsal Interosseous Muscle key",
+    "anatomyName": "First Dorsal Interosseous Muscle With Key",
     "position": ""
   },
 
@@ -1119,7 +1119,7 @@
     "id":"8f7a23f8-cde9-41d6-a214-d1e5cdc3a4de", 
     "fileName":"zahra-alhumaidi.jpg",
     "authorOrigin": "Med",
-    "authorName": "ZAhra Alhumaidi",
+    "authorName": "Zahra Alhumaidi",
     "anatomyName": "Oblique Thumb Skel",
     "position": ""
   },
