@@ -228,7 +228,7 @@ export const Story: React.FC = () => {
                         </s.PageText>
                         <s.PageText>
                             These drawings by Caroline Johnson show Lucy at work making the sculpture.
-                            She used heat-activated felt as the main construction material,
+                            She used heat-activated felt as the main construction material, following the form of the plasticine maquette.
                         </s.PageText>
                                 
                         
@@ -250,7 +250,7 @@ export const Story: React.FC = () => {
                                 </s.PageText>
                                 <s.PageText>
                                     These drawings by Caroline Johnson show Lucy at work making the sculpture.
-                                    She used heat-activated felt as the main construction material,
+                                    She used heat-activated felt as the main construction material, following the form of the plasticine maquette.
                                 </s.PageText>
                             </s.PageText>
                             
@@ -276,7 +276,7 @@ export const Story: React.FC = () => {
                     The embroideries make up the surface of the hand and have been arranged so that the
                     embroideries describe the underlying anatomy in their particular area of the hand.
                     Please explore the rest of this website to learn more about the embroideries and the
-                    anatomy that they represent
+                    anatomy that they represent.
                 </s.PageText>
 
                 <s.AccompanyImage
