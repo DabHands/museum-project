@@ -3,7 +3,7 @@ import MediaQuery from 'react-responsive';
 import { useParams } from 'react-router-dom';
 import { AllAnatomies } from '../../data/anatomies';
 import { AllEmbroideries } from '../../data/embroideries';
-import { MainH1, SecondaryH1 } from '../toolbox/Labels';
+import { SecondaryH1 } from '../toolbox/Labels';
 import * as s from './SingleEmbroidery.theme';
 
 export const SingleEmbroidery: React.FC = () => {
