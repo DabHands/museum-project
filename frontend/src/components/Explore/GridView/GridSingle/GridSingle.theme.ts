@@ -58,6 +58,7 @@ const Anatomy = styled.div`
         max-width: 150px;
     } 
 
+
 `;
 
 const Origin = styled.div`

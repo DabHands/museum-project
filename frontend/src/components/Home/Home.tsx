@@ -1,5 +1,6 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import * as s from './Home.theme';
+
 import embr from '../../util/homepage/embr.jpg'
 import logo from '../../util/logo/wide_logo.jpg'
 import { MainH1 } from '../toolbox/Labels';
@@ -9,6 +10,7 @@ import NavigationContext from '../../contexts/NavigationContext';
 
 export const Home: React.FC = () => {
   const navigationContext = useContext(NavigationContext);
+
 
   const renderMobileView = () => {
     return <>
@@ -100,5 +102,6 @@ export const Home: React.FC = () => {
         {renderMobileView()}
       </MediaQuery>
     </s.PageWrapper>
+
   )
 }

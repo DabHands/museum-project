@@ -32,6 +32,7 @@ export const SingleEmbroidery: React.FC = () => {
                     ? <s.Thumbnail src={require(`../../images/standard/${em.fileName}`)} />
                     : <p>No Image Found</p>
                 }
+
             </s.ImageWrapper>
         )
     }
@@ -56,6 +57,7 @@ export const SingleEmbroidery: React.FC = () => {
                 </p>
                 {renderImage()}
                 {renderDescription()}
+
             </>
             
         )

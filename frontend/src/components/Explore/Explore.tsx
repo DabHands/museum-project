@@ -86,7 +86,9 @@ export const Explore: React.FC = () => {
                viewFilters && renderFilterBar()
             }
 
+
             <s.Reminder> Click on the embroideries to see more information and to enlarge the image. </s.Reminder>
+
 
             {renderGridView()}
             

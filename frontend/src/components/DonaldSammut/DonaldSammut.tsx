@@ -46,12 +46,12 @@ export const DonaldSammut: React.FC = () => {
                 purchasing equipment and consumables for each trip.
             </p>
             <p> You can donate to the Working Hands charity on their website: </p>
+
             <s.BlogLink href='https://www.workinghandscharity.org/' >
                   <MainButton aria-label='Link to Working Hands Website'> 
                      Working Hands&apos; Website 
                   </MainButton>
             </s.BlogLink>
-
         </s.PageWrapper>
        
     )

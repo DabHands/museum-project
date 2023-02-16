@@ -228,7 +228,9 @@ export const Story: React.FC = () => {
                         </s.PageText>
                         <s.PageText>
                             These drawings by Caroline Johnson show Lucy at work making the sculpture.
+
                             She used heat-activated felt as the main construction material, following the form of the plasticine maquette.
+
                         </s.PageText>
                                 
                         
@@ -251,6 +253,7 @@ export const Story: React.FC = () => {
                                 <s.PageText>
                                     These drawings by Caroline Johnson show Lucy at work making the sculpture.
                                     She used heat-activated felt as the main construction material, following the form of the plasticine maquette.
+
                                 </s.PageText>
                             </s.PageText>
                             
@@ -277,6 +280,7 @@ export const Story: React.FC = () => {
                     embroideries describe the underlying anatomy in their particular area of the hand.
                     Please explore the rest of this website to learn more about the embroideries and the
                     anatomy that they represent.
+
                 </s.PageText>
 
                 <s.AccompanyImage
@@ -303,6 +307,7 @@ export const Story: React.FC = () => {
 
             <MediaQuery maxWidth={799}> {/*The SMALL ONE*/}
                 <SecondaryH1>
+
                     {"‘That’ll Need Stitching’ Embroidered Sculpture: The Embroideries."}
                 </SecondaryH1>   
                 {renderEmbroideryText(true)}

@@ -10,10 +10,7 @@
 4. TBD
 5. To start running the frontend type in the terminal `cd my-app` and then `npm start` - this will start the webpage running on http://localhost:3000/
 
-### Backend
-6. TBD
-
-### Recognition Service
+### Recognition Service (inactive currently)
 7. Make sure you have 3.10.7 installed
 8. Make sure you install the dependencies using pip (fastApi & uvicorn)
 9. To run the api, use the command `uvicorn main:app --reload`. You can now access the api using localhost.
