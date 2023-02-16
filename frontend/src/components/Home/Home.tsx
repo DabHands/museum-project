@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import * as s from './Home.theme';
-
 import embr from '../../util/homepage/embr.jpg'
 import logo from '../../util/logo/wide_logo.jpg'
 import { MainH1 } from '../toolbox/Labels';
 import MediaQuery from 'react-responsive';
 import { CaptionedImage } from '../toolbox/CaptionedImage/CaptionedImage';
 import NavigationContext from '../../contexts/NavigationContext';
+
 
 export const Home: React.FC = () => {
   const navigationContext = useContext(NavigationContext);
