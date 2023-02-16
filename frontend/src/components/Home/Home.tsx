@@ -94,88 +94,11 @@ export const Home: React.FC = () => {
       </MediaQuery>
 
       <MediaQuery maxWidth={799}> {/*The SMALL ONE*/}
-        <MainH1 style={{ width: 'auto' }}>
+        <MainH1>
           Dab Hands: That&apos;ll Need Stitching
         </MainH1>
         {renderMobileView()}
       </MediaQuery>
     </s.PageWrapper>
-    
-    // <s.PageLayout>
-    //   <s.ImagesContainer>
-    //     <s.Image
-    //       src={needle}
-    //       alt="Needle"
-    //     />
-    //   </s.ImagesContainer>
-    //   <s.ModelTextContainer>
-    //     <s.TextWrapper>
-    //       <s.TextHeading>3D Model</s.TextHeading>
-    //       <s.Text>
-    //         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-    //         itaque minus quae iste hic modi corrupti aut recusandae harum, ipsam
-    //         quibusdam maiores ex non corporis quos.
-    //       </s.Text>
-    //       <s.TextButton onClick={navigationContext.navigateToModelPage}>View 3D Model</s.TextButton>
-    //     </s.TextWrapper>
-    //   </s.ModelTextContainer>
-
-    //   <s.ScanImageTextContainer>
-    //     <s.TextWrapper>
-    //       <s.TextHeading>Scan Image</s.TextHeading>
-    //       <s.Text>
-    //         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-    //         rerum nam pariatur dolores repellendus ad? Aliquam laborum, dolore
-    //         magnam accusamus unde dolores blanditiis sunt expedita corrupti,
-    //         repellat minus amet ad?
-    //       </s.Text>
-    //       <s.TextButton onClick={navigationContext.navigateToScanImagePage}>Scan An Image</s.TextButton>
-    //     </s.TextWrapper>
-    //   </s.ScanImageTextContainer>
-    //   <s.ImagesContainer>
-    //     <s.Image
-    //       src={embr}
-    //       alt="Embroidery"
-    //     />
-    //   </s.ImagesContainer>
-
-    //   <s.ImagesContainer>
-    //     <s.Image
-    //       src={needle}
-    //       alt="Needle"
-    //     />
-    //   </s.ImagesContainer>
-    //   <s.ExploreTextContainer>
-    //     <s.TextWrapper>
-    //       <s.TextHeading>Explore</s.TextHeading>
-    //       <s.Text>
-    //         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
-    //         itaque minus quae iste hic modi corrupti aut recusandae harum, ipsam
-    //         quibusdam maiores ex non corporis quos facilis consequatur eligendi.
-    //         Veritatis!
-    //       </s.Text>
-    //       <s.TextButton onClick={navigationContext.navigateToExplorePage}>Check Out All Embroideries</s.TextButton>
-    //     </s.TextWrapper>
-    //   </s.ExploreTextContainer>
-
-    //   <s.AboutTextContainer>
-    //     <s.TextWrapper>
-    //       <s.TextHeading>About</s.TextHeading>
-    //       <s.Text>
-    //         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
-    //         rerum nam pariatur dolores repellendus ad? Aliquam laborum, dolore
-    //         magnam accusamus unde dolores blanditiis sunt expedita corrupti,
-    //         repellat minus amet ad?
-    //       </s.Text>
-    //       <s.TextButton onClick={navigationContext.navigateToAboutPage}>See More About The Artist</s.TextButton>
-    //     </s.TextWrapper>
-    //   </s.AboutTextContainer>
-    //   <s.ImagesContainer>
-    //     <s.Image
-    //       src={embr}
-    //       alt="Embroidery"
-    //     />
-    //   </s.ImagesContainer>
-    // </s.PageLayout>
   )
 }

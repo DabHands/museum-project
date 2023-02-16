@@ -302,7 +302,7 @@ export const Story: React.FC = () => {
             </MediaQuery>
 
             <MediaQuery maxWidth={799}> {/*The SMALL ONE*/}
-                <SecondaryH1 style={{ width: 'auto' }}>
+                <SecondaryH1>
                     {"‘That’ll Need Stitching’ Embroidered Sculpture: The Embroideries."}
                 </SecondaryH1>   
                 {renderEmbroideryText(true)}
