@@ -6,7 +6,7 @@ import lucy2 from '../../util/artist/dabhands_2.jpg'
 import lucy3 from '../../util/artist/dabhands_3.jpg'
 import funders from '../../util/artist/funders.jpg'
 import { TertiaryButton } from '../toolbox/Buttons';
-import { MainH1, SecondaryH2 } from '../toolbox/Labels';
+import { MainH1, SecondaryH2, TertiaryH2 } from '../toolbox/Labels';
 import MediaQuery from 'react-responsive';
 
 export const About: React.FC = () => {
@@ -50,6 +50,31 @@ export const About: React.FC = () => {
       )
    }
 
+   const renderDevs = () => {
+         return (
+            <>
+               <TertiaryH2> Meet the Developers </TertiaryH2>
+               <s.DevName> Lucy Jefford </s.DevName>
+               <s.DevDesc>
+                  I am a Final Year student at the University of Manchester.
+                  I&apos;ve worked on this website for my final project, 
+                  working with Lucy to help design the website, and how you
+                  interact with it. 
+                  <br></br>
+                  I love working with my hands, in particular knitting,
+                  as my grandma taught me when I was young. 
+                  I felt honoured to work on such an important exhibit, 
+                  and hope you enjoy your experience too.
+               </s.DevDesc>
+               <s.DevDesc> Add Social Links? Github, LinkedIn </s.DevDesc>
+               <s.DevName> Adelina Voynova </s.DevName>
+               <s.DevDesc> *insert information about yourself here* </s.DevDesc>
+               <s.DevDesc> Add Social Links? </s.DevDesc>
+            
+            </>
+         )
+   }
+   
    const renderProjectInfo = (showFounders:boolean) => {
       return (
          <>
@@ -85,7 +110,8 @@ export const About: React.FC = () => {
             {showFounders &&
                <s.SponsorPanel>   
                   <s.SponsorTitle> Funded By </s.SponsorTitle>
-                  <s.Funders src={funders}/>
+                  <s.Funders src={funders} />
+                   {renderDevs()}
                </s.SponsorPanel>
             }
             
@@ -93,6 +119,8 @@ export const About: React.FC = () => {
          
       )
    }
+
+   
 
    return (<>
 
@@ -102,11 +130,13 @@ export const About: React.FC = () => {
             <s.MainPanel>
                <MainH1> About </MainH1>
                   {renderProjectInfo(true)}
-               </s.MainPanel>
-               <s.AuthorPanel>
-                  {renderArtistsBio()}
-               </s.AuthorPanel>
-            </s.MainContent>
+            </s.MainPanel>
+            <s.AuthorPanel>
+               {renderArtistsBio()}
+            </s.AuthorPanel>
+            
+         </s.MainContent>
+        
          </MediaQuery>
 
          <MediaQuery maxWidth={799}> {/*The SMALL ONE*/}
@@ -122,6 +152,7 @@ export const About: React.FC = () => {
                   <s.SponsorTitle> Funded By </s.SponsorTitle>
                   <s.Funders src={funders}/>
                </s.SponsorPanel>
+               {renderDevs()}
             </s.MainPanel>
          </MediaQuery>
          

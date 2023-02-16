@@ -66,7 +66,6 @@ export const SecondaryH2 = styled.h2<{ toPad?: boolean }>`
 export const TertiaryH2 = styled.h2<{ toPad?: boolean }>`
     color: ${props => props.theme.colours.LIGHT};
     font-size: ${props => props.theme.fonts.size.LARGE};
-    font-weight: bolder;
     background-color: ${props => props.theme.colours.TERTIARY};
     padding: 10px 10px;
     width: max-content;
