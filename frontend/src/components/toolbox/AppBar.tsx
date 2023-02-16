@@ -27,12 +27,14 @@ export const AppBar: React.FC = () => {
       <MediaQuery minWidth={1090}>
         <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
+          <s.PageButton onClick={navigationContext.navigateToStoryPage}>The Story of the Sculpture</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
           {/* <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton> */}
           <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.PageButton>
-          <s.PageButton onClick={navigationContext.navigateToAboutPage}>About</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToAboutPage}>About The Dab Hands Project</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToDonaldPage}>Donald Sammut</s.PageButton>
-          <s.PageButton onClick={navigationContext.navigateToStoryPage}>The Story</s.PageButton>
+          
+
         </s.PageButtons>
       </MediaQuery>
 
@@ -54,7 +56,14 @@ export const AppBar: React.FC = () => {
           </s.MenuButtonIcon>
         </s.MenuButton>
 
-        <s.Menu style={{display: showMenu ? '' : 'none'}}>
+        <s.Menu style={{ display: showMenu ? '' : 'none' }}>
+          <s.MenuPageButton
+            onClick={() => {
+              toggleShowMenu();
+              navigationContext.navigateToStoryPage();
+            }}>
+            The Story of the Sculpture
+          </s.MenuPageButton>
           
           <s.MenuPageButton
             onClick={() => {
@@ -85,7 +94,8 @@ export const AppBar: React.FC = () => {
             onClick={() => {
               toggleShowMenu();
               navigationContext.navigateToAboutPage();
-            }}>About</s.MenuPageButton>
+            }}>About The Dab Hands Project</s.MenuPageButton>
+
           
           <s.MenuPageButton
             onClick={() => {
@@ -93,14 +103,6 @@ export const AppBar: React.FC = () => {
               navigationContext.navigateToDonaldPage();
             }}>
             Donald Sammut
-          </s.MenuPageButton>
-
-          <s.MenuPageButton
-            onClick={() => {
-              toggleShowMenu();
-              navigationContext.navigateToStoryPage();
-            }}>
-            The Story
           </s.MenuPageButton>
 
         </s.Menu>

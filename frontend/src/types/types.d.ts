@@ -20,4 +20,5 @@ export type Coordinates = { //This is for Adelina to mess with later
 export type Anatomy = {
     name: string,
     description: string
+    longName?: string
 }

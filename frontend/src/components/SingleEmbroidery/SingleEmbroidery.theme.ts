@@ -1,17 +1,22 @@
 import styled from 'styled-components'
 
 
-const EmbroideryName = styled.h1`
-    padding-left: 1em;
+const EmbroideryName = styled.div`
+    display: block;
+    margin: 0.5rem 0 0.7rem 0;
+    max-width: 90vw;
     font-size: ${props => props.theme.fonts.size.LARGE};
-    padding-bottom: 0.25rem;
     border-bottom: ${props => props.theme.ROW_DIVIDER};
 `;
 
-const AuthorName = styled.h2`
-    padding-left: 1em;
-    font-size: LARGE;
-    padding-top: 0.25rem;
+const AuthorName = styled.span`
+    font-size: ${props => props.theme.fonts.size.LARGE};
+    background-color: ${props => props.theme.colours.TERTIARY};
+    color: ${props => props.theme.colours.LIGHT};
+    padding: 5px 5px;
+    margin: 0px 5px;
+    width: max-content;
+    font-family: 'Secular One';
 `;
 
 const AuthorOrigin = styled.div`
@@ -19,32 +24,36 @@ const AuthorOrigin = styled.div`
     color: ${props => props.theme.BUTTON_SECONDARY_HOVER};
 `;
 
+const SplitPage = styled.div`
+    display: flex;
+`; 
+
 const PageWrapper = styled.div`
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 2em;
-    padding: 1em;
+    padding: 1rem;
 `;
 
-const LeftSide = styled.div`
-    min-width: 50%;
-`;
-
-const RightSide = styled.div`
-    min-width: 50%;
-`;
 
 const Thumbnail = styled.img`
-    max-width: 100%;
-    height: auto;
+    width: auto;
+    height: 50vh;
     margin: 0;
     padding: 0;
-    object-fit: cover;
-    border: solid 3px ${props => props.theme.BUTTON_BASIC};
+    object-fit: scale-down;
+    border: solid 3px ${props => props.theme.colours.TERTIARY};
     box-shadow: ${props => props.theme.BOX_SHADOW};
+
+`;
+const ImageWrapper = styled.div`
+    display: flex;
+    justify-content: center;
+`;
+
+const DescWrapper = styled.div`
+    padding: 10px;
 `;
 
 const Description = styled.div`
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
 `;
 
 const BelowImageBox = styled.div`
@@ -56,10 +65,11 @@ export {
     EmbroideryName,
     AuthorName,
     PageWrapper,
-    LeftSide,
-    RightSide,
     Thumbnail,
     Description,
     AuthorOrigin,
     BelowImageBox,
+    SplitPage,
+    ImageWrapper,
+    DescWrapper,
 };

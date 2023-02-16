@@ -45,19 +45,13 @@ export const DonaldSammut: React.FC = () => {
                 donated funds find their way directly to the front line of treatment,
                 purchasing equipment and consumables for each trip.
             </p>
+            <p> You can donate to the Working Hands charity on their website: </p>
+
             <s.BlogLink href='https://www.workinghandscharity.org/' >
                   <MainButton aria-label='Link to Working Hands Website'> 
                      Working Hands&apos; Website 
                   </MainButton>
             </s.BlogLink>
-            
-            <p> You can donate to the Working Hands charity here: </p>
-            <s.BlogLink href='https://www.paypal.com/donate?token=jZTMkkPl7Y9TMsjsi-TiiWLqzwkW_90uWxaFL3HbxVlrYVeoFb2KRMtAJCtDsqMg_IelUy5BVzWt_3lY ' >
-                  <TertiaryButton aria-label="Link to Working Hands' Paypal"> 
-                     Donate to Working Hands
-                  </TertiaryButton>
-               </s.BlogLink>
-            <p> </p>
         </s.PageWrapper>
        
     )

@@ -57,7 +57,7 @@ const Anatomy = styled.div`
     @media (min-width: 769px){
         max-width: 150px;
     } 
-    word-wrap: break-word;
+
 
 `;
 
