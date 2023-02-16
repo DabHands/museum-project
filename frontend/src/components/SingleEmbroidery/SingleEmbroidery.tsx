@@ -39,7 +39,7 @@ export const SingleEmbroidery: React.FC = () => {
     const renderDescription = () => {
         return (
             <s.DescWrapper>
-                <s.EmbroideryName> Information about the {getName()} </s.EmbroideryName>
+                <s.EmbroideryName> What is the {getName()}? </s.EmbroideryName>
                 <s.Description> {an ? an.description : 'No anatomy found'}</s.Description>
             </s.DescWrapper>
            
@@ -62,15 +62,22 @@ export const SingleEmbroidery: React.FC = () => {
     }
     const renderDesktopView = () => {
         return (
-            <p> Desktop View </p>
-            // <s.SplitPage>
-            //     <s.LeftSide>
-            //         {renderLeftPanel()}
-            //     </s.LeftSide>
-            //     <s.RightSide>
-            //         {renderRightPanel()}
-            //     </s.RightSide>
-            // </s.SplitPage>
+            <>
+                <SecondaryH1> {getName()}</SecondaryH1>
+                
+                 <s.SplitPage>
+                    
+                    <div>
+                        <p>
+                            Embroidered By
+                            <s.AuthorName> {em ? em.authorName : 'No author found'}</s.AuthorName>
+                        </p>
+                        {renderImage()}
+                        
+                    </div>
+                    {renderDescription()}
+                 </s.SplitPage>
+            </>
         )
         
         

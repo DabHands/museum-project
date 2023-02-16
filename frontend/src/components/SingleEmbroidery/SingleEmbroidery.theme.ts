@@ -11,8 +11,8 @@ const EmbroideryName = styled.div`
 
 const AuthorName = styled.span`
     font-size: ${props => props.theme.fonts.size.LARGE};
-    font-weight: bolder;
     background-color: ${props => props.theme.colours.TERTIARY};
+    color: ${props => props.theme.colours.LIGHT};
     padding: 5px 5px;
     margin: 0px 5px;
     width: max-content;
@@ -26,10 +26,6 @@ const AuthorOrigin = styled.div`
 
 const SplitPage = styled.div`
     display: flex;
-    /* display: grid;
-    grid-template-columns: 3fr 2fr;
-    gap: 2em;
-    padding: 1em; */
 `; 
 
 const PageWrapper = styled.div`
