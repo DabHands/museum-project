@@ -25,6 +25,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.HOME) {
       setPage(Pages.HOME);
       navigate(process.env.PUBLIC_URL + '/');
+      window.scrollTo(0, 0)
     }
   };
 
@@ -32,6 +33,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.MODEL) {
       setPage(Pages.MODEL);
       navigate(process.env.PUBLIC_URL + '/model');
+      window.scrollTo(0, 0)
     }
   };
 
@@ -39,6 +41,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.SCAN_IMAGE) {
       setPage(Pages.SCAN_IMAGE);
       navigate(process.env.PUBLIC_URL + '/image-scanning');
+      window.scrollTo(0, 0)
     }
   };
 
@@ -46,6 +49,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.EXPLORE) {
       setPage(Pages.EXPLORE);
       navigate(process.env.PUBLIC_URL + '/explore');
+      window.scrollTo(0, 0)
     }
   };
 
@@ -53,6 +57,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.ABOUT) {
       setPage(Pages.ABOUT);
       navigate(process.env.PUBLIC_URL + '/about');
+      window.scrollTo(0, 0)
     }
   };
 
@@ -60,6 +65,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.DONALD) {
       setPage(Pages.DONALD);
       navigate(process.env.PUBLIC_URL + '/donald-sammut');
+      window.scrollTo(0, 0)
     }
   };
 
@@ -67,6 +73,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     if (page !== Pages.STORY) {
       setPage(Pages.STORY);
       navigate(process.env.PUBLIC_URL + '/the-story');
+      window.scrollTo(0, 0)
     }
   };
 
