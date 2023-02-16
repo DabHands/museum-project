@@ -77,20 +77,6 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     }
   };
 
-  const navigateToDonaldPage = () => {
-    if (page !== Pages.DONALD) {
-      setPage(Pages.DONALD);
-      navigate(process.env.PUBLIC_URL + '/donald-sammut');
-    }
-  };
-
-  const navigateToStoryPage = () => {
-    if (page !== Pages.STORY) {
-      setPage(Pages.STORY);
-      navigate(process.env.PUBLIC_URL + '/the-story');
-    }
-  };
-
   const context = {
     Pages,
     navigateToHomePage,
