@@ -1,12 +1,10 @@
 import React, { useContext } from 'react';
 import * as s from './Home.theme';
 import embr from '../../util/homepage/embr.jpg'
-
 import logo from '../../util/logo/wide_logo.jpg'
-import { MainH1, SecondaryH1 } from '../toolbox/Labels';
+import { MainH1 } from '../toolbox/Labels';
 import MediaQuery from 'react-responsive';
 import { CaptionedImage } from '../toolbox/CaptionedImage/CaptionedImage';
-import { Button } from '../toolbox/Buttons';
 import NavigationContext from '../../contexts/NavigationContext';
 
 export const Home: React.FC = () => {
@@ -23,29 +21,69 @@ export const Home: React.FC = () => {
         In the museum, youll see the sculpture of the hand, with 
         various embroideries made by artists from across Manchester all over it.
       </s.PageText>
-      <Button onClick={navigationContext.navigateToModelPage}>
-        See the 3D Model </Button>
+      <s.StyledButton onClick={navigationContext.navigateToModelPage}>
+        See the 3D Model </s.StyledButton>
       <s.PageText> Online, you can view the 3D model, or explore each embroidery
         and the information behind each anatomy. Learn about the Hand, and the Story
         of how this whole project came to be.
       </s.PageText>
-      <Button onClick={navigationContext.navigateToExplorePage}>
-        Explore the Embroideries </Button>
+      <s.StyledButton onClick={navigationContext.navigateToExplorePage}>
+        Explore the Embroideries </s.StyledButton>
       <CaptionedImage image={embr} caption="One of the many embroideries on show at the exhibit." />
-      <Button onClick={navigationContext.navigateToStoryPage}>
-        The Story of the Sculpture </Button>
+      <s.StyledButton onClick={navigationContext.navigateToStoryPage}>
+        The Story of the Sculpture </s.StyledButton>
       <s.PageText>
         This is but one of the pieces in the wider Dab Hands Collection, 
         which was created in residence at the Manchester Museum by Lucy
         Burscough and her collaborative partners.
       </s.PageText>
-      <Button onClick={navigationContext.navigateToAboutPage}>
-        Read more about the Dab Hands Project.</Button>
+      <s.StyledButton onClick={navigationContext.navigateToAboutPage}>
+        Read more about the Dab Hands Project.</s.StyledButton>
     </>
   }
 
   const renderDesktopView = () => {
-    return <p>Desktop</p>
+    return <>
+      <s.Spanel>
+        <span>
+          <s.PageText>
+            “Dab Hands: That&apos;ll Need Stitching” is an exhibition in the
+            Manchester Museum, from the 8th March to 31st July 2023. 
+            <br></br> <br></br>
+            In the museum, you&apos;ll see the sculpture of the hand, with 
+            various embroideries made by artists from across Manchester all over it.
+          </s.PageText>
+          <s.StyledButton onClick={navigationContext.navigateToModelPage}>
+            See the 3D Model </s.StyledButton>
+        </span>
+        
+        <s.Image src={logo} />
+      </s.Spanel>
+    
+      <s.Spanel even>
+        <CaptionedImage image={embr} caption="One of the many embroideries on show at the exhibit." />
+        <span>
+          <s.PageText> Online, you can view the 3D model, or explore each embroidery
+            and the information behind each anatomy. Learn about the Hand, and the Story
+            of how this whole project came to be.
+          </s.PageText>
+          <s.StyledButton onClick={navigationContext.navigateToExplorePage}>
+            Explore the Embroideries </s.StyledButton>
+          
+          <s.StyledButton onClick={navigationContext.navigateToStoryPage}>
+            The Story of the Sculpture </s.StyledButton>
+          <s.PageText>
+            This is but one of the pieces in the wider Dab Hands Collection, 
+            which was created in residence at the Manchester Museum by Lucy
+            Burscough and her collaborative partners.
+          </s.PageText>
+          <s.StyledButton onClick={navigationContext.navigateToAboutPage}>
+            Read more about the Dab Hands Project.</s.StyledButton>
+        </span>
+
+      </s.Spanel>
+      
+      </>
   }
 
   return (
