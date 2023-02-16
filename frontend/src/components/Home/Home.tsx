@@ -94,7 +94,7 @@ export const Home: React.FC = () => {
       </MediaQuery>
 
       <MediaQuery maxWidth={799}> {/*The SMALL ONE*/}
-        <MainH1 style={{ width: 'auto' }}>
+        <MainH1>
           Dab Hands: That&apos;ll Need Stitching
         </MainH1>
         {renderMobileView()}
