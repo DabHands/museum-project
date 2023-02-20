@@ -21,13 +21,13 @@ export const Model: React.FC = () => {
   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
   camera.position.z = 4;
 
-  const setCanvasPosition = ( canvas: HTMLElement) => {
+  const setCanvasPosition = (canvas: HTMLElement) => {
     canvasPositionLeft = canvas.offsetLeft;
     canvasPositionTop = canvas.offsetTop;
     canvasPositionHeight = canvas.offsetHeight;
     canvasPositionWidth = canvas.offsetWidth;
 
-    return { canvasPositionLeft, canvasPositionTop, canvasPositionHeight, canvasPositionWidth};
+    return { canvasPositionLeft, canvasPositionTop, canvasPositionHeight, canvasPositionWidth };
   };
 
   const addModelLights = () => {
@@ -72,6 +72,26 @@ export const Model: React.FC = () => {
     });
   };
 
+  const createPlane = (scene: THREE.Scene) => {
+    const plane = new THREE.BufferGeometry();
+
+    const vertices = new Float32Array([
+      0.42673003149717437, -0.5054964491241991, 0.9481348893858136,
+      0.480864406523007, -0.5837215299495722, 0.8310803664288977,
+      0.41161666435286415, -0.5939965223753978, 0.7088020270774806,
+      0.2636958064938275, -0.5696199149816064, 0.7019622114722872,
+      0.1956546599158516, -0.5192302765873366, 0.825893673636176,
+      0.2783881104931201, -0.4926125296728612, 0.9501636605944817
+    ]);
+
+    plane.setAttribute('position', new THREE.BufferAttribute(vertices, 3));
+    const material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+    const mesh = new THREE.Mesh(plane, material);
+
+    scene.add(mesh);
+  };
+
+
   useEffect(() => {
     // position the depth of the camera
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
@@ -87,6 +107,7 @@ export const Model: React.FC = () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
     loadModel();
+    // createPlane(scene);
 
     // show the model
     function animate() {
@@ -97,31 +118,31 @@ export const Model: React.FC = () => {
     animate();
   });
 
-  const handleClickOnCanvas = (event: any) => {
-    event.preventDefault();
+  // const handleClickOnCanvas = (event: any) => {
+  //   event.preventDefault();
 
-    const canvas = document.getElementById('modelCanvas') as HTMLElement;
-    const {canvasPositionLeft, 
-      canvasPositionTop, 
-      canvasPositionHeight, 
-      canvasPositionWidth } = setCanvasPosition(canvas);
+  //   const canvas = document.getElementById('modelCanvas') as HTMLElement;
+  //   const { canvasPositionLeft,
+  //     canvasPositionTop,
+  //     canvasPositionHeight,
+  //     canvasPositionWidth } = setCanvasPosition(canvas);
 
-    const x = ((event.clientX - canvasPositionLeft) / canvasPositionWidth) * 2 - 1;
-    const y = -((event.clientY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
+  //   const x = ((event.clientX - canvasPositionLeft) / canvasPositionWidth) * 2 - 1;
+  //   const y = -((event.clientY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
 
-    const mousePosition = new THREE.Vector2(x, y);
+  //   const mousePosition = new THREE.Vector2(x, y);
 
-    rayCaster.setFromCamera(mousePosition, camera);
-    const intersects = rayCaster.intersectObjects(model.children, true);
+  //   rayCaster.setFromCamera(mousePosition, camera);
+  //   const intersects = rayCaster.intersectObjects(model.children, true);
 
-    if (intersects.length > 0) {
-      console.log(intersects[0].point);
-    }
-  };
+  //   if (intersects.length > 0) {
+  //     console.log(intersects[0].point);
+  //   }
+  // };
 
   return (<s.PageWrapper>
     <div style={{ marginTop: "10px" }}>
-      <canvas id="modelCanvas" style={{ position: "absolute" }} onClick={handleClickOnCanvas}></canvas>
+      <canvas id="modelCanvas"></canvas>
     </div>
   </s.PageWrapper>)
 }
