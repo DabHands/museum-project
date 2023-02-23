@@ -40,7 +40,7 @@ export const About: React.FC = () => {
                      src={lucy3} />
                </s.Spanel>
 
-               <s.BlogLink href='https://www.lucysart.co.uk/'>
+               <s.BlogLink href='https://www.lucysart.co.uk/' target="_blank">
                   <TertiaryButton> 
                      Visit Lucy&apos;s Website 
                   </TertiaryButton>
