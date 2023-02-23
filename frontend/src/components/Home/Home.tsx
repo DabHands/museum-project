@@ -22,10 +22,12 @@ export const Home: React.FC = () => {
       <s.PageText>
         In the museum, you can see the sculpture of the hand, with 
         its embroideries which are made by, people from Manchester, across the UK, and beyond.
+
       </s.PageText>
       <s.StyledButton onClick={navigationContext.navigateToModelPage}>
         See the 3D Model </s.StyledButton>
       <s.PageText> Online, you can view the 3D model, or explore each embroidery
+
         and the information behind each anatomical drawing. Learn about the hand, and the story
         of how this whole project came to be.
       </s.PageText>
@@ -35,6 +37,7 @@ export const Home: React.FC = () => {
       <s.StyledButton onClick={navigationContext.navigateToStoryPage}>
         The Story of the Sculpture </s.StyledButton>
       <s.PageText>
+
         This is one of the pieces in the wider Dab Hands Collection, 
         which was created in residence at the Manchester Museum by Lucy
         Burscough and her collaborative partners.

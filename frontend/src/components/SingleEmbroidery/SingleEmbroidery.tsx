@@ -40,6 +40,7 @@ export const SingleEmbroidery: React.FC = () => {
     const renderDescription = () => {
         return (
             <s.DescWrapper>
+
                 <s.EmbroideryName> Further Information on {getName()}? </s.EmbroideryName>
                 <s.Description> {an ? an.description : 'No anatomy found'}</s.Description>
             </s.DescWrapper>
