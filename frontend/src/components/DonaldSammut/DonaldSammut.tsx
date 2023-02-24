@@ -30,7 +30,7 @@ export const DonaldSammut: React.FC = () => {
                 
             </p>
 
-            <s.BlogLink href='https://www.donaldsammut.com/' >
+            <s.BlogLink href='https://www.donaldsammut.com/' target="_blank">
                   <TertiaryButton aria-label='Link to Donald Sammuts Website'> 
                      Visit his website!
                   </TertiaryButton>
@@ -47,7 +47,8 @@ export const DonaldSammut: React.FC = () => {
             </p>
             <p> You can donate to the Working Hands charity on their website: </p>
 
-            <s.BlogLink href='https://www.workinghandscharity.org/' >
+            <s.BlogLink href='https://www.workinghandscharity.org/' target="_blank">
+            
                   <MainButton aria-label='Link to Working Hands Website'> 
                      Working Hands&apos; Website 
                   </MainButton>

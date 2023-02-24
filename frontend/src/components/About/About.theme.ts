@@ -58,7 +58,7 @@ const MainContent = styled.div`
 `;
 
 const MainPanel = styled.div<{ mobile?: boolean }>`
-    width: ${props => props.mobile ? "100%" : "70%"};
+    width: ${props => props.mobile ? "90%" : "70%"};
     padding: 1rem;
 `;
 
