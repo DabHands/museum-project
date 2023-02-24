@@ -6,7 +6,7 @@ import lucy2 from '../../util/artist/dabhands_2.jpg'
 import lucy3 from '../../util/artist/dabhands_3.jpg'
 import funders from '../../util/artist/funders.jpg'
 import { TertiaryButton } from '../toolbox/Buttons';
-import { MainH1, SecondaryH2 } from '../toolbox/Labels';
+import { MainH1, SecondaryH2, TertiaryH2 } from '../toolbox/Labels';
 import MediaQuery from 'react-responsive';
 
 export const About: React.FC = () => {
@@ -50,7 +50,44 @@ export const About: React.FC = () => {
       )
    }
 
+   const renderDevs = () => {
+         return (
+            <>
+               <TertiaryH2> Meet the Developers </TertiaryH2>
+               <s.DevName> Lucy Jefford </s.DevName>
+               <s.DevDesc>
+                  I am a Final Year Computer Science student at the University of Manchester.
+                  I&apos;ve worked on this website for my final project, 
+                  working with Lucy to help design the website, and how you
+                  interact with it. 
+                  <br></br>
+                  I love working with my hands, in particular knitting,
+                  as my grandma taught me when I was young. 
+                  I felt honoured to work on such an important exhibit, 
+                  and hope you enjoy your experience too.
+               </s.DevDesc>
+               {/* <s.DevDesc> Add Social Links? Github, LinkedIn </s.DevDesc> */}
+               <s.DevName> Adelina Voynova </s.DevName>
+               <s.DevDesc>
+                  I am a Third Year student at the Department of
+                  Computer Science in the University of Manchester.
+                  This 3d model is part of my final project.
+                  Creating a 3D model of DabHands, by working alongside
+                  with Lucy, was very exciting for me.
+                  <br></br>
+                  I love creating things with my hands, like bracelets
+                  and paper wallets. I am very happy that I got to know
+                  this exhibit and work on it. I hope you like it too.
+               </s.DevDesc>
+               {/* <s.DevDesc> Add Social Links? </s.DevDesc> */}
+            
+            </>
+         )
+   }
+   
+
    const renderProjectInfo = (desktop:boolean) => {
+
       return (
          <>
             {desktop ?
@@ -116,7 +153,8 @@ export const About: React.FC = () => {
             {desktop &&
                <s.SponsorPanel>   
                   <s.SponsorTitle> Funded By </s.SponsorTitle>
-                  <s.Funders src={funders}/>
+                  <s.Funders src={funders} />
+                   {renderDevs()}
                </s.SponsorPanel>
             }
             
@@ -135,6 +173,7 @@ export const About: React.FC = () => {
             <s.AuthorPanel>
                {renderArtistsBio()}
             </s.AuthorPanel>
+
          </s.MainContent>)
    }
 
@@ -151,6 +190,7 @@ export const About: React.FC = () => {
                <s.SponsorTitle> Funded By </s.SponsorTitle>
                <s.Funders src={funders}/>
             </s.SponsorPanel>
+            {renderDevs()}
          </s.MainPanel>
       </>)
       
