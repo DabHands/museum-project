@@ -52,7 +52,7 @@ export const Model: React.FC = () => {
   const loadModel = () => {
     // load the materials fot the model, with the model and its texture
     const mtlLoader = new MTLLoader();
-    mtlLoader.load("polycam-mesh/poly.mtl", function (materials) {
+    mtlLoader.load("polycam/final-project.mtl", function (materials) {
       materials.preload();
       const objLoader = new OBJLoader();
       objLoader.setMaterials(materials);
@@ -62,7 +62,7 @@ export const Model: React.FC = () => {
           // load the texture
           // model = { ...object };
           const textureLoader = new THREE.TextureLoader();
-          const texture = textureLoader.load('polycam/texture.jpg');
+          const texture = textureLoader.load('polycam/texture-final-project.jpg');
 
           // append the texture to the model
           object.traverse(function (child) {
