@@ -1,12 +1,12 @@
 import React, { useEffect } from 'react';
-import MediaQuery from 'react-responsive';
+// import MediaQuery from 'react-responsive';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
-import { Raycaster } from 'three';
-import { AllEmbroideries } from '../../data/embroideries';
-import { SphereInfo } from '../../types/types';
+// import { Raycaster } from 'three';
+// import { AllEmbroideries } from '../../data/embroideries';
+// import { SphereInfo } from '../../types/types';
 import * as s from './Model.theme';
 
 export const Model: React.FC = () => {
@@ -17,7 +17,7 @@ export const Model: React.FC = () => {
   // let sphereInfo: SphereInfo;
 
   // // create a variable to store the object
-  let model: any;
+  // let model: any;
   // let canvasPositionLeft: number;
   // let canvasPositionTop: number;
   // let canvasPositionWidth: number;
@@ -60,7 +60,7 @@ export const Model: React.FC = () => {
         'polycam/poly.obj',
         function (object) {
           // load the texture
-          model = { ...object };
+          // model = { ...object };
           const textureLoader = new THREE.TextureLoader();
           const texture = textureLoader.load('polycam/texture.jpg');
 
