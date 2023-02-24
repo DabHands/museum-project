@@ -6,7 +6,8 @@ export type Embroidery = {
     authorOrigin: OriginTypes,
     authorName: string,
     anatomyName: string,
-    position?: Coordinates
+    centreCoordinates: number[],
+    endPointCoordinates: number[]
 }
 
 export type OriginTypes = 'BW' | 'Guild' | 'Med' | 'Misc';
@@ -19,6 +20,11 @@ export type Coordinates = { //This is for Adelina to mess with later
 
 export type Anatomy = {
     name: string,
-    description: string
+    description: string,
     longName?: string
+}
+
+export type SphereInfo = {
+    embroideryId: string,
+    sphere: THREE.Object3D
 }
