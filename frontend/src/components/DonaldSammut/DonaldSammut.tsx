@@ -48,7 +48,7 @@ export const DonaldSammut: React.FC = () => {
             <p> You can donate to the Working Hands charity on their website: </p>
 
             <s.BlogLink href='https://www.workinghandscharity.org/' target="_blank">
-            
+
                   <MainButton aria-label='Link to Working Hands Website'> 
                      Working Hands&apos; Website 
                   </MainButton>
