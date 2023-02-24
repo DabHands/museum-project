@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { Button } from '../toolbox/Buttons';
 
 
 const EmbroideryName = styled.div`
@@ -25,7 +26,13 @@ const AuthorOrigin = styled.div`
 `;
 
 const SplitPage = styled.div`
-    display: flex;
+    @media (max-width: 768px){
+
+    } 
+    @media (min-width: 769px){
+        display: grid;
+        grid-template-columns: 45% 55%;
+    } 
 `; 
 
 const PageWrapper = styled.div`
@@ -61,6 +68,19 @@ const BelowImageBox = styled.div`
     align-items: baseline;
 `;
 
+const IconButton = styled(Button)`
+    display: flex;  
+    align-items: center;
+    height: 3.25rem;
+    padding: 10px 10px;
+`;
+
+const TitleBox = styled.div`
+    display: grid;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+`;
+
 export {
     EmbroideryName,
     AuthorName,
@@ -72,4 +92,6 @@ export {
     SplitPage,
     ImageWrapper,
     DescWrapper,
+    IconButton,
+    TitleBox,
 };

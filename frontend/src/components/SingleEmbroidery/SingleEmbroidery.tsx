@@ -3,7 +3,9 @@ import MediaQuery from 'react-responsive';
 import { useParams } from 'react-router-dom';
 import { AllAnatomies } from '../../data/anatomies';
 import { AllEmbroideries } from '../../data/embroideries';
+import { Button } from '../toolbox/Buttons';
 import { SecondaryH1 } from '../toolbox/Labels';
+import {BsArrowLeftShort} from 'react-icons/bs'
 import * as s from './SingleEmbroidery.theme';
 
 export const SingleEmbroidery: React.FC = () => {
@@ -47,9 +49,18 @@ export const SingleEmbroidery: React.FC = () => {
         )
     }
 
+    const renderBackButton = () => {
+        return (
+            <s.IconButton> 
+                <BsArrowLeftShort/> Back to Explore
+            </s.IconButton>
+        )
+    }
+
     const renderMobileView = () => {
         return (
             <>
+                {renderBackButton()}
                 <SecondaryH1> {getName()}</SecondaryH1>
                 <p>
                     Embroidered By
@@ -65,7 +76,12 @@ export const SingleEmbroidery: React.FC = () => {
     const renderDesktopView = () => {
         return (
             <>
-                <SecondaryH1> {getName()}</SecondaryH1>
+                <s.TitleBox>
+                    <SecondaryH1> {getName()}</SecondaryH1>
+                    {renderBackButton()}
+                </s.TitleBox>
+                
+                
                 
                  <s.SplitPage>
                     
@@ -77,7 +93,9 @@ export const SingleEmbroidery: React.FC = () => {
                         {renderImage()}
                         
                     </div>
+                    
                     {renderDescription()}
+
                  </s.SplitPage>
             </>
         )
