@@ -23,11 +23,12 @@ const HomeButton = styled.button`
   cursor: pointer;
   height: 100%;
   line-height: 100%;
-  padding: 0;
+  padding: unset;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  float: left;
   gap: 0.5rem;
   @media (max-width: 425px){   
     font-size: ${props => props.theme.fonts.size.MEDIUM};
@@ -35,17 +36,29 @@ const HomeButton = styled.button`
 `;
 
 const HomeButtonImage = styled.img`
+  background-color: ${props => props.theme.colours.SHADING};
   @media (max-width: 768px){   
-    width: 25%;
+    width: 100%;
+    height: 100%;
     object-fit: scale-down;
   } 
   @media (min-width: 769px){
     height: 100%;
   } 
-  
 `;
 
-const HomeButtonText = styled.span`
+const HomeButtonText = styled.div`
+`;
+
+const HomeSpan = styled.span`
+  background-color: ${props => props.theme.colours.SHADING};
+  @media (max-width: 768px){   
+    width: 25%;
+    height: 100%;
+  } 
+  @media (min-width: 769px){
+    height: 100%;
+  } 
 `;
 
 const PageButtons = styled.div`
@@ -154,5 +167,6 @@ export {
     MenuButtonIcon,
     Menu,
     MenuPageButton,
-    Dates
+    Dates,
+    HomeSpan,
   };

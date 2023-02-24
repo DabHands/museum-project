@@ -19,7 +19,10 @@ export const AppBar: React.FC = () => {
   return (
     <s.AppBarContainer>
       <s.HomeButton onClick={navigationContext.navigateToHomePage}>
-        <s.HomeButtonImage src={logo} alt="Dab Hands Logo" />
+        <s.HomeSpan>
+          <s.HomeButtonImage src={logo} alt="Dab Hands Logo" />
+        </s.HomeSpan>
+        
         <s.HomeButtonText>Dab Hands: That&apos;ll Need Stitching</s.HomeButtonText>
       </s.HomeButton>
 

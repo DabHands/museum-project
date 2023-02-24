@@ -5,7 +5,8 @@
     "authorOrigin": "Guild",
     "authorName": "Chris Wrightman",
     "anatomyName": "First Dorsal Intermetacarpal Artery",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -14,7 +15,8 @@
     "authorOrigin": "Med",
     "authorName": "Aska Ghulam",
     "anatomyName": "First Dorsal Intermetacarpal Artery",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -23,7 +25,8 @@
     "authorOrigin": "Guild",
     "authorName": "Gill Snaith",
     "anatomyName": "Flexed Lumbrical",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -32,7 +35,8 @@
     "authorOrigin": "Med",
     "authorName": "Isobel Read",
     "anatomyName": "Flexed Lumbrical",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -41,7 +45,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pamela Headon",
     "anatomyName": "Carpal Tunnel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -50,7 +55,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat McBride",
     "anatomyName": "Carpal Tunnel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -59,7 +65,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Tomlinson",
     "anatomyName": "Carpal Tunnel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -68,7 +75,8 @@
     "authorOrigin": "Guild",
     "authorName": "Tracey Garvey",
     "anatomyName": "Carpus and Dorsum Bones",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -77,7 +85,8 @@
     "authorOrigin": "Med",
     "authorName": "Aoife Gaffney",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -86,7 +95,8 @@
     "authorOrigin": "Med",
     "authorName": "Becky Prettyman",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -95,7 +105,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -104,7 +115,8 @@
     "authorOrigin": "Guild",
     "authorName": "Catherine Heap",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -113,7 +125,8 @@
     "authorOrigin": "Guild",
     "authorName": "Catherine Leighton",
     "anatomyName": "Carpus Palmar Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -122,7 +135,8 @@
     "authorOrigin": "Lime",
     "authorName": "Olivia McClelland",
     "anatomyName": "Carpus Palmar Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -131,7 +145,8 @@
     "authorOrigin": "Med",
     "authorName": "Jennifer Ashton",
     "anatomyName": "Carpus Palmar Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -140,7 +155,8 @@
     "authorOrigin": "Med",
     "authorName": "Kate Hare",
     "anatomyName": "Carpus Palmar Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -149,7 +165,8 @@
     "authorOrigin": "Med",
     "authorName": "Chee Soon",
     "anatomyName": "Carpus Radial Deviation",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -158,7 +175,8 @@
     "authorOrigin": "Med",
     "authorName": "Farzana Rahman",
     "anatomyName": "Carpus Radial Deviation",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -167,7 +185,8 @@
     "authorOrigin": "Misc",
     "authorName": "Pinc College Student",
     "anatomyName": "Carpus Radial Deviation",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -176,7 +195,8 @@
     "authorOrigin": "Med",
     "authorName": "Gemma Batten",
     "anatomyName": "Carpus Ulnar Deviation",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -185,7 +205,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Carpus Ulnar Deviation",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -194,7 +215,8 @@
     "authorOrigin": "Misc",
     "authorName": "Rachel Quine",
     "anatomyName": "Dab Hands Logo",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -203,7 +225,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pauline Bowling",
     "anatomyName": "Deep Transverse Intermetacarpal Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -212,7 +235,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ruth Turner",
     "anatomyName": "Digital Flexors Forearm 1",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -221,7 +245,8 @@
     "authorOrigin": "Med",
     "authorName": "Yolanda Etherington",
     "anatomyName": "Digital Flexors Forearm 1",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -230,7 +255,8 @@
     "authorOrigin": "Guild",
     "authorName": "Hilary McCormac",
     "anatomyName": "Digital Flexors Forearm 2",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -239,7 +265,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sandra Evans",
     "anatomyName": "Digital Skeleton",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -248,7 +275,8 @@
     "authorOrigin": "Misc",
     "authorName": "Anna Schurer",
     "anatomyName": "Dupuytens",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -257,7 +285,8 @@
     "authorOrigin": "Misc",
     "authorName": "Jan Clifton",
     "anatomyName": "Dupuytens",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -266,7 +295,8 @@
     "authorOrigin": "Misc",
     "authorName": "Sue Dewsbury",
     "anatomyName": "Dupuytens",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -275,7 +305,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sheila Dodd",
     "anatomyName": "EPL",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -284,7 +315,8 @@
     "authorOrigin": "Med",
     "authorName": "Denise O'Brien",
     "anatomyName": "EPL",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -293,7 +325,8 @@
     "authorOrigin": "Med",
     "authorName": "Rebecca Vitarana",
     "anatomyName": "EPL",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -302,7 +335,8 @@
     "authorOrigin": "Med",
     "authorName": "Catherine Hanna",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -311,7 +345,8 @@
     "authorOrigin": "Med",
     "authorName": "Manavi Purohit",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
-    "position": ""
+    "centreCoordinates": [0.2930, -0.3407, 0.2198],
+		"endPointCoordinates": [0.2108, -0.3944, 0.1594]
   },
 
   { 
@@ -320,7 +355,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -329,7 +365,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kathryn Thompson",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -338,7 +375,8 @@
     "authorOrigin": "Med",
     "authorName": "Lauren Snyder",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -347,7 +385,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -356,7 +395,8 @@
     "authorOrigin": "Med",
     "authorName": "Katie O'Donnell",
     "anatomyName": "Extensor Mechanism Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -365,7 +405,8 @@
     "authorOrigin": "Misc",
     "authorName": "Clarke Daněk",
     "anatomyName": "Extensor Mechanism Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -374,7 +415,8 @@
     "authorOrigin": "Guild",
     "authorName": "Elaine Taylor",
     "anatomyName": "Extensor Mechanism Profile",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -383,7 +425,8 @@
     "authorOrigin": "Med",
     "authorName": "Suzie Smith",
     "anatomyName": "Extensor Mechanism Profile",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -392,7 +435,8 @@
     "authorOrigin": "Guild",
     "authorName": "Bev Hemming",
     "anatomyName": "Fascia Bands of Finger",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -401,7 +445,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sheila Conchi",
     "anatomyName": "Fascia Bands of Finger",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -410,7 +455,8 @@
     "authorOrigin": "Guild",
     "authorName": "Judith Lakin",
     "anatomyName": "FCR on Scaphoid 1",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -419,7 +465,8 @@
     "authorOrigin": "Guild",
     "authorName": "Susan Towers",
     "anatomyName": "FCR on Scaphoid 1",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -428,7 +475,8 @@
     "authorOrigin": "Lime",
     "authorName": "Sasha Silberman-Hanks",
     "anatomyName": "FCR on Scaphoid 1",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -437,7 +485,8 @@
     "authorOrigin": "Guild",
     "authorName": "Angela Oswald",
     "anatomyName": "FCR on Scaphoid 2",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -446,7 +495,8 @@
     "authorOrigin": "Med",
     "authorName": "Ellie Mercala",
     "anatomyName": "FCR on Scaphoid 2",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -455,7 +505,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jenny Thorpe",
     "anatomyName": "FDS Chiasm",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -464,7 +515,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ruth Moyes",
     "anatomyName": "FDS Chiasm",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -473,7 +525,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Chisnall Sumner",
     "anatomyName": "Finger Bones",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -482,7 +535,8 @@
     "authorOrigin": "Guild",
     "authorName": "Caitlin O'Neill",
     "anatomyName": "Finger Bones",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -491,7 +545,8 @@
     "authorOrigin": "Misc",
     "authorName": "Rachel Quine",
     "anatomyName": "Fingernail Complex",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -500,7 +555,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Fingernail Complex",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -509,7 +565,8 @@
     "authorOrigin": "Guild",
     "authorName": "Helen Sargent",
     "anatomyName": "First Dorsal Interosseous Muscle",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -518,7 +575,8 @@
     "authorOrigin": "Guild",
     "authorName": "Peggy Dagget",
     "anatomyName": "First Dorsal Interosseous Muscle With Key",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -527,7 +585,8 @@
     "authorOrigin": "Med",
     "authorName": "Kath Hamlin",
     "anatomyName": "First Dorsal Interosseous Muscle With Key",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -536,7 +595,8 @@
     "authorOrigin": "Guild",
     "authorName": "Margaret Crichton",
     "anatomyName": "Flexor Canal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -545,7 +605,8 @@
     "authorOrigin": "Lime",
     "authorName": "Suzanne Chaisty",
     "anatomyName": "Flexor Canal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -554,7 +615,8 @@
     "authorOrigin": "Guild",
     "authorName": "Diane Moore",
     "anatomyName": "Flexor Tendons Index and Thumb",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -563,7 +625,8 @@
     "authorOrigin": "Misc",
     "authorName": "Linda Field",
     "anatomyName": "Flexor Tendons Index and Thumb",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -572,7 +635,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kath Roberts",
     "anatomyName": "Forearm X Section",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -581,7 +645,8 @@
     "authorOrigin": "Med",
     "authorName": "Clare Boothby",
     "anatomyName": "Forearm X Section",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -590,7 +655,8 @@
     "authorOrigin": "Med",
     "authorName": "Jennifer Luu",
     "anatomyName": "Forearm X Section",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -599,7 +665,8 @@
     "authorOrigin": "Guild",
     "authorName": "Brenda Muller",
     "anatomyName": "Guyon's Canal Empty",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -608,7 +675,8 @@
     "authorOrigin": "Misc",
     "authorName": "Elaine Brett",
     "anatomyName": "Guyon's Canal Empty",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -617,7 +685,8 @@
     "authorOrigin": "Guild",
     "authorName": "Lorraine Rawlinson",
     "anatomyName": "Guyon's Canal Floor",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -626,7 +695,8 @@
     "authorOrigin": "Misc",
     "authorName": "Alison Stott",
     "anatomyName": "Guyon's Canal Floor",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -635,7 +705,8 @@
     "authorOrigin": "Guild",
     "authorName": "Wendy Haydock",
     "anatomyName": "Guyon's Canal Roof",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -644,7 +715,8 @@
     "authorOrigin": "Med",
     "authorName": "Elodie Morrough",
     "anatomyName": "Guyon's Canal Roof",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -653,7 +725,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat Richardson",
     "anatomyName": "Hamate and Meta 4 and 5",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -662,7 +735,8 @@
     "authorOrigin": "Lime",
     "authorName": "Janaki Gnanalingham",
     "anatomyName": "Hamate and Meta 4 and 5",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -671,7 +745,8 @@
     "authorOrigin": "Misc",
     "authorName": "Trudi Proctor",
     "anatomyName": "Hamate Pisiform and Meta 4 and 5",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -680,7 +755,8 @@
     "authorOrigin": "Guild",
     "authorName": "Patricia Blackburn",
     "anatomyName": "Hand",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -689,7 +765,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ann Reading",
     "anatomyName": "Hand Centred on Pisiform",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -698,7 +775,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jan Mellor",
     "anatomyName": "Hand Centred on Pisiform",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -707,7 +785,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kay Witherford",
     "anatomyName": "Hand Centred on Pisiform",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -716,7 +795,8 @@
     "authorOrigin": "Guild",
     "authorName": "Susan Lloyd",
     "anatomyName": "Hand Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -725,7 +805,8 @@
     "authorOrigin": "Med",
     "authorName": "Aden Tanner",
     "anatomyName": "Hand Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -734,7 +815,8 @@
     "authorOrigin": "Med",
     "authorName": "Jennifer Bailie",
     "anatomyName": "Hand Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -743,7 +825,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jillian Holden",
     "anatomyName": "Hand Naked",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -752,7 +835,8 @@
     "authorOrigin": "Misc",
     "authorName": "Nerissa Cargill Thompson",
     "anatomyName": "Hand Naked",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -761,7 +845,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Hand Open",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -770,7 +855,8 @@
     "authorOrigin": "Guild",
     "authorName": "Patti Owen",
     "anatomyName": "Hand Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -779,7 +865,8 @@
     "authorOrigin": "Med",
     "authorName": "Kate Gibbons",
     "anatomyName": "Hand Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -788,7 +875,8 @@
     "authorOrigin": "Guild",
     "authorName": "Scilla Capon",
     "anatomyName": "Hand Skeleton Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -797,7 +885,8 @@
     "authorOrigin": "Lime",
     "authorName": "Kayleigh Porter",
     "anatomyName": "Hand Skeleton Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -806,7 +895,8 @@
     "authorOrigin": "Misc",
     "authorName": "Jackie Davies",
     "anatomyName": "Hand Skeleton Dorsum",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -815,7 +905,8 @@
     "authorOrigin": "Guild",
     "authorName": "Carol Clark",
     "anatomyName": "Hand Skeleton Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -824,7 +915,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jean Knowles",
     "anatomyName": "Hand Skeleton Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -833,7 +925,8 @@
     "authorOrigin": "Med",
     "authorName": "Ellen Lucius",
     "anatomyName": "Hand Skeleton Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -842,7 +935,8 @@
     "authorOrigin": "Guild",
     "authorName": "Karen Wingate",
     "anatomyName": "Index and Mid Fingers",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -851,7 +945,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat Barry",
     "anatomyName": "Intrinsic Muscles",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -860,7 +955,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Johnson",
     "anatomyName": "Intrinsic Muscles",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -869,7 +965,8 @@
     "authorOrigin": "Misc",
     "authorName": "Caroline Stealy",
     "anatomyName": "Intrinsic Muscles",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -878,7 +975,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pauline Foster",
     "anatomyName": "Lateral Digit",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -887,7 +985,8 @@
     "authorOrigin": "Med",
     "authorName": "Ammarah Master",
     "anatomyName": "Lateral Digit",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -896,7 +995,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Shepherd",
     "anatomyName": "Leading Areas",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -905,7 +1005,8 @@
     "authorOrigin": "Med",
     "authorName": "Nicola Kerrison",
     "anatomyName": "Leading Areas",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -914,7 +1015,8 @@
     "authorOrigin": "Med",
     "authorName": "Vicky Tyrrell",
     "anatomyName": "Leading Areas",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -923,7 +1025,8 @@
     "authorOrigin": "Guild",
     "authorName": "Val Coleshaw",
     "anatomyName": "Ligaments Base Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -932,7 +1035,8 @@
     "authorOrigin": "Lime",
     "authorName": "Maria Roberts",
     "anatomyName": "Ligaments Base Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -941,7 +1045,8 @@
     "authorOrigin": "Med",
     "authorName": "Grace Ong",
     "anatomyName": "Ligaments Base Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -950,7 +1055,8 @@
     "authorOrigin": "Med",
     "authorName": "James Malloy",
     "anatomyName": "Ligaments Base Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -959,7 +1065,8 @@
     "authorOrigin": "Guild",
     "authorName": "Amanda Whewell",
     "anatomyName": "Lumbrical Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -968,7 +1075,8 @@
     "authorOrigin": "Med",
     "authorName": "Penny Williams",
     "anatomyName": "Lumbrical Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -977,7 +1085,8 @@
     "authorOrigin": "Med",
     "authorName": "Rebekah Goulston",
     "anatomyName": "Lumbrical Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -986,7 +1095,8 @@
     "authorOrigin": "Med",
     "authorName": "Roosindu Peris",
     "anatomyName": "Lumbrical Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -995,7 +1105,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jane Williams",
     "anatomyName": "Making a Fist",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1004,7 +1115,8 @@
     "authorOrigin": "Med",
     "authorName": "Catherine James",
     "anatomyName": "Making a Fist",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1013,7 +1125,8 @@
     "authorOrigin": "Med",
     "authorName": "Heather Harrison",
     "anatomyName": "Making a Fist",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1022,7 +1135,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Making a Fist",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1031,7 +1145,8 @@
     "authorOrigin": "missing",
     "authorName": "Anon_2",
     "anatomyName": "MCPJ Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1040,7 +1155,8 @@
     "authorOrigin": "Guild",
     "authorName": "Enid McIntosh",
     "anatomyName": "MCPJ Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1049,7 +1165,8 @@
     "authorOrigin": "Med",
     "authorName": "Germaine Fairclough",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1058,7 +1175,8 @@
     "authorOrigin": "Med",
     "authorName": "Iona McKechnie",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1067,7 +1185,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1076,7 +1195,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sandra McFarlane",
     "anatomyName": "Midpalm XSection",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1085,7 +1205,8 @@
     "authorOrigin": "Med",
     "authorName": "Sandra McAllister",
     "anatomyName": "Midpalm XSection",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1094,7 +1215,8 @@
     "authorOrigin": "Guild",
     "authorName": "Lou Godley",
     "anatomyName": "Oblique Carpals Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1103,7 +1225,8 @@
     "authorOrigin": "Med",
     "authorName": "Nicola Mann",
     "anatomyName": "Oblique Carpals Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1112,7 +1235,8 @@
     "authorOrigin": "Guild",
     "authorName": "Joy Newington",
     "anatomyName": "Oblique Thumb Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1121,7 +1245,8 @@
     "authorOrigin": "Med",
     "authorName": "Zahra Alhumaidi",
     "anatomyName": "Oblique Thumb Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1130,7 +1255,8 @@
     "authorOrigin": "Guild",
     "authorName": "Bernadette Burgon",
     "anatomyName": "Palmar Carpal Ligs",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1139,7 +1265,8 @@
     "authorOrigin": "Guild",
     "authorName": "Shellene Divall",
     "anatomyName": "Palmar Carpal Ligs",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1148,7 +1275,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jan Arnold",
     "anatomyName": "Palmar Carpal Tunnel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1157,7 +1285,8 @@
     "authorOrigin": "Med",
     "authorName": "Anne Judge",
     "anatomyName": "Palmar Carpal Tunnel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1166,7 +1295,8 @@
     "authorOrigin": "Med",
     "authorName": "Lee San Tang",
     "anatomyName": "Palmar Carpal Tunnel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1175,7 +1305,8 @@
     "authorOrigin": "Guild",
     "authorName": "Maureen McGuiness",
     "anatomyName": "Passage into Palm Space",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   }, 
   
   { 
@@ -1184,7 +1315,8 @@
     "authorOrigin": "Med",
     "authorName": "Darcy Emery",
     "anatomyName": "Passage into Palm Space",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1193,7 +1325,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Phal Prox and Int Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1202,7 +1335,8 @@
     "authorOrigin": "Guild",
     "authorName": "Elspeth Brelsford",
     "anatomyName": "PIPJ Lateral",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1211,7 +1345,8 @@
     "authorOrigin": "Guild",
     "authorName": "Mel Charters",
     "anatomyName": "PIPJ Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1220,7 +1355,8 @@
     "authorOrigin": "Med",
     "authorName": "Jack Collard",
     "anatomyName": "PIPJ Ligaments",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1229,7 +1365,8 @@
     "authorOrigin": "Med",
     "authorName": "Emma Lee",
     "anatomyName": "PIPJ Ligaments Bend",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1238,7 +1375,8 @@
     "authorOrigin": "Med",
     "authorName": "Jo Lorain",
     "anatomyName": "PIPJ Ligaments Bend",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1247,7 +1385,8 @@
     "authorOrigin": "Med",
     "authorName": "Sonja Pawelczyk",
     "anatomyName": "PIPJ Ligaments Bend",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1256,7 +1395,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "PIPJ Ligaments Bend",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1265,7 +1405,8 @@
     "authorOrigin": "Guild",
     "authorName": "Faith Mitchell",
     "anatomyName": "PIPJ Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1274,7 +1415,8 @@
     "authorOrigin": "Misc",
     "authorName": "Sarah Gillet",
     "anatomyName": "PIPJ Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1283,7 +1425,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jenni Welsh",
     "anatomyName": "PIPJ Stabilising Ligs",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1292,7 +1435,8 @@
     "authorOrigin": "Guild",
     "authorName": "Linda Eckersley",
     "anatomyName": "PIPJ Stabilising Ligs",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1301,7 +1445,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jane Kirkham",
     "anatomyName": "Profile Digit Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1310,7 +1455,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sheila Paterson",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1319,7 +1465,8 @@
     "authorOrigin": "Med",
     "authorName": "Bethany Butcher",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1328,7 +1475,8 @@
     "authorOrigin": "Med",
     "authorName": "Nicola Barnes",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1337,7 +1485,8 @@
     "authorOrigin": "Guild",
     "authorName": "Judith McNab",
     "anatomyName": "Profile Pulleys Flexed",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1346,7 +1495,8 @@
     "authorOrigin": "Med",
     "authorName": "Esme Milton",
     "anatomyName": "Profile Pulleys Flexed",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1355,7 +1505,8 @@
     "authorOrigin": "Med",
     "authorName": "Joseph Dodds",
     "anatomyName": "Profile Pulleys Flexed",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1364,7 +1515,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_12",
     "anatomyName": "Radial Artery in First Space",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1373,7 +1525,8 @@
     "authorOrigin": "Guild",
     "authorName": "Hilary Yates",
     "anatomyName": "Radial Artery in First Space",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1382,7 +1535,8 @@
     "authorOrigin": "Misc",
     "authorName": "Yvonne Blackman",
     "anatomyName": "Radial Artery in First Space",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1391,7 +1545,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ann Heather",
     "anatomyName": "Retropulsion with Resting Thumb",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1400,7 +1555,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Boardman",
     "anatomyName": "Retropulsion with Resting Thumb",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1409,7 +1565,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat Knifton",
     "anatomyName": "Safe Position",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1418,7 +1575,8 @@
     "authorOrigin": "Med",
     "authorName": "Jay Derry Green",
     "anatomyName": "Safe Position",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1427,7 +1585,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_11",
     "anatomyName": "Sagittal Bands",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1436,7 +1595,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_4",
     "anatomyName": "Sagittal Bands",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1445,7 +1605,8 @@
     "authorOrigin": "Med",
     "authorName": "Katherine Conroy",
     "anatomyName": "Sagittal Bands",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1454,7 +1615,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_2",
     "anatomyName": "Scaphoid",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1463,7 +1625,8 @@
     "authorOrigin": "Misc",
     "authorName": "Anna Novitzky",
     "anatomyName": "Scaphoid",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1472,7 +1635,8 @@
     "authorOrigin": "Med",
     "authorName": "Jaele Rollins",
     "anatomyName": "Secret Compartment",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1481,7 +1645,8 @@
     "authorOrigin": "Med",
     "authorName": "Zakia Alwi",
     "anatomyName": "Secret Compartment",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1490,7 +1655,8 @@
     "authorOrigin": "Med",
     "authorName": "Prof Alice Roberts",
     "anatomyName": "Secret Compartment",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1499,7 +1665,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_10",
     "anatomyName": "Skeleton Rays",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1508,7 +1675,8 @@
     "authorOrigin": "Med",
     "authorName": "Charlotte Rycroft",
     "anatomyName": "Tendon Synovial Sheaths",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1517,7 +1685,8 @@
     "authorOrigin": "Med",
     "authorName": "Pheobe Drew",
     "anatomyName": "TFC Axial",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1526,7 +1695,8 @@
     "authorOrigin": "Misc",
     "authorName": "Kath Walls",
     "anatomyName": "TFC Axial",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1535,7 +1705,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_8",
     "anatomyName": "TFC Dorsal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1544,7 +1715,8 @@
     "authorOrigin": "Med",
     "authorName": "Freya Webb",
     "anatomyName": "TFC Dorsal",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1553,7 +1725,8 @@
     "authorOrigin": "Med",
     "authorName": "Hyesung Jang",
     "anatomyName": "TFC Palmar",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1562,7 +1735,8 @@
     "authorOrigin": "Med",
     "authorName": "Cliona Kirwan",
     "anatomyName": "Three Long Flexors",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1571,7 +1745,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_7",
     "anatomyName": "Thumb CMC",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1580,7 +1755,8 @@
     "authorOrigin": "Med",
     "authorName": "Luciana Conti Kirkwood",
     "anatomyName": "Thumb CMC",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1589,7 +1765,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ann Taverner",
     "anatomyName": "Thumb Opposition",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1598,7 +1775,8 @@
     "authorOrigin": "Guild",
     "authorName": "Gillian Reid",
     "anatomyName": "Thumb Opposition Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1607,7 +1785,8 @@
     "authorOrigin": "Med",
     "authorName": "Helena Law",
     "anatomyName": "Thumb Opposition Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1616,7 +1795,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Thumb Opposition Meta",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1625,7 +1805,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kathy Hoolahan",
     "anatomyName": "Thumb Opposition Pinch",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1634,7 +1815,8 @@
     "authorOrigin": "Med",
     "authorName": "Esha Matharu",
     "anatomyName": "Thumb Opposition Pinch",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1643,7 +1825,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_5",
     "anatomyName": "Thumb Opposition Pinch 2",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1652,7 +1835,8 @@
     "authorOrigin": "Guild",
     "authorName": "Hilary Creswell",
     "anatomyName": "Thumb Opposition Pinch 2",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1661,7 +1845,8 @@
     "authorOrigin": "Misc",
     "authorName": "Griselde Goldsbrough",
     "anatomyName": "Thumb Opposition Pinch 2",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1670,7 +1855,8 @@
     "authorOrigin": "Med",
     "authorName": "Chloe Ablett",
     "anatomyName": "Thumb Pulleys",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1679,7 +1865,8 @@
     "authorOrigin": "Misc",
     "authorName": "Donna Griffith",
     "anatomyName": "Thumb Pulleys",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1688,7 +1875,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_9",
     "anatomyName": "Thumb Skel FPB",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1697,7 +1885,8 @@
     "authorOrigin": "Misc",
     "authorName": "Gareth Evans",
     "anatomyName": "Thumb Skel FPB",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1706,7 +1895,8 @@
     "authorOrigin": "Med",
     "authorName": "Tricia Tay",
     "anatomyName": "Thumb with Skel",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1715,7 +1905,8 @@
     "authorOrigin": "Med",
     "authorName": "beriz Abdullah",
     "anatomyName": "Trapizium",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1724,7 +1915,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Trapizium",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1733,7 +1925,8 @@
     "authorOrigin": "Med",
     "authorName": "Beth MacAllister",
     "anatomyName": "Vascular Supply",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1742,7 +1935,8 @@
     "authorOrigin": "Med",
     "authorName": "Sidra Hasan",
     "anatomyName": "Vascular Supply",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1751,7 +1945,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_1",
     "anatomyName": "Vinculi Long and Short",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1760,7 +1955,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_13",
     "anatomyName": "Volar Plate Flex",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1769,7 +1965,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_3",
     "anatomyName": "X Sec of Thumb",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1778,7 +1975,8 @@
     "authorOrigin": "Med",
     "authorName": "Katherine McMenzie",
     "anatomyName": "X Sec of Thumb",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1787,7 +1985,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_6",
     "anatomyName": "X Sect Digit",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1796,7 +1995,8 @@
     "authorOrigin": "Med",
     "authorName": "Miriam Beattie",
     "anatomyName": "X Sect Digit",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1805,7 +2005,8 @@
     "authorOrigin": "Med",
     "authorName": "Eleanor Fletcher",
     "anatomyName": "XSec Metac Head",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   },
 
   { 
@@ -1814,6 +2015,7 @@
     "authorOrigin": "Misc",
     "authorName": "Joy Bradshaw",
     "anatomyName": "XSec Metac Head",
-    "position": ""
+    "centreCoordinates": [],
+		"endPointCoordinates": []
   }
 ]

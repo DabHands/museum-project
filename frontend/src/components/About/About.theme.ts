@@ -58,7 +58,7 @@ const MainContent = styled.div`
 `;
 
 const MainPanel = styled.div<{ mobile?: boolean }>`
-    width: ${props => props.mobile ? "100%" : "70%"};
+    width: ${props => props.mobile ? "90%" : "70%"};
     padding: 1rem;
 `;
 
@@ -101,6 +101,21 @@ const MobileArtist = styled.div`
 
 `;
 
+const DevName = styled.p`
+    font-weight: bold;
+    padding: unset;
+    margin: 0px 0px 0.5rem 0px;
+`;
+
+const DevDesc = styled.p`
+    padding: unset;
+    margin: 0px 0px 0.5rem 0px;
+    font-style: italic;
+    font-size: ${props => props.theme.fonts.size.SMALL};
+
+`;
+
+
 export {
     ArtistsBio,
     TopBar,
@@ -116,5 +131,7 @@ export {
     Funders,
     Spanel,
     AccompanyImage,
-    MobileArtist
+    MobileArtist,
+    DevDesc,
+    DevName,
 };

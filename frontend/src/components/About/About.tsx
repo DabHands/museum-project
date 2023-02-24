@@ -6,7 +6,7 @@ import lucy2 from '../../util/artist/dabhands_2.jpg'
 import lucy3 from '../../util/artist/dabhands_3.jpg'
 import funders from '../../util/artist/funders.jpg'
 import { TertiaryButton } from '../toolbox/Buttons';
-import { MainH1, SecondaryH2 } from '../toolbox/Labels';
+import { MainH1, SecondaryH2, TertiaryH2 } from '../toolbox/Labels';
 import MediaQuery from 'react-responsive';
 
 export const About: React.FC = () => {
@@ -40,7 +40,7 @@ export const About: React.FC = () => {
                      src={lucy3} />
                </s.Spanel>
 
-               <s.BlogLink href='https://www.lucysart.co.uk/'>
+               <s.BlogLink href='https://www.lucysart.co.uk/' target="_blank">
                   <TertiaryButton> 
                      Visit Lucy&apos;s Website 
                   </TertiaryButton>
@@ -50,42 +50,111 @@ export const About: React.FC = () => {
       )
    }
 
-   const renderProjectInfo = (showFounders:boolean) => {
+   const renderDevs = () => {
+         return (
+            <>
+               <TertiaryH2> Meet the Developers </TertiaryH2>
+               <s.DevName> Lucy Jefford </s.DevName>
+               <s.DevDesc>
+                  I am a Final Year Computer Science student at the University of Manchester.
+                  I&apos;ve worked on this website for my final project, 
+                  working with Lucy to help design the website, and how you
+                  interact with it. 
+                  <br></br>
+                  I love working with my hands, in particular knitting,
+                  as my grandma taught me when I was young. 
+                  I felt honoured to work on such an important exhibit, 
+                  and hope you enjoy your experience too.
+               </s.DevDesc>
+               {/* <s.DevDesc> Add Social Links? Github, LinkedIn </s.DevDesc> */}
+               <s.DevName> Adelina Voynova </s.DevName>
+               <s.DevDesc>
+                  I am a Third Year student at the Department of
+                  Computer Science in the University of Manchester.
+                  This 3d model is part of my final project.
+                  Creating a 3D model of DabHands, by working alongside
+                  with Lucy, was very exciting for me.
+                  <br></br>
+                  I love creating things with my hands, like bracelets
+                  and paper wallets. I am very happy that I got to know
+                  this exhibit and work on it. I hope you like it too.
+               </s.DevDesc>
+               {/* <s.DevDesc> Add Social Links? </s.DevDesc> */}
+            
+            </>
+         )
+   }
+   
+
+   const renderProjectInfo = (desktop:boolean) => {
+
       return (
          <>
-            <s.Spanel>
-               <s.ArtistDescription>
-                  Human hands are remarkably sophisticated and adaptable tools, unparalleled in the natural world for the breadth of their capability. From the eloquent finesse of a sign language user in full flow, to the nimble picking of a Spanish guitar, the speedy reactions of a teenage texter, or the life-saving precision of microsurgery, our hands are truly phenomenal instruments. Whatever use we put them to, they act as our primary interface with the physical world and with each other.  
-               </s.ArtistDescription>
-               <s.AccompanyImage
-                  draggable={false}
-                  loading="lazy"
-                  src={lucy1} />
-            </s.Spanel>
-            
-            <s.Spanel flip>
-               <s.AccompanyImage
-                  draggable={false}
-                  loading="lazy"
-                  src={lucy2} />
-               <>
-                  <s.ArtistDescription pad>
-                     We use our hands to nurture, to love, to pray, to dance, to calm, to fight, to restrain, to cling, to connect.
-                     <br></br>
-                     <br></br>
-                     Dab Hands celebrates the extraordinary relationship that we have with our hands and the value of the manual skills that can be acquired by repetition and practice, whilst acknowledging the grief and frustration that can disrupt that relationship when illness, trauma, or old age affects our dexterity.
-                     <br></br>
-                     <br></br>
-                     The Dab Hands Collection was created in residence at Manchester Museum by artist Lucy Burscough and her collaborative partners.  
-                  
+            {desktop ?
+               <s.Spanel>
+                  <s.ArtistDescription>
+                     Human hands are remarkably sophisticated and adaptable tools, unparalleled in the natural world for the breadth of their capability. From the eloquent finesse of a sign language user in full flow, to the nimble picking of a Spanish guitar, the speedy reactions of a teenage texter, or the life-saving precision of microsurgery, our hands are truly phenomenal instruments. Whatever use we put them to, they act as our primary interface with the physical world and with each other.  
                   </s.ArtistDescription>
-               </>
-            </s.Spanel>            
+                  <s.AccompanyImage
+                     draggable={false}
+                     loading="lazy"
+                     src={lucy1} />
+               </s.Spanel>
+               : <div>
+                  <s.ArtistDescription>
+                     Human hands are remarkably sophisticated and adaptable tools, unparalleled in the natural world for the breadth of their capability. From the eloquent finesse of a sign language user in full flow, to the nimble picking of a Spanish guitar, the speedy reactions of a teenage texter, or the life-saving precision of microsurgery, our hands are truly phenomenal instruments. Whatever use we put them to, they act as our primary interface with the physical world and with each other.  
+                  </s.ArtistDescription>
+                  <s.AccompanyImage
+                     draggable={false}
+                     loading="lazy"
+                        src={lucy1} />
+               </div>}
+            
+            {desktop ?
+               <s.Spanel flip>
+                  <s.AccompanyImage
+                     draggable={false}
+                     loading="lazy"
+                     src={lucy2} />
+                  <>
+                     <s.ArtistDescription pad>
+                        We use our hands to nurture, to love, to pray, to dance, to calm, to fight, to restrain, to cling, to connect.
+                        <br></br>
+                        <br></br>
+                        Dab Hands celebrates the extraordinary relationship that we have with our hands and the value of the manual skills that can be acquired by repetition and practice, whilst acknowledging the grief and frustration that can disrupt that relationship when illness, trauma, or old age affects our dexterity.
+                        <br></br>
+                        <br></br>
+                        The Dab Hands Collection was created in residence at Manchester Museum by artist Lucy Burscough and her collaborative partners.  
+                     
+                     </s.ArtistDescription>
+                  </>
+               </s.Spanel>
+               : <div>
+                  <>
+                     <s.ArtistDescription pad>
+                        We use our hands to nurture, to love, to pray, to dance, to calm, to fight, to restrain, to cling, to connect.
+                        <br></br>
+                        <br></br>
+                        Dab Hands celebrates the extraordinary relationship that we have with our hands and the value of the manual skills that can be acquired by repetition and practice, whilst acknowledging the grief and frustration that can disrupt that relationship when illness, trauma, or old age affects our dexterity.
+                        <br></br>
+                        <br></br>
+                        The Dab Hands Collection was created in residence at Manchester Museum by artist Lucy Burscough and her collaborative partners.  
+                     
+                     </s.ArtistDescription>
+                  </>
+                  <s.AccompanyImage
+                     draggable={false}
+                     loading="lazy"
+                     src={lucy2} />
+               </div>
+               }
+            
 
-            {showFounders &&
+            {desktop &&
                <s.SponsorPanel>   
                   <s.SponsorTitle> Funded By </s.SponsorTitle>
-                  <s.Funders src={funders}/>
+                  <s.Funders src={funders} />
+                   {renderDevs()}
                </s.SponsorPanel>
             }
             
@@ -94,35 +163,47 @@ export const About: React.FC = () => {
       )
    }
 
-   return (<>
-
-      
-         <MediaQuery minWidth={800}> {/*The LARGE ONE*/}
+   const renderDesktopView = () => {
+      return (
          <s.MainContent>
             <s.MainPanel>
                <MainH1> About </MainH1>
                   {renderProjectInfo(true)}
-               </s.MainPanel>
-               <s.AuthorPanel>
-                  {renderArtistsBio()}
-               </s.AuthorPanel>
-            </s.MainContent>
+            </s.MainPanel>
+            <s.AuthorPanel>
+               {renderArtistsBio()}
+            </s.AuthorPanel>
+
+         </s.MainContent>)
+   }
+
+   const renderMobileView = () => {
+      return (<>
+         <MainH1 toPad> About Dab Hands </MainH1>
+            
+         <s.MainPanel mobile>
+            {renderProjectInfo(false)}
+            <s.MobileArtist>
+               {renderArtistsBio()}
+            </s.MobileArtist>
+            <s.SponsorPanel>   
+               <s.SponsorTitle> Funded By </s.SponsorTitle>
+               <s.Funders src={funders}/>
+            </s.SponsorPanel>
+            {renderDevs()}
+         </s.MainPanel>
+      </>)
+      
+   }
+
+   return (<>
+
+         <MediaQuery minWidth={800}> {/*The LARGE ONE*/}
+         {renderDesktopView()}
          </MediaQuery>
 
          <MediaQuery maxWidth={799}> {/*The SMALL ONE*/}
-            
-            <MainH1 toPad> About Dab Hands </MainH1>
-            
-            <s.MainPanel mobile>
-               {renderProjectInfo(false)}
-               <s.MobileArtist>
-                  {renderArtistsBio()}
-               </s.MobileArtist>
-               <s.SponsorPanel>   
-                  <s.SponsorTitle> Funded By </s.SponsorTitle>
-                  <s.Funders src={funders}/>
-               </s.SponsorPanel>
-            </s.MainPanel>
+         {renderMobileView()}
          </MediaQuery>
          
          
