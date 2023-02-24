@@ -16,7 +16,7 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
     MODEL,
     SCAN_IMAGE,
     DONALD,
-    STORY
+    STORY,
   }
 
   const [page, setPage] = useState<Pages>(Pages.HOME);
@@ -46,11 +46,9 @@ const NavigationProvider: React.FC<NavigationProviderProps> = ( { children }, ) 
   };
 
   const navigateToExplorePage = () => {
-    if (page !== Pages.EXPLORE) {
-      setPage(Pages.EXPLORE);
-      navigate(process.env.PUBLIC_URL + '/explore');
-      window.scrollTo(0, 0)
-    }
+    setPage(Pages.EXPLORE);
+    navigate(process.env.PUBLIC_URL + '/explore');
+    window.scrollTo(0, 0)
   };
 
   const navigateToAboutPage = () => {
