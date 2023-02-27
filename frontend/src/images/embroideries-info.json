@@ -5,8 +5,8 @@
     "authorOrigin": "Guild",
     "authorName": "Chris Wrightman",
     "anatomyName": "First Dorsal Intermetacarpal Artery",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8883990046885972, 0.07736693896287133, 0.0808033753906568],
+		"endPointCoordinates": [0.7650708015183806, 0.06349665415288866, 0.044458236444767096]
   },
 
   { 
@@ -15,8 +15,8 @@
     "authorOrigin": "Med",
     "authorName": "Aska Ghulam",
     "anatomyName": "First Dorsal Intermetacarpal Artery",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8012560726147013, 0.04294874617259711, -0.635773421392464],
+		"endPointCoordinates": [0.7160956169664767, 0.06452147328304288, -0.6832359450019495]
   },
 
   { 
@@ -25,8 +25,8 @@
     "authorOrigin": "Guild",
     "authorName": "Gill Snaith",
     "anatomyName": "Flexed Lumbrical",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.23917234709692176, 0.6240171475931686, 0.7321238428510471],
+		"endPointCoordinates": [-0.32736357514909087, 0.6215848567748705, 0.8105753113873111]
   },
 
   { 
@@ -35,8 +35,8 @@
     "authorOrigin": "Med",
     "authorName": "Isobel Read",
     "anatomyName": "Flexed Lumbrical",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6822118966946975, -0.06588532880091758, 0.5706366760618358],
+		"endPointCoordinates": [0.614967900078895, -0.12520147378888447, 0.48900551000355297]
   },
 
   { 
@@ -45,8 +45,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pamela Headon",
     "anatomyName": "Carpal Tunnel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.6720313826799071, -0.2725511215119506, -0.5837824984611073],
+		"endPointCoordinates": [-0.7702234521648423, -0.275652205587747, -0.5145113887822408]
   },
 
   { 
@@ -55,8 +55,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat McBride",
     "anatomyName": "Carpal Tunnel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.3341815565654634, 0.038652503395707916, -0.5184605774612491],
+		"endPointCoordinates": [-0.23697534485166227, -0.006291758307282458, -0.5501618703525724]
   },
 
   { 
@@ -65,8 +65,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Tomlinson",
     "anatomyName": "Carpal Tunnel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.7677469743908762, -0.768635405503922, -0.6491591499063979],
+		"endPointCoordinates": [-0.8447390535114412, -0.8583568209820279, -0.618612218554016]
   },
 
   { 
@@ -75,8 +75,8 @@
     "authorOrigin": "Guild",
     "authorName": "Tracey Garvey",
     "anatomyName": "Carpus and Dorsum Bones",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.20625188437737546, 0.13011614864902518, 0.6592658875907693],
+		"endPointCoordinates": [0.3104462822849732, 0.05434880389164348, 0.6771871622953693]
   },
 
   { 
@@ -85,8 +85,8 @@
     "authorOrigin": "Med",
     "authorName": "Aoife Gaffney",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.1340777920105991, -1.2730265887673426, -0.02777402471430647],
+		"endPointCoordinates": [0.2221285048982678, -1.315850655058227, 0.03150544611281767]
   },
 
   { 
@@ -95,8 +95,8 @@
     "authorOrigin": "Med",
     "authorName": "Becky Prettyman",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.08266585460918946, -1.1555810346556674, 0.13507608399773524],
+		"endPointCoordinates": [0.021545444312335904, -1.1971807436218564, 0.19713247659232974]
   },
 
   { 
@@ -105,8 +105,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5117534349266062, -0.45983772878698936, -0.5886375363765128],
+		"endPointCoordinates": [0.5060726135917607, -0.5274414304171047, -0.6752095310644445]
   },
 
   { 
@@ -115,8 +115,8 @@
     "authorOrigin": "Guild",
     "authorName": "Catherine Heap",
     "anatomyName": "Carpus Dorsal Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.3630209987805666, -0.5477598447424548, -0.8511624262127095],
+		"endPointCoordinates": [-0.4337037796858584, -0.654592816650001, -0.8084105471240078]
   },
 
   { 
@@ -125,8 +125,8 @@
     "authorOrigin": "Guild",
     "authorName": "Catherine Leighton",
     "anatomyName": "Carpus Palmar Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.9044253893139166, -0.9667987100420323, -0.5850802728346602],
+		"endPointCoordinates": [-0.9536190406292915, -1.0738239877770606, -0.5309910480168003]
   },
 
   { 
@@ -135,8 +135,8 @@
     "authorOrigin": "Lime",
     "authorName": "Olivia McClelland",
     "anatomyName": "Carpus Palmar Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.9750503185511955, -0.7766333287446765, -0.19048953394236356],
+		"endPointCoordinates": [-0.9609702171567642, -0.8332601242049419, -0.08943244689894062]
   },
 
   { 
@@ -145,8 +145,8 @@
     "authorOrigin": "Med",
     "authorName": "Jennifer Ashton",
     "anatomyName": "Carpus Palmar Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.9107015383709142, -0.9578432413579956, 0.03138155584569291],
+		"endPointCoordinates": [-0.9628755208440131, -1.0500740965022153, 0.08992838512425588]
   },
 
   { 
@@ -155,8 +155,8 @@
     "authorOrigin": "Med",
     "authorName": "Kate Hare",
     "anatomyName": "Carpus Palmar Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.568279774873618, -1.0782063576920549, 0.3501146271804393],
+		"endPointCoordinates": [-0.466069183217856, -1.1004594549657178, 0.41539754361315046]
   },
 
   { 
@@ -165,8 +165,8 @@
     "authorOrigin": "Med",
     "authorName": "Chee Soon",
     "anatomyName": "Carpus Radial Deviation",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.6091097172764669, -0.5221426404931648, -0.7033427832181236],
+		"endPointCoordinates": [-0.6781532524364988, -0.6145615081772376, -0.664406779801141]
   },
 
   { 
@@ -175,8 +175,8 @@
     "authorOrigin": "Med",
     "authorName": "Farzana Rahman",
     "anatomyName": "Carpus Radial Deviation",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.11111964030646015, -0.8466825735345019, -0.1861803134156379],
+		"endPointCoordinates": [-0.048916688299298905, -0.7977380938523696, -0.26806641875216375]
   },
 
   { 
@@ -185,8 +185,8 @@
     "authorOrigin": "Misc",
     "authorName": "Pinc College Student",
     "anatomyName": "Carpus Radial Deviation",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.4620240197031418, -0.870343363475707, 0.14078763575750985],
+		"endPointCoordinates": [-0.535241226210987, -0.8053644113917278, 0.09887914435317208]
   },
 
   { 
@@ -195,8 +195,8 @@
     "authorOrigin": "Med",
     "authorName": "Gemma Batten",
     "anatomyName": "Carpus Ulnar Deviation",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.0023123677481659, -1.2252827204871792, -0.5527022475476491],
+		"endPointCoordinates": [-0.016116995462015726, -1.327902938062945, -0.6231058315333087]
   },
 
   { 
@@ -205,8 +205,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Carpus Ulnar Deviation",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.27892229440812527, -0.27490638896760305, -0.9027474591205749],
+		"endPointCoordinates": [-0.3788700377437728, -0.2561866392815578, -0.8696043309983943]
   },
 
   { 
@@ -215,8 +215,8 @@
     "authorOrigin": "Misc",
     "authorName": "Rachel Quine",
     "anatomyName": "Dab Hands Logo",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.07297509161612256, 0.6480158812010228, 0.77273798261485],
+		"endPointCoordinates": [0.1764719473284166, 0.596493263451661, 0.74968725076469814]
   },
 
   { 
@@ -225,8 +225,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pauline Bowling",
     "anatomyName": "Deep Transverse Intermetacarpal Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.35131324412391485, -0.041524548183944465, -0.07320640183848443],
+		"endPointCoordinates": [0.2645788785439737, 0.00813256799014539, -0.01761963729909255]
   },
 
   { 
@@ -235,8 +235,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ruth Turner",
     "anatomyName": "Digital Flexors Forearm 1",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.2601641951285138, -1.141603951391042, -0.7151686385868137],
+		"endPointCoordinates": [-0.3232621441061809, -1.2328477745824793, -0.7795141312791047]
   },
 
   { 
@@ -245,8 +245,8 @@
     "authorOrigin": "Med",
     "authorName": "Yolanda Etherington",
     "anatomyName": "Digital Flexors Forearm 1",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.9984605490517543, -0.9493959296034343, -0.35498701183169523],
+		"endPointCoordinates": [-1.0462228627914298, -1.0759755353996718, -0.33045037856173953]
   },
 
   { 
@@ -255,8 +255,8 @@
     "authorOrigin": "Guild",
     "authorName": "Hilary McCormac",
     "anatomyName": "Digital Flexors Forearm 2",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.7993135934825308, -1.0666304568562155, 0.2246050289350905],
+		"endPointCoordinates": [-0.7562365413773124, -1.102327261937925, 0.3287070193091638]
   },
 
   { 
@@ -265,8 +265,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sandra Evans",
     "anatomyName": "Digital Skeleton",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5388005478376862, 1.1465326132755016, -0.18229428777407897],
+		"endPointCoordinates": [0.631986798790077, 1.089497495416512, -0.19470045212599996]
   },
 
   { 
@@ -275,8 +275,8 @@
     "authorOrigin": "Misc",
     "authorName": "Anna Schurer",
     "anatomyName": "Dupuytens",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.6352072234678674, 0.017471168951925325, 0.39795492411338385],
+		"endPointCoordinates": [-0.7139375036522204, 0.022290235089315463, 0.3145286403064982]
   },
 
   { 
@@ -285,8 +285,8 @@
     "authorOrigin": "Misc",
     "authorName": "Jan Clifton",
     "anatomyName": "Dupuytens",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.09545418447526584, 0.16603116086984648, 0.1758350945999414],
+		"endPointCoordinates": [-0.18100330434109974, 0.23339522328604778, 0.20670814141184912]
   },
 
   { 
@@ -295,8 +295,8 @@
     "authorOrigin": "Misc",
     "authorName": "Sue Dewsbury",
     "anatomyName": "Dupuytens",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.706808427809509, 0.243442765121667, 0.27497928361994883],
+		"endPointCoordinates": [-0.6704265647979153, 0.23204618640517483, 0.39335915729673276]
   },
 
   { 
@@ -305,8 +305,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sheila Dodd",
     "anatomyName": "EPL",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [1.04843241311998, 0.2209222204984621, -1.0438157669982957],
+		"endPointCoordinates": [1.0406682269327008, 0.145259495101404, -0.9323624970088056]
   },
 
   { 
@@ -315,8 +315,8 @@
     "authorOrigin": "Med",
     "authorName": "Denise O'Brien",
     "anatomyName": "EPL",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.18252108189894017, -0.16191867702571627, -0.9874413889383676],
+		"endPointCoordinates": [0.21554292238212225, -0.2889196660440453, -0.9565979959306684]
   },
 
   { 
@@ -325,8 +325,8 @@
     "authorOrigin": "Med",
     "authorName": "Rebecca Vitarana",
     "anatomyName": "EPL",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7193198582151888, -0.44858163559745345, -0.8009084920839857],
+		"endPointCoordinates": [0.6481957988277619, -0.43982149979605845, -0.8863008888929902]
   },
 
   { 
@@ -335,8 +335,8 @@
     "authorOrigin": "Med",
     "authorName": "Catherine Hanna",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8138307473720099, 0.3480773201752162, 0.4034474459231101],
+		"endPointCoordinates": [0.9132237387862795, 0.3969936517827813, 0.37418804353446367]
   },
 
   { 
@@ -355,8 +355,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Extensor - Indicis - Proprius Tendon",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6497592661910091, 0.44544212818618933, 0.2162175599540318],
+		"endPointCoordinates": [0.6756902703770814, 0.45406340123893985, 0.11632976219226962]
   },
 
   { 
@@ -365,8 +365,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kathryn Thompson",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.08411077005554485, -0.09512053393008396, -0.8895469939604163],
+		"endPointCoordinates": [-0.06276354529201025, -0.20180821927661263, -0.9427059593184345]
   },
 
   { 
@@ -375,8 +375,8 @@
     "authorOrigin": "Med",
     "authorName": "Lauren Snyder",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7091230365992839, 0.4919024770595163, -0.02135621149813026],
+		"endPointCoordinates": [0.7379799289506421, 0.5576346245596268, 0.059244038004477556]
   },
 
   { 
@@ -385,8 +385,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Extensor - Indicis - Proprius Dorsal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.0805, -0.275, 0.374],
+		"endPointCoordinates": [-0.007, -0.211, 0.379]
   },
 
   { 
@@ -395,8 +395,8 @@
     "authorOrigin": "Med",
     "authorName": "Katie O'Donnell",
     "anatomyName": "Extensor Mechanism Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.1720701085383789, 1.0578683757762881, 1.1838201856201762],
+		"endPointCoordinates": [0.16087499202543792, 0.9728974804123434, 1.2647046112072189]
   },
 
   { 
@@ -405,8 +405,8 @@
     "authorOrigin": "Misc",
     "authorName": "Clarke Daněk",
     "anatomyName": "Extensor Mechanism Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5959913229262572, 0.7201051191279103, 0.5019371676629987],
+		"endPointCoordinates": [0.5033477302679782, 0.7713090314879893, 0.4593317492917047]
   },
 
   { 
@@ -415,8 +415,8 @@
     "authorOrigin": "Guild",
     "authorName": "Elaine Taylor",
     "anatomyName": "Extensor Mechanism Profile",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.340771774939883, 0.7153958465619262, 0.9739097398792866],
+		"endPointCoordinates": [0.36152042109743, 0.8035426058405276, 1.0304275111438026]
   },
 
   { 
@@ -425,8 +425,8 @@
     "authorOrigin": "Med",
     "authorName": "Suzie Smith",
     "anatomyName": "Extensor Mechanism Profile",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.18405629960453238, 0.42688367398540117, 1.1234862675955002],
+		"endPointCoordinates": [-0.2636770372594417, 0.4133195680649069, 1.0339674610172807]
   },
 
   { 
@@ -435,8 +435,8 @@
     "authorOrigin": "Guild",
     "authorName": "Bev Hemming",
     "anatomyName": "Fascia Bands of Finger",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.27600091917914105, 0.5110690562689431, 0.8078828123029318],
+		"endPointCoordinates": [0.29165726348440546, 0.6022985742826362, 0.8667003569875392]
   },
 
   { 
@@ -445,8 +445,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sheila Conchi",
     "anatomyName": "Fascia Bands of Finger",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8510155167702774, 0.6443340310807708, -0.12258684559012917],
+		"endPointCoordinates": [0.7726538535276841, 0.6472274357972545, -0.1970886031237455]
   },
 
   { 
@@ -455,8 +455,8 @@
     "authorOrigin": "Guild",
     "authorName": "Judith Lakin",
     "anatomyName": "FCR on Scaphoid 1",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.5392631831341941, -0.8064311281920377, -0.7536281504672896],
+		"endPointCoordinates": [-0.6176951740382768, -0.8978313403752922, -0.7311768084833817]
   },
 
   { 
@@ -465,8 +465,8 @@
     "authorOrigin": "Guild",
     "authorName": "Susan Towers",
     "anatomyName": "FCR on Scaphoid 1",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.039749531382960446, -0.6757877920727059, -0.33185226706374193],
+		"endPointCoordinates": [-0.021388855357193814, -0.7886682811185531, -0.3352543216747007]
   },
 
   { 
@@ -475,8 +475,8 @@
     "authorOrigin": "Lime",
     "authorName": "Sasha Silberman-Hanks",
     "anatomyName": "FCR on Scaphoid 1",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.47507353114216294, -1.0533273286975948, -0.8088689931911139],
+		"endPointCoordinates": [-0.549117479393886, -1.1504307841108434, -0.8228763387067286]
   },
 
   { 
@@ -485,8 +485,8 @@
     "authorOrigin": "Guild",
     "authorName": "Angela Oswald",
     "anatomyName": "FCR on Scaphoid 2",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.39092736552589913, -0.41455667808250185, -0.09702172278748705],
+		"endPointCoordinates": [0.2984666506057534, -0.4836472374558906, -0.10950998798914274]
   },
 
   { 
@@ -495,8 +495,8 @@
     "authorOrigin": "Med",
     "authorName": "Ellie Mercala",
     "anatomyName": "FCR on Scaphoid 2",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.23614264124645573, -0.4340952720189185, -0.894390822387757],
+		"endPointCoordinates": [0.14974371333788788, -0.5034545638936534, -0.853652040426641]
   },
 
   { 
@@ -505,8 +505,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jenny Thorpe",
     "anatomyName": "FDS Chiasm",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.36514507887569086, 1.484699030704508, 1.463012444601665],
+		"endPointCoordinates": [0.3443060662862624, 1.3767999869017844, 1.497828473470598]
   },
 
   { 
@@ -515,8 +515,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ruth Moyes",
     "anatomyName": "FDS Chiasm",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.16100854828471312, -0.008826186211990134, 0.55870582415419],
+		"endPointCoordinates": [-0.08049087156036239, 0.017239965514966316, 0.6376055155621436]
   },
 
   { 
@@ -525,8 +525,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Chisnall Sumner",
     "anatomyName": "Finger Bones",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.3798107149762987, 1.0781329939813316, -0.4412507758600807],
+		"endPointCoordinates": [0.39497886100772783, 1.0828167750780366, -0.3214666776943773]
   },
 
   { 
@@ -535,8 +535,8 @@
     "authorOrigin": "Guild",
     "authorName": "Caitlin O'Neill",
     "anatomyName": "Finger Bones",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.013501111899184681, 0.6663378343328212, 0.9982037425231859],
+		"endPointCoordinates": [0.07710979826503117, 0.7230350786188562, 1.085330660201812]
   },
 
   { 
@@ -545,8 +545,8 @@
     "authorOrigin": "Misc",
     "authorName": "Rachel Quine",
     "anatomyName": "Fingernail Complex",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [1.0780411435012531, 0.5670213211269421, -0.7290201912223305],
+		"endPointCoordinates": [1.02783939260601, 0.6460245677447992, -0.7999074521723264]
   },
 
   { 
@@ -555,8 +555,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Fingernail Complex",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7236732487725921, 0.7084951964030823, -0.5356454658257417],
+		"endPointCoordinates": [0.7551152683160712, 0.7948050593897626, -0.5092681408375569]
   },
 
   { 
@@ -565,8 +565,8 @@
     "authorOrigin": "Guild",
     "authorName": "Helen Sargent",
     "anatomyName": "First Dorsal Interosseous Muscle",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7218445604818708, -0.2506430571431275, -0.605608856536562],
+		"endPointCoordinates": [0.735230846750153, -0.3232058152909656, -0.7053757060734492]
   },
 
   { 
@@ -575,8 +575,8 @@
     "authorOrigin": "Guild",
     "authorName": "Peggy Dagget",
     "anatomyName": "First Dorsal Interosseous Muscle With Key",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.923480087588332, -0.2134477489968211, -0.779329006834366],
+		"endPointCoordinates": [0.9982609099645208, -0.15418717054730974, -0.8676990676607422]
   },
 
   { 
@@ -585,8 +585,8 @@
     "authorOrigin": "Med",
     "authorName": "Kath Hamlin",
     "anatomyName": "First Dorsal Interosseous Muscle With Key",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7942015650807182, -0.17286302833436318, 0.1536145174349116],
+		"endPointCoordinates": [0.7093002331605693, -0.2458524555270757, 0.19627682059806564]
   },
 
   { 
@@ -595,8 +595,8 @@
     "authorOrigin": "Guild",
     "authorName": "Margaret Crichton",
     "anatomyName": "Flexor Canal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.030651179875364143, 0.7246752009002368, 1.5482443053284136],
+		"endPointCoordinates": [-0.008274394215814995, 0.6930144671602835, 1.424920868197595]
   },
 
   { 
@@ -605,8 +605,8 @@
     "authorOrigin": "Lime",
     "authorName": "Suzanne Chaisty",
     "anatomyName": "Flexor Canal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5597305821333403, 1.5562295488869706, 1.5211072650401187],
+		"endPointCoordinates": [0.5172016534438822, 1.5652500112697074, 1.606098626989507]
   },
 
   { 
@@ -615,8 +615,8 @@
     "authorOrigin": "Guild",
     "authorName": "Diane Moore",
     "anatomyName": "Flexor Tendons Index and Thumb",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5700696980221391, 0.10646733603029146, 0.004234382869808873],
+		"endPointCoordinates": [0.4899883130707312, 0.1322754767951022, 0.06515960516823521]
   },
 
   { 
@@ -625,8 +625,8 @@
     "authorOrigin": "Misc",
     "authorName": "Linda Field",
     "anatomyName": "Flexor Tendons Index and Thumb",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.3567216987697255, 0.005205270719223221, -0.931435206238696],
+		"endPointCoordinates": [0.2682916709777421, 0.011297435542478362, -0.8741894348903699]
   },
 
   { 
@@ -635,8 +635,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kath Roberts",
     "anatomyName": "Forearm X Section",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.30252352091305434, -0.8800774704140817, -0.7359444578776453],
+		"endPointCoordinates": [-0.38930240731515076, -0.9701239481451127, -0.7785563721157643]
   },
 
   { 
@@ -645,8 +645,8 @@
     "authorOrigin": "Med",
     "authorName": "Clare Boothby",
     "anatomyName": "Forearm X Section",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.9125307088944079, -0.7341066604850743, -0.4496374898170767],
+		"endPointCoordinates": [-0.9515003970087562, -0.8353148604413249, -0.39230880622763625]
   },
 
   { 
@@ -655,8 +655,8 @@
     "authorOrigin": "Med",
     "authorName": "Jennifer Luu",
     "anatomyName": "Forearm X Section",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.5365677543922596, -0.6106008211491661, 0.040146126063626664],
+		"endPointCoordinates": [-0.5690730336814365, -0.7239986172907138, 0.08727554420998285]
   },
 
   { 
@@ -665,8 +665,8 @@
     "authorOrigin": "Guild",
     "authorName": "Brenda Muller",
     "anatomyName": "Guyon's Canal Empty",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8845382982668621, 0.06807213563029965, -0.056500446135698414],
+		"endPointCoordinates": [-0.8541813802440621, 0.10497001362010103, 0.060010962924324715]
   },
 
   { 
@@ -675,8 +675,8 @@
     "authorOrigin": "Misc",
     "authorName": "Elaine Brett",
     "anatomyName": "Guyon's Canal Empty",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.7253984480809986, -0.021663382824128885, -0.4653121710527427],
+		"endPointCoordinates": [-0.788247011795922, -0.1309488388174208, -0.44334104599110113]
   },
 
   { 
@@ -685,8 +685,8 @@
     "authorOrigin": "Guild",
     "authorName": "Lorraine Rawlinson",
     "anatomyName": "Guyon's Canal Floor",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.5308213453740434, 0.3543071789413931, 0.10915914548050745],
+		"endPointCoordinates": [-0.43263401885221414, 0.3350470127449602, 0.046132194642079266]
   },
 
   { 
@@ -695,8 +695,8 @@
     "authorOrigin": "Misc",
     "authorName": "Alison Stott",
     "anatomyName": "Guyon's Canal Floor",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8028182318150119, 0.1925699346946187, -0.27760858911170017],
+		"endPointCoordinates": [-0.8529438626651049, 0.14011780295055365, -0.18500955341588698]
   },
 
   { 
@@ -705,8 +705,8 @@
     "authorOrigin": "Guild",
     "authorName": "Wendy Haydock",
     "anatomyName": "Guyon's Canal Roof",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.545984478228479, 0.2856973854022262, -0.1621590679064038],
+		"endPointCoordinates": [-0.46140986434844017, 0.23576097350750141, -0.2162996588126916]
   },
 
   { 
@@ -715,8 +715,8 @@
     "authorOrigin": "Med",
     "authorName": "Elodie Morrough",
     "anatomyName": "Guyon's Canal Roof",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.5415823257620455, -0.05608148962825238, -0.6523095434665639],
+		"endPointCoordinates": [-0.5989435432759913, -0.1513275459558825, -0.6152644750025454]
   },
 
   { 
@@ -725,8 +725,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat Richardson",
     "anatomyName": "Hamate and Meta 4 and 5",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.3362776697105938, 0.13414577495370028, -0.2814426461544426],
+		"endPointCoordinates": [-0.4148853437931679, 0.17295301905773275, -0.341011989379866]
   },
 
   { 
@@ -735,8 +735,8 @@
     "authorOrigin": "Lime",
     "authorName": "Janaki Gnanalingham",
     "anatomyName": "Hamate and Meta 4 and 5",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.0601, -0.053, 0.519],
+		"endPointCoordinates": [-0.04348973516457569, -0.0853964869400867, 0.5725845542234027]
   },
 
   { 
@@ -745,8 +745,8 @@
     "authorOrigin": "Misc",
     "authorName": "Trudi Proctor",
     "anatomyName": "Hamate Pisiform and Meta 4 and 5",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.5643024116324922, 0.17435522993899022, -0.417114944785771776],
+		"endPointCoordinates": [-0.6483722891997332, 0.10537799787814395, -0.44846639070074235]
   },
 
   { 
@@ -755,8 +755,8 @@
     "authorOrigin": "Guild",
     "authorName": "Patricia Blackburn",
     "anatomyName": "Hand",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.7520280480461538, 0.2690378332425766, 0.00956520409652949],
+		"endPointCoordinates": [-0.7400111329198914, 0.263428638191541, 0.12553158454841776]
   },
 
   { 
@@ -765,8 +765,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ann Reading",
     "anatomyName": "Hand Centred on Pisiform",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.30547894508784157, -0.09548192340731926, -0.765108126850334],
+		"endPointCoordinates": [-0.4113547328176631, -0.07831432534522614, -0.7257512969845835]
   },
 
   { 
@@ -775,8 +775,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jan Mellor",
     "anatomyName": "Hand Centred on Pisiform",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.10090056334095163, 0.04555644666412628, -0.48353114366654],
+		"endPointCoordinates": [0.005582747640181324, 0.01898336200913875, -0.4154120353190028]
   },
 
   { 
@@ -785,8 +785,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kay Witherford",
     "anatomyName": "Hand Centred on Pisiform",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.43775863160043876, 0.7669193782140744, 0.06905993186374124],
+		"endPointCoordinates": [0.43631091957574336, 0.8233109529971532, -0.03552186682808167]
   },
 
   { 
@@ -795,8 +795,8 @@
     "authorOrigin": "Guild",
     "authorName": "Susan Lloyd",
     "anatomyName": "Hand Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9601837311512056, 0.04541125847901242, 0.3055969542951407],
+		"endPointCoordinates": [0.9443994450326644, 0.027740070303704706, 0.18675917546636153]
   },
 
   { 
@@ -805,8 +805,8 @@
     "authorOrigin": "Med",
     "authorName": "Aden Tanner",
     "anatomyName": "Hand Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.7016764256189465, -0.8446271442998003, 0.12433295023636082],
+		"endPointCoordinates": [-0.647498930895514, -0.8984316849713316, 0.21841559095772045]
   },
 
   { 
@@ -815,8 +815,8 @@
     "authorOrigin": "Med",
     "authorName": "Jennifer Bailie",
     "anatomyName": "Hand Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.06599124410675072, -1.1246405424803494, -0.1476828404603742],
+		"endPointCoordinates": [0.02359967928927842, -1.170796601547113, -0.20850763822372212]
   },
 
   { 
@@ -825,8 +825,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jillian Holden",
     "anatomyName": "Hand Naked",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.47187247338221106, 0.5128994520636834, 0.2545248130442646],
+		"endPointCoordinates": [0.4206781300311801, 0.4274136310059239, 0.3415457267840454]
   },
 
   { 
@@ -835,8 +835,8 @@
     "authorOrigin": "Misc",
     "authorName": "Nerissa Cargill Thompson",
     "anatomyName": "Hand Naked",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.09780946645351325, 0.023180948583795713, -0.6442082442488283],
+		"endPointCoordinates": [-0.1942806561108713, -0.024823978552688253, -0.6989286797826795]
   },
 
   { 
@@ -845,8 +845,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Hand Open",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.062, -0.453, 0.120],
+		"endPointCoordinates": [0.120, -0.376, 0.196]
   },
 
   { 
@@ -855,8 +855,8 @@
     "authorOrigin": "Guild",
     "authorName": "Patti Owen",
     "anatomyName": "Hand Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.39263887346036963, 0.26202820836035934, 0.40681604562491985],
+		"endPointCoordinates": [0.45129468845141446, 0.33259807651242657, 0.35438099632389103]
   },
 
   { 
@@ -865,8 +865,8 @@
     "authorOrigin": "Med",
     "authorName": "Kate Gibbons",
     "anatomyName": "Hand Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8963253453467872, -0.06517940944257442, -0.28023705568747315],
+		"endPointCoordinates": [-0.8374186639399431, -0.038397063411316504, -0.3831557836367503]
   },
 
   { 
@@ -875,8 +875,8 @@
     "authorOrigin": "Guild",
     "authorName": "Scilla Capon",
     "anatomyName": "Hand Skeleton Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.1147653391190531, 0.05139574360476107, 0.07145594835739133],
+		"endPointCoordinates": [0.025206470596749273, 0.10038667901437681, 0.11011745697189229]
   },
 
   { 
@@ -885,8 +885,8 @@
     "authorOrigin": "Lime",
     "authorName": "Kayleigh Porter",
     "anatomyName": "Hand Skeleton Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.558, -0.359, 0.144],
+		"endPointCoordinates": [0.462, -0.417, 0.135]
   },
 
   { 
@@ -895,8 +895,8 @@
     "authorOrigin": "Misc",
     "authorName": "Jackie Davies",
     "anatomyName": "Hand Skeleton Dorsum",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.6925537881515959, -1.001239438766927, -0.713233783310215],
+		"endPointCoordinates": [-0.7693188644226322, -1.104083957812457, -0.686484860910001]
   },
 
   { 
@@ -905,8 +905,8 @@
     "authorOrigin": "Guild",
     "authorName": "Carol Clark",
     "anatomyName": "Hand Skeleton Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.19077877586663688, -0.2563450590958853, 0.40520430894438625],
+		"endPointCoordinates": [-0.25379294999783986, -0.3315337778774987, 0.3162988843195612]
   },
 
   { 
@@ -915,8 +915,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jean Knowles",
     "anatomyName": "Hand Skeleton Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.29072356364218277, 0.5299888090881151, 0.45961135639860146],
+		"endPointCoordinates": [-0.3938007171082829, 0.5312971736958182, 0.5244251490159184]
   },
 
   { 
@@ -925,8 +925,8 @@
     "authorOrigin": "Med",
     "authorName": "Ellen Lucius",
     "anatomyName": "Hand Skeleton Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.3862126150766056, 0.9464760525267932, -0.1530173953424055],
+		"endPointCoordinates": [0.45686087923640906, 0.8989349950345653, -0.2296430718156514]
   },
 
   { 
@@ -935,8 +935,8 @@
     "authorOrigin": "Guild",
     "authorName": "Karen Wingate",
     "anatomyName": "Index and Mid Fingers",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.023195832195668092, 0.8578759060264408, 1.7698336068706337],
+		"endPointCoordinates": [-0.07407295089383625, 0.8305686272190911, 1.7526665387809688]
   },
 
   { 
@@ -945,8 +945,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat Barry",
     "anatomyName": "Intrinsic Muscles",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.82211517375346, 0.1501928230095756, -1.1149674557857927],
+		"endPointCoordinates": [0.740621997856165, 0.22332839516971476, -1.0801155783156673]
   },
 
   { 
@@ -955,8 +955,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Johnson",
     "anatomyName": "Intrinsic Muscles",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.13897478276968833, 0.010428398771381908, -0.7929117181770158],
+		"endPointCoordinates": [0.0323315816589691, 0.006673943552870432, -0.7308608875432911]
   },
 
   { 
@@ -965,8 +965,8 @@
     "authorOrigin": "Misc",
     "authorName": "Caroline Stealy",
     "anatomyName": "Intrinsic Muscles",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.30908727088556864, 0.2427962696575784, 0.012801181136414264],
+		"endPointCoordinates": [-0.3970949956102535, 0.26954106131518873, -0.061933186203849355]
   },
 
   { 
@@ -975,8 +975,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pauline Foster",
     "anatomyName": "Lateral Digit",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.4357261376445589, 1.1513213280453587, 1.2229319599334894],
+		"endPointCoordinates": [0.3347218905845102, 1.2193400656618545, 1.2285380485764013]
   },
 
   { 
@@ -985,8 +985,8 @@
     "authorOrigin": "Med",
     "authorName": "Ammarah Master",
     "anatomyName": "Lateral Digit",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.3290295617276184, 0.9414684877437554, 1.3469969259546495],
+		"endPointCoordinates": [0.38752062638847107, 0.9031734758119154, 1.2474290235298853]
   },
 
   { 
@@ -995,8 +995,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Shepherd",
     "anatomyName": "Leading Areas",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.34857642576738246, 0.5698590644986835, 0.9615225814802126],
+		"endPointCoordinates": [-0.3135265435556176, 0.5845977634825035, 1.0786256501430644]
   },
 
   { 
@@ -1005,8 +1005,8 @@
     "authorOrigin": "Med",
     "authorName": "Nicola Kerrison",
     "anatomyName": "Leading Areas",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7091780561448338, 0.5804972506579151, -0.30527145134997014],
+		"endPointCoordinates": [0.7558312351550991, 0.49506078824558064, -0.3712551950614529]
   },
 
   { 
@@ -1015,8 +1015,8 @@
     "authorOrigin": "Med",
     "authorName": "Vicky Tyrrell",
     "anatomyName": "Leading Areas",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6365718358885462, 0.953718082222154, -0.24700632132667838],
+		"endPointCoordinates": [0.6457217649262912, 0.9764460122386196, -0.14166588684708842]
   },
 
   { 
@@ -1025,8 +1025,8 @@
     "authorOrigin": "Guild",
     "authorName": "Val Coleshaw",
     "anatomyName": "Ligaments Base Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.4737889383390701, -0.36170231561318406, 0.12816615575431461],
+		"endPointCoordinates": [-0.46478498628728593, -0.46015223818703443, 0.04520584601944516]
   },
 
   { 
@@ -1035,8 +1035,8 @@
     "authorOrigin": "Lime",
     "authorName": "Maria Roberts",
     "anatomyName": "Ligaments Base Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.7933814679330787, 0.03192658982104235, 0.19491667960460518],
+		"endPointCoordinates": [-0.7292420803313848, 0.010968781234879012, 0.29112551159142885]
   },
 
   { 
@@ -1045,8 +1045,8 @@
     "authorOrigin": "Med",
     "authorName": "Grace Ong",
     "anatomyName": "Ligaments Base Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.6570291975432534, -0.2047065325229775, 0.1940135268656495],
+		"endPointCoordinates": [-0.5521227092039941, -0.20855458601451787, 0.24154835468298436]
   },
 
   { 
@@ -1055,8 +1055,8 @@
     "authorOrigin": "Med",
     "authorName": "James Malloy",
     "anatomyName": "Ligaments Base Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.22298200563341775, -0.46432872087164917, 0.1164018521981682],
+		"endPointCoordinates": [-0.20876246050414804, -0.5439517600888084, 0.02462233938959396]
   },
 
   { 
@@ -1065,8 +1065,8 @@
     "authorOrigin": "Guild",
     "authorName": "Amanda Whewell",
     "anatomyName": "Lumbrical Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.39519513314703325, 0.08934405489941466, 0.6132738288021382],
+		"endPointCoordinates": [-0.4921466995065011, 0.048368196921019874, 0.5376835383652732]
   },
 
   { 
@@ -1075,8 +1075,8 @@
     "authorOrigin": "Med",
     "authorName": "Penny Williams",
     "anatomyName": "Lumbrical Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.12067689832018585, -1.2381070292168168, -0.33709625060986875],
+		"endPointCoordinates": [0.05667234014263711, -1.1908823890774902, -0.4202202676474527]
   },
 
   { 
@@ -1085,8 +1085,8 @@
     "authorOrigin": "Med",
     "authorName": "Rebekah Goulston",
     "anatomyName": "Lumbrical Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.12233656807220236, -1.167531449954328, 0.43056234141593464],
+		"endPointCoordinates": [-0.04728655214002278, -1.2480229162495133, 0.480235878649587]
   },
 
   { 
@@ -1095,8 +1095,8 @@
     "authorOrigin": "Med",
     "authorName": "Roosindu Peris",
     "anatomyName": "Lumbrical Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6667633427091935, 0.6851824761954561, 0.2592890075808198],
+		"endPointCoordinates": [0.6986464277617926, 0.7979972517049194, 0.2763197795310921]
   },
 
   { 
@@ -1105,8 +1105,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jane Williams",
     "anatomyName": "Making a Fist",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5271458935004775, 0.25907561811195867, 0.7556172642127653],
+		"endPointCoordinates": [0.6305544812463494, 0.2698326429416454, 0.7087288702339328]
   },
 
   { 
@@ -1115,8 +1115,8 @@
     "authorOrigin": "Med",
     "authorName": "Catherine James",
     "anatomyName": "Making a Fist",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.17001594176315105, 0.2980282966896264, 0.8999838294863861],
+		"endPointCoordinates": [0.25760136083931684, 0.3851955099864758, 0.8736941101517987]
   },
 
   { 
@@ -1125,8 +1125,8 @@
     "authorOrigin": "Med",
     "authorName": "Heather Harrison",
     "anatomyName": "Making a Fist",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.283642425017691, 0.2881135279054748, 0.8769742342335192],
+		"endPointCoordinates": [-0.333133738392662, 0.22007048460552764, 0.7630530598228135]
   },
 
   { 
@@ -1135,8 +1135,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Making a Fist",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8643000143625572, 0.0825698492086463, 0.530222244776688],
+		"endPointCoordinates": [0.9406375913275558, 0.062156692276069514, 0.4658700628255416]
   },
 
   { 
@@ -1145,8 +1145,8 @@
     "authorOrigin": "missing",
     "authorName": "Anon_2",
     "anatomyName": "MCPJ Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.4302994746070137, 1.1602236542786744, 1.4678144539797056],
+		"endPointCoordinates": [0.5105247463132555, 1.2016390529626768, 1.4087698611179773]
   },
 
   { 
@@ -1155,8 +1155,8 @@
     "authorOrigin": "Guild",
     "authorName": "Enid McIntosh",
     "anatomyName": "MCPJ Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6138523182505149, 0.9227816553203522, 0.3165208690377693],
+		"endPointCoordinates": [0.6292029977011957, 0.8659620516968592, 0.4064578337480559]
   },
 
   { 
@@ -1165,8 +1165,8 @@
     "authorOrigin": "Med",
     "authorName": "Germaine Fairclough",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6682268487503176, 0.45356806657712156, 0.42178898460189784],
+		"endPointCoordinates": [0.6067091381361327, 0.3791549563788135, 0.37309322154925584]
   },
 
   { 
@@ -1175,8 +1175,8 @@
     "authorOrigin": "Med",
     "authorName": "Iona McKechnie",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.20305144490808338, 0.5132049383232308, 1.0575430100570211],
+		"endPointCoordinates": [0.28863398209129004, 0.5763723317871006, 1.0295686905903705]
   },
 
   { 
@@ -1185,8 +1185,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Metacarpal and Proximal Phal Bones",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5223644756950431, 1.0159020268861978, 0.07926887561950799],
+		"endPointCoordinates": [0.6213586233722471, 0.982341778225416, 0.07652437523891281]
   },
 
   { 
@@ -1195,8 +1195,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sandra McFarlane",
     "anatomyName": "Midpalm XSection",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.5731023944124092, 0.24863294803631367, 0.5456574426969474],
+		"endPointCoordinates": [-0.502597513810665, 0.24859644412783544, 0.6424557749409512]
   },
 
   { 
@@ -1205,8 +1205,8 @@
     "authorOrigin": "Med",
     "authorName": "Sandra McAllister",
     "anatomyName": "Midpalm XSection",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.3563173764949511, 0.12997092571123925, 0.15466133349925792],
+		"endPointCoordinates": [0.27264565857782197, 0.1343721161334529, 0.24921714826536068]
   },
 
   { 
@@ -1215,8 +1215,8 @@
     "authorOrigin": "Guild",
     "authorName": "Lou Godley",
     "anatomyName": "Oblique Carpals Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.46062215197683043, 0.47524859323934315, 0.6775361536758754],
+		"endPointCoordinates": [-0.45598964123058816, 0.34561016935633226, 0.7296972065446199]
   },
 
   { 
@@ -1225,8 +1225,8 @@
     "authorOrigin": "Med",
     "authorName": "Nicola Mann",
     "anatomyName": "Oblique Carpals Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-1.0910372163475193, -1.0163602095974302, -0.1266865713451323],
+		"endPointCoordinates": [-1.1385253920224594, -1.1091943811049045, -0.10225341459012732]
   },
 
   { 
@@ -1235,8 +1235,8 @@
     "authorOrigin": "Guild",
     "authorName": "Joy Newington",
     "anatomyName": "Oblique Thumb Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7426502528753489, 0.6426514588535969, -0.7895875942426779],
+		"endPointCoordinates": [0.8422956011546522, 0.6948627774682223, -0.8258638351672132]
   },
 
   { 
@@ -1245,8 +1245,8 @@
     "authorOrigin": "Med",
     "authorName": "Zahra Alhumaidi",
     "anatomyName": "Oblique Thumb Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.26331877795540204, -0.9869957159712865, 0.009881913167485323],
+		"endPointCoordinates": [-0.17462510341847715, -1.0470465607382096, -0.06078536058052081]
   },
 
   { 
@@ -1255,8 +1255,8 @@
     "authorOrigin": "Guild",
     "authorName": "Bernadette Burgon",
     "anatomyName": "Palmar Carpal Ligs",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.4342945188203237, -0.12461576900251381, 0.37032212363644457],
+		"endPointCoordinates": [-0.5138931373029388, -0.18062640174689965, 0.3051026189104218]
   },
 
   { 
@@ -1265,8 +1265,8 @@
     "authorOrigin": "Guild",
     "authorName": "Shellene Divall",
     "anatomyName": "Palmar Carpal Ligs",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.027702796878545044, -0.988674023893551, -0.3840479229297783],
+		"endPointCoordinates": [-0.014598318758534123, -1.1016526729080431, -0.34298096310994935]
   },
 
   { 
@@ -1275,8 +1275,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jan Arnold",
     "anatomyName": "Palmar Carpal Tunnel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.48846126828118847, -0.2762888114708575, -0.7614661884431685],
+		"endPointCoordinates": [-0.5660847533145428, -0.2655885982282734, -0.670056265276904]
   },
 
   { 
@@ -1285,8 +1285,8 @@
     "authorOrigin": "Med",
     "authorName": "Anne Judge",
     "anatomyName": "Palmar Carpal Tunnel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8444855151459352, -0.2785208657149038, -0.3991913590807997],
+		"endPointCoordinates": [-0.8973063836322286, -0.2880302770701992, -0.2933091364465427]
   },
 
   { 
@@ -1295,8 +1295,8 @@
     "authorOrigin": "Med",
     "authorName": "Lee San Tang",
     "anatomyName": "Palmar Carpal Tunnel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.13449415614393614, -0.021258998093425907, -0.3600182822423934],
+		"endPointCoordinates": [-0.21670036999324546, 0.018782998011675933, -0.3122293416327332]
   },
 
   { 
@@ -1305,8 +1305,8 @@
     "authorOrigin": "Guild",
     "authorName": "Maureen McGuiness",
     "anatomyName": "Passage into Palm Space",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.32978658400749433, -0.05813687833872949, -0.34173121015579927],
+		"endPointCoordinates": [0.4304918146820408, -0.09793008792473346, -0.27999087214442436]
   }, 
   
   { 
@@ -1315,8 +1315,8 @@
     "authorOrigin": "Med",
     "authorName": "Darcy Emery",
     "anatomyName": "Passage into Palm Space",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.12694764808911993, 0.062439827337173015, -0.0972896753837170],
+		"endPointCoordinates": [-0.21157288886176004, 0.11771703611646012, -0.05032860483643053]
   },
 
   { 
@@ -1325,8 +1325,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Phal Prox and Int Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8787843380346796, 0.466101296174997, -0.5555413562809479],
+		"endPointCoordinates": [0.9968471404945164, 0.43529254614150875, -0.5865672827970536]
   },
 
   { 
@@ -1335,8 +1335,8 @@
     "authorOrigin": "Guild",
     "authorName": "Elspeth Brelsford",
     "anatomyName": "PIPJ Lateral",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.26502715407679645, 0.7149430434883751, 1.2360461926292925],
+		"endPointCoordinates": [0.3201745360448025, 0.6983778947280933, 1.122334374244723]
   },
 
   { 
@@ -1345,8 +1345,8 @@
     "authorOrigin": "Guild",
     "authorName": "Mel Charters",
     "anatomyName": "PIPJ Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.4088200715847564, 0.7859019967234047, 0.3382673748604327],
+		"endPointCoordinates": [0.46922222583378326, 0.7752442645669604, 0.4330812627610869]
   },
 
   { 
@@ -1355,8 +1355,8 @@
     "authorOrigin": "Med",
     "authorName": "Jack Collard",
     "anatomyName": "PIPJ Ligaments",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.26224710624417197, 0.6738650315400366, 1.1873933160175991],
+		"endPointCoordinates": [-0.22702127113861637, 0.6953851161369788, 1.3074624096315033]
   },
 
   { 
@@ -1365,8 +1365,8 @@
     "authorOrigin": "Med",
     "authorName": "Emma Lee",
     "anatomyName": "PIPJ Ligaments Bend",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6697795335971726, 0.8190115003228691, 0.02706663661351641],
+		"endPointCoordinates": [0.5857279639884216, 0.7482143257544787, 0.033952701935649865]
   },
 
   { 
@@ -1375,8 +1375,8 @@
     "authorOrigin": "Med",
     "authorName": "Jo Lorain",
     "anatomyName": "PIPJ Ligaments Bend",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9114722737353207, 0.39845151561414593, -1.1749304634355506],
+		"endPointCoordinates": [1.0135644863370334, 0.43841231742475417, -1.1677785143229942]
   },
 
   { 
@@ -1385,8 +1385,8 @@
     "authorOrigin": "Med",
     "authorName": "Sonja Pawelczyk",
     "anatomyName": "PIPJ Ligaments Bend",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9149208918074199, 0.5967898399542426, 0.2616282641950163],
+		"endPointCoordinates": [0.8279129623880657, 0.5712527512876858, 0.32105008818077174]
   },
 
   { 
@@ -1395,8 +1395,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "PIPJ Ligaments Bend",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.11016552213092531, 0.609495404867582, 0.9990392344562489],
+		"endPointCoordinates": [-0.1823848306808466, 0.6685124214969393, 0.9165293802830122]
   },
 
   { 
@@ -1405,8 +1405,8 @@
     "authorOrigin": "Guild",
     "authorName": "Faith Mitchell",
     "anatomyName": "PIPJ Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.17780692470270096, 0.35603963989734744, 0.4970710699879508],
+		"endPointCoordinates": [0.0751963529553295, 0.32390528448371925, 0.44600837579998853]
   },
 
   { 
@@ -1415,8 +1415,8 @@
     "authorOrigin": "Misc",
     "authorName": "Sarah Gillet",
     "anatomyName": "PIPJ Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5957700799842645, 0.2146990378112673, 0.2233231200720498],
+		"endPointCoordinates": [0.6838139758437681, 0.19941757780827707, 0.14672625883011914]
   },
 
   { 
@@ -1425,8 +1425,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jenni Welsh",
     "anatomyName": "PIPJ Stabilising Ligs",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9748388866288167, 0.3077918395145699, 0.22300878478966155],
+		"endPointCoordinates": [0.9440204380769157, 0.22780295751668922, 0.14840806796270367]
   },
 
   { 
@@ -1435,8 +1435,8 @@
     "authorOrigin": "Guild",
     "authorName": "Linda Eckersley",
     "anatomyName": "PIPJ Stabilising Ligs",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.18564187495670142, 0.7324151194652204, 1.4255743293285175],
+		"endPointCoordinates": [-0.15104993323929966, 0.7617599265924409, 1.542841702324976]
   },
 
   { 
@@ -1445,8 +1445,8 @@
     "authorOrigin": "Guild",
     "authorName": "Jane Kirkham",
     "anatomyName": "Profile Digit Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.2545547426246958, 1.2601122016685171, 1.3513747960813731],
+		"endPointCoordinates": [0.2695433997801877, 1.1719402737635827, 1.4094426020769983]
   },
 
   { 
@@ -1455,8 +1455,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sheila Paterson",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.12317211525030913, 0.5330494132498474, 1.4321916232205198],
+		"endPointCoordinates": [-0.17765354027756514, 0.511641249858812, 1.3390161092812953]
   },
 
   { 
@@ -1465,8 +1465,8 @@
     "authorOrigin": "Med",
     "authorName": "Bethany Butcher",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.46626211019021346, 0.03745477523830479, 0.735641093676914],
+		"endPointCoordinates": [0.4262020059482726, 0.12199557974105402, 0.7637807976277666]
   },
 
   { 
@@ -1475,8 +1475,8 @@
     "authorOrigin": "Med",
     "authorName": "Nicola Barnes",
     "anatomyName": "Profile Lumbrical and Digit Skeleton",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9695018525130885, 0.4433235918687939, -0.0027531566603284235],
+		"endPointCoordinates": [0.9034122715610434, 0.3539909833827168, -0.012725633076191047]
   },
 
   { 
@@ -1485,8 +1485,8 @@
     "authorOrigin": "Guild",
     "authorName": "Judith McNab",
     "anatomyName": "Profile Pulleys Flexed",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.05378556467084772, 0.6643478382164669, 1.3050477496584931],
+		"endPointCoordinates": [-0.0796422419274635, 0.6266299766743673, 1.1828154323849038]
   },
 
   { 
@@ -1495,8 +1495,8 @@
     "authorOrigin": "Med",
     "authorName": "Esme Milton",
     "anatomyName": "Profile Pulleys Flexed",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9694808821639842, 0.5154907437847552, -0.30047818494457207],
+		"endPointCoordinates": [0.9571218176546084, 0.5547283809989833, -0.18366504799322372]
   },
 
   { 
@@ -1505,8 +1505,8 @@
     "authorOrigin": "Med",
     "authorName": "Joseph Dodds",
     "anatomyName": "Profile Pulleys Flexed",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.37881196991930766, 0.5575557814525535, 0.478016661886633],
+		"endPointCoordinates": [0.44817686315009, 0.5643960038566418, 0.5615374553744599]
   },
 
   { 
@@ -1515,8 +1515,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_12",
     "anatomyName": "Radial Artery in First Space",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5667013950655061, 0.034662757787259524, -0.7326652199231769],
+		"endPointCoordinates": [0.578452862916718, 0.046105323617531835, -0.8436682545695597]
   },
 
   { 
@@ -1525,8 +1525,8 @@
     "authorOrigin": "Guild",
     "authorName": "Hilary Yates",
     "anatomyName": "Radial Artery in First Space",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [1.0061389131864071, 0.058718785716673924, -0.8064578127224376],
+		"endPointCoordinates": [1.0328481818170663, 0.11573191532318433, -0.9090921663012264]
   },
 
   { 
@@ -1535,8 +1535,8 @@
     "authorOrigin": "Misc",
     "authorName": "Yvonne Blackman",
     "anatomyName": "Radial Artery in First Space",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.022190680487328737, -0.3415530244211056, -0.9166217625688262],
+		"endPointCoordinates": [-0.11392077560218367, -0.43507306677305246, -0.8814154455176442]
   },
 
   { 
@@ -1545,8 +1545,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ann Heather",
     "anatomyName": "Retropulsion with Resting Thumb",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [1.1105863788678947, 0.486534700145307, -0.9959246171017783],
+		"endPointCoordinates": [1.0440195781535868, 0.5688589935854839, -1.0832780436859528]
   },
 
   { 
@@ -1555,8 +1555,8 @@
     "authorOrigin": "Guild",
     "authorName": "Sue Boardman",
     "anatomyName": "Retropulsion with Resting Thumb",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8079143656928709, -0.029441860620947294, -0.1516764174599411],
+		"endPointCoordinates": [0.754682883624337, -0.07167223208578967, -0.23887505090716488]
   },
 
   { 
@@ -1565,8 +1565,8 @@
     "authorOrigin": "Guild",
     "authorName": "Pat Knifton",
     "anatomyName": "Safe Position",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5359087839694677, -0.313456872973638, -0.36110557352932143],
+		"endPointCoordinates": [0.5083173038309499, -0.3660081155813193, -0.4547504214155917]
   },
 
   { 
@@ -1575,8 +1575,8 @@
     "authorOrigin": "Med",
     "authorName": "Jay Derry Green",
     "anatomyName": "Safe Position",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [1.0076511712789842, 0.2961039151443437, -0.8004671596628697],
+		"endPointCoordinates": [1.0774174062346003, 0.35789044966073447, -0.8852466137637066]
   },
 
   { 
@@ -1585,8 +1585,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_11",
     "anatomyName": "Sagittal Bands",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.27431611904502995, 0.3850670519012632, 0.24548837487290578],
+		"endPointCoordinates": [-0.3700956154309875, 0.3619318080192254, 0.19370025171615443]
   },
 
   { 
@@ -1595,8 +1595,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_4",
     "anatomyName": "Sagittal Bands",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8024670520716777, -0.21472518174547617, 0.3909113980784582],
+		"endPointCoordinates": [0.7173787393158351, -0.2465597095884412, 0.3068132329493537]
   },
 
   { 
@@ -1605,8 +1605,8 @@
     "authorOrigin": "Med",
     "authorName": "Katherine Conroy",
     "anatomyName": "Sagittal Bands",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6775131760451503, 0.24841216292353563, 0.5601675878397574],
+		"endPointCoordinates": [0.720284191022041, 0.17236852872702713, 0.503458740346808]
   },
 
   { 
@@ -1615,8 +1615,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_2",
     "anatomyName": "Scaphoid",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.2863478784158499, -0.7094748328984833, -0.00920430878434142],
+		"endPointCoordinates": [-0.25143058895151527, -0.8246086330825184, -0.01202470831744673]
   },
 
   { 
@@ -1625,8 +1625,8 @@
     "authorOrigin": "Misc",
     "authorName": "Anna Novitzky",
     "anatomyName": "Scaphoid",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.08679677455654647, -0.648561460757211, -0.762128001839271],
+		"endPointCoordinates": [-0.206639917193687, -0.6633329623706797, -0.7898279222620059]
   },
 
   { 
@@ -1635,8 +1635,8 @@
     "authorOrigin": "Med",
     "authorName": "Jaele Rollins",
     "anatomyName": "Secret Compartment",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7259433373851809, 0.2735300007105427, -0.7846390790399298],
+		"endPointCoordinates": [0.6611121588475355, 0.23523890601346184, -0.8656120673789341]
   },
 
   { 
@@ -1645,8 +1645,8 @@
     "authorOrigin": "Med",
     "authorName": "Zakia Alwi",
     "anatomyName": "Secret Compartment",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5735911050202909, -0.04900289833536764, -0.2050409301916165],
+		"endPointCoordinates": [0.46695165823484264, -0.09412059299976416, -0.2604088882846002]
   },
 
   { 
@@ -1655,8 +1655,8 @@
     "authorOrigin": "Med",
     "authorName": "Prof Alice Roberts",
     "anatomyName": "Secret Compartment",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.3194929212261947, 0.04921671913190573, -0.617185774836327],
+		"endPointCoordinates": [0.23029915174239526, 0.04507689823349381, -0.6717295639691331]
   },
 
   { 
@@ -1665,8 +1665,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_10",
     "anatomyName": "Skeleton Rays",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.301, -0.147, 0.529],
+		"endPointCoordinates": [0.194, -0.105, 0.539]
   },
 
   { 
@@ -1675,8 +1675,8 @@
     "authorOrigin": "Med",
     "authorName": "Charlotte Rycroft",
     "anatomyName": "Tendon Synovial Sheaths",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.1749298037289293, -0.5771327129665713, -0.07973991603297537],
+		"endPointCoordinates": [0.20806128314671285, -0.5346012937826308, -0.1918034949170117]
   },
 
   { 
@@ -1685,8 +1685,8 @@
     "authorOrigin": "Med",
     "authorName": "Pheobe Drew",
     "anatomyName": "TFC Axial",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8063142648333685, -0.5112053667538785, -0.5462714692271264],
+		"endPointCoordinates": [-0.861280863015006, -0.5082062335458114, -0.4262809443029665]
   },
 
   { 
@@ -1695,8 +1695,8 @@
     "authorOrigin": "Misc",
     "authorName": "Kath Walls",
     "anatomyName": "TFC Axial",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8027346257701066, -0.6728675628707779, -0.03738993698798543],
+		"endPointCoordinates": [-0.7287389543198368, -0.7581701207324857, 0.007681260987308591]
   },
 
   { 
@@ -1705,8 +1705,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_8",
     "anatomyName": "TFC Dorsal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.8556119242720512, -0.1951351934690865, -0.015010237461208414],
+		"endPointCoordinates": [-0.7895216712815976, -0.17990221176555046, 0.0826073535932582]
   },
 
   { 
@@ -1715,8 +1715,8 @@
     "authorOrigin": "Med",
     "authorName": "Freya Webb",
     "anatomyName": "TFC Dorsal",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.9098346469845954, -0.5166748715761001, -0.26847754664801377],
+		"endPointCoordinates": [-0.9027650083578128, -0.5743779806170939, -0.16061380475044762]
   },
 
   { 
@@ -1725,8 +1725,8 @@
     "authorOrigin": "Med",
     "authorName": "Hyesung Jang",
     "anatomyName": "TFC Palmar",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.6918127038746074, -0.412181644009462, -0.02410163444254121],
+		"endPointCoordinates": [-0.5746796660105938, -0.40957949559483203, 0.030746413015470653]
   },
 
   { 
@@ -1735,8 +1735,8 @@
     "authorOrigin": "Med",
     "authorName": "Cliona Kirwan",
     "anatomyName": "Three Long Flexors",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.027309347824160588, 0.13880247503916923, 0.7507984661505431],
+		"endPointCoordinates": [-0.10047108158418426, 0.07756944363548131, 0.659000386331814]
   },
 
   { 
@@ -1745,8 +1745,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_7",
     "anatomyName": "Thumb CMC",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7441123155131557, -0.09917670734200495, -0.35710246322762923],
+		"endPointCoordinates": [0.7649695790363306, -0.06070174203730236, -0.46028563746401474]
   },
 
   { 
@@ -1755,8 +1755,8 @@
     "authorOrigin": "Med",
     "authorName": "Luciana Conti Kirkwood",
     "anatomyName": "Thumb CMC",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.46996831400342015, -0.4630506510597865, -0.8512191886723428],
+		"endPointCoordinates": [0.5061157876913576, -0.5476318956185973, -0.7649479609773666]
   },
 
   { 
@@ -1765,8 +1765,8 @@
     "authorOrigin": "Guild",
     "authorName": "Ann Taverner",
     "anatomyName": "Thumb Opposition",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.582266991545467, -0.009932880653888865, -0.479241814534885],
+		"endPointCoordinates": [0.4890783264152309, -0.004841222780480159, -0.536871093243023]
   },
 
   { 
@@ -1775,8 +1775,8 @@
     "authorOrigin": "Guild",
     "authorName": "Gillian Reid",
     "anatomyName": "Thumb Opposition Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.14498929544856118, 0.17675379513688205, 0.30864924343812655],
+		"endPointCoordinates": [0.04459013780411976, 0.14692414900445072, 0.2502302783014016]
   },
 
   { 
@@ -1785,8 +1785,8 @@
     "authorOrigin": "Med",
     "authorName": "Helena Law",
     "anatomyName": "Thumb Opposition Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.535, -0.205, 0.405],
+		"endPointCoordinates": [0.550, -0.301, 0.327]
   },
 
   { 
@@ -1795,8 +1795,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Thumb Opposition Meta",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.10600320385294218, -0.03781952220685514, -0.2006324715106539],
+		"endPointCoordinates": [0.006171864713238023, -0.03215873971280636, -0.14419325665318578]
   },
 
   { 
@@ -1805,8 +1805,8 @@
     "authorOrigin": "Guild",
     "authorName": "Kathy Hoolahan",
     "anatomyName": "Thumb Opposition Pinch",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.06223135212199489, 0.35646401110515147, 0.3453427271739166],
+		"endPointCoordinates": [-0.1443741589348897, 0.34967917112569846, 0.29727273328484616]
   },
 
   { 
@@ -1815,8 +1815,8 @@
     "authorOrigin": "Med",
     "authorName": "Esha Matharu",
     "anatomyName": "Thumb Opposition Pinch",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.600644011047271, -0.23152110850376262, -0.10434283443090903],
+		"endPointCoordinates": [0.513767987789777, -0.30325953396545535, -0.0830972872539717]
   },
 
   { 
@@ -1825,8 +1825,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_5",
     "anatomyName": "Thumb Opposition Pinch 2",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5548560771928142, 1.3912241012402868, 1.3584143140173586],
+		"endPointCoordinates": [0.6026457221585949, 1.392785959142555, 1.4638316823607276]
   },
 
   { 
@@ -1835,8 +1835,8 @@
     "authorOrigin": "Guild",
     "authorName": "Hilary Creswell",
     "anatomyName": "Thumb Opposition Pinch 2",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [1.0467978162226985, 0.7006770752759872, -0.5186926699002857],
+		"endPointCoordinates": [1.069634949048582, 0.6330813520502623, -0.5993277777630044]
   },
 
   { 
@@ -1845,8 +1845,8 @@
     "authorOrigin": "Misc",
     "authorName": "Griselde Goldsbrough",
     "anatomyName": "Thumb Opposition Pinch 2",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.14868557843222427, 0.8734505888083524, 0.9553632099639211],
+		"endPointCoordinates": [0.05264430225407213, 0.7956862203370975, 0.9856486634193846]
   },
 
   { 
@@ -1855,8 +1855,8 @@
     "authorOrigin": "Med",
     "authorName": "Chloe Ablett",
     "anatomyName": "Thumb Pulleys",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7035193135383924, 0.42519045016064694, -0.9945114424117558],
+		"endPointCoordinates": [0.7371385155319226, 0.3308277921433651, -1.0717053932727048]
   },
 
   { 
@@ -1865,8 +1865,8 @@
     "authorOrigin": "Misc",
     "authorName": "Donna Griffith",
     "anatomyName": "Thumb Pulleys",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.9742319972253731, -0.05817898922844872, -1.0381854103109236],
+		"endPointCoordinates": [1.0168509583513896, -0.0188895145389648, -0.944838754841026]
   },
 
   { 
@@ -1875,8 +1875,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_9",
     "anatomyName": "Thumb Skel FPB",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.2934819338278315, -0.502459604276461, -0.3686002584007111],
+		"endPointCoordinates": [0.35430317744018913, -0.49130421295840504, -0.4610218763832018]
   },
 
   { 
@@ -1885,8 +1885,8 @@
     "authorOrigin": "Misc",
     "authorName": "Gareth Evans",
     "anatomyName": "Thumb Skel FPB",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.858873275217156, -0.32474215603801593, -0.9992894376771388],
+		"endPointCoordinates": [0.755654609415987, -0.27033114660814384, -1.0268881858864116]
   },
 
   { 
@@ -1895,8 +1895,8 @@
     "authorOrigin": "Med",
     "authorName": "Tricia Tay",
     "anatomyName": "Thumb with Skel",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6066228440603583, 0.14641901344396024, -0.9560710372976505],
+		"endPointCoordinates": [0.6226260633432157, 0.09175726618631452, -0.8551637501730742]
   },
 
   { 
@@ -1905,8 +1905,8 @@
     "authorOrigin": "Med",
     "authorName": "beriz Abdullah",
     "anatomyName": "Trapizium",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.10424479210890131, -0.9732749107492198, -0.6215848155260182],
+		"endPointCoordinates": [-0.17779167781662292, -1.059204023723779, -0.6655433314923471]
   },
 
   { 
@@ -1915,8 +1915,8 @@
     "authorOrigin": "missing",
     "authorName": "Pinc College Student",
     "anatomyName": "Trapizium",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.29496356760891507, -0.6419918892051858, -0.7008916614873524],
+		"endPointCoordinates": [0.18634568509293725, -0.652288125669604, -0.7200194997006212]
   },
 
   { 
@@ -1925,8 +1925,8 @@
     "authorOrigin": "Med",
     "authorName": "Beth MacAllister",
     "anatomyName": "Vascular Supply",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.0732555120894578, -0.7709470032727712, -0.5845680896555113],
+		"endPointCoordinates": [-0.0024904345377660952, -0.7410493427835578, -0.6799475587377061]
   },
 
   { 
@@ -1935,8 +1935,8 @@
     "authorOrigin": "Med",
     "authorName": "Sidra Hasan",
     "anatomyName": "Vascular Supply",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.500985911700595, 0.4397430574518648, 0.350087161802875],
+		"endPointCoordinates": [-0.41008324680662733, 0.4236551725440655, 0.2972735802995498]
   },
 
   { 
@@ -1945,8 +1945,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_1",
     "anatomyName": "Vinculi Long and Short",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8254055473914568, 0.3236872033855073, -0.1375166019525786],
+		"endPointCoordinates": [0.9044203656384425, 0.36963085848306526, -0.21651507154304547]
   },
 
   { 
@@ -1955,8 +1955,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_13",
     "anatomyName": "Volar Plate Flex",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [-0.048145234066717585, 0.3687385409767635, 0.8778643371880316],
+		"endPointCoordinates": [0.017424520535699484, 0.3063908540830916, 0.9081005703438896]
   },
 
   { 
@@ -1965,8 +1965,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_3",
     "anatomyName": "X Sec of Thumb",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.4502519575549866, -0.21710389067509045, -1.0354542763152987],
+		"endPointCoordinates": [0.3374179944665287, -0.19182979370912454, -1.0138894936665692]
   },
 
   { 
@@ -1975,8 +1975,8 @@
     "authorOrigin": "Med",
     "authorName": "Katherine McMenzie",
     "anatomyName": "X Sec of Thumb",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.8728960802761186, 0.613616974799601, -1.0548704172320857],
+		"endPointCoordinates": [0.8291715588067883, 0.6163142593793154, -0.9359406097045466]
   },
 
   { 
@@ -1985,8 +1985,8 @@
     "authorOrigin": "missing",
     "authorName": "BW_6",
     "anatomyName": "X Sect Digit",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.6194356129584705, 1.0799853034975062, -0.508613180745922],
+		"endPointCoordinates": [0.519635297168523, 1.04231535870293, -0.5723057798700182]
   },
 
   { 
@@ -1995,8 +1995,8 @@
     "authorOrigin": "Med",
     "authorName": "Miriam Beattie",
     "anatomyName": "X Sect Digit",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.5754245854106559, 0.47608141706258195, 0.6339115383367341],
+		"endPointCoordinates": [0.4814863731652823, 0.5345326712965116, 0.5917852810766241]
   },
 
   { 
@@ -2005,8 +2005,8 @@
     "authorOrigin": "Med",
     "authorName": "Eleanor Fletcher",
     "anatomyName": "XSec Metac Head",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.7054873985602785, -0.12641583616064528, -1.106344298596674],
+		"endPointCoordinates": [0.5918866473298788, -0.153752145965662, -1.066354487648971]
   },
 
   { 
@@ -2015,7 +2015,7 @@
     "authorOrigin": "Misc",
     "authorName": "Joy Bradshaw",
     "anatomyName": "XSec Metac Head",
-    "centreCoordinates": [],
-		"endPointCoordinates": []
+    "centreCoordinates": [0.388475742891225, 0.9203942818319532, 1.1077046081672879],
+		"endPointCoordinates": [0.36254272413793076, 0.8105090910361265, 1.1697297594312233]
   }
 ]
