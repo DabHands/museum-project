@@ -8,10 +8,12 @@ const ModelContext = createContext<ModelContextType>({
   spheres: [],
   scene: new THREE.Scene,
   renderer: new THREE.WebGLRenderer,
+  camera: new THREE.PerspectiveCamera,
   saveModel: (model: any) => { },
   saveSpheres: (spheres: SphereInfo[]) => { },
   saveScene: (scene: THREE.Scene) => { },
-  saveRenderer: (renderer: THREE.WebGLRenderer) => { }
+  saveRenderer: (renderer: THREE.WebGLRenderer) => { },
+  saveCamera: (camera: THREE.PerspectiveCamera) => { },
 });
 
 export default ModelContext;

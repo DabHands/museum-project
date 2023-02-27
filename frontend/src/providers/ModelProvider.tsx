@@ -12,6 +12,7 @@ const ModelProvider: React.FC<ModelProviderProps> = ( { children } ) => {
   const [spheres, setSpheres] = useState<SphereInfo[]>([]);
   const [scene, setScene] = useState<THREE.Scene>(new THREE.Scene);
   const [renderer, setRenderer] = useState<THREE.WebGLRenderer>(new THREE.WebGLRenderer);
+  const [camera, setCamera] = useState<THREE.PerspectiveCamera>(new THREE.PerspectiveCamera);
 
   const saveModel = (model: any) => {
     setModel(model);
@@ -29,15 +30,21 @@ const ModelProvider: React.FC<ModelProviderProps> = ( { children } ) => {
     setRenderer(renderer);
   };
 
+  const saveCamera = (camera: THREE.PerspectiveCamera) => {
+    setCamera(camera);
+  };
+
   const context = {
     model,
     spheres,
     scene,
     renderer,
+    camera,
     saveModel,
     saveSpheres,
     saveScene,
-    saveRenderer
+    saveRenderer,
+    saveCamera,
   };
 
   return (

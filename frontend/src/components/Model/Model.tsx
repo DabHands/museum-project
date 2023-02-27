@@ -196,21 +196,21 @@ export const Model: React.FC = () => {
       }
     }
 
-    // save the generated spheres, scene and renderer as global variables
+    // save the generated spheres, camera, scene and renderer as global variables
     modelContext.saveSpheres(spheres);
-
+    modelContext.saveCamera(camera);
     modelContext.saveScene(scene);
     modelContext.saveRenderer(renderer);
   }, []);
 
   useEffect(() => {
-    const controls = new OrbitControls(camera, modelContext.renderer.domElement);
+    const controls = new OrbitControls(modelContext.camera, modelContext.renderer.domElement);
 
     // show the model
     function animate() {
       requestAnimationFrame(animate);
       controls.update();
-      modelContext.renderer.render(modelContext.scene, camera);
+      modelContext.renderer.render(modelContext.scene, modelContext.camera);
     }
     animate();
   });
@@ -229,7 +229,7 @@ export const Model: React.FC = () => {
 
     const mousePosition = new THREE.Vector2(x, y);
     console.log('camera', camera);
-    rayCaster.setFromCamera(mousePosition, camera);
+    rayCaster.setFromCamera(mousePosition, modelContext.camera);
 
     // scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
     const intersects = rayCaster.intersectObjects(modelContext.model.children, true);

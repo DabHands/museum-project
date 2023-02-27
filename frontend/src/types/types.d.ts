@@ -30,12 +30,14 @@ export type PopupEmbroideryInfo = {
 }
 
 export type ModelContextType = {
-    model: any;
+    model: any,
     spheres: SphereInfo[],
     scene: THREE.Scene,
     renderer: THREE.WebGLRenderer,
+    camera: THREE.PerspectiveCamera,
     saveModel: (model: any) => void,
     saveSpheres: (spheres: SphereInfo[]) => void,
     saveScene: (scene: THREE.Scene) => void,
-    saveRenderer: (renderer: THREE.WebGLRenderer) => void;
+    saveRenderer: (renderer: THREE.WebGLRenderer) => void,
+    saveCamera: (camera: THREE.PerspectiveCamera) => void,
   };
