@@ -108,8 +108,8 @@ export const Model: React.FC = () => {
     sphere.position.y = embroideryCentre[1];
     sphere.position.z = embroideryCentre[2];
 
-    // sphere.material.transparent = true;
-    // sphere.material.opacity = 0.0;
+    sphere.material.transparent = true;
+    sphere.material.opacity = 0.0;
 
     scene.add(sphere);
     return sphere;
@@ -238,15 +238,15 @@ export const Model: React.FC = () => {
 
     if (intersects.length > 0) {
       console.log(intersects[0].point);
-      const scene = modelContext.scene;
-      scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
+      // const scene = modelContext.scene;
+      // scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
     }
 
     // compute the first sphere that the ray goes through
     const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
 
-    setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "../../images/thumbnail/" + sphereEmbroidery?.fileName});
+    setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName});
 
     setShouldShowPopup(true);
   };

@@ -8,7 +8,7 @@ const PopupContainer = styled.div`
   background-color: #212529;
   border-radius: 0.7rem;
   border: 1px solid rgba(255, 255, 255, 0.8);
-  box-shadow: 2px 2px 40px 1px rgba(255, 255, 255, 0.7);
+  box-shadow: 2px 2px 40px 1px #495057;
   position: absolute;
   top: 2rem;
   left: 2rem;
@@ -24,8 +24,15 @@ const PopupContainer = styled.div`
   
 `;
 
-const EmbroideryImage = styled.img`
+const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+`;
+
+const EmbroideryImage = styled.img`
+  // height: 30%;
 `;
 
 const CloseButton = styled.button`
@@ -86,6 +93,7 @@ const BackToModelButton = styled.button`
 
 export {
   PopupContainer,
+  ImageContainer,
   EmbroideryImage,
   CloseButton,
   CloseIcon,

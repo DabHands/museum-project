@@ -14,7 +14,7 @@ export const GridSingle: React.FC<Props> = ({
         <s.PageLink to={process.env.PUBLIC_URL + `/explore/${embroidery.id}`} >
             <s.Box>
                 <s.Thumbnail
-                    src={require(`../../../../images/thumbnail/${embroidery.fileName}`)}
+                    src={`thumbnail/${embroidery.fileName}`}
                     draggable={false}
                     loading="lazy" 
                 />
