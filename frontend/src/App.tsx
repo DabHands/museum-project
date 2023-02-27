@@ -13,6 +13,7 @@ import NavigationProvider from './providers/NavigationProvider';
 import { Footer } from './components/toolbox/Footer/Footer';
 import { DonaldSammut } from './components/DonaldSammut/DonaldSammut';
 import { Story } from './components/Story/Story';
+import ModelProvider from './providers/ModelProvider';
 
 const AppWrapper = styled.div` 
   font-family: ${props => props.theme.FONT_FAMILY};
@@ -28,22 +29,24 @@ function App() {
   return (
     <ThemeProvider theme={defaultTheme}>
       <AppWrapper>
-        <NavigationProvider>
-        
-          <AppBar />
-          <Routes>
-            
-            <Route path={process.env.PUBLIC_URL + "/about"} element={<About />} />
-            <Route path={process.env.PUBLIC_URL + "/explore"} element={<Explore />} />
-            <Route path={process.env.PUBLIC_URL + "/explore/:id"} element={<SingleEmbroidery />} />
-            <Route path={process.env.PUBLIC_URL + "/model"} element={<Model />} />
-            <Route path={process.env.PUBLIC_URL + "/image-scanning"} element={<ImageScan />} />
-            <Route path={process.env.PUBLIC_URL + "/donald-sammut"} element={<DonaldSammut />} />
-            <Route path={process.env.PUBLIC_URL + "/the-story"} element={<Story />} />
-            <Route path={process.env.PUBLIC_URL + "/*"} element={<Home />} />
-          </Routes>
-          <Footer/>
-        </NavigationProvider>
+        <ModelProvider>
+          <NavigationProvider>
+
+            <AppBar />
+            <Routes>
+
+              <Route path={process.env.PUBLIC_URL + "/about"} element={<About />} />
+              <Route path={process.env.PUBLIC_URL + "/explore"} element={<Explore />} />
+              <Route path={process.env.PUBLIC_URL + "/explore/:id"} element={<SingleEmbroidery />} />
+              <Route path={process.env.PUBLIC_URL + "/model"} element={<Model />} />
+              <Route path={process.env.PUBLIC_URL + "/image-scanning"} element={<ImageScan />} />
+              <Route path={process.env.PUBLIC_URL + "/donald-sammut"} element={<DonaldSammut />} />
+              <Route path={process.env.PUBLIC_URL + "/the-story"} element={<Story />} />
+              <Route path={process.env.PUBLIC_URL + "/*"} element={<Home />} />
+            </Routes>
+            <Footer />
+          </NavigationProvider>
+        </ModelProvider>
       </AppWrapper>
     </ThemeProvider>
 

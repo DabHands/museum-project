@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 // import MediaQuery from 'react-responsive';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -9,8 +9,10 @@ import { AllEmbroideries } from '../../data/embroideries';
 import { Embroidery, SphereInfo } from '../../types/types';
 import { Popup } from './Popup';
 import * as s from './Model.theme';
+import ModelContext from '../../contexts/ModelContext';
 
 export const Model: React.FC = () => {
+  const modelContext = useContext(ModelContext);
 
   const [shouldShowPopup, setShouldShowPopup] = useState(false);
 
@@ -71,7 +73,7 @@ export const Model: React.FC = () => {
         'polycam/poly.obj',
         function (object) {
           // load the texture
-          model = { ...object };
+          modelContext.saveModel({...object});
           const textureLoader = new THREE.TextureLoader();
           const texture = textureLoader.load('polycam/texture-final-project.jpg');
 
@@ -207,7 +209,6 @@ export const Model: React.FC = () => {
   // a function that handles the event in which a user clicks on the canvas
   const handleClickOnCanvas = (event: any) => {
     event.preventDefault();
-    console.log('model1', model);
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
     const { canvasPositionLeft,
       canvasPositionTop,
@@ -221,7 +222,7 @@ export const Model: React.FC = () => {
 
     rayCaster.setFromCamera(mousePosition, camera);
 
-    const closestSphere = computeClickedOnSphere(rayCaster, spheres, model);
+    const closestSphere = computeClickedOnSphere(rayCaster, spheres, modelContext.getModel());
     // console.log(closestSphere.embroideryId);
 
     // if (intersects.length > 0) {
@@ -229,8 +230,7 @@ export const Model: React.FC = () => {
     //   scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
     // }
 
-    // setShouldShowPopup(true);
-    console.log(model);
+    setShouldShowPopup(true);
   };
 
   return (
