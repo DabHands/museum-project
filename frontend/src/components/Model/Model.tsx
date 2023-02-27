@@ -246,9 +246,10 @@ export const Model: React.FC = () => {
     const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
 
-    setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName});
-
-    setShouldShowPopup(true);
+    if (sphereEmbroidery) {
+      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName});
+      setShouldShowPopup(true);
+    }
   };
 
   return (
