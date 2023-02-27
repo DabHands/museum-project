@@ -5,43 +5,38 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
 import { Raycaster } from 'three';
-import { AllEmbroideries } from '../../data/embroideries';
-import { Embroidery, SphereInfo } from '../../types/types';
-import { Popup } from './Popup';
+// import { AllEmbroideries } from '../../data/embroideries';
+// import { SphereInfo } from '../../types/types';
 import * as s from './Model.theme';
 import ModelContext from '../../contexts/ModelContext';
+import { AllEmbroideries } from '../../data/embroideries';
+import { Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
+import { Popup } from './Popup';
 
 export const Model: React.FC = () => {
   const modelContext = useContext(ModelContext);
 
-  const [shouldShowPopup, setShouldShowPopup] = useState(false);
+  const [shouldShowPopup, setShouldShowPopup] = useState<boolean>(false);
+  const [popupEmbroideryInfo, setPopupEmbroideryInfo] = useState<PopupEmbroideryInfo>();
 
-  // create a variable to store the hand model
+  let spheresLength: number;
+  const spheres: SphereInfo[] = [];
+
+  // // create a variable to store the object
   let model: any;
-
-  // store the canvas position
   let canvasPositionLeft: number;
   let canvasPositionTop: number;
   let canvasPositionWidth: number;
   let canvasPositionHeight: number;
 
   // set up the needed variables for the scene
-  const rayCaster = new Raycaster();
-
+  const rayCaster = new THREE.Raycaster();
   // create the scene
   const scene = new THREE.Scene();
-
-  // create the camera
+  // scene.background = new THREE.Color( 0xff0000 );
   const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
   camera.position.z = 4;
 
-  // create helper variables for the sphere
-  let sphere: THREE.Object3D;
-  let spheresLength: number;
-  const spheres: SphereInfo[] = [];
-  let sphereIntersects: THREE.Intersection<THREE.Object3D<THREE.Event>>[];
-
-  // get the position of the canvas in the viewport
   const getCanvasPosition = (canvas: HTMLElement) => {
     canvasPositionLeft = canvas.offsetLeft;
     canvasPositionTop = canvas.offsetTop;
@@ -51,7 +46,6 @@ export const Model: React.FC = () => {
     return { canvasPositionLeft, canvasPositionTop, canvasPositionHeight, canvasPositionWidth };
   };
 
-  // add special lights to the model to make it more visible
   const addModelLights = () => {
     const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
     scene.add(ambientLight);
@@ -61,7 +55,6 @@ export const Model: React.FC = () => {
     scene.add(directionalLight);
   };
 
-  // load the model from an .obj file and load its texture
   const loadModel = () => {
     // load the materials fot the model, with the model and its texture
     const mtlLoader = new MTLLoader();
@@ -73,7 +66,8 @@ export const Model: React.FC = () => {
         'polycam/poly.obj',
         function (object) {
           // load the texture
-          modelContext.saveModel({...object});
+          model = { ...object };
+          modelContext.saveModel(model);
           const textureLoader = new THREE.TextureLoader();
           const texture = textureLoader.load('polycam/texture-final-project.jpg');
 
@@ -95,20 +89,17 @@ export const Model: React.FC = () => {
     });
   };
 
-  // calculate the distance between two points in a 3d coordinate system
-  const calculateDistanceBetweenPointsInPlane = (firstPoint: number[], secondPoint: number[]) => {
-    const x = (secondPoint[0] - firstPoint[0]) * (secondPoint[0] - firstPoint[0]);
-    const y = (secondPoint[1] - firstPoint[1]) * (secondPoint[1] - firstPoint[1]);
-    const z = (secondPoint[2] - firstPoint[2]) * (secondPoint[2] - firstPoint[2]);
+  const calculateDistanceBetweenTwoPlanarPoints = (embroideryCentre: number[], embroideryEnd: number[]) => {
+    const x = (embroideryEnd[0] - embroideryCentre[0]) * (embroideryEnd[0] - embroideryCentre[0]);
+    const y = (embroideryEnd[1] - embroideryCentre[1]) * (embroideryEnd[1] - embroideryCentre[1]);
+    const z = (embroideryEnd[2] - embroideryCentre[2]) * (embroideryEnd[2] - embroideryCentre[2]);
 
-    const distance = Math.sqrt(x + y + z);
-    return distance;
+    const radius = Math.sqrt(x + y + z);
+    return radius;
   };
 
-  // create a sphere in a given scene, by passing as arguments two points - 
-  // the centre of the sphere and one of its end points
   const createSphere = (scene: THREE.Scene, embroideryCentre: number[], embroideryEnd: number[]) => {
-    const embroideryRadius = calculateDistanceBetweenPointsInPlane(embroideryCentre, embroideryEnd);
+    const embroideryRadius = calculateDistanceBetweenTwoPlanarPoints(embroideryCentre, embroideryEnd);
 
     const geometry = new THREE.SphereGeometry( embroideryRadius, 32, 16 );
     const material = new THREE.MeshBasicMaterial( { color: 0xffff00 } );
@@ -117,8 +108,8 @@ export const Model: React.FC = () => {
     sphere.position.y = embroideryCentre[1];
     sphere.position.z = embroideryCentre[2];
 
-    sphere.material.transparent = true;
-    sphere.material.opacity = 0.0;
+    // sphere.material.transparent = true;
+    // sphere.material.opacity = 0.0;
 
     scene.add(sphere);
     return sphere;
@@ -129,23 +120,31 @@ export const Model: React.FC = () => {
   };
 
   // render the popup that will show when the user clicks on an embroidery
-  const renderPopup = () => {
+  const renderPopup = (embroideryInfo: PopupEmbroideryInfo
+    ) => {
     return (
-        <Popup handleOnClickButton = {closePopup}/>        
+        <Popup
+          handleOnClickButton = {closePopup}
+          embroideryInfo = {embroideryInfo}
+        />        
     )
   };
 
+
   // compute which sphere the user clicked on when they clicked on the model
-  const computeClickedOnSphere = (rayCaster: THREE.Raycaster, allSpheres: SphereInfo[], model: any) => {
+  const computeClickedOnSphere = (rayCaster: THREE.Raycaster, allSpheres: any, model: any) => {
+
     const intersects = rayCaster.intersectObjects(model.children, true);
+    if(intersects.length > 0) {
+      console.log('intersects', intersects[0].point);
+    }
 
     const raycastedSpheres: SphereInfo[] = [];
     let raycastedSpheresLength: number;
     let minimumDistanceToRay = 1000;
     const closestSphere: SphereInfo = { embroideryId: "", sphere: new THREE.Object3D};
-
     for (let i = 0; i < allSpheres.length; i++) {
-      sphereIntersects = rayCaster.intersectObject(allSpheres[i].sphere);
+      const sphereIntersects = rayCaster.intersectObject(allSpheres[i].sphere);
         if (sphereIntersects.length > 0) {
           raycastedSpheresLength = raycastedSpheres.push(allSpheres[i]);
         }
@@ -156,7 +155,7 @@ export const Model: React.FC = () => {
       const embroidery = AllEmbroideries.find(embroidery => embroidery.id == embroideryId) as Embroidery;
 
       if (intersects.length > 0) {
-        const distance = calculateDistanceBetweenPointsInPlane(intersects[0].point.toArray(), embroidery.centreCoordinates);
+        const distance = calculateDistanceBetweenTwoPlanarPoints(intersects[0].point.toArray(), embroidery.centreCoordinates);
 
         if (distance < minimumDistanceToRay) {
           minimumDistanceToRay = distance;
@@ -166,9 +165,9 @@ export const Model: React.FC = () => {
         }
       }
     }
-
     return closestSphere;
   };
+
 
   useEffect(() => {
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
@@ -177,14 +176,14 @@ export const Model: React.FC = () => {
     renderer.setClearColor(0x000000, 0);
 
     // add controls to the able to move and zoom the model
-    const controls = new OrbitControls(camera, renderer.domElement);
+    // const controls = new OrbitControls(camera, renderer.domElement);
 
     // add lights to the model
     addModelLights();
 
-    renderer.setSize(window.innerWidth, window.innerHeight);
+    // renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setSize(canvas.offsetWidth, canvas.offsetHeight);
 
-    // display the model on the screen
     loadModel();
 
     // create the spheres for the embroideries
@@ -192,23 +191,33 @@ export const Model: React.FC = () => {
       // create the spheres
       const embroidery = AllEmbroideries[i];
       if (embroidery.centreCoordinates.length > 0) {
-        sphere = createSphere(scene,embroidery.centreCoordinates, embroidery.endPointCoordinates);
-        spheresLength = spheres.push( {embroideryId: embroidery.id, sphere: sphere} );
+        const sphere = createSphere(scene, embroidery.centreCoordinates, embroidery.endPointCoordinates);
+        spheresLength = spheres.push({ embroideryId: embroidery.id, sphere: sphere });
       }
     }
+
+    // save the generated spheres, scene and renderer as global variables
+    modelContext.saveSpheres(spheres);
+
+    modelContext.saveScene(scene);
+    modelContext.saveRenderer(renderer);
+  }, []);
+
+  useEffect(() => {
+    const controls = new OrbitControls(camera, modelContext.renderer.domElement);
 
     // show the model
     function animate() {
       requestAnimationFrame(animate);
       controls.update();
-      renderer.render(scene, camera);
+      modelContext.renderer.render(modelContext.scene, camera);
     }
     animate();
-  }, []);
+  });
 
-  // a function that handles the event in which a user clicks on the canvas
   const handleClickOnCanvas = (event: any) => {
     event.preventDefault();
+
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
     const { canvasPositionLeft,
       canvasPositionTop,
@@ -219,25 +228,34 @@ export const Model: React.FC = () => {
     const y = -((event.clientY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
 
     const mousePosition = new THREE.Vector2(x, y);
-
+    console.log('camera', camera);
     rayCaster.setFromCamera(mousePosition, camera);
 
-    const closestSphere = computeClickedOnSphere(rayCaster, spheres, modelContext.getModel());
-    // console.log(closestSphere.embroideryId);
+    // scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
+    const intersects = rayCaster.intersectObjects(modelContext.model.children, true);
 
-    // if (intersects.length > 0) {
-    //   console.log(intersects[0].point);
-    //   scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
-    // }
+    // const sphereIntersects = rayCaster.intersectObject(sphere);
+
+    if (intersects.length > 0) {
+      console.log(intersects[0].point);
+      const scene = modelContext.scene;
+      scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
+    }
+
+    // compute the first sphere that the ray goes through
+    const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
+    const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
+
+    setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "../../images/thumbnail/" + sphereEmbroidery?.fileName});
 
     setShouldShowPopup(true);
   };
 
   return (
     <s.PageWrapper>
-      <s.ModelWrapper>
-        <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
-        {shouldShowPopup && renderPopup()}
-      </s.ModelWrapper>
+      {/* <s.ModelWrapper> */}
+      <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
+      {/* </s.ModelWrapper> */}
+      {shouldShowPopup && renderPopup(popupEmbroideryInfo as PopupEmbroideryInfo)}
     </s.PageWrapper>)
 }

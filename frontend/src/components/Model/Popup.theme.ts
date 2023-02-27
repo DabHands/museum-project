@@ -24,25 +24,8 @@ const PopupContainer = styled.div`
   
 `;
 
-const HeaderContainer = styled.div`
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  // align-items: center;
-  gap: 1rem;
-`;
-
-const NameContainer = styled.div`
-  // height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-`;
-
-const EmbroideryImageHeader = styled.img`
-  width: 40%;
+const EmbroideryImage = styled.img`
+  width: 100%;
 `;
 
 const CloseButton = styled.button`
@@ -68,16 +51,6 @@ const NameHeader = styled.h2`
   letter-spacing: 0.1rem;
 `;
 
-const MainTextContainer = styled.div`
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 1.5rem;
-`;
-
 const AuthorName = styled.h5`
   margin: 0;
   padding: 0;
@@ -87,13 +60,6 @@ const AuthorName = styled.h5`
 const AnatomyName = styled.p`
   margin: 0;
   padding: 0;
-  font-size: 1.3rem;
-`;
-
-const AnatomyDescription = styled.p`
-  margin: 0;
-  padding: 0;
-  line-height: 1.6;
   font-size: 1.3rem;
 `;
 
@@ -120,16 +86,12 @@ const BackToModelButton = styled.button`
 
 export {
   PopupContainer,
-  HeaderContainer,
-  NameContainer,
-  EmbroideryImageHeader,
+  EmbroideryImage,
   CloseButton,
   CloseIcon,
-  MainTextContainer,
   NameHeader,
   AuthorName,
   AnatomyName,
-  AnatomyDescription,
   EmbroideryDescription,
   BackToModelButtonContainer,
   BackToModelButton

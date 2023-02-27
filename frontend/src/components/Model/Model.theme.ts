@@ -1,21 +1,27 @@
 import styled from 'styled-components'
 
 const PageWrapper = styled.div`
-  padding: 1rem 1rem;
+  // padding: 1rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 1rem 0 1rem 0;
 `;
 
 const ModelWrapper = styled.div`
-  // display: inline-block;
-  // margin-right: 1rem;
+  // margin: 0;
   // display: flex;
-  // align-items: center;
   // justify-content: center;
-  position: relative;
+  // align-items: center;
+  // width: fit-content;
+  // height: fit-content;
 `;
 
 const ModelCanvas = styled.canvas`
   box-shadow: 0px 0px 20px #212529;
   background-image: linear-gradient(#000000, #343a40);
+  width: 100vw;
+  height: 100vh;
 `;
 
 
