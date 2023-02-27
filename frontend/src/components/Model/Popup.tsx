@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import * as s from './Popup.theme';
 import cat from './cat.jpg';

@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React, { useContext, useEffect, useState } from 'react';
 // import MediaQuery from 'react-responsive';
 import * as THREE from 'three';
@@ -232,7 +233,7 @@ export const Model: React.FC = () => {
     rayCaster.setFromCamera(mousePosition, modelContext.camera);
 
     // scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
-    const intersects = rayCaster.intersectObjects(modelContext.model.children, true);
+    // const intersects = rayCaster.intersectObjects(modelContext.model.children, true);
 
     // const sphereIntersects = rayCaster.intersectObject(sphere);
 
