@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 // import MediaQuery from 'react-responsive';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
@@ -11,6 +11,8 @@ import { Popup } from './Popup';
 import * as s from './Model.theme';
 
 export const Model: React.FC = () => {
+
+  const [shouldShowPopup, setShouldShowPopup] = useState(false);
 
   // create a variable to store the hand model
   let model: any;
@@ -120,15 +122,19 @@ export const Model: React.FC = () => {
     return sphere;
   };
 
+  const closePopup = () => {
+    setShouldShowPopup(false);
+  };
+
   // render the popup that will show when the user clicks on an embroidery
   const renderPopup = () => {
     return (
-        <Popup />        
+        <Popup handleOnClickButton = {closePopup}/>        
     )
   };
 
   // compute which sphere the user clicked on when they clicked on the model
-  const computeClickedOnSphere = (rayCaster: THREE.Raycaster, allSpheres: SphereInfo[]) => {
+  const computeClickedOnSphere = (rayCaster: THREE.Raycaster, allSpheres: SphereInfo[], model: any) => {
     const intersects = rayCaster.intersectObjects(model.children, true);
 
     const raycastedSpheres: SphereInfo[] = [];
@@ -201,7 +207,7 @@ export const Model: React.FC = () => {
   // a function that handles the event in which a user clicks on the canvas
   const handleClickOnCanvas = (event: any) => {
     event.preventDefault();
-
+    console.log('model1', model);
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
     const { canvasPositionLeft,
       canvasPositionTop,
@@ -215,21 +221,23 @@ export const Model: React.FC = () => {
 
     rayCaster.setFromCamera(mousePosition, camera);
 
-    const closestSphere = computeClickedOnSphere(rayCaster, spheres);
-    console.log(closestSphere.embroideryId);
+    const closestSphere = computeClickedOnSphere(rayCaster, spheres, model);
+    // console.log(closestSphere.embroideryId);
 
     // if (intersects.length > 0) {
     //   console.log(intersects[0].point);
     //   scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
     // }
 
+    // setShouldShowPopup(true);
+    console.log(model);
   };
 
   return (
     <s.PageWrapper>
       <s.ModelWrapper>
         <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
-        {renderPopup()}
+        {shouldShowPopup && renderPopup()}
       </s.ModelWrapper>
     </s.PageWrapper>)
 }
