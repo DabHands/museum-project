@@ -78,13 +78,13 @@ export const Model: React.FC = () => {
             }
           });
           scene.add(object);
-        },
-        function (xhr) {
-          console.log((xhr.loaded / xhr.total * 100) + '% loaded');
-        },
-        function (error) {
-          console.log('An error happened', error);
         }
+        // function (xhr) {
+        //   console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+        // },
+        // function (error) {
+        //   console.log('An error happened', error);
+        // }
       );
     });
   };
@@ -135,9 +135,9 @@ export const Model: React.FC = () => {
   const computeClickedOnSphere = (rayCaster: THREE.Raycaster, allSpheres: any, model: any) => {
 
     const intersects = rayCaster.intersectObjects(model.children, true);
-    if(intersects.length > 0) {
-      console.log('intersects', intersects[0].point);
-    }
+    // if(intersects.length > 0) {
+    //   console.log('intersects', intersects[0].point);
+    // }
 
     const raycastedSpheres: SphereInfo[] = [];
     let raycastedSpheresLength: number;
@@ -228,7 +228,7 @@ export const Model: React.FC = () => {
     const y = -((event.clientY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
 
     const mousePosition = new THREE.Vector2(x, y);
-    console.log('camera', camera);
+    // console.log('camera', camera);
     rayCaster.setFromCamera(mousePosition, modelContext.camera);
 
     // scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
@@ -236,11 +236,11 @@ export const Model: React.FC = () => {
 
     // const sphereIntersects = rayCaster.intersectObject(sphere);
 
-    if (intersects.length > 0) {
-      console.log(intersects[0].point);
-      // const scene = modelContext.scene;
-      // scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
-    }
+    // if (intersects.length > 0) {
+    //   console.log(intersects[0].point);
+    //   const scene = modelContext.scene;
+    //   scene.add(new THREE.ArrowHelper(rayCaster.ray.direction, rayCaster.ray.origin, 300, 0xff0000));
+    // }
 
     // compute the first sphere that the ray goes through
     const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
