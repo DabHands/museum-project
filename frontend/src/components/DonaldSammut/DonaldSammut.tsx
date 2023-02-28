@@ -80,6 +80,7 @@ export const DonaldSammut: React.FC = () => {
             <s.Headshot src={donald} />
 
             <p>
+
                 Donald is founder of the UK charity, Working Hands.
                 He has established a programme of hand surgery in Nepal
                 and travels there once a year to reconstruct and reanimate paralysed
