@@ -32,7 +32,7 @@ export const AppBar: React.FC = () => {
         <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToStoryPage}>The Story of the Sculpture</s.PageButton>
-          <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToModelPage}>The 3D Model</s.PageButton>
           {/* <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton> */}
           <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore the Embroideries</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToAboutPage}>About The Dab Hands Project</s.PageButton>
@@ -76,7 +76,7 @@ export const AppBar: React.FC = () => {
               navigationContext.navigateToModelPage();
             }
             }>
-            3D Model
+            The 3D Model
           </s.MenuPageButton>
           
           {/* <s.MenuPageButton
