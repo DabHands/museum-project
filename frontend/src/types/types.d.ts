@@ -26,7 +26,8 @@ export type SphereInfo = {
 export type PopupEmbroideryInfo = {
     authorName: string | undefined,
     anatomyName: string | undefined,
-    embroideryFileName: string
+    embroideryFileName: string,
+    authorOrigin: string | undefined,
 }
 
 export type ModelContextType = {

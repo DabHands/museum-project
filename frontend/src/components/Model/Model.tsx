@@ -1,24 +1,23 @@
 /* eslint-disable */
 import React, { useContext, useEffect, useState } from 'react';
-// import MediaQuery from 'react-responsive';
 import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
-// import { Raycaster } from 'three';
-// import { AllEmbroideries } from '../../data/embroideries';
-// import { SphereInfo } from '../../types/types';
 import * as s from './Model.theme';
 import ModelContext from '../../contexts/ModelContext';
 import { AllEmbroideries } from '../../data/embroideries';
 import { Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
 import { Popup } from './Popup';
+import { Loading } from './Loading';
+import { render } from '@testing-library/react';
 
 export const Model: React.FC = () => {
   const modelContext = useContext(ModelContext);
 
   const [shouldShowPopup, setShouldShowPopup] = useState<boolean>(false);
   const [popupEmbroideryInfo, setPopupEmbroideryInfo] = useState<PopupEmbroideryInfo>();
+  const [isLoading, setIsLoading] = useState<boolean>(false);
 
   let spheresLength: number;
   const spheres: SphereInfo[] = [];
@@ -80,13 +79,21 @@ export const Model: React.FC = () => {
             }
           });
           scene.add(object);
+        },
+        function (xhr) {
+          // console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+          if(xhr.loaded / xhr.total < 1) {
+            if (!isLoading) {
+              setIsLoading(true);
+            }
+          }
+          else {
+            setIsLoading(false);
+          }
+        },
+        function (error) {
+          console.log('An error happened', error);
         }
-        // function (xhr) {
-        //   console.log((xhr.loaded / xhr.total * 100) + '% loaded');
-        // },
-        // function (error) {
-        //   console.log('An error happened', error);
-        // }
       );
     });
   };
@@ -132,6 +139,11 @@ export const Model: React.FC = () => {
     )
   };
 
+  const renderLoadingComponent = () => {
+    return (
+      <Loading />
+    )
+  };
 
   // compute which sphere the user clicked on when they clicked on the model
   const computeClickedOnSphere = (rayCaster: THREE.Raycaster, allSpheres: any, model: any) => {
@@ -249,16 +261,15 @@ export const Model: React.FC = () => {
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
 
     if (sphereEmbroidery) {
-      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName});
+      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, authorOrigin: sphereEmbroidery.authorOrigin});
       setShouldShowPopup(true);
     }
   };
 
   return (
     <s.PageWrapper>
-      {/* <s.ModelWrapper> */}
+      {isLoading && renderLoadingComponent()}
       <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
-      {/* </s.ModelWrapper> */}
       {shouldShowPopup && renderPopup(popupEmbroideryInfo as PopupEmbroideryInfo)}
     </s.PageWrapper>)
 }
