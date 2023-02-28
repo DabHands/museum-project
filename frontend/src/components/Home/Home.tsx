@@ -34,9 +34,9 @@ export const Home: React.FC = () => {
       </s.PageText>
       <s.StyledButton onClick={navigationContext.navigateToModelPage}>
         See the 3D Model </s.StyledButton>
-      <s.PageText> Online, you can view the 3D model, or explore each embroidery
-        and the information behind each anatomical drawing. Learn about the hand, and the story
-        of how this whole project came to be.
+      <s.PageText> Online, you can view the 3D model, explore the embroideries or
+        learn about the anatomy of the hand and the story of how this whole project
+        came to be.
       </s.PageText>
       <s.StyledButton onClick={navigationContext.navigateToExplorePage}>
         Explore the Embroideries </s.StyledButton>
@@ -44,9 +44,9 @@ export const Home: React.FC = () => {
       <s.StyledButton onClick={navigationContext.navigateToStoryPage}>
         The Story of the Sculpture </s.StyledButton>
       <s.PageText>
-        This is one of the pieces in the wider Dab Hands Collection, 
-        which was created in residence at the Manchester Museum by Lucy
-        Burscough and her collaborative partners.
+        This sculpture is one of the artworks in the wider
+        Dab Hands Collection, which was created in residence at the
+        Manchester Museum by Lucy Burscough and her collaborative partners.
       </s.PageText>
       <s.StyledButton onClick={navigationContext.navigateToAboutPage}>
         Read more about the Dab Hands Project.</s.StyledButton>
@@ -85,9 +85,9 @@ export const Home: React.FC = () => {
       <s.Spanel even>
         <CaptionedImage image={embr} caption="One of the many embroideries on show at the exhibit." />
         <span>
-          <s.PageText> Online, you can view the 3D model, or explore each embroidery
-            and the information behind each anatomical drawing. Learn about the hand, and the story
-            of how this whole project came to be.
+          <s.PageText> Online, you can view the 3D model,
+            explore the embroideries or learn about the anatomy of the hand
+            and the story of how this whole project came to be.
           </s.PageText>
           <s.StyledButton onClick={navigationContext.navigateToExplorePage}>
             Explore the Embroideries </s.StyledButton>
@@ -95,9 +95,9 @@ export const Home: React.FC = () => {
           <s.StyledButton onClick={navigationContext.navigateToStoryPage}>
             The Story of the Sculpture </s.StyledButton>
           <s.PageText>
-            This is one of the pieces in the wider Dab Hands Collection, 
-            which was created in residence at the Manchester Museum by Lucy
-            Burscough and her collaborative partners.
+            This sculpture is one of the artworks in the wider
+            Dab Hands Collection, which was created in residence at the
+            Manchester Museum by Lucy Burscough and her collaborative partners.
           </s.PageText>
           <s.StyledButton onClick={navigationContext.navigateToAboutPage}>
             Read more about the Dab Hands Project.</s.StyledButton>
