@@ -32,7 +32,7 @@ export const AuthorFilter: React.FC<Props> = (
             <Select
             className="basic-single"
             classNamePrefix="select"
-            placeholder='Select Authors'
+            placeholder='Select By Stitcher'
             onChange={handleSelectChange}
             options={options}
             isMulti

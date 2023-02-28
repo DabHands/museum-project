@@ -32,7 +32,7 @@ export const AnatomyFilter: React.FC<Props> = (
             <Select
             className="basic-single"
             classNamePrefix="select"
-            placeholder='Select Anatomy'
+            placeholder='Select By Anatomy'
             onChange={handleSelectChange}
             options={options}
             isMulti
