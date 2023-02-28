@@ -34,7 +34,7 @@ export const Popup: React.FC<Props> = ({ handleOnClickButton, embroideryInfo }) 
             {fileName && <s.EmbroideryImage src={fileName} alt="Embroidery Image" />}
           </s.ImageContainer>
           <s.TextContainer>
-            <s.AuthorName mobile={true}>Made by {embroideryInfo.authorName}</s.AuthorName>
+            {isAuthorNameAvailable && <s.AuthorName mobile={true}>Made by {embroideryInfo.authorName}</s.AuthorName>}
             <s.AnatomyName mobile={true}>{embroideryInfo.anatomyName}</s.AnatomyName>
           </s.TextContainer>
           <s.BackToModelButtonContainer>

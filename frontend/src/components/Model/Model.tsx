@@ -10,7 +10,6 @@ import { AllEmbroideries } from '../../data/embroideries';
 import { Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
 import { Popup } from './Popup';
 import { Loading } from './Loading';
-import { render } from '@testing-library/react';
 
 export const Model: React.FC = () => {
   const modelContext = useContext(ModelContext);
@@ -22,12 +21,19 @@ export const Model: React.FC = () => {
   let spheresLength: number;
   const spheres: SphereInfo[] = [];
 
-  // // create a variable to store the object
+  // create a variable to store the object
   let model: any;
   let canvasPositionLeft: number;
   let canvasPositionTop: number;
   let canvasPositionWidth: number;
   let canvasPositionHeight: number;
+
+  // add variables to store the click positions on mousedown and mouseup events
+  // these variables will be needed in order to prevent a popup opening when dragging
+  let mouseDownX: number;
+  let mouseDownY: number;
+  let mouseUpX: number;
+  let mouseUpY: number;
 
   // set up the needed variables for the scene
   const rayCaster = new THREE.Raycaster();
@@ -182,6 +188,15 @@ export const Model: React.FC = () => {
     return closestSphere;
   };
 
+  const handleMouseDown = (event: any) => {
+    mouseDownX = event.clientX;
+    mouseDownY = event.clientY;
+  }
+
+  const handleMouseUp = (event: any) => {
+    mouseUpX = event.clientX;
+    mouseUpY = event.clientY;
+  };
 
   useEffect(() => {
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
@@ -219,6 +234,8 @@ export const Model: React.FC = () => {
 
   useEffect(() => {
     const controls = new OrbitControls(modelContext.camera, modelContext.renderer.domElement);
+    window.addEventListener('mousedown', handleMouseDown);
+    window.addEventListener('mouseup', handleMouseUp);
 
     // show the model
     function animate() {
@@ -226,7 +243,7 @@ export const Model: React.FC = () => {
       controls.update();
       modelContext.renderer.render(modelContext.scene, modelContext.camera);
     }
-    animate();
+      animate();
   });
 
   const handleClickOnCanvas = (event: any) => {
@@ -260,7 +277,7 @@ export const Model: React.FC = () => {
     const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
 
-    if (sphereEmbroidery) {
+    if (sphereEmbroidery && Math.abs(mouseDownX - mouseUpX) < 3 && Math.abs(mouseDownY - mouseUpY) < 3) {
       setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, authorOrigin: sphereEmbroidery.authorOrigin});
       setShouldShowPopup(true);
     }
