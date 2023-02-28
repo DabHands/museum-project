@@ -80,6 +80,10 @@ const PageButton = styled.button`
   &:hover{
   color: ${props => props.theme.colours.TERTIARY};
   }
+
+  @media (max-width: 1120px){
+    font-size: ${props => props.theme.fonts.size.SMALL};
+  } 
 `;
 
 const MenuButton = styled.button`
@@ -153,7 +157,10 @@ const Dates = styled.p<{ mobile?: boolean }>`
   color: ${props => props.theme.colours.MAIN};
   padding-top: 10px;
   justify-content: baseline;
-
+  @media (max-width: 1268px){
+    font-size: 11pt;
+    width: min-content;
+  } 
 `;
 
 export {

@@ -27,7 +27,8 @@ export const AppBar: React.FC = () => {
       </s.HomeButton>
 
 
-      <MediaQuery minWidth={1290}>
+
+      <MediaQuery minWidth={1024}>
         <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
           <s.PageButton onClick={navigationContext.navigateToStoryPage}>The Story of the Sculpture</s.PageButton>
@@ -41,7 +42,8 @@ export const AppBar: React.FC = () => {
         </s.PageButtons>
       </MediaQuery>
 
-      <MediaQuery maxWidth={1289}>
+
+      <MediaQuery maxWidth={1023}>
         <s.Dates mobile={true}> 8th March - 31st July </s.Dates>
         <s.MenuButton onClick={toggleShowMenu}>
           <s.MenuButtonIcon

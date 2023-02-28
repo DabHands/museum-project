@@ -60,6 +60,7 @@ export const Model: React.FC = () => {
     // load the materials fot the model, with the model and its texture
     const mtlLoader = new MTLLoader();
     mtlLoader.load("polycam/poly.mtl", function (materials) {
+
       materials.preload();
       const objLoader = new OBJLoader();
       objLoader.setMaterials(materials);
