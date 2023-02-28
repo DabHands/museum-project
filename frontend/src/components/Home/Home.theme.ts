@@ -39,6 +39,7 @@ const Spanel = styled.span<{ flip?: boolean, even?:boolean }>`
 const StyledButton = styled(Button)`
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
 `;
 
 export {
