@@ -36,7 +36,7 @@ export const DonaldSammut: React.FC = () => {
             <p>
                 WORKING HANDS is a UK Registered Charity that raises funds for a surgical
                 programme, currently based at a leprosy hospital in Nepal, supporting a team
-                of Hand Surgeons who travel there to operate and to teach the local surgeons.
+                of hand surgeons who travel there to operate and to teach the local surgeons.
                 Working Hands is independent, not linked to any major organization, and all
                 donated funds find their way directly to the front line of treatment,
                 purchasing equipment and consumables for each trip.
