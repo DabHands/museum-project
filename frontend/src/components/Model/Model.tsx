@@ -249,16 +249,14 @@ export const Model: React.FC = () => {
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
 
     if (sphereEmbroidery) {
-      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName});
+      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, authorOrigin: sphereEmbroidery.authorOrigin});
       setShouldShowPopup(true);
     }
   };
 
   return (
     <s.PageWrapper>
-      {/* <s.ModelWrapper> */}
       <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
-      {/* </s.ModelWrapper> */}
       {shouldShowPopup && renderPopup(popupEmbroideryInfo as PopupEmbroideryInfo)}
     </s.PageWrapper>)
 }
