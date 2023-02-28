@@ -12,12 +12,6 @@ export type Embroidery = {
 
 export type OriginTypes = 'BW' | 'Guild' | 'Med' | 'Misc';
 
-export type Coordinates = { //This is for Adelina to mess with later
-    x: number,
-    y: number,
-    z: number
-}
-
 export type Anatomy = {
     name: string,
     description: string,
@@ -28,3 +22,22 @@ export type SphereInfo = {
     embroideryId: string,
     sphere: THREE.Object3D
 }
+
+export type PopupEmbroideryInfo = {
+    authorName: string | undefined,
+    anatomyName: string | undefined,
+    embroideryFileName: string
+}
+
+export type ModelContextType = {
+    model: any,
+    spheres: SphereInfo[],
+    scene: THREE.Scene,
+    renderer: THREE.WebGLRenderer,
+    camera: THREE.PerspectiveCamera,
+    saveModel: (model: any) => void,
+    saveSpheres: (spheres: SphereInfo[]) => void,
+    saveScene: (scene: THREE.Scene) => void,
+    saveRenderer: (renderer: THREE.WebGLRenderer) => void,
+    saveCamera: (camera: THREE.PerspectiveCamera) => void,
+  };
