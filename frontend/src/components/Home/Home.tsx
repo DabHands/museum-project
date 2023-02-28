@@ -20,8 +20,11 @@ export const Home: React.FC = () => {
       </s.PageText>
       <s.Image src={logo} />
       <s.PageText>
-        In the museum, you can see the sculpture of the hand, with 
-        its embroideries which are made by, people from Manchester, across the UK, and beyond.
+        One of the most exciting artworks in the exhibition is &lsquo;That&apos;ll Need Stitching&rsquo;,
+        a large scale sculpture of a hand holding a sewing needle. The skin of the hand is
+        made up of hundreds of embroideries of the anatomical drawings of hand surgeon, Donald Sammut.
+        The embroideries themselves were sewn by NHS staff, members of the public and school students from Manchester,
+        across the UK and beyond.
       </s.PageText>
       <s.StyledButton onClick={navigationContext.navigateToModelPage}>
         See the 3D Model </s.StyledButton>
@@ -52,8 +55,11 @@ export const Home: React.FC = () => {
             “Dab Hands: That&apos;ll Need Stitching” is an exhibition in the
             Manchester Museum, from the 8th March to 31st July 2023. 
             <br></br> <br></br>
-            In the museum, you can see the sculpture of the hand, with 
-            its embroideries which are made by, people from Manchester, across the UK, and beyond.
+            One of the most exciting artworks in the exhibition is &lsquo;That&apos;ll Need Stitching&rsquo;,
+            a large scale sculpture of a hand holding a sewing needle. The skin of the hand is
+            made up of hundreds of embroideries of the anatomical drawings of hand surgeon, Donald Sammut.
+            The embroideries themselves were sewn by NHS staff, members of the public and school students from Manchester,
+            across the UK and beyond.
           </s.PageText>
           <s.StyledButton onClick={navigationContext.navigateToModelPage}>
             See the 3D Model </s.StyledButton>
