@@ -73,6 +73,7 @@ export const Home: React.FC = () => {
             Adelina has created a wonderful digital 3D model of the hand which you can explore using pinch and swipe motions on your
             touch pad or screen or control it with a mouse. Click on each embroidery to enlarge it and find out about the embroiderer
             and the anatomy it depicts.
+
           </s.PageText>
           <s.StyledButton onClick={navigationContext.navigateToModelPage}>
             See the 3D Model </s.StyledButton>
