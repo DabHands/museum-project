@@ -10,29 +10,25 @@ export const DonaldSammut: React.FC = () => {
         <s.PageWrapper>
             <TertiaryH1>Donald Sammut</TertiaryH1>
             <p>
-                Donald Sammut is a Plastic Surgeon and a specialist Hand Surgeon. 
-                He is also an artist and illustrator of both Medical and non-medical works.
-                Each of the embroideries were of an illustration of his, based off the anatomy
-                of the hands.
+                Donald Sammut is a plastic surgeon and a specialising in the hand.
+                He is also an artist and illustrator and uses drawing in his medical
+                practice and teaching, encouraging his students to draw to gain a richer
+                understanding of human anatomy. The &lsquo;That&apos;ll Need Stitching&rsquo; embroideries
+                were based on his anatomical illustrations.
 
             </p>
             <p>
-                He is involved in the training of surgeons in Hand Surgery, 
-                as well as in the preparation and conduct of Hand Surgery examinations. 
-
-                Founder of the UK Charity, Working Hands, he has established a programme
-                of Hand Surgery in Nepal, and travels there once a year to reconstruct
-                and reanimate paralysed hands in patients with leprosy, and,
-                more importantly, to teach local surgeons.
-                
-                He is a Visiting Senior Lecturer in Hand Surgery at Kirtipur University
-                Hospital, Kathmandu.
-                
+                Donald is founder of the UK charity, Working Hands.
+                He has established a programme of hand surgery in Nepal
+                and travels there once a year to reconstruct and reanimate paralysed
+                hands in patients with leprosy. He is a Visiting Senior Lecturer in
+                Hand Surgery at Kirtipur University Hospital, Kathmandu where he shares
+                techniques with local surgeons.
             </p>
 
             <s.BlogLink href='https://www.donaldsammut.com/' target="_blank">
                   <TertiaryButton aria-label='Link to Donald Sammuts Website'> 
-                     Visit his website!
+                     Visit his website
                   </TertiaryButton>
             </s.BlogLink>
 
@@ -40,7 +36,7 @@ export const DonaldSammut: React.FC = () => {
             <p>
                 WORKING HANDS is a UK Registered Charity that raises funds for a surgical
                 programme, currently based at a leprosy hospital in Nepal, supporting a team
-                of Hand Surgeons who travel there to operate and to teach the local surgeons.
+                of hand surgeons who travel there to operate and to teach the local surgeons.
                 Working Hands is independent, not linked to any major organization, and all
                 donated funds find their way directly to the front line of treatment,
                 purchasing equipment and consumables for each trip.

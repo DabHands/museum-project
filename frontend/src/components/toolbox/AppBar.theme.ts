@@ -81,7 +81,7 @@ const PageButton = styled.button`
   color: ${props => props.theme.colours.TERTIARY};
   }
 
-  @media (max-width: 1120px){
+  @media (max-width: 1200px){
     font-size: ${props => props.theme.fonts.size.SMALL};
   } 
 `;

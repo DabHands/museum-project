@@ -1,4 +1,5 @@
 import React from 'react'
+import { AllAnatomies } from '../../../../data/anatomies';
 import { Embroidery } from '../../../../types/types'
 import * as s from './GridSingle.theme';
 
@@ -9,6 +10,17 @@ interface Props {
 export const GridSingle: React.FC<Props> = ({
     embroidery
 }) => {
+    const an = embroidery ? AllAnatomies.find(a => a.name === embroidery.anatomyName) : null;
+
+    const getName = () => {
+        if (an) {
+            if (an.longName) {
+                return an.longName
+            } 
+            return an.name
+        }
+        return "No Anatomy"
+    }
 
     return (
         <s.PageLink to={process.env.PUBLIC_URL + `/explore/${embroidery.id}`} >
@@ -20,7 +32,7 @@ export const GridSingle: React.FC<Props> = ({
                 />
                 <s.Details>
                     <s.Name> {embroidery.authorName} </s.Name>
-                    <s.Anatomy> {embroidery.anatomyName} </s.Anatomy>
+                    <s.Anatomy> {getName()} </s.Anatomy>
                 </s.Details>
             </s.Box>
         </s.PageLink>
