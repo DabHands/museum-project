@@ -11,10 +11,34 @@ export const AuthorFilter: React.FC<Props> = (
     { setAuthors }
 ) => {
 
+    let names = AllEmbroideries.map(e => {
+        return e.authorName
+    });
+
+    //Filter for duplicates
+    names = names.filter(
+        (element, i) => {
+            return i === names.indexOf(element)
+        });
     
-    const options = AllEmbroideries.map(e => { return {
-            value: e.authorName, label: e.authorName }
-    })
+    //Sort in Alphabetical Order
+    names = names.sort((n1,n2) => {
+        if (n1 > n2) {
+            return 1;
+        }
+        if (n1 < n2) {
+            return -1;
+        }
+        return 0;
+    });
+    
+
+    //Map to the correct object
+    const options = names.map(e => {
+        return {
+            value: e, label: e
+        }
+    }); 
         
     const handleSelectChange = (
         newValue: MultiValue<{
@@ -32,7 +56,7 @@ export const AuthorFilter: React.FC<Props> = (
             <Select
             className="basic-single"
             classNamePrefix="select"
-            placeholder='Select Authors'
+            placeholder='Select By Stitcher'
             onChange={handleSelectChange}
             options={options}
             isMulti

@@ -33,6 +33,9 @@ const HomeButton = styled.button`
   @media (max-width: 425px){   
     font-size: ${props => props.theme.fonts.size.MEDIUM};
   } 
+  @media (min-width: 1024px) and (max-width: 1050px){   
+    font-size: ${props => props.theme.fonts.size.MEDIUM};
+  } 
 `;
 
 const HomeButtonImage = styled.img`
@@ -48,6 +51,7 @@ const HomeButtonImage = styled.img`
 `;
 
 const HomeButtonText = styled.div`
+  
 `;
 
 const HomeSpan = styled.span`
@@ -81,7 +85,8 @@ const PageButton = styled.button`
   color: ${props => props.theme.colours.TERTIARY};
   }
 
-  @media (max-width: 1120px){
+
+  @media (max-width: 1200px){
     font-size: ${props => props.theme.fonts.size.SMALL};
   } 
 `;
