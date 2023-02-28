@@ -34,7 +34,7 @@ export const AppBar: React.FC = () => {
           <s.PageButton onClick={navigationContext.navigateToStoryPage}>The Story of the Sculpture</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToModelPage}>3D Model</s.PageButton>
           {/* <s.PageButton onClick={navigationContext.navigateToScanImagePage}>Scan Image</s.PageButton> */}
-          <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore</s.PageButton>
+          <s.PageButton onClick={navigationContext.navigateToExplorePage}>Explore the Embroideries</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToAboutPage}>About The Dab Hands Project</s.PageButton>
           <s.PageButton onClick={navigationContext.navigateToDonaldPage}>Donald Sammut</s.PageButton>
           
@@ -92,7 +92,7 @@ export const AppBar: React.FC = () => {
               toggleShowMenu();
               navigationContext.navigateToExplorePage();
             }}>
-            Explore
+            Explore the Embroideries
           </s.MenuPageButton>
           
           <s.MenuPageButton
