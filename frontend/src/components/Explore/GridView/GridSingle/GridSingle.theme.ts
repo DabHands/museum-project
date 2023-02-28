@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Box = styled.div`
     display: grid;
     
-    padding: 2em;
+    padding: 1.3em 2rem 2rem 1rem;
     margin: 1em;
     border-radius: 5px;
     border: ${props => props.theme.ROW_DIVIDER} ;
@@ -57,7 +57,7 @@ const Anatomy = styled.div`
     @media (min-width: 769px){
         max-width: 150px;
     } 
-
+    font-size: ${props => props.theme.fonts.size.SMALL};
 
 `;
 
