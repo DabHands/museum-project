@@ -15,8 +15,7 @@ export const Home: React.FC = () => {
   const renderMobileView = () => {
     return <>
       <s.PageText>
-        “Dab Hands: That&apos;ll Need Stitching” is an exhibition in the
-        Manchester Museum, from the 8th March to 31st July 2023. 
+        Dab Hands is an exhibition in the Manchester Museum, running from the 8th March to 31st July 2023.
       </s.PageText>
       <s.Image src={logo} />
       <s.PageText>
@@ -52,8 +51,7 @@ export const Home: React.FC = () => {
       <s.Spanel>
         <span>
           <s.PageText>
-            “Dab Hands: That&apos;ll Need Stitching” is an exhibition in the
-            Manchester Museum, from the 8th March to 31st July 2023. 
+            Dab Hands is an exhibition in the Manchester Museum, running from the 8th March to 31st July 2023.
             <br></br> <br></br>
             One of the most exciting artworks in the exhibition is &lsquo;That&apos;ll Need Stitching&rsquo;,
             a large scale sculpture of a hand holding a sewing needle. The skin of the hand is
