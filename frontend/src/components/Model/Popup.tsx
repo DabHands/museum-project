@@ -1,7 +1,6 @@
 /* eslint-disable */
 import React from 'react';
 import * as s from './Popup.theme';
-import cat from './cat.jpg';
 import { PopupEmbroideryInfo } from '../../types/types';
 import MediaQuery from 'react-responsive';
 
@@ -11,11 +10,8 @@ interface Props {
 }
 
 export const Popup: React.FC<Props> = ({ handleOnClickButton, embroideryInfo }) => {
-  console.log(embroideryInfo.embroideryFileName);
-
   const fileName = embroideryInfo.embroideryFileName as string;
   const isAuthorNameAvailable = embroideryInfo.authorOrigin !== "missing";
-  console.log(isAuthorNameAvailable);
   return (
     <>
       <MediaQuery minWidth={800}>
