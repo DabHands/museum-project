@@ -27,6 +27,7 @@ export const AppBar: React.FC = () => {
       </s.HomeButton>
 
 
+
       <MediaQuery minWidth={1024}>
         <s.Dates> Manchester Museum: Exhibition Open 8th March - 31st July </s.Dates>
         <s.PageButtons>
@@ -40,6 +41,7 @@ export const AppBar: React.FC = () => {
 
         </s.PageButtons>
       </MediaQuery>
+
 
       <MediaQuery maxWidth={1023}>
         <s.Dates mobile={true}> 8th March - 31st July </s.Dates>
