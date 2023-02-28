@@ -5,7 +5,7 @@ import * as THREE from 'three';
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls';
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader.js';
 import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
-import { Raycaster } from 'three';
+// import { Raycaster } from 'three';
 // import { AllEmbroideries } from '../../data/embroideries';
 // import { SphereInfo } from '../../types/types';
 import * as s from './Model.theme';
