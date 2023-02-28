@@ -1,6 +1,6 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
-const PopupContainer = styled.div`
+const PopupContainer = styled.div<{ mobile: boolean }>`
   margin: 0;
   padding: 0;
 
@@ -10,69 +10,74 @@ const PopupContainer = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 2px 2px 40px 1px #495057;
   position: absolute;
-  top: 2rem;
+  top: 5rem;
   left: 2rem;
   color: rgba(255, 255, 255, 0.8);
 
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 2rem;
 
-  max-width: 30vw;
-  
+  ${props => props.mobile && css`
+    max-width: 70vw;
+  `}
+  ${props => !props.mobile && css`
+    max-width: 50vw;
+  `}  
 `;
 
-const ImageContainer = styled.div`
+const ImageContainer = styled.div<{mobile: boolean}>`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
+
+  ${props => !props.mobile && css`
+    max-height: 20%;
+  `}
 `;
 
 const EmbroideryImage = styled.img`
-  // height: 30%;
+    max-width: 100%;
 `;
 
-const CloseButton = styled.button`
-  margin: 0;
-  padding: 0;
-  border: none;
-  background-color: #343a40;
-  border-radius: 0.7rem;
+const TextContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 `;
 
-const CloseIcon = styled.svg`
-  padding: 0;
+const AuthorName = styled.h5<{ mobile: boolean }>`
   margin: 0;
-  height: 2.5rem;
-  width: 2.5rem;
-  font-size: 0.1rem;
-`;
+  padding: 0;
 
-const NameHeader = styled.h2`
-  margin: 0;
-  padding: 0;
-  font-size: 1.5rem;
-  letter-spacing: 0.1rem;
-`;
+  ${props => props.mobile && css`
+  font-size: 1.1rem;
+  `}
 
-const AuthorName = styled.h5`
-  margin: 0;
-  padding: 0;
-  font-size: 1.5rem;
-`;
-
-const AnatomyName = styled.p`
-  margin: 0;
-  padding: 0;
+  ${props => !props.mobile && css`
   font-size: 1.3rem;
+  `}
 `;
 
-const EmbroideryDescription = styled.p`
+const AnatomyName = styled.p<{ mobile: boolean}>`
   margin: 0;
   padding: 0;
+
+  text-align: center;
+
+  ${props => props.mobile && css`
+  font-size: 1.1rem;
+  `}
+
+  ${props => !props.mobile && css`
+  font-size: 1.3rem;
+  `}
+
 `;
 
 const BackToModelButtonContainer = styled.div`
@@ -83,24 +88,29 @@ const BackToModelButtonContainer = styled.div`
   padding-bottom: 1rem;
 `;
 
-const BackToModelButton = styled.button`
+const BackToModelButton = styled.button<{ mobile: boolean}>`
   background-color: #CFC1B1;
-  font-size: 1.5rem;
   padding: 0.7rem 1.4rem;
   border-radius: 0.7rem;
+
+  ${props => props.mobile && css`
+  font-size: 1.1rem;
+  `}
+
+  ${props => !props.mobile && css`
+  font-size: 1.3rem;
+  `}
+
 `;
 
 
 export {
   PopupContainer,
   ImageContainer,
+  TextContainer,
   EmbroideryImage,
-  CloseButton,
-  CloseIcon,
-  NameHeader,
   AuthorName,
   AnatomyName,
-  EmbroideryDescription,
   BackToModelButtonContainer,
   BackToModelButton
 };
