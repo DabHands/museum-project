@@ -25,6 +25,13 @@ export const Home: React.FC = () => {
         The embroideries themselves were sewn by NHS staff, members of the public and school students from Manchester,
         across the UK and beyond.
       </s.PageText>
+      <s.PageText>
+        This site has been created by University of Manchester Computer Science students, Lucy Jefford and Adelina Voynova,
+        to allow visitors to the museum, and those who can&apos;t visit in person, the opportunity to see the beautiful embroideries.
+        Adelina has created a wonderful digital 3D model of the hand which you can explore using pinch and swipe motions on your
+        touch pad or screen or control it with a mouse. Click on each embroidery to enlarge it and find out about the embroiderer
+        and the anatomy it depicts.
+      </s.PageText>
       <s.StyledButton onClick={navigationContext.navigateToModelPage}>
         See the 3D Model </s.StyledButton>
       <s.PageText> Online, you can view the 3D model, or explore each embroidery
@@ -58,6 +65,14 @@ export const Home: React.FC = () => {
             made up of hundreds of embroideries of the anatomical drawings of hand surgeon, Donald Sammut.
             The embroideries themselves were sewn by NHS staff, members of the public and school students from Manchester,
             across the UK and beyond.
+
+            <br></br> <br></br>
+
+            This site has been created by University of Manchester Computer Science students, Lucy Jefford and Adelina Voynova,
+            to allow visitors to the museum, and those who can&apos;t visit in person, the opportunity to see the beautiful embroideries.
+            Adelina has created a wonderful digital 3D model of the hand which you can explore using pinch and swipe motions on your
+            touch pad or screen or control it with a mouse. Click on each embroidery to enlarge it and find out about the embroiderer
+            and the anatomy it depicts.
           </s.PageText>
           <s.StyledButton onClick={navigationContext.navigateToModelPage}>
             See the 3D Model </s.StyledButton>
