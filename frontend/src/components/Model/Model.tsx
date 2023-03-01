@@ -256,6 +256,8 @@ export const Model: React.FC = () => {
 
   useEffect(() => {
     const controls = new OrbitControls(modelContext.camera, modelContext.renderer.domElement);
+    const canvas = document.getElementById('modelCanvas') as HTMLElement;
+
     window.addEventListener('mousedown', handleMouseDown);
     window.addEventListener('mouseup', handleMouseUp);
 
@@ -270,15 +272,14 @@ export const Model: React.FC = () => {
 
   const handleClickOnCanvas = (event: any) => {
     event.preventDefault();
-
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
     const { canvasPositionLeft,
       canvasPositionTop,
       canvasPositionHeight,
       canvasPositionWidth } = getCanvasPosition(canvas);
 
-    const x = ((event.clientX - canvasPositionLeft) / canvasPositionWidth) * 2 - 1;
-    const y = -((event.clientY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
+    const x = ((event.clientX + window.scrollX - canvasPositionLeft) / canvasPositionWidth) * 2 - 1;
+    const y = -((event.clientY + window.scrollY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
 
     const mousePosition = new THREE.Vector2(x, y);
     // console.log('camera', camera);
