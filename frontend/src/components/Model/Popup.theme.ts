@@ -23,6 +23,7 @@ const PopupContainer = styled.div<{ mobile: boolean }>`
   `}
   ${props => !props.mobile && css`
     max-width: 50vw;
+    top: 6rem;
   `}  
 `;
 
