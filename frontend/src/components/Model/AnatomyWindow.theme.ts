@@ -21,8 +21,9 @@ const AnatomyWindowOuterContainer = styled.div<{ mobile: boolean }>`
   gap: 2.5rem;
 
   ${props => props.mobile && css`
-    top: 5rem;
-    width: 90%;
+    top: 6rem;
+    width: 70%;
+    padding: 1rem;
   `}
 `;
 
