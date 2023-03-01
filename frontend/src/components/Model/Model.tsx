@@ -7,15 +7,19 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
 import * as s from './Model.theme';
 import ModelContext from '../../contexts/ModelContext';
 import { AllEmbroideries } from '../../data/embroideries';
-import { Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
+import { AnatomyWindowInfo, Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
 import { Popup } from './Popup';
 import { Loading } from './Loading';
+import { AllAnatomies } from '../../data/anatomies';
+import { AnatomyWindow } from './AnatomyWindow';
 
 export const Model: React.FC = () => {
   const modelContext = useContext(ModelContext);
 
   const [shouldShowPopup, setShouldShowPopup] = useState<boolean>(false);
+  const [shouldShowAnatomyWindow, setShouldShowAnatomyWindow] = useState<boolean>(false);
   const [popupEmbroideryInfo, setPopupEmbroideryInfo] = useState<PopupEmbroideryInfo>();
+  const [anatomyWindowInfo, setAnatomyWindowInfo] = useState<AnatomyWindowInfo>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   let spheresLength: number;
@@ -134,16 +138,34 @@ export const Model: React.FC = () => {
     setShouldShowPopup(false);
   };
 
+  const closeAnatomyWindow = () => {
+    setShouldShowAnatomyWindow(false);
+  };
+
+  const openAnatomyWindow = () => {
+    setShouldShowPopup(false);
+    setShouldShowAnatomyWindow(true);
+  }
+
   // render the popup that will show when the user clicks on an embroidery
-  const renderPopup = (embroideryInfo: PopupEmbroideryInfo
-    ) => {
+  const renderPopup = (embroideryInfo: PopupEmbroideryInfo) => {
     return (
         <Popup
-          handleOnClickButton = {closePopup}
+          closePopup = {closePopup}
+          openAnatomyWindow = {openAnatomyWindow}
           embroideryInfo = {embroideryInfo}
         />        
     )
   };
+
+  const renderAnatomyWindow = (anatomyInfo: AnatomyWindowInfo) => {
+    return (
+      <AnatomyWindow
+        anatomyInfo = {anatomyInfo}
+        closeAnatomyWindow = {closeAnatomyWindow}
+      />
+    )
+  }
 
   const renderLoadingComponent = () => {
     return (
@@ -276,9 +298,30 @@ export const Model: React.FC = () => {
     // compute the first sphere that the ray goes through
     const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
+    const sphereAnatomy = AllAnatomies.find(anatomy => anatomy.name == sphereEmbroidery?.anatomyName);
+
+    let anatomyName = sphereEmbroidery?.anatomyName;
+    if (sphereAnatomy?.longName) {
+      anatomyName = sphereAnatomy.longName;
+    }
 
     if (sphereEmbroidery && Math.abs(mouseDownX - mouseUpX) < 3 && Math.abs(mouseDownY - mouseUpY) < 3) {
-      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, authorOrigin: sphereEmbroidery.authorOrigin});
+      setPopupEmbroideryInfo({
+        authorName: sphereEmbroidery?.authorName, 
+        anatomyName: anatomyName,
+        embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, 
+        authorOrigin: sphereEmbroidery.authorOrigin
+      });
+
+      setAnatomyWindowInfo({
+        authorName: sphereEmbroidery?.authorName, 
+        anatomyName: anatomyName,
+        embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, 
+        authorOrigin: sphereEmbroidery.authorOrigin,
+        longAnatomyName: sphereAnatomy?.longName,
+        anatomyDescription: sphereAnatomy?.description
+      });
+
       setShouldShowPopup(true);
     }
   };
@@ -288,5 +331,6 @@ export const Model: React.FC = () => {
       {isLoading && renderLoadingComponent()}
       <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
       {shouldShowPopup && renderPopup(popupEmbroideryInfo as PopupEmbroideryInfo)}
+      {shouldShowAnatomyWindow && renderAnatomyWindow(anatomyWindowInfo as AnatomyWindowInfo)}
     </s.PageWrapper>)
 }

@@ -10,8 +10,6 @@ const PopupContainer = styled.div<{ mobile: boolean }>`
   border: 1px solid rgba(255, 255, 255, 0.8);
   box-shadow: 2px 2px 40px 1px #495057;
   position: absolute;
-  top: 5rem;
-  left: 2rem;
   color: rgba(255, 255, 255, 0.8);
 
   display: flex;
@@ -40,7 +38,7 @@ const ImageContainer = styled.div<{mobile: boolean}>`
 `;
 
 const EmbroideryImage = styled.img`
-    max-width: 100%;
+  max-width: 100%;
 `;
 
 const TextContainer = styled.div`
@@ -51,7 +49,7 @@ const TextContainer = styled.div`
   gap: 1rem;
 `;
 
-const AuthorName = styled.h5<{ mobile: boolean }>`
+const AuthorName = styled.p<{ mobile: boolean }>`
   margin: 0;
   padding: 0;
 
@@ -64,7 +62,7 @@ const AuthorName = styled.h5<{ mobile: boolean }>`
   `}
 `;
 
-const AnatomyName = styled.p<{ mobile: boolean}>`
+const AnatomyName = styled.h5<{ mobile: boolean}>`
   margin: 0;
   padding: 0;
 
@@ -80,19 +78,24 @@ const AnatomyName = styled.p<{ mobile: boolean}>`
 
 `;
 
-const BackToModelButtonContainer = styled.div`
+const ButtonContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding-bottom: 1rem;
+  gap: 1rem;
+  // flex-direction: column;
 `;
 
-const BackToModelButton = styled.button<{ mobile: boolean}>`
+const Button = styled.button<{ mobile: boolean}>`
   background-color: #CFC1B1;
+  cursor: pointer;
   padding: 0.7rem 1.4rem;
   border-radius: 0.7rem;
-
+  &:hover {
+    background-color: #a88e71;
+  }
   ${props => props.mobile && css`
   font-size: 1.1rem;
   `}
@@ -111,6 +114,6 @@ export {
   EmbroideryImage,
   AuthorName,
   AnatomyName,
-  BackToModelButtonContainer,
-  BackToModelButton
+  ButtonContainer,
+  Button
 };
