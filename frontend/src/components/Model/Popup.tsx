@@ -5,13 +5,20 @@ import { PopupEmbroideryInfo } from '../../types/types';
 import MediaQuery from 'react-responsive';
 
 interface Props {
-  handleOnClickButton: () => void,
-  embroideryInfo: PopupEmbroideryInfo
+  closePopup: () => void,
+  openAnatomyWindow: () => void,
+  embroideryInfo: PopupEmbroideryInfo,
 }
 
-export const Popup: React.FC<Props> = ({ handleOnClickButton, embroideryInfo }) => {
+export const Popup: React.FC<Props> = ({ 
+  closePopup,
+  openAnatomyWindow,
+  embroideryInfo
+  }) => {
+
   const fileName = embroideryInfo.embroideryFileName as string;
   const isAuthorNameAvailable = embroideryInfo.authorOrigin !== "missing";
+
   return (
     <>
       <MediaQuery minWidth={800}>
@@ -20,26 +27,28 @@ export const Popup: React.FC<Props> = ({ handleOnClickButton, embroideryInfo }) 
             {fileName && <s.EmbroideryImage src={fileName} alt="Embroidery Image" />}
           </s.ImageContainer>
           <s.TextContainer>
-            {isAuthorNameAvailable && <s.AuthorName mobile={false}>Made by {embroideryInfo.authorName}</s.AuthorName>}
             <s.AnatomyName mobile={false}>{embroideryInfo.anatomyName}</s.AnatomyName>
+            {isAuthorNameAvailable && <s.AuthorName mobile={false}>Made by {embroideryInfo.authorName}</s.AuthorName>}
           </s.TextContainer>
-          <s.BackToModelButtonContainer>
-            <s.BackToModelButton mobile={false} onClick={handleOnClickButton}>Back to Model</s.BackToModelButton>
-          </s.BackToModelButtonContainer>
+          <s.ButtonContainer>
+            <s.Button mobile={false} onClick={openAnatomyWindow}>The Anatomy</s.Button>
+            <s.Button mobile={false} onClick={closePopup}>Back to Model</s.Button>
+          </s.ButtonContainer>
         </s.PopupContainer>
       </MediaQuery>
-      <MediaQuery maxWidth={800}>
+      <MediaQuery maxWidth={799}>
         <s.PopupContainer mobile={true}>
           <s.ImageContainer mobile={true}>
             {fileName && <s.EmbroideryImage src={fileName} alt="Embroidery Image" />}
           </s.ImageContainer>
           <s.TextContainer>
-            <s.AuthorName mobile={true}>Made by {embroideryInfo.authorName}</s.AuthorName>
             <s.AnatomyName mobile={true}>{embroideryInfo.anatomyName}</s.AnatomyName>
+            {isAuthorNameAvailable && <s.AuthorName mobile={true}>Made by {embroideryInfo.authorName}</s.AuthorName>}
           </s.TextContainer>
-          <s.BackToModelButtonContainer>
-            <s.BackToModelButton mobile={true} onClick={handleOnClickButton}>Back to Model</s.BackToModelButton>
-          </s.BackToModelButtonContainer>
+          <s.ButtonContainer>
+            <s.Button mobile={true} onClick={openAnatomyWindow}>The Anatomy</s.Button>
+            <s.Button mobile={true} onClick={closePopup}>Back to Model</s.Button>
+          </s.ButtonContainer>
         </s.PopupContainer>
       </MediaQuery>
     </>

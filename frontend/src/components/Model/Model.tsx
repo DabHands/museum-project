@@ -7,27 +7,37 @@ import { MTLLoader } from 'three/examples/jsm/loaders/MTLLoader.js';
 import * as s from './Model.theme';
 import ModelContext from '../../contexts/ModelContext';
 import { AllEmbroideries } from '../../data/embroideries';
-import { Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
+import { AnatomyWindowInfo, Embroidery, PopupEmbroideryInfo, SphereInfo } from '../../types/types';
 import { Popup } from './Popup';
 import { Loading } from './Loading';
-import { render } from '@testing-library/react';
+import { AllAnatomies } from '../../data/anatomies';
+import { AnatomyWindow } from './AnatomyWindow';
 
 export const Model: React.FC = () => {
   const modelContext = useContext(ModelContext);
 
   const [shouldShowPopup, setShouldShowPopup] = useState<boolean>(false);
+  const [shouldShowAnatomyWindow, setShouldShowAnatomyWindow] = useState<boolean>(false);
   const [popupEmbroideryInfo, setPopupEmbroideryInfo] = useState<PopupEmbroideryInfo>();
+  const [anatomyWindowInfo, setAnatomyWindowInfo] = useState<AnatomyWindowInfo>();
   const [isLoading, setIsLoading] = useState<boolean>(false);
 
   let spheresLength: number;
   const spheres: SphereInfo[] = [];
 
-  // // create a variable to store the object
+  // create a variable to store the object
   let model: any;
   let canvasPositionLeft: number;
   let canvasPositionTop: number;
   let canvasPositionWidth: number;
   let canvasPositionHeight: number;
+
+  // add variables to store the click positions on mousedown and mouseup events
+  // these variables will be needed in order to prevent a popup opening when dragging
+  let mouseDownX: number;
+  let mouseDownY: number;
+  let mouseUpX: number;
+  let mouseUpY: number;
 
   // set up the needed variables for the scene
   const rayCaster = new THREE.Raycaster();
@@ -128,16 +138,34 @@ export const Model: React.FC = () => {
     setShouldShowPopup(false);
   };
 
+  const closeAnatomyWindow = () => {
+    setShouldShowAnatomyWindow(false);
+  };
+
+  const openAnatomyWindow = () => {
+    setShouldShowPopup(false);
+    setShouldShowAnatomyWindow(true);
+  }
+
   // render the popup that will show when the user clicks on an embroidery
-  const renderPopup = (embroideryInfo: PopupEmbroideryInfo
-    ) => {
+  const renderPopup = (embroideryInfo: PopupEmbroideryInfo) => {
     return (
         <Popup
-          handleOnClickButton = {closePopup}
+          closePopup = {closePopup}
+          openAnatomyWindow = {openAnatomyWindow}
           embroideryInfo = {embroideryInfo}
         />        
     )
   };
+
+  const renderAnatomyWindow = (anatomyInfo: AnatomyWindowInfo) => {
+    return (
+      <AnatomyWindow
+        anatomyInfo = {anatomyInfo}
+        closeAnatomyWindow = {closeAnatomyWindow}
+      />
+    )
+  }
 
   const renderLoadingComponent = () => {
     return (
@@ -182,6 +210,15 @@ export const Model: React.FC = () => {
     return closestSphere;
   };
 
+  const handleMouseDown = (event: any) => {
+    mouseDownX = event.clientX;
+    mouseDownY = event.clientY;
+  }
+
+  const handleMouseUp = (event: any) => {
+    mouseUpX = event.clientX;
+    mouseUpY = event.clientY;
+  };
 
   useEffect(() => {
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
@@ -219,6 +256,10 @@ export const Model: React.FC = () => {
 
   useEffect(() => {
     const controls = new OrbitControls(modelContext.camera, modelContext.renderer.domElement);
+    const canvas = document.getElementById('modelCanvas') as HTMLElement;
+
+    window.addEventListener('mousedown', handleMouseDown);
+    window.addEventListener('mouseup', handleMouseUp);
 
     // show the model
     function animate() {
@@ -226,20 +267,19 @@ export const Model: React.FC = () => {
       controls.update();
       modelContext.renderer.render(modelContext.scene, modelContext.camera);
     }
-    animate();
+      animate();
   });
 
   const handleClickOnCanvas = (event: any) => {
     event.preventDefault();
-
     const canvas = document.getElementById('modelCanvas') as HTMLElement;
     const { canvasPositionLeft,
       canvasPositionTop,
       canvasPositionHeight,
       canvasPositionWidth } = getCanvasPosition(canvas);
 
-    const x = ((event.clientX - canvasPositionLeft) / canvasPositionWidth) * 2 - 1;
-    const y = -((event.clientY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
+    const x = ((event.clientX + window.scrollX - canvasPositionLeft) / canvasPositionWidth) * 2 - 1;
+    const y = -((event.clientY + window.scrollY - canvasPositionTop) / canvasPositionHeight) * 2 + 1;
 
     const mousePosition = new THREE.Vector2(x, y);
     // console.log('camera', camera);
@@ -259,9 +299,30 @@ export const Model: React.FC = () => {
     // compute the first sphere that the ray goes through
     const closestSphere = computeClickedOnSphere(rayCaster, modelContext.spheres, modelContext.model);
     const sphereEmbroidery = AllEmbroideries.find(embroidery => embroidery.id == closestSphere.embroideryId);
+    const sphereAnatomy = AllAnatomies.find(anatomy => anatomy.name == sphereEmbroidery?.anatomyName);
 
-    if (sphereEmbroidery) {
-      setPopupEmbroideryInfo({authorName: sphereEmbroidery?.authorName, anatomyName: sphereEmbroidery?.anatomyName, embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, authorOrigin: sphereEmbroidery.authorOrigin});
+    let anatomyName = sphereEmbroidery?.anatomyName;
+    if (sphereAnatomy?.longName) {
+      anatomyName = sphereAnatomy.longName;
+    }
+
+    if (sphereEmbroidery && Math.abs(mouseDownX - mouseUpX) < 3 && Math.abs(mouseDownY - mouseUpY) < 3) {
+      setPopupEmbroideryInfo({
+        authorName: sphereEmbroidery?.authorName, 
+        anatomyName: anatomyName,
+        embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, 
+        authorOrigin: sphereEmbroidery.authorOrigin
+      });
+
+      setAnatomyWindowInfo({
+        authorName: sphereEmbroidery?.authorName, 
+        anatomyName: anatomyName,
+        embroideryFileName: "thumbnail/" + sphereEmbroidery?.fileName, 
+        authorOrigin: sphereEmbroidery.authorOrigin,
+        longAnatomyName: sphereAnatomy?.longName,
+        anatomyDescription: sphereAnatomy?.description
+      });
+
       setShouldShowPopup(true);
     }
   };
@@ -271,5 +332,6 @@ export const Model: React.FC = () => {
       {isLoading && renderLoadingComponent()}
       <s.ModelCanvas id="modelCanvas" onClick={handleClickOnCanvas}></s.ModelCanvas>
       {shouldShowPopup && renderPopup(popupEmbroideryInfo as PopupEmbroideryInfo)}
+      {shouldShowAnatomyWindow && renderAnatomyWindow(anatomyWindowInfo as AnatomyWindowInfo)}
     </s.PageWrapper>)
 }
