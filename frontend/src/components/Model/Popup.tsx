@@ -17,7 +17,6 @@ export const Popup: React.FC<Props> = ({
   }) => {
 
   const fileName = embroideryInfo.embroideryFileName as string;
-  const isAuthorNameAvailable = embroideryInfo.authorOrigin !== "missing";
 
   return (
     <>
@@ -28,7 +27,7 @@ export const Popup: React.FC<Props> = ({
           </s.ImageContainer>
           <s.TextContainer>
             <s.AnatomyName mobile={false}>{embroideryInfo.anatomyName}</s.AnatomyName>
-            {isAuthorNameAvailable && <s.AuthorName mobile={false}>Made by {embroideryInfo.authorName}</s.AuthorName>}
+            <s.AuthorName mobile={false}>Made by {embroideryInfo.authorName}</s.AuthorName>
           </s.TextContainer>
           <s.ButtonContainer>
             <s.Button mobile={false} onClick={openAnatomyWindow}>The Anatomy</s.Button>
@@ -43,7 +42,7 @@ export const Popup: React.FC<Props> = ({
           </s.ImageContainer>
           <s.TextContainer>
             <s.AnatomyName mobile={true}>{embroideryInfo.anatomyName}</s.AnatomyName>
-            {isAuthorNameAvailable && <s.AuthorName mobile={true}>Made by {embroideryInfo.authorName}</s.AuthorName>}
+            <s.AuthorName mobile={true}>Made by {embroideryInfo.authorName}</s.AuthorName>
           </s.TextContainer>
           <s.ButtonContainer>
             <s.Button mobile={true} onClick={openAnatomyWindow}>The Anatomy</s.Button>
