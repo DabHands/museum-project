@@ -9,11 +9,16 @@ const AnatomyWindowOuterContainer = styled.div<{ mobile: boolean }>`
   position: absolute;
 
   color: rgba(255, 255, 255, 0.8);
-  width: 90%;
+  width: 70%;
+
+  margin: 1rem;
+  padding: 2rem;
 
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 2.5rem;
 
   ${props => props.mobile && css`
     top: 5rem;

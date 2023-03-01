@@ -17,7 +17,7 @@ export const AnatomyWindow: React.FC<Props> = ({ anatomyInfo, closeAnatomyWindow
     <>
       <MediaQuery minWidth={800}>
         <s.AnatomyWindowOuterContainer mobile={false}>
-          <s.AnatomyWindowInnerContainer>
+          {/* <s.AnatomyWindowInnerContainer> */}
             <s.HeaderContainer>
               <s.EmbroideryImage src={anatomyInfo.embroideryFileName} />
               <s.HeaderTextContainer>
@@ -30,12 +30,12 @@ export const AnatomyWindow: React.FC<Props> = ({ anatomyInfo, closeAnatomyWindow
             <s.BackToModelButtonContainer>
               <s.BackToModelButton onClick={closeAnatomyWindow}>Back to Model</s.BackToModelButton>
             </s.BackToModelButtonContainer>
-          </s.AnatomyWindowInnerContainer>
+          {/* </s.AnatomyWindowInnerContainer> */}
         </s.AnatomyWindowOuterContainer>
       </MediaQuery>
       <MediaQuery maxWidth={799}>
         <s.AnatomyWindowOuterContainer mobile={true}>
-          <s.AnatomyWindowInnerContainer>
+          {/* <s.AnatomyWindowInnerContainer> */}
             <s.HeaderContainer>
               <s.EmbroideryImage src={anatomyInfo.embroideryFileName} />
               <s.HeaderTextContainer>
@@ -47,7 +47,7 @@ export const AnatomyWindow: React.FC<Props> = ({ anatomyInfo, closeAnatomyWindow
             <s.BackToModelButtonContainer>
               <s.BackToModelButton onClick={closeAnatomyWindow}>Back to Model</s.BackToModelButton>
             </s.BackToModelButtonContainer>
-          </s.AnatomyWindowInnerContainer>
+          {/* </s.AnatomyWindowInnerContainer> */}
         </s.AnatomyWindowOuterContainer>
       </MediaQuery>
     </>
