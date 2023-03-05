@@ -1513,7 +1513,7 @@
     "id":"a3fcf27a-a479-44d0-8f9c-e71b947ce8bf", 
     "fileName":"bw-12.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Radial Artery in First Space",
     "centreCoordinates": [0.5667013950655061, 0.034662757787259524, -0.7326652199231769],
 		"endPointCoordinates": [0.578452862916718, 0.046105323617531835, -0.8436682545695597]
@@ -1583,7 +1583,7 @@
     "id":"c0e22cca-1d16-48ba-9e57-df675269ed0b", 
     "fileName":"bw-11.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Sagittal Bands",
     "centreCoordinates": [-0.27431611904502995, 0.3850670519012632, 0.24548837487290578],
 		"endPointCoordinates": [-0.3700956154309875, 0.3619318080192254, 0.19370025171615443]
@@ -1593,7 +1593,7 @@
     "id":"3d5c3054-ef08-45d7-9e6b-ec649e1fe6a1", 
     "fileName":"bw-4.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Sagittal Bands",
     "centreCoordinates": [0.8024670520716777, -0.21472518174547617, 0.3909113980784582],
 		"endPointCoordinates": [0.7173787393158351, -0.2465597095884412, 0.3068132329493537]
@@ -1613,7 +1613,7 @@
     "id":"fa6f3f2e-42d5-4173-af7c-ba973235937f", 
     "fileName":"bw-2.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Scaphoid",
     "centreCoordinates": [-0.2863478784158499, -0.7094748328984833, -0.00920430878434142],
 		"endPointCoordinates": [-0.25143058895151527, -0.8246086330825184, -0.01202470831744673]
@@ -1663,7 +1663,7 @@
     "id":"93c5f770-43eb-439d-a29f-2e869eefc2a5", 
     "fileName":"bw-10.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Skeleton Rays",
     "centreCoordinates": [0.301, -0.147, 0.529],
 		"endPointCoordinates": [0.194, -0.105, 0.539]
@@ -1703,7 +1703,7 @@
     "id":"ab6cb6a9-338f-44d3-bb33-44ba1ac40e5c", 
     "fileName":"bw-8.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "TFC Dorsal",
     "centreCoordinates": [-0.8556119242720512, -0.1951351934690865, -0.015010237461208414],
 		"endPointCoordinates": [-0.7895216712815976, -0.17990221176555046, 0.0826073535932582]
@@ -1743,7 +1743,7 @@
     "id":"e90b9f5e-1e78-43f4-9be5-cb0b8d396afa", 
     "fileName":"bw-7.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Thumb CMC",
     "centreCoordinates": [0.7441123155131557, -0.09917670734200495, -0.35710246322762923],
 		"endPointCoordinates": [0.7649695790363306, -0.06070174203730236, -0.46028563746401474]
@@ -1823,7 +1823,7 @@
     "id":"01ca97c0-28c8-48a8-a92a-5774d6592f41", 
     "fileName":"bw-5.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Thumb Opposition Pinch 2",
     "centreCoordinates": [0.5548560771928142, 1.3912241012402868, 1.3584143140173586],
 		"endPointCoordinates": [0.6026457221585949, 1.392785959142555, 1.4638316823607276]
@@ -1873,7 +1873,7 @@
     "id":"2529615b-158c-4b53-8b85-f7c0a62518fb", 
     "fileName":"bw-9.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Thumb Skel FPB",
     "centreCoordinates": [0.2934819338278315, -0.502459604276461, -0.3686002584007111],
 		"endPointCoordinates": [0.35430317744018913, -0.49130421295840504, -0.4610218763832018]
@@ -1943,7 +1943,7 @@
     "id":"f54240cb-bd5e-42af-a79d-49aa0583c878", 
     "fileName":"bw-1.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Vinculi Long and Short",
     "centreCoordinates": [0.8254055473914568, 0.3236872033855073, -0.1375166019525786],
 		"endPointCoordinates": [0.9044203656384425, 0.36963085848306526, -0.21651507154304547]
@@ -1953,7 +1953,7 @@
     "id":"92c3d34c-7c36-44e3-a804-159d90c64ddd", 
     "fileName":"bw-13.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "Volar Plate Flex",
     "centreCoordinates": [-0.048145234066717585, 0.3687385409767635, 0.8778643371880316],
 		"endPointCoordinates": [0.017424520535699484, 0.3063908540830916, 0.9081005703438896]
@@ -1963,7 +1963,7 @@
     "id":"e058c36a-37b8-413f-ab60-5f112f393247", 
     "fileName":"bw-3.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "X Sec of Thumb",
     "centreCoordinates": [0.4502519575549866, -0.21710389067509045, -1.0354542763152987],
 		"endPointCoordinates": [0.3374179944665287, -0.19182979370912454, -1.0138894936665692]
@@ -1983,7 +1983,7 @@
     "id":"bc4e080c-efc4-4529-b8d9-6c6ebd6aeb45", 
     "fileName":"bw-6.jpg",
     "authorOrigin": "missing",
-    "authorName": "The New Broadwalk Student",
+    "authorName": "A New Broadwalk Student",
     "anatomyName": "X Sect Digit",
     "centreCoordinates": [0.6194356129584705, 1.0799853034975062, -0.508613180745922],
 		"endPointCoordinates": [0.519635297168523, 1.04231535870293, -0.5723057798700182]
