@@ -105,11 +105,11 @@ export const SingleEmbroidery: React.FC = () => {
 
     return (
         <s.PageWrapper>
-            <MediaQuery minWidth={800}> 
+            <MediaQuery minWidth={1024}> 
                 {renderDesktopView()}
             </MediaQuery>
 
-            <MediaQuery maxWidth={799}>
+            <MediaQuery maxWidth={1023}>
                 {renderMobileView()}
             </MediaQuery>
         </s.PageWrapper>

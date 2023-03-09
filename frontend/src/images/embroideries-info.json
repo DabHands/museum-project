@@ -25,8 +25,9 @@
     "authorOrigin": "Guild",
     "authorName": "Gill Snaith",
     "anatomyName": "Flexed Lumbrical",
-    "centreCoordinates": [-0.23917234709692176, 0.6240171475931686, 0.7321238428510471],
-		"endPointCoordinates": [-0.32736357514909087, 0.6215848567748705, 0.8105753113873111]
+    "centreCoordinates": [0.6822118966946975, -0.06588532880091758, 0.5706366760618358],
+		"endPointCoordinates": [0.614967900078895, -0.12520147378888447, 0.48900551000355297]
+    
   },
 
   { 
@@ -35,8 +36,8 @@
     "authorOrigin": "Med",
     "authorName": "Isobel Read",
     "anatomyName": "Flexed Lumbrical",
-    "centreCoordinates": [0.6822118966946975, -0.06588532880091758, 0.5706366760618358],
-		"endPointCoordinates": [0.614967900078895, -0.12520147378888447, 0.48900551000355297]
+    "centreCoordinates": [-0.23917234709692176, 0.6240171475931686, 0.7321238428510471],
+		"endPointCoordinates": [-0.32736357514909087, 0.6215848567748705, 0.8105753113873111]
   },
 
   { 
@@ -803,7 +804,7 @@
     "id":"c36aed48-4842-4a8d-8400-8aed56cea5e4", 
     "fileName":"aden-tanner.jpg",
     "authorOrigin": "Med",
-    "authorName": "Aden Tanner",
+    "authorName": "Aden Tanveer",
     "anatomyName": "Hand Dorsum",
     "centreCoordinates": [-0.7016764256189465, -0.8446271442998003, 0.12433295023636082],
 		"endPointCoordinates": [-0.647498930895514, -0.8984316849713316, 0.21841559095772045]
