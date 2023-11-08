@@ -2,7 +2,7 @@
   "name": "dab-hands",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dabhands.github.io/museum-project/",
+  "homepage": "http://dab-hands.org//museum-project/",
   "dependencies": {
     "@fortawesome/fontawesome": "^1.1.8",
     "@fortawesome/fontawesome-free": "^6.2.0",
