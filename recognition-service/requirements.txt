@@ -1,6 +1,0 @@
-fastapi>=0.85.0
-pydantic>=1.8.0
-uvicorn>=0.18.0
-requests
-opencv-python
-numpy>=1.22.2 # not directly required, pinned by Snyk to avoid a vulnerability
